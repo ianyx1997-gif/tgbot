@@ -2314,7 +2314,7 @@
       "lastName": "Podbeglii",
       "username": "anatolpodbeglii",
       "joinedAt": "2026-04-13T16:04:52.366Z",
-      "lastActive": "2026-04-13T16:04:52.366Z",
+      "lastActive": "2026-04-13T16:05:56.801Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5195,6 +5195,28 @@
       "username": "",
       "joinedAt": "2026-04-13T16:04:10.488Z",
       "lastActive": "2026-04-13T16:04:10.488Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "8092301666": {
+      "chatId": 8092301666,
+      "firstName": "Marcela",
+      "lastName": "100322",
+      "username": "",
+      "joinedAt": "2026-04-13T16:06:09.455Z",
+      "lastActive": "2026-04-13T16:06:09.455Z",
       "searches": [],
       "messages": [],
       "preferences": {
