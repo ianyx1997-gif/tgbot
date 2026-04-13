@@ -2054,20 +2054,38 @@
       "username": "",
       "joinedAt": "2026-04-13T15:36:55.539Z",
       "lastActive": "2026-04-13T15:37:36.465Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-13T15:37:59.556Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1170780685": {
       "chatId": 1170780685,
@@ -4631,7 +4649,7 @@
       "lastName": "",
       "username": "Canno121",
       "joinedAt": "2026-04-13T15:37:45.162Z",
-      "lastActive": "2026-04-13T15:37:45.162Z",
+      "lastActive": "2026-04-13T15:37:49.104Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4672,6 +4690,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 85
+    "totalSearches": 86
   }
 }
