@@ -2030,6 +2030,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "987251434": {
+      "chatId": 987251434,
+      "firstName": "Natalia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:12:35.565Z",
+      "lastActive": "2026-04-13T17:12:35.565Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
@@ -6128,7 +6150,7 @@
       "lastName": "M",
       "username": "",
       "joinedAt": "2026-04-13T17:11:57.578Z",
-      "lastActive": "2026-04-13T17:11:57.578Z",
+      "lastActive": "2026-04-13T17:12:17.416Z",
       "searches": [],
       "messages": [],
       "preferences": {
