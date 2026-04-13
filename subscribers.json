@@ -1547,7 +1547,7 @@
       "lastName": "",
       "username": "heaven1596",
       "joinedAt": "2026-04-13T15:53:12.933Z",
-      "lastActive": "2026-04-13T15:53:12.933Z",
+      "lastActive": "2026-04-13T15:53:15.787Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2001,6 +2001,28 @@
       "username": "AlexPodolschii",
       "joinedAt": "2026-04-13T14:53:02.128Z",
       "lastActive": "2026-04-13T14:53:07.442Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "1063087948": {
+      "chatId": 1063087948,
+      "firstName": "Сергей",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:53:29.983Z",
+      "lastActive": "2026-04-13T15:53:29.983Z",
       "searches": [],
       "messages": [],
       "preferences": {
