@@ -2693,7 +2693,7 @@
       "lastName": "",
       "username": "laura2403",
       "joinedAt": "2026-04-13T11:01:28.245Z",
-      "lastActive": "2026-04-13T17:04:06.169Z",
+      "lastActive": "2026-04-13T17:04:20.538Z",
       "searches": [
         {
           "country": "Egipt",
@@ -2713,6 +2713,12 @@
           "text": "Uite aici \nAm nevoie de Egipt 3-4 nopti pe data de 16 aprilie  5 adulti",
           "extra": null,
           "timestamp": "2026-04-13T17:04:06.169Z"
+        },
+        {
+          "direction": "in",
+          "text": "In jur de 1500 de euro",
+          "extra": null,
+          "timestamp": "2026-04-13T17:04:20.538Z"
         }
       ],
       "preferences": {
