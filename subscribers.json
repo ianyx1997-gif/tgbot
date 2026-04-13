@@ -1069,7 +1069,7 @@
       "lastName": "Chirilov",
       "username": "",
       "joinedAt": "2026-04-13T21:22:15.557Z",
-      "lastActive": "2026-04-13T21:23:27.241Z",
+      "lastActive": "2026-04-13T21:25:45.130Z",
       "searches": [
         {
           "country": "Grecia",
@@ -1081,12 +1081,24 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T21:23:50.731Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-11-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T21:26:35.359Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1098,10 +1110,10 @@
       "tags": [
         "all-inclusive",
         "dest:grecia",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "622819349": {
       "chatId": 622819349,
@@ -8047,6 +8059,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 157
+    "totalSearches": 158
   }
 }
