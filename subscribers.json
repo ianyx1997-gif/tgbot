@@ -1807,7 +1807,7 @@
       "lastName": "Diesel",
       "username": "Andy_Diesel",
       "joinedAt": "2026-04-13T15:09:05.739Z",
-      "lastActive": "2026-04-13T15:10:06.556Z",
+      "lastActive": "2026-04-13T15:10:20.892Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2022,7 +2022,7 @@
       "lastName": "Евгеньева",
       "username": "",
       "joinedAt": "2026-04-13T11:07:26.641Z",
-      "lastActive": "2026-04-13T15:10:12.525Z",
+      "lastActive": "2026-04-13T15:10:23.132Z",
       "searches": [],
       "messages": [
         {
@@ -2036,6 +2036,12 @@
           "text": "2 взрослых",
           "extra": null,
           "timestamp": "2026-04-13T15:10:12.525Z"
+        },
+        {
+          "direction": "in",
+          "text": "Бюджет 600-700 евро",
+          "extra": null,
+          "timestamp": "2026-04-13T15:10:23.132Z"
         }
       ],
       "preferences": {
