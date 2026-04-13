@@ -2143,6 +2143,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1878098409": {
+      "chatId": 1878098409,
+      "firstName": "Waldemar",
+      "lastName": "",
+      "username": "waldemar2280",
+      "joinedAt": "2026-04-13T14:52:31.231Z",
+      "lastActive": "2026-04-13T14:52:31.231Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
