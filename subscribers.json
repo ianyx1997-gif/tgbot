@@ -1273,12 +1273,24 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T14:53:57.951Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-14",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T14:59:25.529Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Grecia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1291,10 +1303,10 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "919550056": {
       "chatId": 919550056,
@@ -1582,7 +1594,7 @@
       "lastName": "Nazarii",
       "username": "Bocos_Anastasia",
       "joinedAt": "2026-04-13T14:56:37.125Z",
-      "lastActive": "2026-04-13T14:56:37.125Z",
+      "lastActive": "2026-04-13T14:59:02.830Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3777,6 +3789,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 67
+    "totalSearches": 68
   }
 }
