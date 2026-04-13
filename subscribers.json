@@ -3188,7 +3188,7 @@
       "lastName": "Cristina",
       "username": "",
       "joinedAt": "2026-04-13T18:06:20.903Z",
-      "lastActive": "2026-04-13T18:06:20.903Z",
+      "lastActive": "2026-04-13T18:06:26.370Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6908,6 +6908,28 @@
           "timestamp": "2026-04-13T18:04:36.937Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7220013546": {
+      "chatId": 7220013546,
+      "firstName": "A.K.",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T18:07:05.511Z",
+      "lastActive": "2026-04-13T18:07:05.511Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
