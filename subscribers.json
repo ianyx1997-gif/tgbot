@@ -5074,6 +5074,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6298777617": {
+      "chatId": 6298777617,
+      "firstName": "Rotari",
+      "lastName": "Vasile",
+      "username": "",
+      "joinedAt": "2026-04-13T15:58:03.887Z",
+      "lastActive": "2026-04-13T15:58:03.887Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
