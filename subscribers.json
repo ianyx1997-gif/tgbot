@@ -4148,6 +4148,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6612558257": {
+      "chatId": 6612558257,
+      "firstName": "M",
+      "lastName": "A",
+      "username": "",
+      "joinedAt": "2026-04-13T15:08:00.891Z",
+      "lastActive": "2026-04-13T15:08:00.891Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
