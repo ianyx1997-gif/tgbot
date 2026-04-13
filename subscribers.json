@@ -2647,6 +2647,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1160219067": {
+      "chatId": 1160219067,
+      "firstName": "Alexeev",
+      "lastName": "Ina",
+      "username": "",
+      "joinedAt": "2026-04-13T17:42:48.034Z",
+      "lastActive": "2026-04-13T17:42:48.034Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1170780685": {
       "chatId": 1170780685,
       "firstName": "Tatiana",
