@@ -567,9 +567,16 @@
       "lastName": "Grosu",
       "username": "",
       "joinedAt": "2026-04-13T11:01:42.154Z",
-      "lastActive": "2026-04-13T11:01:42.154Z",
+      "lastActive": "2026-04-13T11:02:57.690Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "5",
+          "extra": null,
+          "timestamp": "2026-04-13T11:02:57.690Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
