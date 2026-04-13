@@ -707,21 +707,44 @@
       "lastName": "Vasilevici",
       "username": "",
       "joinedAt": "2026-04-13T19:12:21.440Z",
-      "lastActive": "2026-04-13T19:12:21.440Z",
-      "searches": [],
+      "lastActive": "2026-04-13T19:13:12.229Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-05",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            6
+          ],
+          "food": "uai",
+          "stars": "",
+          "timestamp": "2026-04-13T19:15:15.011Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6
+        ],
+        "preferredFood": "uai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "530424562": {
       "chatId": 530424562,
@@ -7371,6 +7394,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 136
+    "totalSearches": 137
   }
 }
