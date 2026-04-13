@@ -2666,6 +2666,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1310685181": {
+      "chatId": 1310685181,
+      "firstName": "Вероника",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:47:09.628Z",
+      "lastActive": "2026-04-13T16:47:09.628Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1312392248": {
       "chatId": 1312392248,
       "firstName": "Constantin",
@@ -5897,7 +5919,7 @@
       "lastName": "Ляховецкая",
       "username": "",
       "joinedAt": "2026-04-13T16:44:54.028Z",
-      "lastActive": "2026-04-13T16:46:44.022Z",
+      "lastActive": "2026-04-13T16:46:46.691Z",
       "searches": [],
       "messages": [
         {
