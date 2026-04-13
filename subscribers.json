@@ -1978,7 +1978,7 @@
       "lastName": "Podvisevschi",
       "username": "",
       "joinedAt": "2026-04-13T14:01:39.114Z",
-      "lastActive": "2026-04-13T14:07:13.348Z",
+      "lastActive": "2026-04-13T14:08:35.805Z",
       "searches": [],
       "messages": [
         {
@@ -1986,6 +1986,12 @@
           "text": "Rixos radamis. 1mai-8mai două persoane",
           "extra": null,
           "timestamp": "2026-04-13T14:07:13.348Z"
+        },
+        {
+          "direction": "in",
+          "text": "All inclusive*",
+          "extra": null,
+          "timestamp": "2026-04-13T14:08:35.805Z"
         }
       ],
       "preferences": {
