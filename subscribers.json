@@ -1570,6 +1570,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "926146282": {
+      "chatId": 926146282,
+      "firstName": "Igor",
+      "lastName": "Zeru",
+      "username": "",
+      "joinedAt": "2026-04-13T15:42:37.238Z",
+      "lastActive": "2026-04-13T15:42:37.238Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "955011857": {
       "chatId": 955011857,
       "firstName": "Igor",
