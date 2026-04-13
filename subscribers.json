@@ -256,7 +256,7 @@
       "lastName": "",
       "username": "kedikiv",
       "joinedAt": "2026-04-13T12:34:27.927Z",
-      "lastActive": "2026-04-13T15:26:37.985Z",
+      "lastActive": "2026-04-13T15:26:40.762Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4404,6 +4404,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5269222129": {
+      "chatId": 5269222129,
+      "firstName": "Felicia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:26:57.005Z",
+      "lastActive": "2026-04-13T15:26:57.005Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
