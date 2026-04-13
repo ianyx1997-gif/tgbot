@@ -2673,7 +2673,29 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:28:21.477Z",
-      "lastActive": "2026-04-13T14:28:21.478Z",
+      "lastActive": "2026-04-13T14:30:12.459Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5430531255": {
+      "chatId": 5430531255,
+      "firstName": "Angelika",
+      "lastName": "",
+      "username": "Angelika2023",
+      "joinedAt": "2026-04-13T14:30:13.230Z",
+      "lastActive": "2026-04-13T14:30:13.230Z",
       "searches": [],
       "messages": [],
       "preferences": {
