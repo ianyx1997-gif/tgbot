@@ -3018,6 +3018,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1673882195": {
+      "chatId": 1673882195,
+      "firstName": "Cristina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:21:55.217Z",
+      "lastActive": "2026-04-13T16:21:55.217Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1674469777": {
       "chatId": 1674469777,
       "firstName": "Dumitru",
