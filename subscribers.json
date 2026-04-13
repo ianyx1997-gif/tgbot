@@ -6999,7 +6999,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T18:07:05.511Z",
-      "lastActive": "2026-04-13T18:09:15.790Z",
+      "lastActive": "2026-04-13T18:16:56.505Z",
       "searches": [
         {
           "country": "Grecia",
@@ -7026,6 +7026,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T18:10:32.950Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            0
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T18:17:42.292Z"
         }
       ],
       "messages": [
@@ -7038,9 +7051,10 @@
       ],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Cipru"
         ],
-        "typicalAdults": "2",
+        "typicalAdults": "3",
         "hasChildren": true,
         "avgChildAges": [
           0
@@ -7052,14 +7066,15 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 127
+    "totalSearches": 128
   }
 }
