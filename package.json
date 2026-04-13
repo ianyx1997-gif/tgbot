@@ -1,0 +1,15 @@
+{
+  "name": "zebratur-search-bot",
+  "version": "1.0.0",
+  "description": "ZebraTur Telegram Search Bot — generează link-uri de căutare tururi",
+  "main": "search-bot.js",
+  "scripts": {
+    "start": "node search-bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
