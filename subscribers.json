@@ -1,5 +1,45 @@
 {
   "subscribers": {
+    "577381457": {
+      "chatId": 577381457,
+      "firstName": "LV",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T09:56:57.919Z",
+      "lastActive": "2026-04-13T09:56:57.919Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-06-12",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-04-13T09:57:27.150Z"
+        }
+      ],
+      "messages": [],
+      "preferences": {
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": "bb",
+        "preferredStars": "5",
+        "preferredNights": "7"
+      },
+      "tags": [
+        "luxury",
+        "dest:muntenegru",
+        "new"
+      ],
+      "blocked": false,
+      "totalSearches": 1
+    },
     "807814444": {
       "chatId": 807814444,
       "firstName": "Ianis",
@@ -44,6 +84,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 1
+    "totalSearches": 2
   }
 }
