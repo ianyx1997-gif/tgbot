@@ -6302,6 +6302,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7751177901": {
+      "chatId": 7751177901,
+      "firstName": "Cioclea",
+      "lastName": "Valentina",
+      "username": "",
+      "joinedAt": "2026-04-13T17:25:34.419Z",
+      "lastActive": "2026-04-13T17:25:34.419Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
