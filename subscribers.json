@@ -256,7 +256,7 @@
       "lastName": "",
       "username": "kedikiv",
       "joinedAt": "2026-04-13T12:34:27.927Z",
-      "lastActive": "2026-04-13T15:26:40.762Z",
+      "lastActive": "2026-04-13T15:27:49.746Z",
       "searches": [
         {
           "country": "Egipt",
@@ -268,6 +268,17 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-13T15:27:02.845Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T15:28:02.041Z"
         }
       ],
       "messages": [],
@@ -283,11 +294,10 @@
         "preferredNights": "7"
       },
       "tags": [
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "494142020": {
       "chatId": 494142020,
@@ -4454,6 +4464,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 80
+    "totalSearches": 81
   }
 }
