@@ -3192,7 +3192,7 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-13T14:44:06.194Z",
+      "lastActive": "2026-04-13T14:44:51.010Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3237,6 +3237,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:44:50.391Z",
       "lastActive": "2026-04-13T14:44:50.392Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "8117876775": {
+      "chatId": 8117876775,
+      "firstName": "Mița",
+      "lastName": "Tatiana",
+      "username": "",
+      "joinedAt": "2026-04-13T14:44:54.390Z",
+      "lastActive": "2026-04-13T14:44:54.390Z",
       "searches": [],
       "messages": [],
       "preferences": {
