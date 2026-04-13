@@ -2063,20 +2063,39 @@
       "username": "",
       "joinedAt": "2026-04-13T15:53:29.983Z",
       "lastActive": "2026-04-13T15:54:51.917Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-10",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-13T15:55:49.820Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1064936874": {
       "chatId": 1064936874,
@@ -2552,7 +2571,7 @@
       "lastName": "Marga",
       "username": "",
       "joinedAt": "2026-04-13T15:54:39.596Z",
-      "lastActive": "2026-04-13T15:54:44.642Z",
+      "lastActive": "2026-04-13T15:55:33.780Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4995,7 +5014,7 @@
       "lastName": "Viorica",
       "username": "",
       "joinedAt": "2026-04-13T15:54:52.309Z",
-      "lastActive": "2026-04-13T15:54:52.309Z",
+      "lastActive": "2026-04-13T15:55:21.955Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5036,6 +5055,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 90
+    "totalSearches": 91
   }
 }
