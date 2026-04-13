@@ -18,27 +18,45 @@
           "food": "bb",
           "stars": "5",
           "timestamp": "2026-04-13T09:57:27.150Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-11",
+          "nights": 5,
+          "adults": 1,
+          "children": [
+            2,
+            3
+          ],
+          "food": "fb",
+          "stars": "4",
+          "timestamp": "2026-04-13T09:58:26.137Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Muntenegru"
+          "Muntenegru",
+          "Grecia"
         ],
-        "typicalAdults": "2",
-        "hasChildren": false,
-        "avgChildAges": [],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          3
+        ],
         "preferredFood": "bb",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
       "tags": [
-        "luxury",
+        "family",
         "dest:muntenegru",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "807814444": {
       "chatId": 807814444,
@@ -84,6 +102,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 2
+    "totalSearches": 3
   }
 }
