@@ -122,6 +122,20 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T09:49:09.887Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-04-16",
+          "nights": 14,
+          "adults": 2,
+          "children": [
+            2,
+            8
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T10:04:38.079Z"
         }
       ],
       "messages": [],
@@ -130,24 +144,27 @@
           "Turcia"
         ],
         "typicalAdults": "2",
-        "hasChildren": false,
-        "avgChildAges": [],
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          8
+        ],
         "preferredFood": "uai",
         "preferredStars": "5",
         "preferredNights": "7"
       },
       "tags": [
+        "family",
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 3
+    "totalSearches": 4
   }
 }
