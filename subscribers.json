@@ -1256,7 +1256,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:20:49.561Z",
-      "lastActive": "2026-04-13T14:20:49.561Z",
+      "lastActive": "2026-04-13T14:20:58.343Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1279,20 +1279,37 @@
       "username": "Lilly_Dran",
       "joinedAt": "2026-04-13T14:20:32.549Z",
       "lastActive": "2026-04-13T14:20:38.624Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-09-02",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-13T14:21:07.352Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1855483984": {
       "chatId": 1855483984,
@@ -2246,6 +2263,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 47
+    "totalSearches": 48
   }
 }
