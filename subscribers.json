@@ -1573,7 +1573,7 @@
       "lastName": "Rabaca",
       "username": "Rabaca_dina",
       "joinedAt": "2026-04-13T17:41:04.196Z",
-      "lastActive": "2026-04-13T17:41:15.747Z",
+      "lastActive": "2026-04-13T19:35:38.724Z",
       "searches": [
         {
           "country": "Turcia",
@@ -1588,6 +1588,20 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T17:42:01.630Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-03",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            3,
+            4
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T19:38:04.218Z"
         }
       ],
       "messages": [],
@@ -1598,7 +1612,7 @@
         "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
-          2,
+          3,
           4
         ],
         "preferredFood": "uai",
@@ -1609,11 +1623,10 @@
         "family",
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "789791855": {
       "chatId": 789791855,
@@ -7601,6 +7614,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 143
+    "totalSearches": 144
   }
 }
