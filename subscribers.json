@@ -587,6 +587,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1170780685": {
+      "chatId": 1170780685,
+      "firstName": "Tatiana",
+      "lastName": "Buzilă",
+      "username": "",
+      "joinedAt": "2026-04-13T12:21:37.907Z",
+      "lastActive": "2026-04-13T12:21:37.907Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1205038370": {
       "chatId": 1205038370,
       "firstName": "Валерия",
