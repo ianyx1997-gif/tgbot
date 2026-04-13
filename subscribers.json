@@ -5663,6 +5663,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7398289480": {
+      "chatId": 7398289480,
+      "firstName": "Lidia",
+      "lastName": "G",
+      "username": "",
+      "joinedAt": "2026-04-13T16:29:53.175Z",
+      "lastActive": "2026-04-13T16:29:53.175Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
