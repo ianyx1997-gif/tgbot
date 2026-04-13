@@ -28,7 +28,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:44:43.115Z",
-      "lastActive": "2026-04-13T16:51:55.672Z",
+      "lastActive": "2026-04-13T17:00:52.601Z",
       "searches": [
         {
           "country": "Egipt",
@@ -51,6 +51,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T16:52:37.594Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-17",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T17:01:05.102Z"
         }
       ],
       "messages": [],
@@ -71,7 +82,7 @@
         "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "391839896": {
       "chatId": 391839896,
@@ -5981,44 +5992,21 @@
       "lastName": "Tatiana",
       "username": "",
       "joinedAt": "2026-04-13T16:59:42.511Z",
-      "lastActive": "2026-04-13T16:59:47.396Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-08-21",
-          "nights": 10,
-          "adults": 2,
-          "children": [
-            5
-          ],
-          "food": "ai",
-          "stars": "4",
-          "timestamp": "2026-04-13T17:00:25.833Z"
-        }
-      ],
+      "lastActive": "2026-04-13T16:59:42.511Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
-        "hasChildren": true,
-        "avgChildAges": [
-          5
-        ],
-        "preferredFood": "ai",
-        "preferredStars": "4",
-        "preferredNights": "10"
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "family",
-        "all-inclusive",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     }
   },
   "meta": {
