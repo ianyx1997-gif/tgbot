@@ -967,6 +967,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "7125136482": {
+      "chatId": 7125136482,
+      "firstName": "Mihăța",
+      "lastName": "Jm",
+      "username": "",
+      "joinedAt": "2026-04-13T11:51:54.188Z",
+      "lastActive": "2026-04-13T11:51:54.188Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
