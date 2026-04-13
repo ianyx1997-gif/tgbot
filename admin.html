@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZebraTur Admin Panel</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#0f172a;--bg2:#1e293b;--bg3:#334155;--card:#1e293b;--border:#334155;
+--text:#e2e8f0;--text2:#94a3b8;--accent:#3b82f6;--accent2:#2563eb;--green:#22c55e;
+--orange:#f97316;--red:#ef4444;--purple:#a855f7;--radius:12px;--shadow:0 4px 24px rgba(0,0,0,.3)}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;display:flex}
+a{color:var(--accent);text-decoration:none}
+
+/* Login */
+#loginScreen{display:flex;align-items:center;justify-content:center;width:100%;min-height:100vh}
+.login-card{background:var(--card);border-radius:var(--radius);padding:40px;width:380px;box-shadow:var(--shadow);text-align:center}
+.login-card h1{font-size:24px;margin-bottom:8px}
+.login-card p{color:var(--text2);margin-bottom:24px;font-size:14px}
+.login-card input{width:100%;padding:12px 16px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:15px;margin-bottom:16px}
+.login-card button{width:100%;padding:12px;border-radius:8px;border:none;background:var(--accent);color:#fff;font-size:15px;font-weight:600;cursor:pointer}
+.login-card button:hover{background:var(--accent2)}
+
+/* Sidebar */
+#sidebar{width:240px;background:var(--bg2);border-right:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0;height:100vh;position:sticky;top:0}
+.sidebar-header{padding:20px;border-bottom:1px solid var(--border)}
+.sidebar-header h2{font-size:18px;display:flex;align-items:center;gap:8px}
+.sidebar-header h2 span{font-size:24px}
+.nav-item{display:flex;align-items:center;gap:10px;padding:12px 20px;cursor:pointer;color:var(--text2);font-size:14px;transition:.15s}
+.nav-item:hover,.nav-item.active{background:var(--bg3);color:var(--text)}
+.nav-item.active{border-left:3px solid var(--accent);color:var(--accent)}
+.nav-item .icon{font-size:18px;width:24px;text-align:center}
+.nav-item .badge{margin-left:auto;background:var(--red);color:#fff;font-size:11px;padding:2px 7px;border-radius:10px}
+
+/* Main */
+#main{flex:1;display:flex;flex-direction:column;height:100vh;overflow:hidden}
+#app{display:none;width:100%}
+.page{display:none;flex-direction:column;height:100vh;overflow:auto}
+.page.active{display:flex}
+.page-header{padding:20px 24px;border-bottom:1px solid var(--border);background:var(--bg2);flex-shrink:0}
+.page-header h1{font-size:20px;margin-bottom:4px}
+.page-header p{color:var(--text2);font-size:13px}
+.page-body{padding:24px;flex:1;overflow:auto}
+
+/* Cards */
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:24px}
+.stat-card{background:var(--card);border-radius:var(--radius);padding:20px;border:1px solid var(--border)}
+.stat-card .label{font-size:12px;color:var(--text2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.stat-card .value{font-size:28px;font-weight:700}
+.stat-card .sub{font-size:12px;color:var(--text2);margin-top:4px}
+.stat-card.accent .value{color:var(--accent)}
+.stat-card.green .value{color:var(--green)}
+.stat-card.orange .value{color:var(--orange)}
+.stat-card.purple .value{color:var(--purple)}
+
+.card{background:var(--card);border-radius:var(--radius);padding:20px;border:1px solid var(--border);margin-bottom:16px}
+.card h3{font-size:15px;margin-bottom:12px;color:var(--text)}
+
+/* Tables */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.filters select,.filters input{padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13px}
+.filters input{min-width:200px}
+
+.sub-table{width:100%;border-collapse:collapse}
+.sub-table th{text-align:left;padding:10px 12px;border-bottom:2px solid var(--border);font-size:12px;text-transform:uppercase;color:var(--text2);letter-spacing:.5px}
+.sub-table td{padding:10px 12px;border-bottom:1px solid var(--border);font-size:13px;cursor:pointer}
+.sub-table tr:hover td{background:var(--bg3)}
+.tag{display:inline-block;padding:2px 8px;border-radius:6px;font-size:11px;margin:1px;background:var(--bg3);color:var(--text2)}
+.tag.family{background:#7c3aed22;color:#a78bfa}
+.tag.couple{background:#ec489922;color:#f472b6}
+.tag.solo{background:#06b6d422;color:#67e8f9}
+.tag.all-inclusive{background:#f9731622;color:#fb923c}
+.tag.luxury{background:#eab30822;color:#fbbf24}
+.tag.active{background:#22c55e22;color:#4ade80}
+.tag.new{background:#3b82f622;color:#60a5fa}
+
+/* Chat */
+.chat-layout{display:flex;height:calc(100vh - 80px);overflow:hidden}
+.chat-sidebar{width:300px;border-right:1px solid var(--border);display:flex;flex-direction:column;flex-shrink:0}
+.chat-sidebar-header{padding:12px;border-bottom:1px solid var(--border)}
+.chat-sidebar-header input{width:100%;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13px}
+.chat-list{flex:1;overflow:auto}
+.chat-item{display:flex;align-items:center;gap:10px;padding:12px;cursor:pointer;border-bottom:1px solid var(--border);transition:.15s}
+.chat-item:hover,.chat-item.active{background:var(--bg3)}
+.chat-item .avatar{width:40px;height:40px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:600;flex-shrink:0}
+.chat-item .info{flex:1;min-width:0}
+.chat-item .name{font-size:14px;font-weight:500}
+.chat-item .preview{font-size:12px;color:var(--text2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.chat-item .time{font-size:11px;color:var(--text2)}
+
+.chat-main{flex:1;display:flex;flex-direction:column}
+.chat-header{padding:12px 16px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:12px;background:var(--bg2)}
+.chat-header .name{font-weight:600}
+.chat-header .meta{font-size:12px;color:var(--text2)}
+.chat-messages{flex:1;overflow:auto;padding:16px;display:flex;flex-direction:column;gap:8px}
+.msg{max-width:75%;padding:10px 14px;border-radius:12px;font-size:14px;line-height:1.5;word-wrap:break-word;white-space:pre-wrap}
+.msg.in{background:var(--bg3);align-self:flex-start;border-bottom-left-radius:4px}
+.msg.out{background:var(--accent2);align-self:flex-end;border-bottom-right-radius:4px}
+.msg .time{font-size:10px;color:rgba(255,255,255,.5);margin-top:4px;text-align:right}
+.msg.broadcast{border:1px dashed var(--orange)}
+.no-chat{display:flex;align-items:center;justify-content:center;flex:1;color:var(--text2);font-size:15px}
+
+/* Composer */
+.composer{border-top:1px solid var(--border);background:var(--bg2);padding:12px 16px}
+.composer-toolbar{display:flex;gap:4px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
+.composer-toolbar button{padding:4px 10px;border-radius:6px;border:1px solid var(--border);background:var(--bg);color:var(--text2);cursor:pointer;font-size:13px;transition:.15s}
+.composer-toolbar button:hover{background:var(--bg3);color:var(--text)}
+.composer-toolbar button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.composer-toolbar .sep{width:1px;height:20px;background:var(--border);margin:0 4px}
+.composer-area{display:flex;gap:8px;align-items:flex-end}
+.composer-area textarea{flex:1;padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:14px;resize:none;min-height:44px;max-height:200px;font-family:inherit;line-height:1.4}
+.composer-area textarea:focus{outline:none;border-color:var(--accent)}
+.send-btn{padding:10px 20px;border-radius:10px;border:none;background:var(--accent);color:#fff;font-size:14px;font-weight:600;cursor:pointer;flex-shrink:0}
+.send-btn:hover{background:var(--accent2)}
+.send-btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* Buttons builder */
+.buttons-builder{background:var(--bg);border-radius:8px;padding:12px;margin-top:8px;border:1px solid var(--border)}
+.buttons-builder h4{font-size:13px;color:var(--text2);margin-bottom:8px}
+.btn-row{display:flex;gap:6px;margin-bottom:6px;align-items:center}
+.btn-row input{flex:1;padding:6px 10px;border-radius:6px;border:1px solid var(--border);background:var(--bg2);color:var(--text);font-size:12px}
+.btn-row .remove-btn{padding:4px 8px;border:none;background:var(--red);color:#fff;border-radius:6px;cursor:pointer;font-size:12px}
+.add-btn-row{padding:6px 12px;border:1px dashed var(--border);background:transparent;color:var(--text2);border-radius:6px;cursor:pointer;font-size:12px;width:100%;margin-top:4px}
+.add-btn-row:hover{border-color:var(--accent);color:var(--accent)}
+
+/* Broadcast */
+.bcast-targets{background:var(--bg);padding:12px;border-radius:8px;border:1px solid var(--border);margin-bottom:16px}
+.bcast-targets .count{font-size:24px;font-weight:700;color:var(--accent)}
+
+/* Preview */
+.preview-pane{background:#0d1117;border-radius:12px;padding:16px;border:1px solid var(--border);margin-top:12px}
+.preview-pane h4{font-size:12px;color:var(--text2);margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.preview-content{background:#1a2332;border-radius:10px;padding:12px;font-size:14px;line-height:1.5;color:var(--text)}
+.preview-content b{font-weight:700}
+.preview-content i{font-style:italic}
+.preview-buttons{margin-top:8px}
+.preview-btn{display:inline-block;padding:6px 14px;background:rgba(59,130,246,.15);color:var(--accent);border-radius:8px;font-size:13px;margin:2px}
+
+/* Photo */
+.photo-input{display:flex;gap:8px;align-items:center;margin-top:8px}
+.photo-input input{flex:1;padding:8px 12px;border-radius:8px;border:1px solid var(--border);background:var(--bg);color:var(--text);font-size:13px}
+
+/* Bar chart */
+.bar-chart{margin-top:8px}
+.bar-row{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.bar-label{width:100px;font-size:13px;text-align:right;flex-shrink:0}
+.bar-track{flex:1;height:24px;background:var(--bg);border-radius:6px;overflow:hidden}
+.bar-fill{height:100%;border-radius:6px;display:flex;align-items:center;padding:0 8px;font-size:11px;font-weight:600;color:#fff;min-width:30px;transition:width .5s}
+.bar-fill.c1{background:linear-gradient(90deg,#3b82f6,#2563eb)}
+.bar-fill.c2{background:linear-gradient(90deg,#22c55e,#16a34a)}
+.bar-fill.c3{background:linear-gradient(90deg,#f97316,#ea580c)}
+.bar-fill.c4{background:linear-gradient(90deg,#a855f7,#9333ea)}
+.bar-fill.c5{background:linear-gradient(90deg,#ef4444,#dc2626)}
+
+/* Responsive */
+@media(max-width:900px){
+  #sidebar{width:60px} .nav-item span:not(.icon){display:none} .sidebar-header h2 span:last-child{display:none}
+  .chat-sidebar{width:80px} .chat-item .info,.chat-item .time{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginScreen">
+  <div class="login-card">
+    <h1>🦓 ZebraTur Admin</h1>
+    <p>Panou de control Telegram Bot + CRM</p>
+    <input type="password" id="passInput" placeholder="Parola admin..." onkeydown="if(event.key==='Enter')doLogin()">
+    <button onclick="doLogin()">Autentificare</button>
+    <p id="loginError" style="color:var(--red);margin-top:12px;font-size:13px;display:none">Parolă greșită</p>
+  </div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <div id="sidebar">
+    <div class="sidebar-header"><h2><span>🦓</span><span>ZebraTur</span></h2></div>
+    <div class="nav-item active" data-page="dashboard"><span class="icon">📊</span><span>Dashboard</span></div>
+    <div class="nav-item" data-page="subscribers"><span class="icon">👥</span><span>Abonați</span></div>
+    <div class="nav-item" data-page="chat"><span class="icon">💬</span><span>Chat</span><span class="badge" id="msgBadge" style="display:none">0</span></div>
+    <div class="nav-item" data-page="broadcast"><span class="icon">📢</span><span>Broadcast</span></div>
+    <div class="nav-item" data-page="settings"><span class="icon">⚙️</span><span>Setări</span></div>
+  </div>
+  <div id="main">
+    <!-- DASHBOARD -->
+    <div class="page active" id="page-dashboard">
+      <div class="page-header"><h1>📊 Dashboard</h1><p>Prezentare generală ZebraTur Bot</p></div>
+      <div class="page-body" id="dashboardBody"></div>
+    </div>
+
+    <!-- SUBSCRIBERS -->
+    <div class="page" id="page-subscribers">
+      <div class="page-header"><h1>👥 Abonați</h1><p>Gestionează urmăritorii botului</p></div>
+      <div class="page-body">
+        <div class="filters">
+          <input type="text" id="subSearch" placeholder="Caută după nume sau username..." oninput="loadSubscribers()">
+          <select id="subTag" onchange="loadSubscribers()">
+            <option value="">Toate segmentele</option>
+            <option value="family">👨‍👩‍👧 Familii</option>
+            <option value="couple">💑 Cupluri</option>
+            <option value="solo">🧍 Solo</option>
+            <option value="all-inclusive">🏖️ All-Inclusive</option>
+            <option value="luxury">👑 Luxury</option>
+            <option value="budget">💰 Budget</option>
+            <option value="active">🔥 Activi</option>
+            <option value="new">🆕 Noi</option>
+          </select>
+          <select id="subSort" onchange="loadSubscribers()">
+            <option value="recent">Ultimi activi</option>
+            <option value="searches">Cele mai multe căutări</option>
+            <option value="name">Alfabetic</option>
+          </select>
+        </div>
+        <div id="subTable"></div>
+      </div>
+    </div>
+
+    <!-- CHAT -->
+    <div class="page" id="page-chat">
+      <div class="chat-layout">
+        <div class="chat-sidebar">
+          <div class="chat-sidebar-header">
+            <input type="text" id="chatSearch" placeholder="Caută..." oninput="filterChatList()">
+          </div>
+          <div class="chat-list" id="chatList"></div>
+        </div>
+        <div class="chat-main" id="chatMain">
+          <div class="no-chat">Selectează o conversație</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BROADCAST -->
+    <div class="page" id="page-broadcast">
+      <div class="page-header"><h1>📢 Broadcast</h1><p>Trimite mesaje promoționale pe categorii</p></div>
+      <div class="page-body">
+        <div class="card">
+          <h3>🎯 Selectează destinatarii</h3>
+          <div class="filters" style="margin-bottom:12px">
+            <select id="bcastTag" onchange="updateBcastCount()">
+              <option value="">Toți abonații</option>
+              <option value="family">👨‍👩‍👧 Familii</option>
+              <option value="couple">💑 Cupluri</option>
+              <option value="solo">🧍 Solo</option>
+              <option value="all-inclusive">🏖️ All-Inclusive</option>
+              <option value="luxury">👑 Luxury</option>
+              <option value="active">🔥 Activi</option>
+              <option value="new">🆕 Noi</option>
+            </select>
+            <input type="text" id="bcastCountry" placeholder="Filtru destinație (ex: turcia)" oninput="updateBcastCount()">
+          </div>
+          <div class="bcast-targets">
+            📨 Destinatari: <span class="count" id="bcastCount">0</span>
+          </div>
+        </div>
+        <div class="card">
+          <h3>✍️ Compune mesajul</h3>
+          <div id="bcastComposer"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS -->
+    <div class="page" id="page-settings">
+      <div class="page-header"><h1>⚙️ Setări</h1><p>Backup, export și configurare</p></div>
+      <div class="page-body">
+        <div class="card">
+          <h3>💾 Backup & Export</h3>
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <button onclick="doBackup()" style="padding:10px 20px;border-radius:8px;border:none;background:var(--accent);color:#fff;cursor:pointer">☁️ Backup GitHub</button>
+            <button onclick="doExport()" style="padding:10px 20px;border-radius:8px;border:none;background:var(--green);color:#fff;cursor:pointer">📥 Export JSON</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>ℹ️ Info</h3>
+          <p style="color:var(--text2);font-size:13px;line-height:1.8" id="settingsInfo"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+let TOKEN = '';
+const API = '';
+let allSubs = [];
+let activeChatId = null;
+let chatPollInterval = null;
+
+// ===== AUTH =====
+function doLogin() {
+  TOKEN = document.getElementById('passInput').value;
+  fetch(API + '/api/stats', { headers: { 'X-Auth-Token': TOKEN } })
+    .then(r => { if(!r.ok) throw new Error(); return r.json(); })
+    .then(() => {
+      document.getElementById('loginScreen').style.display = 'none';
+      document.getElementById('app').style.display = 'flex';
+      localStorage.setItem('zt_token', TOKEN);
+      init();
+    })
+    .catch(() => { document.getElementById('loginError').style.display = 'block'; });
+}
+
+// Auto-login
+(function() {
+  const saved = localStorage.getItem('zt_token');
+  if (saved) { TOKEN = saved; document.getElementById('passInput').value = saved; doLogin(); }
+})();
+
+function api(path, opts) {
+  return fetch(API + path, { ...opts, headers: { 'X-Auth-Token': TOKEN, 'Content-Type': 'application/json', ...(opts?.headers||{}) } }).then(r => r.json());
+}
+
+// ===== INIT =====
+function init() {
+  loadDashboard();
+  loadSubscribers();
+  loadChatList();
+  updateBcastCount();
+  initBcastComposer();
+
+  // Nav
+  document.querySelectorAll('.nav-item').forEach(item => {
+    item.onclick = () => {
+      document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+      document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+      item.classList.add('active');
+      document.getElementById('page-' + item.dataset.page).classList.add('active');
+      if (item.dataset.page === 'chat') loadChatList();
+      if (item.dataset.page === 'dashboard') loadDashboard();
+    };
+  });
+
+  // Refresh every 15s
+  setInterval(() => {
+    loadDashboard();
+    if (activeChatId) loadChatMessages(activeChatId);
+  }, 15000);
+}
+
+// ===== DASHBOARD =====
+async function loadDashboard() {
+  const s = await api('/api/stats');
+  const tc = s.topCountries || [];
+  const maxC = tc[0]?.[1] || 1;
+  const colors = ['c1','c2','c3','c4','c5'];
+
+  document.getElementById('dashboardBody').innerHTML = `
+    <div class="stat-grid">
+      <div class="stat-card accent"><div class="label">Total abonați</div><div class="value">${s.total}</div></div>
+      <div class="stat-card green"><div class="label">Activi (7 zile)</div><div class="value">${s.active7d}</div></div>
+      <div class="stat-card orange"><div class="label">Total căutări</div><div class="value">${s.totalSearches}</div></div>
+      <div class="stat-card purple"><div class="label">Căutări (30 zile)</div><div class="value">${s.searches30d}</div></div>
+    </div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+      <div class="card">
+        <h3>🌍 Top destinații</h3>
+        <div class="bar-chart">
+          ${tc.map((c,i) => `<div class="bar-row"><div class="bar-label">${c[0]}</div><div class="bar-track"><div class="bar-fill ${colors[i%5]}" style="width:${Math.round(c[1]/maxC*100)}%">${c[1]}</div></div></div>`).join('')}
+        </div>
+      </div>
+      <div class="card">
+        <h3>🏷️ Segmente</h3>
+        <div class="bar-chart">
+          ${Object.entries(s.tags||{}).sort((a,b)=>b[1]-a[1]).map((t,i) => `<div class="bar-row"><div class="bar-label">${t[0]}</div><div class="bar-track"><div class="bar-fill ${colors[i%5]}" style="width:${Math.round(t[1]/Math.max(s.total,1)*100)}%">${t[1]}</div></div></div>`).join('')}
+        </div>
+      </div>
+    </div>
+    <div class="card" style="margin-top:16px">
+      <h3>💬 Mesaje nesolicitate: ${s.withMessages}</h3>
+      <p style="color:var(--text2);font-size:13px">Abonați care au trimis mesaje direct botului (du-te la Chat pentru a răspunde)</p>
+    </div>
+  `;
+
+  // Settings info
+  document.getElementById('settingsInfo').innerHTML = `
+    Total abonați: ${s.total}<br>
+    Blocați: ${s.blocked}<br>
+    Total căutări: ${s.totalSearches}<br>
+    Activi 30 zile: ${s.active30d}
+  `;
+}
+
+// ===== SUBSCRIBERS =====
+async function loadSubscribers() {
+  const tag = document.getElementById('subTag').value;
+  const search = document.getElementById('subSearch').value;
+  const sort = document.getElementById('subSort').value;
+  const params = new URLSearchParams();
+  if (tag) params.set('tag', tag);
+  if (search) params.set('search', search);
+  if (sort) params.set('sort', sort);
+
+  allSubs = await api('/api/subscribers?' + params);
+
+  let html = `<table class="sub-table"><thead><tr>
+    <th>Nume</th><th>Username</th><th>Căutări</th><th>Segmente</th><th>Ultima activitate</th><th>Ultima căutare</th>
+  </tr></thead><tbody>`;
+
+  allSubs.forEach(s => {
+    const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
+    const tags = s.tags.filter(t => !t.startsWith('dest:')).map(t => `<span class="tag ${t}">${t}</span>`).join('');
+    const destTags = s.tags.filter(t => t.startsWith('dest:')).map(t => `<span class="tag">${t.replace('dest:','')}</span>`).join('');
+    const lastA = timeAgo(s.lastActive);
+    const lastS = s.lastSearch ? `${s.lastSearch.country} ${s.lastSearch.nights}n` : '-';
+    html += `<tr onclick="openChat('${s.chatId}')">
+      <td><b>${name}</b>${s.blocked?'<span class="tag" style="background:#ef444422;color:#ef4444">blocat</span>':''}</td>
+      <td>${s.username ? '@'+s.username : '-'}</td>
+      <td>${s.totalSearches}</td>
+      <td>${tags} ${destTags}</td>
+      <td>${lastA}</td>
+      <td>${lastS}</td>
+    </tr>`;
+  });
+
+  html += '</tbody></table>';
+  document.getElementById('subTable').innerHTML = html;
+}
+
+// ===== CHAT =====
+async function loadChatList() {
+  const subs = await api('/api/subscribers?hasMessages=true&sort=recent');
+  let html = '';
+  subs.forEach(s => {
+    const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
+    const initial = (s.firstName || '?')[0].toUpperCase();
+    html += `<div class="chat-item${activeChatId==s.chatId?' active':''}" onclick="openChat('${s.chatId}')">
+      <div class="avatar">${initial}</div>
+      <div class="info"><div class="name">${name}</div><div class="preview">${s.totalSearches} căutări | ${s.tags.filter(t=>!t.startsWith('dest:')).join(', ')}</div></div>
+      <div class="time">${timeAgo(s.lastActive)}</div>
+    </div>`;
+  });
+
+  // Also show subs without messages
+  const allS = await api('/api/subscribers?sort=recent');
+  const withMsg = new Set(subs.map(s => String(s.chatId)));
+  allS.filter(s => !withMsg.has(String(s.chatId))).forEach(s => {
+    const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
+    const initial = (s.firstName || '?')[0].toUpperCase();
+    html += `<div class="chat-item${activeChatId==s.chatId?' active':''}" onclick="openChat('${s.chatId}')" style="opacity:.6">
+      <div class="avatar" style="background:var(--bg3)">${initial}</div>
+      <div class="info"><div class="name">${name}</div><div class="preview">fără mesaje</div></div>
+    </div>`;
+  });
+
+  document.getElementById('chatList').innerHTML = html || '<p style="padding:16px;color:var(--text2)">Niciun abonat</p>';
+}
+
+function filterChatList() {
+  const q = document.getElementById('chatSearch').value.toLowerCase();
+  document.querySelectorAll('.chat-item').forEach(item => {
+    const name = item.querySelector('.name')?.textContent.toLowerCase() || '';
+    item.style.display = name.includes(q) ? '' : 'none';
+  });
+}
+
+async function openChat(chatId) {
+  activeChatId = chatId;
+  // Navigate to chat page
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelector('[data-page="chat"]').classList.add('active');
+  document.getElementById('page-chat').classList.add('active');
+
+  loadChatList();
+  const sub = await api('/api/subscriber/' + chatId);
+  const msgs = await api('/api/messages/' + chatId);
+
+  const name = sub.firstName + (sub.lastName ? ' ' + sub.lastName : '');
+  const tags = sub.tags.filter(t => !t.startsWith('dest:')).join(', ');
+  const topC = sub.preferences.topCountries.join(', ') || '-';
+
+  document.getElementById('chatMain').innerHTML = `
+    <div class="chat-header">
+      <div class="avatar" style="width:36px;height:36px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:600">${(sub.firstName||'?')[0]}</div>
+      <div>
+        <div class="name">${name} ${sub.username?'@'+sub.username:''}</div>
+        <div class="meta">${tags} | 🔍 ${sub.totalSearches}x | 🌍 ${topC}</div>
+      </div>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="composer" id="chatComposer"></div>
+  `;
+
+  renderMessages(msgs);
+  initComposer('chatComposer', chatId);
+}
+
+function renderMessages(msgs) {
+  const el = document.getElementById('chatMessages');
+  if (!el) return;
+  let html = '';
+  msgs.forEach(m => {
+    const t = new Date(m.timestamp).toLocaleString('ro-RO', { hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short' });
+    const cls = m.direction + (m.extra?.broadcast ? ' broadcast' : '');
+    let btns = '';
+    if (m.extra?.buttons) {
+      btns = '<div style="margin-top:6px">' + m.extra.buttons.flat().map(b => `<span class="preview-btn">${b.text}</span>`).join(' ') + '</div>';
+    }
+    html += `<div class="msg ${cls}">${escapeHtml(m.text)}${btns}<div class="time">${t}</div></div>`;
+  });
+  el.innerHTML = html || '<div class="no-chat">Nicio conversație încă</div>';
+  el.scrollTop = el.scrollHeight;
+}
+
+async function loadChatMessages(chatId) {
+  if (!chatId) return;
+  const msgs = await api('/api/messages/' + chatId);
+  renderMessages(msgs);
+}
+
+// ===== MESSAGE COMPOSER =====
+function initComposer(containerId, chatId) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = `
+    <div class="composer-toolbar">
+      <button onclick="insertTag(this,'b')" title="Bold"><b>B</b></button>
+      <button onclick="insertTag(this,'i')" title="Italic"><i>I</i></button>
+      <button onclick="insertTag(this,'u')" title="Underline"><u>U</u></button>
+      <button onclick="insertTag(this,'s')" title="Strikethrough"><s>S</s></button>
+      <button onclick="insertTag(this,'code')" title="Code">&lt;/&gt;</button>
+      <div class="sep"></div>
+      <button onclick="insertLink(this)" title="Link">🔗</button>
+      <button onclick="togglePhotoInput(this)" title="Foto">📷</button>
+      <button onclick="toggleButtons(this)" title="Butoane">⌨️</button>
+      <div class="sep"></div>
+      <button onclick="previewMsg(this)" title="Preview">👁️ Preview</button>
+    </div>
+    <div class="composer-area">
+      <textarea id="msg_${containerId}" placeholder="Scrie mesajul..." rows="2" oninput="autoResize(this)"></textarea>
+      <button class="send-btn" onclick="sendFromComposer('${containerId}','${chatId}')">Trimite</button>
+    </div>
+    <div class="photo-input" id="photo_${containerId}" style="display:none">
+      <span>📷</span>
+      <input type="text" placeholder="URL imagine (ex: https://i.imgur.com/...)" id="photoUrl_${containerId}">
+    </div>
+    <div class="buttons-builder" id="btns_${containerId}" style="display:none">
+      <h4>⌨️ Butoane inline (text + URL)</h4>
+      <div id="btnRows_${containerId}">
+        <div class="btn-row"><input placeholder="Text buton" class="bt"><input placeholder="https://..." class="bu"><button class="remove-btn" onclick="this.parentElement.remove()">✕</button></div>
+      </div>
+      <button class="add-btn-row" onclick="addBtnRow('${containerId}')">+ Adaugă buton</button>
+    </div>
+    <div class="preview-pane" id="preview_${containerId}" style="display:none">
+      <h4>Preview mesaj</h4>
+      <div class="preview-content" id="previewContent_${containerId}"></div>
+      <div class="preview-buttons" id="previewButtons_${containerId}"></div>
+    </div>
+  `;
+}
+
+function insertTag(btn, tag) {
+  const container = btn.closest('.composer').id;
+  const ta = document.getElementById('msg_' + container);
+  const start = ta.selectionStart, end = ta.selectionEnd;
+  const sel = ta.value.substring(start, end);
+  const replacement = `<${tag}>${sel || 'text'}</${tag}>`;
+  ta.value = ta.value.substring(0, start) + replacement + ta.value.substring(end);
+  ta.focus();
+  ta.setSelectionRange(start + tag.length + 2, start + tag.length + 2 + (sel || 'text').length);
+}
+
+function insertLink(btn) {
+  const container = btn.closest('.composer').id;
+  const ta = document.getElementById('msg_' + container);
+  const url = prompt('URL link:');
+  const text = prompt('Text afișat:', 'Click aici');
+  if (url && text) {
+    const start = ta.selectionStart;
+    const insert = `<a href="${url}">${text}</a>`;
+    ta.value = ta.value.substring(0, start) + insert + ta.value.substring(start);
+    ta.focus();
+  }
+}
+
+function togglePhotoInput(btn) {
+  const container = btn.closest('.composer').id;
+  const el = document.getElementById('photo_' + container);
+  el.style.display = el.style.display === 'none' ? 'flex' : 'none';
+  btn.classList.toggle('active');
+}
+
+function toggleButtons(btn) {
+  const container = btn.closest('.composer').id;
+  const el = document.getElementById('btns_' + container);
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  btn.classList.toggle('active');
+}
+
+function addBtnRow(containerId) {
+  const rows = document.getElementById('btnRows_' + containerId);
+  const div = document.createElement('div');
+  div.className = 'btn-row';
+  div.innerHTML = `<input placeholder="Text buton" class="bt"><input placeholder="https://..." class="bu"><button class="remove-btn" onclick="this.parentElement.remove()">✕</button>`;
+  rows.appendChild(div);
+}
+
+function getButtons(containerId) {
+  const rows = document.querySelectorAll('#btnRows_' + containerId + ' .btn-row');
+  const keyboard = [];
+  rows.forEach(row => {
+    const text = row.querySelector('.bt').value.trim();
+    const url = row.querySelector('.bu').value.trim();
+    if (text && url) keyboard.push([{ text, url }]);
+  });
+  return keyboard.length ? keyboard : null;
+}
+
+function previewMsg(btn) {
+  const container = btn.closest('.composer').id;
+  const pane = document.getElementById('preview_' + container);
+  const ta = document.getElementById('msg_' + container);
+  const content = document.getElementById('previewContent_' + container);
+  const btnsPrev = document.getElementById('previewButtons_' + container);
+
+  if (pane.style.display === 'none') {
+    pane.style.display = 'block';
+    btn.classList.add('active');
+    // Render HTML preview (safe subset)
+    content.innerHTML = ta.value.replace(/</g,'&lt;').replace(/>/g,'&gt;')
+      .replace(/&lt;b&gt;(.*?)&lt;\/b&gt;/g,'<b>$1</b>')
+      .replace(/&lt;i&gt;(.*?)&lt;\/i&gt;/g,'<i>$1</i>')
+      .replace(/&lt;u&gt;(.*?)&lt;\/u&gt;/g,'<u>$1</u>')
+      .replace(/&lt;s&gt;(.*?)&lt;\/s&gt;/g,'<s>$1</s>')
+      .replace(/&lt;code&gt;(.*?)&lt;\/code&gt;/g,'<code style="background:var(--bg3);padding:1px 4px;border-radius:3px">$1</code>')
+      .replace(/&lt;a href="(.*?)"&gt;(.*?)&lt;\/a&gt;/g,'<a href="#" style="color:var(--accent)">$2</a>')
+      .replace(/\n/g,'<br>');
+    // Buttons preview
+    const btns = getButtons(container);
+    btnsPrev.innerHTML = btns ? btns.flat().map(b => `<span class="preview-btn">${b.text}</span>`).join(' ') : '';
+  } else {
+    pane.style.display = 'none';
+    btn.classList.remove('active');
+  }
+}
+
+function autoResize(ta) { ta.style.height = 'auto'; ta.style.height = Math.min(ta.scrollHeight, 200) + 'px'; }
+
+async function sendFromComposer(containerId, chatId) {
+  const ta = document.getElementById('msg_' + containerId);
+  const text = ta.value.trim();
+  const photoUrl = document.getElementById('photoUrl_' + containerId)?.value.trim() || '';
+  const buttons = getButtons(containerId);
+
+  if (!text && !photoUrl) return;
+
+  const sendBtn = ta.parentElement.querySelector('.send-btn');
+  sendBtn.disabled = true;
+  sendBtn.textContent = '...';
+
+  try {
+    if (chatId === 'broadcast') {
+      // Broadcast
+      const tag = document.getElementById('bcastTag').value;
+      const country = document.getElementById('bcastCountry').value;
+      await api('/api/broadcast', {
+        method: 'POST',
+        body: JSON.stringify({ text, photoUrl: photoUrl||undefined, buttons: buttons||undefined, tag: tag||undefined, countryFilter: country||undefined })
+      });
+      alert('Broadcast trimis!');
+    } else {
+      // Direct message
+      await api('/api/send', {
+        method: 'POST',
+        body: JSON.stringify({ chatId, text, photoUrl: photoUrl||undefined, buttons: buttons||undefined })
+      });
+      // Refresh chat
+      await loadChatMessages(chatId);
+    }
+    ta.value = '';
+    if (photoUrl) document.getElementById('photoUrl_' + containerId).value = '';
+  } catch (e) {
+    alert('Eroare: ' + e.message);
+  }
+
+  sendBtn.disabled = false;
+  sendBtn.textContent = 'Trimite';
+}
+
+// ===== BROADCAST =====
+async function updateBcastCount() {
+  const tag = document.getElementById('bcastTag')?.value || '';
+  const country = document.getElementById('bcastCountry')?.value || '';
+  const params = new URLSearchParams();
+  if (tag) params.set('tag', tag);
+  if (country) params.set('country', country);
+  const subs = await api('/api/subscribers?' + params);
+  const count = subs.filter(s => !s.blocked).length;
+  const el = document.getElementById('bcastCount');
+  if (el) el.textContent = count;
+}
+
+function initBcastComposer() {
+  setTimeout(() => initComposer('bcastComposer', 'broadcast'), 100);
+}
+
+// ===== SETTINGS =====
+async function doBackup() {
+  await api('/api/backup', { method: 'POST' });
+  alert('Backup realizat!');
+}
+
+function doExport() {
+  window.open(API + '/api/export?token=' + TOKEN);
+}
+
+// ===== HELPERS =====
+function timeAgo(dateStr) {
+  const diff = Date.now() - new Date(dateStr).getTime();
+  const mins = Math.floor(diff / 60000);
+  if (mins < 1) return 'acum';
+  if (mins < 60) return mins + 'm';
+  const hours = Math.floor(mins / 60);
+  if (hours < 24) return hours + 'h';
+  const days = Math.floor(hours / 24);
+  if (days < 30) return days + 'z';
+  return Math.floor(days / 30) + 'luni';
+}
+
+function escapeHtml(s) {
+  if (!s) return '';
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+    .replace(/&lt;b&gt;/g,'<b>').replace(/&lt;\/b&gt;/g,'</b>')
+    .replace(/&lt;i&gt;/g,'<i>').replace(/&lt;\/i&gt;/g,'</i>')
+    .replace(/&lt;u&gt;/g,'<u>').replace(/&lt;\/u&gt;/g,'</u>')
+    .replace(/&lt;a href="(.*?)"&gt;/g,'<a href="$1" target="_blank" style="color:var(--accent)">').replace(/&lt;\/a&gt;/g,'</a>');
+}
+</script>
+</body>
+</html>

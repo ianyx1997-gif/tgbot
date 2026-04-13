@@ -596,9 +596,19 @@ app.get('/api/export', authCheck, (req, res) => {
   res.send(JSON.stringify(db, null, 2));
 });
 
-// Serve admin panel
-app.get('/', (req, res) => { res.sendFile(path.join(__dirname, 'admin.html')); });
-app.get('/admin', (req, res) => { res.sendFile(path.join(__dirname, 'admin.html')); });
+// Serve admin panel — try file first, fallback to inline
+let ADMIN_HTML = '';
+try { ADMIN_HTML = fs.readFileSync(path.join(__dirname, 'admin.html'), 'utf8'); } catch(e) {
+  console.log('⚠️ admin.html nu a fost găsit, se folosește versiunea inline');
+}
+function serveAdmin(req, res) {
+  // Try reading file fresh (in case it was added later)
+  if (!ADMIN_HTML) { try { ADMIN_HTML = fs.readFileSync(path.join(__dirname, 'admin.html'), 'utf8'); } catch(e) {} }
+  if (ADMIN_HTML) { res.setHeader('Content-Type', 'text/html'); res.send(ADMIN_HTML); }
+  else { res.setHeader('Content-Type', 'text/html'); res.send('<!DOCTYPE html><html><body><h1>Admin panel HTML missing</h1><p>Upload admin.html to the repo</p></body></html>'); }
+}
+app.get('/', serveAdmin);
+app.get('/admin', serveAdmin);
 
 // ================================================================
 //  STARTUP
