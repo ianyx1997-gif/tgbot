@@ -4511,7 +4511,7 @@
       "lastName": "Tepes",
       "username": "",
       "joinedAt": "2026-04-13T15:28:29.845Z",
-      "lastActive": "2026-04-13T15:31:52.592Z",
+      "lastActive": "2026-04-13T15:33:13.029Z",
       "searches": [],
       "messages": [
         {
@@ -4519,6 +4519,12 @@
           "text": "23.06.26",
           "extra": null,
           "timestamp": "2026-04-13T15:31:52.592Z"
+        },
+        {
+          "direction": "in",
+          "text": "19",
+          "extra": null,
+          "timestamp": "2026-04-13T15:33:13.029Z"
         }
       ],
       "preferences": {
