@@ -6,9 +6,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T10:56:02.585Z",
-      "lastActive": "2026-04-13T10:56:02.585Z",
+      "lastActive": "2026-04-13T10:56:50.364Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Mauritius 🇲🇺",
+          "extra": null,
+          "timestamp": "2026-04-13T10:56:50.365Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -338,7 +345,7 @@
       "lastName": "Bernevec",
       "username": "",
       "joinedAt": "2026-04-13T10:55:49.595Z",
-      "lastActive": "2026-04-13T10:55:54.955Z",
+      "lastActive": "2026-04-13T10:56:39.881Z",
       "searches": [],
       "messages": [],
       "preferences": {
