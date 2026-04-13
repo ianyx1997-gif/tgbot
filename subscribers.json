@@ -1345,6 +1345,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1118315057": {
+      "chatId": 1118315057,
+      "firstName": "Ruslana👸",
+      "lastName": "",
+      "username": "ruslaana_777",
+      "joinedAt": "2026-04-13T14:44:57.429Z",
+      "lastActive": "2026-04-13T14:44:57.429Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1140654310": {
       "chatId": 1140654310,
       "firstName": "Daria",
