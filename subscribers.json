@@ -5451,7 +5451,7 @@
       "lastName": "Popa",
       "username": "",
       "joinedAt": "2026-04-13T16:15:15.539Z",
-      "lastActive": "2026-04-13T16:15:25.609Z",
+      "lastActive": "2026-04-13T16:16:06.771Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5474,6 +5474,28 @@
       "username": "",
       "joinedAt": "2026-04-13T16:16:06.381Z",
       "lastActive": "2026-04-13T16:16:06.381Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5384718078": {
+      "chatId": 5384718078,
+      "firstName": "Chirica",
+      "lastName": "Viorel",
+      "username": "",
+      "joinedAt": "2026-04-13T16:16:37.161Z",
+      "lastActive": "2026-04-13T16:16:37.161Z",
       "searches": [],
       "messages": [],
       "preferences": {
