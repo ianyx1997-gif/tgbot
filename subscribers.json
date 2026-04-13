@@ -2528,21 +2528,38 @@
       "lastName": "Muntean",
       "username": "",
       "joinedAt": "2026-04-13T16:10:09.218Z",
-      "lastActive": "2026-04-13T16:10:16.123Z",
-      "searches": [],
+      "lastActive": "2026-04-13T16:11:51.090Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T16:12:13.541Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1315427467": {
       "chatId": 1315427467,
@@ -5368,6 +5385,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 96
+    "totalSearches": 97
   }
 }
