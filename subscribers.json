@@ -1908,7 +1908,7 @@
       "lastName": "",
       "username": "nicolaemorari",
       "joinedAt": "2026-04-13T14:53:57.472Z",
-      "lastActive": "2026-04-13T14:53:57.472Z",
+      "lastActive": "2026-04-13T14:54:01.026Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3664,6 +3664,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:49:16.784Z",
       "lastActive": "2026-04-13T14:49:16.784Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5169337940": {
+      "chatId": 5169337940,
+      "firstName": "Ignat",
+      "lastName": "Sanduleac",
+      "username": "IgnatSanduleac",
+      "joinedAt": "2026-04-13T14:54:01.410Z",
+      "lastActive": "2026-04-13T14:54:01.410Z",
       "searches": [],
       "messages": [],
       "preferences": {
