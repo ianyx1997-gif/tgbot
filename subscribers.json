@@ -1785,6 +1785,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8247933279": {
+      "chatId": 8247933279,
+      "firstName": "Vilcu",
+      "lastName": "Ion",
+      "username": "",
+      "joinedAt": "2026-04-13T13:57:37.442Z",
+      "lastActive": "2026-04-13T13:57:37.442Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
