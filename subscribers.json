@@ -975,7 +975,7 @@
       "lastName": "",
       "username": "vasilehincu",
       "joinedAt": "2026-04-13T15:02:11.106Z",
-      "lastActive": "2026-04-13T15:02:11.106Z",
+      "lastActive": "2026-04-13T15:02:14.150Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -998,7 +998,22 @@
       "username": "",
       "joinedAt": "2026-04-13T14:54:50.845Z",
       "lastActive": "2026-04-13T15:02:10.107Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            2,
+            5
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-13T15:02:33.030Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -1008,17 +1023,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          5
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "790255254": {
       "chatId": 790255254,
@@ -3887,6 +3912,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 71
+    "totalSearches": 72
   }
 }
