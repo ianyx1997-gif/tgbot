@@ -2864,7 +2864,29 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:36:03.551Z",
-      "lastActive": "2026-04-13T14:36:03.551Z",
+      "lastActive": "2026-04-13T14:36:41.871Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6609418549": {
+      "chatId": 6609418549,
+      "firstName": "Den",
+      "lastName": "Denis",
+      "username": "",
+      "joinedAt": "2026-04-13T14:36:51.754Z",
+      "lastActive": "2026-04-13T14:36:51.754Z",
       "searches": [],
       "messages": [],
       "preferences": {
