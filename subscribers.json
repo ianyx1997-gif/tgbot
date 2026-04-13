@@ -2528,7 +2528,7 @@
       "lastName": "Muntean",
       "username": "",
       "joinedAt": "2026-04-13T16:10:09.218Z",
-      "lastActive": "2026-04-13T16:10:09.218Z",
+      "lastActive": "2026-04-13T16:10:16.123Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5330,6 +5330,28 @@
           "timestamp": "2026-04-13T16:06:26.102Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "8201597538": {
+      "chatId": 8201597538,
+      "firstName": "Maria",
+      "lastName": "",
+      "username": "Niushic",
+      "joinedAt": "2026-04-13T16:10:41.271Z",
+      "lastActive": "2026-04-13T16:10:41.271Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
