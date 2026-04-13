@@ -1783,6 +1783,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1018562467": {
+      "chatId": 1018562467,
+      "firstName": "Andy",
+      "lastName": "Diesel",
+      "username": "Andy_Diesel",
+      "joinedAt": "2026-04-13T15:09:05.739Z",
+      "lastActive": "2026-04-13T15:09:05.739Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1044173694": {
       "chatId": 1044173694,
       "firstName": "Александр",
