@@ -2672,7 +2672,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:47:09.628Z",
-      "lastActive": "2026-04-13T16:47:09.628Z",
+      "lastActive": "2026-04-13T16:47:46.561Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5919,8 +5919,22 @@
       "lastName": "Ляховецкая",
       "username": "",
       "joinedAt": "2026-04-13T16:44:54.028Z",
-      "lastActive": "2026-04-13T16:46:46.691Z",
-      "searches": [],
+      "lastActive": "2026-04-13T16:48:14.471Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-09-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T16:48:45.455Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -5930,21 +5944,30 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          12
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 107
+    "totalSearches": 108
   }
 }
