@@ -548,7 +548,7 @@
       "lastName": "",
       "username": "dianatihon",
       "joinedAt": "2026-04-13T14:23:51.669Z",
-      "lastActive": "2026-04-13T14:23:51.669Z",
+      "lastActive": "2026-04-13T15:43:28.579Z",
       "searches": [
         {
           "country": "Egipt",
@@ -563,18 +563,35 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T14:24:25.527Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            4,
+            6,
+            11
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:44:15.332Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Egipt"
+          "Egipt",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
-          3,
-          4
+          4,
+          6,
+          11
         ],
         "preferredFood": "ai",
         "preferredStars": "4",
@@ -584,10 +601,10 @@
         "family",
         "all-inclusive",
         "dest:egipt",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "577381457": {
       "chatId": 577381457,
@@ -1576,7 +1593,7 @@
       "lastName": "Zeru",
       "username": "",
       "joinedAt": "2026-04-13T15:42:37.238Z",
-      "lastActive": "2026-04-13T15:42:41.192Z",
+      "lastActive": "2026-04-13T15:43:33.146Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4811,6 +4828,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 88
+    "totalSearches": 89
   }
 }
