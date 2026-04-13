@@ -11,7 +11,8 @@
    TELEGRAM_BOT_TOKEN  — (required) Bot token from BotFather
    ADMIN_CHAT_ID       — (required) Your Telegram chat ID
    ADMIN_PASSWORD      — (required) Password for web panel
-   GITHUB_TOKEN        — (optional) For DB backup to GitHub
+   DATABASE_URL        — (required) PostgreSQL connection string
+   GITHUB_TOKEN        — (optional) For secondary backup to GitHub
    GITHUB_REPO         — (optional) "user/repo" for backup
    PORT                — (optional, default 3000)
    ============================================================ */
@@ -21,6 +22,7 @@ const express = require('express');
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
+const { Pool } = require('pg');
 
 // ===== CONFIG =====
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
@@ -29,8 +31,17 @@ const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID ? parseInt(process.env.ADMIN_CHA
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'zebratur2026';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO = process.env.GITHUB_REPO || '';
-const DB_FILE = process.env.DB_FILE || './subscribers.json';
+const DATABASE_URL = process.env.DATABASE_URL || '';
 const PORT = process.env.PORT || 3000;
+
+// ===== POSTGRESQL =====
+let pool = null;
+if (DATABASE_URL) {
+  pool = new Pool({ connectionString: DATABASE_URL, ssl: false, max: 5 });
+  console.log('🐘 PostgreSQL configurat');
+} else {
+  console.log('⚠️ DATABASE_URL lipsește — se folosește doar memorie locală');
+}
 
 if (!BOT_TOKEN) { console.error('❌ TELEGRAM_BOT_TOKEN lipsește!'); process.exit(1); }
 
@@ -86,27 +97,55 @@ const ADULTS_OPTIONS = [1, 2, 3, 4];
 const MONTH_NAMES = ['Ianuarie','Februarie','Martie','Aprilie','Mai','Iunie','Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'];
 
 // ================================================================
-//  DATABASE
+//  DATABASE (PostgreSQL primary, GitHub secondary backup)
 // ================================================================
 let db = {
   subscribers: {},
   meta: { createdAt: new Date().toISOString(), totalSearches: 0 }
 };
 
-function loadDB() {
+// --- PostgreSQL functions ---
+async function initPostgres() {
+  if (!pool) return;
   try {
-    if (fs.existsSync(DB_FILE)) {
-      db = JSON.parse(fs.readFileSync(DB_FILE, 'utf8'));
-      console.log(`📂 DB: ${Object.keys(db.subscribers).length} abonați`);
+    await pool.query(`
+      CREATE TABLE IF NOT EXISTS bot_data (
+        key TEXT PRIMARY KEY,
+        value JSONB NOT NULL,
+        updated_at TIMESTAMP DEFAULT NOW()
+      )
+    `);
+    console.log('🐘 PostgreSQL tabel inițializat');
+  } catch (e) { console.error('⚠️ PostgreSQL init error:', e.message); }
+}
+
+async function loadDB() {
+  if (!pool) return;
+  try {
+    const res = await pool.query("SELECT value FROM bot_data WHERE key = 'subscribers'");
+    if (res.rows.length > 0) {
+      db = res.rows[0].value;
+      if (!db.subscribers) db.subscribers = {};
+      if (!db.meta) db.meta = { createdAt: new Date().toISOString(), totalSearches: 0 };
+      console.log(`🐘 DB din PostgreSQL: ${Object.keys(db.subscribers).length} abonați, ${db.meta.totalSearches||0} căutări`);
+    } else {
+      console.log('🐘 PostgreSQL gol — DB nouă');
     }
-  } catch (e) { console.error('⚠️ DB load error:', e.message); }
+  } catch (e) { console.error('⚠️ PostgreSQL load error:', e.message); }
 }
 
-function saveDB() {
-  try { fs.writeFileSync(DB_FILE, JSON.stringify(db, null, 2), 'utf8'); }
-  catch (e) { console.error('⚠️ DB save error:', e.message); }
+async function saveDB() {
+  if (!pool) return;
+  try {
+    await pool.query(
+      `INSERT INTO bot_data (key, value, updated_at) VALUES ('subscribers', $1, NOW())
+       ON CONFLICT (key) DO UPDATE SET value = $1, updated_at = NOW()`,
+      [JSON.stringify(db)]
+    );
+  } catch (e) { console.error('⚠️ PostgreSQL save error:', e.message); }
 }
 
+// --- HTTP helper for GitHub ---
 function httpReq(method, url, headers, body) {
   return new Promise((resolve, reject) => {
     const u = new URL(url);
@@ -120,6 +159,7 @@ function httpReq(method, url, headers, body) {
   });
 }
 
+// --- GitHub secondary backup (optional) ---
 async function backupToGitHub() {
   if (!GITHUB_TOKEN || !GITHUB_REPO) return;
   try {
@@ -133,31 +173,23 @@ async function backupToGitHub() {
   } catch (e) { console.error('⚠️ GitHub backup error:', e.message); }
 }
 
-async function loadFromGitHub() {
-  if (!GITHUB_TOKEN || !GITHUB_REPO) { console.log('⚠️ GITHUB_TOKEN/GITHUB_REPO nu sunt setate — nu pot restaura din GitHub'); return; }
+// --- Migrate from GitHub if PostgreSQL is empty ---
+async function migrateFromGitHub() {
+  if (!GITHUB_TOKEN || !GITHUB_REPO) return;
+  if (Object.keys(db.subscribers).length > 0) { console.log('🐘 PostgreSQL are date — skip migrare'); return; }
   try {
-    console.log('☁️ Verific GitHub pentru cea mai recentă versiune DB...');
+    console.log('☁️ PostgreSQL gol — încerc migrarea din GitHub...');
     const r = await httpReq('GET', `https://api.github.com/repos/${GITHUB_REPO}/contents/subscribers.json`,
       { Authorization: `token ${GITHUB_TOKEN}`, 'User-Agent': 'ZebraTurBot' });
     if (r?.content) {
       const restored = JSON.parse(Buffer.from(r.content, 'base64').toString('utf8'));
-      const ghCount = restored.subscribers ? Object.keys(restored.subscribers).length : 0;
-      const ghSearches = restored.meta?.totalSearches || 0;
-      const localCount = Object.keys(db.subscribers).length;
-      const localSearches = db.meta?.totalSearches || 0;
-      console.log(`☁️ GitHub: ${ghCount} abonați, ${ghSearches} căutări | Local: ${localCount} abonați, ${localSearches} căutări`);
-      // Use whichever has more data (more searches = more recent)
-      if (ghSearches > localSearches || (ghSearches === localSearches && ghCount > localCount)) {
+      if (restored.subscribers && Object.keys(restored.subscribers).length > 0) {
         db = restored;
-        saveDB();
-        console.log(`✅ DB restaurată din GitHub (mai recentă): ${ghCount} abonați, ${ghSearches} căutări`);
-      } else if (ghCount === 0 && localCount === 0) {
-        console.log('ℹ️ Ambele DB sunt goale — start proaspăt');
-      } else {
-        console.log(`✅ DB locală e la zi (${localCount} abonați, ${localSearches} căutări)`);
+        await saveDB();
+        console.log(`✅ Migrat din GitHub → PostgreSQL: ${Object.keys(db.subscribers).length} abonați, ${db.meta.totalSearches||0} căutări`);
       }
-    } else { console.log('☁️ Nu există subscribers.json pe GitHub'); }
-  } catch (e) { console.error('⚠️ GitHub restore error:', e.message); }
+    }
+  } catch (e) { console.error('⚠️ Migrare GitHub error:', e.message); }
 }
 
 // ================================================================
@@ -637,21 +669,29 @@ app.get('/admin', serveAdmin);
 // ================================================================
 (async () => {
   console.log('=== ZebraTur Bot Startup ===');
-  console.log(`GitHub Backup: ${GITHUB_TOKEN && GITHUB_REPO ? '✅ configurat (' + GITHUB_REPO + ')' : '❌ NU e configurat! Setează GITHUB_TOKEN și GITHUB_REPO pe Railway'}`);
+  console.log(`PostgreSQL: ${DATABASE_URL ? '✅ configurat' : '❌ NU e configurat!'}`);
+  console.log(`GitHub Backup: ${GITHUB_TOKEN && GITHUB_REPO ? '✅ configurat (' + GITHUB_REPO + ')' : '⚠️ opțional, nu e setat'}`);
   console.log(`Admin Password: ${ADMIN_PASSWORD === 'zebratur2026' ? '⚠️ default (zebratur2026)' : '✅ custom'}`);
 
-  loadDB();
-  await loadFromGitHub();
+  // 1. Initialize PostgreSQL table
+  await initPostgres();
 
-  // Auto-backup every 5 minutes
-  setInterval(() => { saveDB(); backupToGitHub(); }, 5 * 60 * 1000);
+  // 2. Load data from PostgreSQL
+  await loadDB();
+
+  // 3. If PostgreSQL is empty, migrate from GitHub (one-time)
+  await migrateFromGitHub();
+
+  // Auto-save to PostgreSQL every 2 minutes + GitHub backup every 10 minutes
+  setInterval(() => { saveDB(); }, 2 * 60 * 1000);
+  setInterval(() => { backupToGitHub(); }, 10 * 60 * 1000);
 
   app.listen(PORT, () => {
     console.log(`🌐 Admin panel: http://localhost:${PORT}`);
     console.log(`📊 DB: ${Object.keys(db.subscribers).length} abonați | ${db.meta.totalSearches||0} căutări`);
-    console.log('🤖 ZebraTur Bot + CRM — ready!');
+    console.log('🤖 ZebraTur Bot + CRM + PostgreSQL — ready!');
   });
 })();
 
-process.on('SIGINT', () => { saveDB(); bot.stopPolling(); process.exit(0); });
-process.on('SIGTERM', () => { saveDB(); backupToGitHub().finally(() => { bot.stopPolling(); process.exit(0); }); });
+process.on('SIGINT', async () => { await saveDB(); bot.stopPolling(); process.exit(0); });
+process.on('SIGTERM', async () => { await saveDB(); await backupToGitHub(); bot.stopPolling(); process.exit(0); });
