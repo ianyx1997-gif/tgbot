@@ -1250,6 +1250,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1841087362": {
+      "chatId": 1841087362,
+      "firstName": "Liliana🌸",
+      "lastName": "",
+      "username": "Lilly_Dran",
+      "joinedAt": "2026-04-13T14:20:32.549Z",
+      "lastActive": "2026-04-13T14:20:32.549Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1855483984": {
       "chatId": 1855483984,
       "firstName": "Алексей",
