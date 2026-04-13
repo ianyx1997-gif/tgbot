@@ -3130,6 +3130,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7504009746": {
+      "chatId": 7504009746,
+      "firstName": "Татьяна",
+      "lastName": "Гумен......",
+      "username": "TVDDD1979",
+      "joinedAt": "2026-04-13T14:43:36.166Z",
+      "lastActive": "2026-04-13T14:43:36.166Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
