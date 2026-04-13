@@ -7911,6 +7911,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T20:44:23.038Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T20:45:27.256Z"
         }
       ],
       "messages": [],
@@ -7938,11 +7951,11 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 6
+      "totalSearches": 7
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 153
+    "totalSearches": 154
   }
 }
