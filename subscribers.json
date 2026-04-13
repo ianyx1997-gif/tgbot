@@ -1323,6 +1323,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1353098621": {
+      "chatId": 1353098621,
+      "firstName": "Cristina",
+      "lastName": "C",
+      "username": "",
+      "joinedAt": "2026-04-13T14:30:55.133Z",
+      "lastActive": "2026-04-13T14:30:55.133Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1389932770": {
       "chatId": 1389932770,
       "firstName": "Student",
