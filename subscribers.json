@@ -507,6 +507,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1140654310": {
+      "chatId": 1140654310,
+      "firstName": "Daria",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T12:11:56.323Z",
+      "lastActive": "2026-04-13T12:11:56.323Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1205038370": {
       "chatId": 1205038370,
       "firstName": "Валерия",
