@@ -7651,6 +7651,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7722465285": {
+      "chatId": 7722465285,
+      "firstName": "Dan",
+      "lastName": "Camere Supraveghere",
+      "username": "",
+      "joinedAt": "2026-04-13T19:54:01.105Z",
+      "lastActive": "2026-04-13T19:54:01.105Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
