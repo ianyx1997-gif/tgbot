@@ -3925,6 +3925,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1798232349": {
+      "chatId": 1798232349,
+      "firstName": "Nicoleta",
+      "lastName": "B",
+      "username": "",
+      "joinedAt": "2026-04-13T18:49:41.204Z",
+      "lastActive": "2026-04-13T18:49:41.204Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1841087362": {
       "chatId": 1841087362,
       "firstName": "Liliana🌸",
