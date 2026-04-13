@@ -2137,6 +2137,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6453127332": {
+      "chatId": 6453127332,
+      "firstName": "Livia",
+      "lastName": "Gavrilița",
+      "username": "",
+      "joinedAt": "2026-04-13T14:17:49.588Z",
+      "lastActive": "2026-04-13T14:17:49.588Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
