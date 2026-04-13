@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "287289666": {
+      "chatId": 287289666,
+      "firstName": "Даша",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T18:13:07.374Z",
+      "lastActive": "2026-04-13T18:13:07.374Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "335065525": {
       "chatId": 335065525,
       "firstName": "𝒜. 𝒟",
