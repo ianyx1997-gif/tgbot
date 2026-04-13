@@ -1304,6 +1304,28 @@
       "blocked": false,
       "totalSearches": 8
     },
+    "692161244": {
+      "chatId": 692161244,
+      "firstName": "Sabina",
+      "lastName": "Irimca",
+      "username": "Sabina_Irimca",
+      "joinedAt": "2026-04-13T20:46:07.392Z",
+      "lastActive": "2026-04-13T20:46:07.392Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "730279127": {
       "chatId": 730279127,
       "firstName": "Erika",
