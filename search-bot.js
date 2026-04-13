@@ -134,11 +134,22 @@ async function backupToGitHub() {
 }
 
 async function loadFromGitHub() {
-  if (!GITHUB_TOKEN || !GITHUB_REPO || fs.existsSync(DB_FILE)) return;
+  if (!GITHUB_TOKEN || !GITHUB_REPO) { console.log('⚠️ GITHUB_TOKEN/GITHUB_REPO nu sunt setate — nu pot restaura din GitHub'); return; }
+  // Always try to restore if local DB is empty or missing
+  const localEmpty = !fs.existsSync(DB_FILE) || Object.keys(db.subscribers).length === 0;
+  if (!localEmpty) { console.log('📂 DB locală are date, skip GitHub restore'); return; }
   try {
+    console.log('☁️ Restaurez DB din GitHub...');
     const r = await httpReq('GET', `https://api.github.com/repos/${GITHUB_REPO}/contents/subscribers.json`,
       { Authorization: `token ${GITHUB_TOKEN}`, 'User-Agent': 'ZebraTurBot' });
-    if (r?.content) { db = JSON.parse(Buffer.from(r.content, 'base64').toString('utf8')); saveDB(); console.log('☁️ DB restored from GitHub'); }
+    if (r?.content) {
+      const restored = JSON.parse(Buffer.from(r.content, 'base64').toString('utf8'));
+      if (restored.subscribers && Object.keys(restored.subscribers).length > 0) {
+        db = restored;
+        saveDB();
+        console.log(`☁️ DB restaurată din GitHub: ${Object.keys(db.subscribers).length} abonați`);
+      } else { console.log('☁️ GitHub backup e gol'); }
+    } else { console.log('☁️ Nu există subscribers.json pe GitHub'); }
   } catch (e) { console.error('⚠️ GitHub restore error:', e.message); }
 }
 
@@ -191,6 +202,8 @@ function recordSearch(chatId, session) {
   updatePreferences(sub);
   updateTags(sub);
   saveDB();
+  // Backup to GitHub after each search (non-blocking)
+  backupToGitHub().catch(() => {});
   // Notify admin
   if (ADMIN_CHAT_ID && chatId !== ADMIN_CHAT_ID) {
     const name = sub.firstName + (sub.lastName ? ' ' + sub.lastName : '');
@@ -614,9 +627,15 @@ app.get('/admin', serveAdmin);
 //  STARTUP
 // ================================================================
 (async () => {
+  console.log('=== ZebraTur Bot Startup ===');
+  console.log(`GitHub Backup: ${GITHUB_TOKEN && GITHUB_REPO ? '✅ configurat (' + GITHUB_REPO + ')' : '❌ NU e configurat! Setează GITHUB_TOKEN și GITHUB_REPO pe Railway'}`);
+  console.log(`Admin Password: ${ADMIN_PASSWORD === 'zebratur2026' ? '⚠️ default (zebratur2026)' : '✅ custom'}`);
+
   loadDB();
   await loadFromGitHub();
-  setInterval(() => { saveDB(); backupToGitHub(); }, 30 * 60 * 1000);
+
+  // Auto-backup every 5 minutes
+  setInterval(() => { saveDB(); backupToGitHub(); }, 5 * 60 * 1000);
 
   app.listen(PORT, () => {
     console.log(`🌐 Admin panel: http://localhost:${PORT}`);
