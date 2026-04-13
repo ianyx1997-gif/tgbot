@@ -221,6 +221,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "738797034": {
+      "chatId": 738797034,
+      "firstName": "Panda",
+      "lastName": "Sushi",
+      "username": "",
+      "joinedAt": "2026-04-13T11:01:35.966Z",
+      "lastActive": "2026-04-13T11:01:35.966Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "807814444": {
       "chatId": 807814444,
       "firstName": "Ianis",
