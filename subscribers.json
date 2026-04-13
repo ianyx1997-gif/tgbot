@@ -5381,6 +5381,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6233524334": {
+      "chatId": 6233524334,
+      "firstName": "66221",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:13:16.570Z",
+      "lastActive": "2026-04-13T16:13:16.570Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
