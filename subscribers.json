@@ -2044,6 +2044,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1073429641": {
+      "chatId": 1073429641,
+      "firstName": "Ana",
+      "lastName": "Putinǎ",
+      "username": "anisoara00",
+      "joinedAt": "2026-04-13T15:45:59.902Z",
+      "lastActive": "2026-04-13T15:45:59.902Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1118315057": {
       "chatId": 1118315057,
       "firstName": "Ruslana👸",
