@@ -28,9 +28,16 @@
       "lastName": "Tabara",
       "username": "",
       "joinedAt": "2026-04-13T13:37:23.561Z",
-      "lastActive": "2026-04-13T13:38:01.446Z",
+      "lastActive": "2026-04-13T13:38:23.837Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Un copil 8 ani",
+          "extra": null,
+          "timestamp": "2026-04-13T13:38:23.838Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -1715,7 +1722,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T13:38:12.450Z",
-      "lastActive": "2026-04-13T13:38:12.450Z",
+      "lastActive": "2026-04-13T13:38:16.322Z",
       "searches": [],
       "messages": [],
       "preferences": {
