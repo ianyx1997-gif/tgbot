@@ -7205,6 +7205,28 @@
       ],
       "blocked": false,
       "totalSearches": 4
+    },
+    "5093483737": {
+      "chatId": 5093483737,
+      "firstName": "Timofei",
+      "lastName": "SS",
+      "username": "TimofeiSirb",
+      "joinedAt": "2026-04-13T18:48:35.230Z",
+      "lastActive": "2026-04-13T18:48:35.230Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
