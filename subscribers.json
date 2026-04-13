@@ -627,6 +627,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "962774930": {
+      "chatId": 962774930,
+      "firstName": "𝕸𝖎𝖍𝖆𝖊𝖑𝖆 🩷",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T12:52:16.769Z",
+      "lastActive": "2026-04-13T12:52:16.769Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1140654310": {
       "chatId": 1140654310,
       "firstName": "Daria",
