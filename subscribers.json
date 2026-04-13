@@ -7680,9 +7680,16 @@
       "lastName": "Camere Supraveghere",
       "username": "",
       "joinedAt": "2026-04-13T19:54:01.105Z",
-      "lastActive": "2026-04-13T19:54:01.105Z",
+      "lastActive": "2026-04-13T19:55:14.627Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "4",
+          "extra": null,
+          "timestamp": "2026-04-13T19:55:14.627Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
