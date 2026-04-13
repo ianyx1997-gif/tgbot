@@ -3416,6 +3416,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "6483818671": {
+      "chatId": 6483818671,
+      "firstName": "Anastasia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:49:16.784Z",
+      "lastActive": "2026-04-13T14:49:16.784Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
