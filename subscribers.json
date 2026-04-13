@@ -28,7 +28,7 @@
       "lastName": "Tabara",
       "username": "",
       "joinedAt": "2026-04-13T13:37:23.561Z",
-      "lastActive": "2026-04-13T13:38:23.837Z",
+      "lastActive": "2026-04-13T13:39:10.331Z",
       "searches": [],
       "messages": [
         {
@@ -36,6 +36,12 @@
           "text": "Un copil 8 ani",
           "extra": null,
           "timestamp": "2026-04-13T13:38:23.838Z"
+        },
+        {
+          "direction": "in",
+          "text": "8",
+          "extra": null,
+          "timestamp": "2026-04-13T13:39:10.331Z"
         }
       ],
       "preferences": {
