@@ -135,20 +135,27 @@ async function backupToGitHub() {
 
 async function loadFromGitHub() {
   if (!GITHUB_TOKEN || !GITHUB_REPO) { console.log('⚠️ GITHUB_TOKEN/GITHUB_REPO nu sunt setate — nu pot restaura din GitHub'); return; }
-  // Always try to restore if local DB is empty or missing
-  const localEmpty = !fs.existsSync(DB_FILE) || Object.keys(db.subscribers).length === 0;
-  if (!localEmpty) { console.log('📂 DB locală are date, skip GitHub restore'); return; }
   try {
-    console.log('☁️ Restaurez DB din GitHub...');
+    console.log('☁️ Verific GitHub pentru cea mai recentă versiune DB...');
     const r = await httpReq('GET', `https://api.github.com/repos/${GITHUB_REPO}/contents/subscribers.json`,
       { Authorization: `token ${GITHUB_TOKEN}`, 'User-Agent': 'ZebraTurBot' });
     if (r?.content) {
       const restored = JSON.parse(Buffer.from(r.content, 'base64').toString('utf8'));
-      if (restored.subscribers && Object.keys(restored.subscribers).length > 0) {
+      const ghCount = restored.subscribers ? Object.keys(restored.subscribers).length : 0;
+      const ghSearches = restored.meta?.totalSearches || 0;
+      const localCount = Object.keys(db.subscribers).length;
+      const localSearches = db.meta?.totalSearches || 0;
+      console.log(`☁️ GitHub: ${ghCount} abonați, ${ghSearches} căutări | Local: ${localCount} abonați, ${localSearches} căutări`);
+      // Use whichever has more data (more searches = more recent)
+      if (ghSearches > localSearches || (ghSearches === localSearches && ghCount > localCount)) {
         db = restored;
         saveDB();
-        console.log(`☁️ DB restaurată din GitHub: ${Object.keys(db.subscribers).length} abonați`);
-      } else { console.log('☁️ GitHub backup e gol'); }
+        console.log(`✅ DB restaurată din GitHub (mai recentă): ${ghCount} abonați, ${ghSearches} căutări`);
+      } else if (ghCount === 0 && localCount === 0) {
+        console.log('ℹ️ Ambele DB sunt goale — start proaspăt');
+      } else {
+        console.log(`✅ DB locală e la zi (${localCount} abonați, ${localSearches} căutări)`);
+      }
     } else { console.log('☁️ Nu există subscribers.json pe GitHub'); }
   } catch (e) { console.error('⚠️ GitHub restore error:', e.message); }
 }
@@ -372,7 +379,7 @@ async function stepEdit(chatId,mid) {
 //  BOT COMMAND & CALLBACK HANDLERS
 // ================================================================
 bot.onText(/\/start/, async (msg) => {
-  const chatId=msg.chat.id; resetSession(chatId); updateSubInfo(chatId,msg.from); saveDB();
+  const chatId=msg.chat.id; resetSession(chatId); updateSubInfo(chatId,msg.from); saveDB(); backupToGitHub().catch(()=>{});
   await bot.sendMessage(chatId,'👋 <b>Bun venit la ZebraTur!</b>\n\n🔍 Caută tururi în câteva secunde — alege destinația, datele și parametrii, iar eu îți generez link-ul direct.\n\nApasă butonul de mai jos! 👇',
     {parse_mode:'HTML',reply_markup:{inline_keyboard:[[{text:'🔍 Caută un tur',callback_data:'start_search'}]]}});
   await bot.sendMessage(chatId,'💡 Poți folosi /cauta oricând.',{reply_markup:{keyboard:[[{text:'🔍 Caută un tur'}]],resize_keyboard:true,one_time_keyboard:false}});
@@ -394,6 +401,7 @@ bot.on('message', async (msg) => {
     updateSubInfo(chatId, msg.from);
     storeMessage(chatId, 'in', msg.text);
     saveDB();
+    backupToGitHub().catch(() => {});
     // Forward to admin if not admin themselves
     if (ADMIN_CHAT_ID && chatId !== ADMIN_CHAT_ID) {
       const sub = getSub(chatId);
