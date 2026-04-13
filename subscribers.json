@@ -2155,20 +2155,38 @@
       "username": "katyarrins",
       "joinedAt": "2026-04-13T19:00:14.039Z",
       "lastActive": "2026-04-13T19:00:14.039Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-07-02",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-13T19:23:28.137Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Albania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:albania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "955011857": {
       "chatId": 955011857,
@@ -7528,6 +7546,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 140
+    "totalSearches": 141
   }
 }
