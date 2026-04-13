@@ -382,6 +382,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "2022019521": {
+      "chatId": 2022019521,
+      "firstName": "Becciv",
+      "lastName": "Maria",
+      "username": "",
+      "joinedAt": "2026-04-13T10:57:55.631Z",
+      "lastActive": "2026-04-13T10:57:55.631Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "5042215484": {
       "chatId": 5042215484,
       "firstName": "Victoria",
