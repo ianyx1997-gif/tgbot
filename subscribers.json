@@ -593,9 +593,16 @@
       "lastName": "Buzilă",
       "username": "",
       "joinedAt": "2026-04-13T12:21:37.907Z",
-      "lastActive": "2026-04-13T12:21:37.907Z",
+      "lastActive": "2026-04-13T12:22:52.151Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "18",
+          "extra": null,
+          "timestamp": "2026-04-13T12:22:52.151Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
