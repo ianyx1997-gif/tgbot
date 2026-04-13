@@ -130,7 +130,14 @@
           "timestamp": "2026-04-13T14:23:29.449Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "out",
+          "text": "Activitate suspectă detectată",
+          "extra": {},
+          "timestamp": "2026-04-13T14:24:33.250Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Turcia"
@@ -2370,6 +2377,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7640853713": {
+      "chatId": 7640853713,
+      "firstName": "Ирина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:25:00.925Z",
+      "lastActive": "2026-04-13T14:25:00.925Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
