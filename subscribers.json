@@ -110,6 +110,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "452407657": {
+      "chatId": 452407657,
+      "firstName": "Irina",
+      "lastName": "Mărgineanu",
+      "username": "irinag1993",
+      "joinedAt": "2026-04-13T14:38:39.270Z",
+      "lastActive": "2026-04-13T14:38:39.270Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "479370752": {
       "chatId": 479370752,
       "firstName": "Tudor",
@@ -2988,7 +3010,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:38:22.163Z",
-      "lastActive": "2026-04-13T14:38:22.163Z",
+      "lastActive": "2026-04-13T14:38:35.479Z",
       "searches": [],
       "messages": [],
       "preferences": {
