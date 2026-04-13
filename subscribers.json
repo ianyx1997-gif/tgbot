@@ -116,7 +116,7 @@
       "lastName": "Mărgineanu",
       "username": "irinag1993",
       "joinedAt": "2026-04-13T14:38:39.270Z",
-      "lastActive": "2026-04-13T14:38:39.270Z",
+      "lastActive": "2026-04-13T14:38:43.210Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -139,20 +139,46 @@
       "username": "",
       "joinedAt": "2026-04-13T14:37:53.560Z",
       "lastActive": "2026-04-13T14:38:03.432Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-20",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7,
+            3
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T14:38:46.672Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          7,
+          3
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "483361411": {
       "chatId": 483361411,
@@ -3029,6 +3055,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 60
+    "totalSearches": 61
   }
 }
