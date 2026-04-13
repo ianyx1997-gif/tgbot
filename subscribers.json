@@ -852,25 +852,48 @@
       "lastName": "Viorika",
       "username": "",
       "joinedAt": "2026-04-13T11:35:47.437Z",
-      "lastActive": "2026-04-13T11:35:47.437Z",
-      "searches": [],
+      "lastActive": "2026-04-13T11:37:10.956Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "fb",
+          "stars": "3",
+          "timestamp": "2026-04-13T11:39:00.338Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "fb",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 15
+    "totalSearches": 16
   }
 }
