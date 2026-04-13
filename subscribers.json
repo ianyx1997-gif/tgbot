@@ -51,6 +51,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "487116863": {
+      "chatId": 487116863,
+      "firstName": "Nicky",
+      "lastName": "",
+      "username": "kedikiv",
+      "joinedAt": "2026-04-13T12:34:27.927Z",
+      "lastActive": "2026-04-13T12:34:27.927Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "498960414": {
       "chatId": 498960414,
       "firstName": "Adrian",
@@ -230,7 +252,7 @@
       "lastName": "Pavlov",
       "username": "",
       "joinedAt": "2026-04-13T12:17:35.500Z",
-      "lastActive": "2026-04-13T12:26:17.217Z",
+      "lastActive": "2026-04-13T12:33:04.484Z",
       "searches": [
         {
           "country": "Turcia",
