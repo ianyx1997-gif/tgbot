@@ -133,20 +133,43 @@
       "username": "erika_park",
       "joinedAt": "2026-04-13T10:55:33.317Z",
       "lastActive": "2026-04-13T10:55:35.290Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-06-15",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            10
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T10:56:04.875Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          10
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "807814444": {
       "chatId": 807814444,
@@ -208,6 +231,21 @@
             ]
           },
           "timestamp": "2026-04-13T10:54:59.365Z"
+        },
+        {
+          "direction": "out",
+          "text": "<b>🤖 Am lansat Zebra Tour Bot — asistentul tău inteligent de vacanțe!</b>\n\n✅ Caută oferte instant — 24/7, non-stop ✅ Funcționează direct în Telegram — nu trebuie să instalezi nimic ✅ Rezultate în câteva secunde — nu minute, nu ore ✅ Destinații, prețuri, hoteluri — totul la un click distanță ✅ Gratuit. Rapid. Simplu. 💯\n\n<b>🏖️ Cum funcționează?</b>\n\n1️⃣ Deschizi botul ➜ @zebratourbot 2️⃣ Alegi destinația și datele 📅 3️⃣ Primești ofertele instant 🎯",
+          "extra": {
+            "buttons": [
+              [
+                {
+                  "text": "🔥 TESTEAZĂ ACUM👇",
+                  "url": "https://t.me/zebratourbot"
+                }
+              ]
+            ]
+          },
+          "timestamp": "2026-04-13T10:56:04.227Z"
         }
       ],
       "preferences": {
@@ -319,6 +357,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 6
+    "totalSearches": 7
   }
 }
