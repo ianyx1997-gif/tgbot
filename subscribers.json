@@ -110,7 +110,7 @@
       "lastName": "",
       "username": "IANyX",
       "joinedAt": "2026-04-13T09:47:39.373Z",
-      "lastActive": "2026-04-13T09:47:39.373Z",
+      "lastActive": "2026-04-13T10:26:00.084Z",
       "searches": [
         {
           "country": "Turcia",
@@ -136,6 +136,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T10:04:38.079Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-04-17",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T10:26:10.574Z"
         }
       ],
       "messages": [],
@@ -160,7 +171,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "962414927": {
       "chatId": 962414927,
@@ -226,6 +237,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 5
+    "totalSearches": 6
   }
 }
