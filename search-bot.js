@@ -472,12 +472,11 @@ async function stepEdit(chatId, messageId) {
 
   const keyboard = [
     [{ text: '🌍 Destinație', callback_data: 'edit_country' },
-     { text: '✈️ Oraș plecare', callback_data: 'edit_depart' }],
-    [{ text: '📅 Data', callback_data: 'edit_date' },
-     { text: '🌙 Durata', callback_data: 'edit_duration' }],
-    [{ text: '👥 Turiști', callback_data: 'edit_adults' },
-     { text: '🍽️ Masă', callback_data: 'edit_food' }],
-    [{ text: '⭐ Stele', callback_data: 'edit_stars' }],
+     { text: '📅 Data', callback_data: 'edit_date' }],
+    [{ text: '🌙 Durata', callback_data: 'edit_duration' },
+     { text: '👥 Turiști', callback_data: 'edit_adults' }],
+    [{ text: '🍽️ Masă', callback_data: 'edit_food' },
+     { text: '⭐ Stele', callback_data: 'edit_stars' }],
     [{ text: '🔍 CAUTĂ TURURI!', url: url }],
   ];
 
@@ -588,7 +587,7 @@ bot.on('callback_query', async (query) => {
       if (country) {
         s.country = country;
         s.transport = country.transport;
-        await stepDepartCity(chatId, msgId);
+        await stepDate(chatId, msgId);
       }
       return;
     }
@@ -629,13 +628,13 @@ bot.on('callback_query', async (query) => {
     }
 
     // --- ADULTS ---
+    if (data === 'adults_done') {
+      await stepFood(chatId, msgId);
+      return;
+    }
     if (data.startsWith('adults_')) {
       s.adults = parseInt(data.split('_')[1]);
       await stepAdults(chatId, msgId); // refresh to show selected
-      return;
-    }
-    if (data === 'adults_done') {
-      await stepFood(chatId, msgId);
       return;
     }
     if (data === 'add_child') {
