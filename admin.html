@@ -309,7 +309,8 @@ function doLogin() {
 })();
 
 function api(path, opts) {
-  return fetch(API + path, { ...opts, headers: { 'X-Auth-Token': TOKEN, 'Content-Type': 'application/json', ...(opts?.headers||{}) } }).then(r => r.json());
+  return fetch(API + path, { ...opts, headers: { 'X-Auth-Token': TOKEN, 'Content-Type': 'application/json', ...(opts?.headers||{}) } })
+    .then(r => { if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
 }
 
 // ===== INIT =====
@@ -392,11 +393,17 @@ async function loadSubscribers() {
   if (search) params.set('search', search);
   if (sort) params.set('sort', sort);
 
-  allSubs = await api('/api/subscribers?' + params);
+  try { allSubs = await api('/api/subscribers?' + params); } catch(e) { allSubs = []; console.error('loadSubscribers error:', e); }
+  if (!Array.isArray(allSubs)) allSubs = [];
 
   let html = `<table class="sub-table"><thead><tr>
     <th>Nume</th><th>Username</th><th>Căutări</th><th>Segmente</th><th>Ultima activitate</th><th>Ultima căutare</th>
   </tr></thead><tbody>`;
+
+  if (!allSubs.length) {
+    document.getElementById('subTable').innerHTML = '<div style="text-align:center;padding:40px;color:var(--text2)"><p style="font-size:48px;margin-bottom:12px">👥</p><p style="font-size:16px;margin-bottom:8px">Niciun abonat încă</p><p style="font-size:13px">Abonații vor apărea aici după ce utilizatorii vor folosi botul (trimite /start în bot).</p></div>';
+    return;
+  }
 
   allSubs.forEach(s => {
     const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
@@ -420,7 +427,9 @@ async function loadSubscribers() {
 
 // ===== CHAT =====
 async function loadChatList() {
-  const subs = await api('/api/subscribers?hasMessages=true&sort=recent');
+  let subs = [];
+  try { subs = await api('/api/subscribers?hasMessages=true&sort=recent'); } catch(e) { console.error('loadChatList error:', e); }
+  if (!Array.isArray(subs)) subs = [];
   let html = '';
   subs.forEach(s => {
     const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
@@ -433,7 +442,9 @@ async function loadChatList() {
   });
 
   // Also show subs without messages
-  const allS = await api('/api/subscribers?sort=recent');
+  let allS = [];
+  try { allS = await api('/api/subscribers?sort=recent'); } catch(e) {}
+  if (!Array.isArray(allS)) allS = [];
   const withMsg = new Set(subs.map(s => String(s.chatId)));
   allS.filter(s => !withMsg.has(String(s.chatId))).forEach(s => {
     const name = s.firstName + (s.lastName ? ' ' + s.lastName : '');
@@ -513,6 +524,8 @@ async function loadChatMessages(chatId) {
 // ===== MESSAGE COMPOSER =====
 function initComposer(containerId, chatId) {
   const el = document.getElementById(containerId);
+  // Ensure the container has class 'composer' so btn.closest('.composer') works
+  if (!el.classList.contains('composer')) el.classList.add('composer');
   el.innerHTML = `
     <div class="composer-toolbar">
       <button onclick="insertTag(this,'b')" title="Bold"><b>B</b></button>
