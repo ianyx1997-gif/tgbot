@@ -2251,6 +2251,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1012554408": {
+      "chatId": 1012554408,
+      "firstName": "BV9500 Pro",
+      "lastName": "",
+      "username": "bv9500pro",
+      "joinedAt": "2026-04-13T17:44:59.637Z",
+      "lastActive": "2026-04-13T17:44:59.637Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1013575217": {
       "chatId": 1013575217,
       "firstName": "Maria",
