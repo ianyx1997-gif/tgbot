@@ -974,7 +974,7 @@
       "lastName": "Jm",
       "username": "",
       "joinedAt": "2026-04-13T11:51:54.188Z",
-      "lastActive": "2026-04-13T11:52:39.964Z",
+      "lastActive": "2026-04-13T11:53:59.014Z",
       "searches": [
         {
           "country": "Tunisia",
@@ -986,12 +986,24 @@
           "food": "bb",
           "stars": "5",
           "timestamp": "2026-04-13T11:53:04.039Z"
+        },
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-04-28",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-04-13T11:54:14.496Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Tunisia"
+          "Tunisia",
+          "Vietnam"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1003,14 +1015,14 @@
       "tags": [
         "luxury",
         "dest:tunisia",
-        "new"
+        "dest:vietnam"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 20
+    "totalSearches": 21
   }
 }
