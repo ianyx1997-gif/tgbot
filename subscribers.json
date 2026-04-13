@@ -969,6 +969,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1653777868": {
+      "chatId": 1653777868,
+      "firstName": "Maia",
+      "lastName": "Balan",
+      "username": "MaiaBalan",
+      "joinedAt": "2026-04-13T13:29:58.849Z",
+      "lastActive": "2026-04-13T13:29:58.849Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1855483984": {
       "chatId": 1855483984,
       "firstName": "Алексей",
