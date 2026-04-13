@@ -1576,6 +1576,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1017038633": {
+      "chatId": 1017038633,
+      "firstName": "Anastasia",
+      "lastName": "Nazarii",
+      "username": "Bocos_Anastasia",
+      "joinedAt": "2026-04-13T14:56:37.125Z",
+      "lastActive": "2026-04-13T14:56:37.125Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1044173694": {
       "chatId": 1044173694,
       "firstName": "Александр",
