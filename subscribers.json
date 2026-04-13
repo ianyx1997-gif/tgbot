@@ -2000,7 +2000,29 @@
       "lastName": "",
       "username": "lgarghel",
       "joinedAt": "2026-04-13T14:04:12.136Z",
-      "lastActive": "2026-04-13T14:04:12.136Z",
+      "lastActive": "2026-04-13T14:04:20.747Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7046332810": {
+      "chatId": 7046332810,
+      "firstName": "Zaharciuc",
+      "lastName": "Igor",
+      "username": "",
+      "joinedAt": "2026-04-13T14:04:30.789Z",
+      "lastActive": "2026-04-13T14:04:30.789Z",
       "searches": [],
       "messages": [],
       "preferences": {
