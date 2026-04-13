@@ -5275,7 +5275,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:01:23.396Z",
-      "lastActive": "2026-04-13T16:02:22.471Z",
+      "lastActive": "2026-04-13T16:15:46.890Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5451,7 +5451,29 @@
       "lastName": "Popa",
       "username": "",
       "joinedAt": "2026-04-13T16:15:15.539Z",
-      "lastActive": "2026-04-13T16:15:15.539Z",
+      "lastActive": "2026-04-13T16:15:25.609Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5930323605": {
+      "chatId": 5930323605,
+      "firstName": "Rodion",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:16:06.381Z",
+      "lastActive": "2026-04-13T16:16:06.381Z",
       "searches": [],
       "messages": [],
       "preferences": {
