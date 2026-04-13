@@ -969,6 +969,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "769054120": {
+      "chatId": 769054120,
+      "firstName": "Cristian",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:54:50.845Z",
+      "lastActive": "2026-04-13T14:54:50.845Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "790255254": {
       "chatId": 790255254,
       "firstName": "TTT",
