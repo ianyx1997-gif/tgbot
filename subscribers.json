@@ -382,6 +382,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1233801767": {
+      "chatId": 1233801767,
+      "firstName": "Laura",
+      "lastName": "",
+      "username": "laura2403",
+      "joinedAt": "2026-04-13T11:01:28.245Z",
+      "lastActive": "2026-04-13T11:01:28.245Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2022019521": {
       "chatId": 2022019521,
       "firstName": "Becciv",
@@ -479,7 +501,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T11:01:19.204Z",
-      "lastActive": "2026-04-13T11:01:19.204Z",
+      "lastActive": "2026-04-13T11:01:22.506Z",
       "searches": [],
       "messages": [],
       "preferences": {
