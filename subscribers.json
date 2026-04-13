@@ -5010,6 +5010,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7801475372": {
+      "chatId": 7801475372,
+      "firstName": "Anna G",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:54:53.373Z",
+      "lastActive": "2026-04-13T15:54:53.373Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
