@@ -2951,9 +2951,16 @@
       "lastName": "Calaras",
       "username": "",
       "joinedAt": "2026-04-13T14:30:24.500Z",
-      "lastActive": "2026-04-13T14:30:35.803Z",
+      "lastActive": "2026-04-13T14:38:59.794Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Iunie",
+          "extra": null,
+          "timestamp": "2026-04-13T14:38:59.794Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
