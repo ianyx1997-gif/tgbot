@@ -299,6 +299,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "487581095": {
+      "chatId": 487581095,
+      "firstName": "Александр",
+      "lastName": "",
+      "username": "Sasa12313",
+      "joinedAt": "2026-04-13T15:32:58.712Z",
+      "lastActive": "2026-04-13T15:32:58.712Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "494142020": {
       "chatId": 494142020,
       "firstName": "Natalia",
