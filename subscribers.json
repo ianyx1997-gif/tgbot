@@ -1422,6 +1422,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "787180242": {
+      "chatId": 787180242,
+      "firstName": "Dina",
+      "lastName": "Rabaca",
+      "username": "Rabaca_dina",
+      "joinedAt": "2026-04-13T17:41:04.196Z",
+      "lastActive": "2026-04-13T17:41:04.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "789791855": {
       "chatId": 789791855,
       "firstName": "Кристина",
