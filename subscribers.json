@@ -7832,7 +7832,7 @@
       "lastName": "Cristina",
       "username": "cristina210989",
       "joinedAt": "2026-04-13T20:34:53.515Z",
-      "lastActive": "2026-04-13T20:41:43.987Z",
+      "lastActive": "2026-04-13T20:43:04.121Z",
       "searches": [
         {
           "country": "Grecia",
@@ -7885,6 +7885,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T20:42:04.747Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T20:43:20.312Z"
         }
       ],
       "messages": [],
@@ -7900,23 +7913,23 @@
           1
         ],
         "preferredFood": "ai",
-        "preferredStars": "3",
+        "preferredStars": "4",
         "preferredNights": "5"
       },
       "tags": [
         "family",
         "all-inclusive",
-        "budget",
         "dest:albania",
         "dest:grecia",
-        "dest:muntenegru"
+        "dest:muntenegru",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 151
+    "totalSearches": 152
   }
 }
