@@ -4334,6 +4334,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5643300795": {
+      "chatId": 5643300795,
+      "firstName": "Zdorovetchi Vasili",
+      "lastName": "",
+      "username": "smartinvestvasile",
+      "joinedAt": "2026-04-13T15:23:40.006Z",
+      "lastActive": "2026-04-13T15:23:40.006Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
