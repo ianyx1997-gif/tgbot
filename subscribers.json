@@ -1561,6 +1561,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6067544269": {
+      "chatId": 6067544269,
+      "firstName": "Angela",
+      "lastName": "Gorina",
+      "username": "",
+      "joinedAt": "2026-04-13T13:20:41.060Z",
+      "lastActive": "2026-04-13T13:20:41.060Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
