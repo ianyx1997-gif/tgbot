@@ -2050,9 +2050,16 @@
       "lastName": "Putinǎ",
       "username": "anisoara00",
       "joinedAt": "2026-04-13T15:45:59.902Z",
-      "lastActive": "2026-04-13T15:45:59.902Z",
+      "lastActive": "2026-04-13T15:46:07.314Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Zanzibar",
+          "extra": null,
+          "timestamp": "2026-04-13T15:46:07.314Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
