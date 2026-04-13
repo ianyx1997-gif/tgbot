@@ -51,6 +51,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "498960414": {
+      "chatId": 498960414,
+      "firstName": "Adrian",
+      "lastName": "Pinzari",
+      "username": "kpinzari",
+      "joinedAt": "2026-04-13T11:24:18.610Z",
+      "lastActive": "2026-04-13T11:24:18.610Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "530424562": {
       "chatId": 530424562,
       "firstName": "Sergiu",
