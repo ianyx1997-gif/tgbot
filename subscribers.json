@@ -423,6 +423,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1205038370": {
+      "chatId": 1205038370,
+      "firstName": "Валерия",
+      "lastName": "Евгеньева",
+      "username": "",
+      "joinedAt": "2026-04-13T11:07:26.641Z",
+      "lastActive": "2026-04-13T11:07:26.642Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1233801767": {
       "chatId": 1233801767,
       "firstName": "Laura",
