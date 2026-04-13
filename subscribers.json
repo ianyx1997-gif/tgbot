@@ -1226,6 +1226,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "878563214": {
+      "chatId": 878563214,
+      "firstName": "Daniela",
+      "lastName": "",
+      "username": "dannapewpew",
+      "joinedAt": "2026-04-13T14:53:13.770Z",
+      "lastActive": "2026-04-13T14:53:13.770Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "919550056": {
       "chatId": 919550056,
       "firstName": "Lilian",
@@ -1512,7 +1534,7 @@
       "lastName": "Подольский",
       "username": "AlexPodolschii",
       "joinedAt": "2026-04-13T14:53:02.128Z",
-      "lastActive": "2026-04-13T14:53:02.128Z",
+      "lastActive": "2026-04-13T14:53:07.442Z",
       "searches": [],
       "messages": [],
       "preferences": {
