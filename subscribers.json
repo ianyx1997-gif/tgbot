@@ -717,6 +717,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6725424227": {
+      "chatId": 6725424227,
+      "firstName": "Alexa",
+      "lastName": "Alx",
+      "username": "Alexrtfmm",
+      "joinedAt": "2026-04-13T11:11:58.114Z",
+      "lastActive": "2026-04-13T11:11:58.114Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
