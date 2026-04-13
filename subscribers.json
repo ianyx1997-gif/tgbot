@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "335065525": {
+      "chatId": 335065525,
+      "firstName": "𝒜. 𝒟",
+      "lastName": "",
+      "username": "cutzulaki",
+      "joinedAt": "2026-04-13T14:52:22.942Z",
+      "lastActive": "2026-04-13T14:52:22.942Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "391839896": {
       "chatId": 391839896,
       "firstName": "VR",
@@ -631,7 +653,7 @@
       "lastName": "Дидик",
       "username": "denisdidic",
       "joinedAt": "2026-04-13T14:52:17.294Z",
-      "lastActive": "2026-04-13T14:52:17.294Z",
+      "lastActive": "2026-04-13T14:52:21.556Z",
       "searches": [],
       "messages": [],
       "preferences": {
