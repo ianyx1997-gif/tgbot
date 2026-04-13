@@ -7832,7 +7832,7 @@
       "lastName": "Cristina",
       "username": "cristina210989",
       "joinedAt": "2026-04-13T20:34:53.515Z",
-      "lastActive": "2026-04-13T20:43:04.121Z",
+      "lastActive": "2026-04-13T20:43:51.229Z",
       "searches": [
         {
           "country": "Grecia",
@@ -7898,6 +7898,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T20:43:20.312Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T20:44:23.038Z"
         }
       ],
       "messages": [],
@@ -7925,11 +7938,11 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 152
+    "totalSearches": 153
   }
 }
