@@ -347,6 +347,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "506569590": {
+      "chatId": 506569590,
+      "firstName": "A",
+      "lastName": "C",
+      "username": "accca77",
+      "joinedAt": "2026-04-13T14:50:06.344Z",
+      "lastActive": "2026-04-13T14:50:06.344Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "530424562": {
       "chatId": 530424562,
       "firstName": "Sergiu",
