@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "391839896": {
+      "chatId": 391839896,
+      "firstName": "VR",
+      "lastName": ";)",
+      "username": "iamhere268",
+      "joinedAt": "2026-04-13T11:12:17.874Z",
+      "lastActive": "2026-04-13T11:12:17.874Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "448746757": {
       "chatId": 448746757,
       "firstName": "Betty",
@@ -724,7 +746,7 @@
       "lastName": "Alx",
       "username": "Alexrtfmm",
       "joinedAt": "2026-04-13T11:11:58.114Z",
-      "lastActive": "2026-04-13T11:11:58.114Z",
+      "lastActive": "2026-04-13T11:12:05.746Z",
       "searches": [],
       "messages": [],
       "preferences": {
