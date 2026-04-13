@@ -1271,6 +1271,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "789791855": {
+      "chatId": 789791855,
+      "firstName": "Кристина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:13:39.986Z",
+      "lastActive": "2026-04-13T16:13:39.986Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "790255254": {
       "chatId": 790255254,
       "firstName": "TTT",
@@ -5388,7 +5410,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:13:16.570Z",
-      "lastActive": "2026-04-13T16:13:16.570Z",
+      "lastActive": "2026-04-13T16:13:26.505Z",
       "searches": [],
       "messages": [],
       "preferences": {
