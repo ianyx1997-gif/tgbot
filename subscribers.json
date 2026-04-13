@@ -153,12 +153,26 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T10:56:04.875Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-06-15",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            10
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T10:56:55.799Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Vietnam"
+          "Vietnam",
+          "Cipru"
         ],
         "typicalAdults": "4",
         "hasChildren": true,
@@ -173,10 +187,10 @@
         "family",
         "all-inclusive",
         "dest:vietnam",
-        "new"
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "807814444": {
       "chatId": 807814444,
@@ -364,6 +378,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 7
+    "totalSearches": 8
   }
 }
