@@ -5213,7 +5213,7 @@
       "lastName": "Svetlana",
       "username": "",
       "joinedAt": "2026-04-13T16:04:10.488Z",
-      "lastActive": "2026-04-13T16:06:18.728Z",
+      "lastActive": "2026-04-13T16:06:25.232Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5238,6 +5238,35 @@
       "lastActive": "2026-04-13T16:06:16.036Z",
       "searches": [],
       "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5277057541": {
+      "chatId": 5277057541,
+      "firstName": "Raisa",
+      "lastName": "Mirzenco",
+      "username": "",
+      "joinedAt": "2026-04-13T16:06:26.102Z",
+      "lastActive": "2026-04-13T16:06:26.102Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "August 2026",
+          "extra": null,
+          "timestamp": "2026-04-13T16:06:26.102Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
