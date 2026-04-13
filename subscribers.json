@@ -57,7 +57,7 @@
       "lastName": "",
       "username": "kedikiv",
       "joinedAt": "2026-04-13T12:34:27.927Z",
-      "lastActive": "2026-04-13T12:34:27.927Z",
+      "lastActive": "2026-04-13T12:34:31.141Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -252,7 +252,7 @@
       "lastName": "Pavlov",
       "username": "",
       "joinedAt": "2026-04-13T12:17:35.500Z",
-      "lastActive": "2026-04-13T12:33:04.484Z",
+      "lastActive": "2026-04-13T12:34:33.714Z",
       "searches": [
         {
           "country": "Turcia",
@@ -297,6 +297,17 @@
           "food": "ob",
           "stars": "4",
           "timestamp": "2026-04-13T12:26:52.180Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-04-29",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-13T12:34:49.208Z"
         }
       ],
       "messages": [],
@@ -316,10 +327,11 @@
       "tags": [
         "dest:turcia",
         "dest:cipru",
-        "dest:spania"
+        "dest:spania",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     },
     "730279127": {
       "chatId": 730279127,
@@ -1332,6 +1344,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 29
+    "totalSearches": 30
   }
 }
