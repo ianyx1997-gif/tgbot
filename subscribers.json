@@ -2672,20 +2672,37 @@
       "username": "laura2403",
       "joinedAt": "2026-04-13T11:01:28.245Z",
       "lastActive": "2026-04-13T11:01:28.245Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-15",
+          "nights": 5,
+          "adults": 4,
+          "children": [],
+          "food": "fb",
+          "stars": "",
+          "timestamp": "2026-04-13T17:02:55.375Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "4",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "fb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1310685181": {
       "chatId": 1310685181,
@@ -6033,6 +6050,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 110
+    "totalSearches": 111
   }
 }
