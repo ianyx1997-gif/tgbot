@@ -1387,25 +1387,48 @@
       "lastName": "Marin",
       "username": "",
       "joinedAt": "2026-04-13T12:46:11.477Z",
-      "lastActive": "2026-04-13T12:46:11.477Z",
-      "searches": [],
+      "lastActive": "2026-04-13T12:47:32.331Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-06-11",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            10
+          ],
+          "food": "hb",
+          "stars": "3",
+          "timestamp": "2026-04-13T12:48:19.199Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          10
+        ],
+        "preferredFood": "hb",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 31
+    "totalSearches": 32
   }
 }
