@@ -5733,7 +5733,29 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:30:56.802Z",
-      "lastActive": "2026-04-13T16:31:10.245Z",
+      "lastActive": "2026-04-13T16:32:28.160Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7154281688": {
+      "chatId": 7154281688,
+      "firstName": "Sergiu",
+      "lastName": "Babii",
+      "username": "",
+      "joinedAt": "2026-04-13T16:32:53.397Z",
+      "lastActive": "2026-04-13T16:32:53.397Z",
       "searches": [],
       "messages": [],
       "preferences": {
