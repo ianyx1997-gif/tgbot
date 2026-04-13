@@ -588,6 +588,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "838327375": {
+      "chatId": 838327375,
+      "firstName": "Bogdana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T13:32:21.436Z",
+      "lastActive": "2026-04-13T13:32:21.436Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "962414927": {
       "chatId": 962414927,
       "firstName": "",
