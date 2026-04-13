@@ -885,20 +885,38 @@
       "username": "buterflyelt",
       "joinedAt": "2026-04-13T14:25:36.494Z",
       "lastActive": "2026-04-13T14:25:36.494Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-06",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T14:26:03.163Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1005234984": {
       "chatId": 1005234984,
@@ -2406,7 +2424,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:25:00.925Z",
-      "lastActive": "2026-04-13T14:25:50.781Z",
+      "lastActive": "2026-04-13T14:25:58.731Z",
       "searches": [],
       "messages": [
         {
@@ -2454,6 +2472,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 51
+    "totalSearches": 52
   }
 }
