@@ -6,7 +6,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T09:56:57.919Z",
-      "lastActive": "2026-04-13T09:56:57.919Z",
+      "lastActive": "2026-04-13T10:01:01.264Z",
       "searches": [
         {
           "country": "Muntenegru",
@@ -34,7 +34,20 @@
           "timestamp": "2026-04-13T09:58:26.137Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "out",
+          "text": "Salutare",
+          "extra": {},
+          "timestamp": "2026-04-13T10:00:40.551Z"
+        },
+        {
+          "direction": "in",
+          "text": "🤟🏻",
+          "extra": null,
+          "timestamp": "2026-04-13T10:01:01.264Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Muntenegru",
