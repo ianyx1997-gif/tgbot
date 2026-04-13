@@ -1665,20 +1665,38 @@
       "username": "DimaGabura1",
       "joinedAt": "2026-04-13T15:00:43.671Z",
       "lastActive": "2026-04-13T15:00:47.772Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-27",
+          "nights": 7,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:01:52.080Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1118315057": {
       "chatId": 1118315057,
@@ -3837,6 +3855,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 69
+    "totalSearches": 70
   }
 }
