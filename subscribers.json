@@ -180,6 +180,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "494142020": {
+      "chatId": 494142020,
+      "firstName": "Natalia",
+      "lastName": "C.",
+      "username": "",
+      "joinedAt": "2026-04-13T14:30:03.067Z",
+      "lastActive": "2026-04-13T14:30:03.067Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "498960414": {
       "chatId": 498960414,
       "firstName": "Adrian",
@@ -748,7 +770,7 @@
       "lastName": "",
       "username": "marin_p93",
       "joinedAt": "2026-04-13T14:29:53.420Z",
-      "lastActive": "2026-04-13T14:29:53.420Z",
+      "lastActive": "2026-04-13T14:29:59.282Z",
       "searches": [],
       "messages": [],
       "preferences": {
