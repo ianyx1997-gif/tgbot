@@ -194,6 +194,12 @@
           "text": "Mai",
           "extra": null,
           "timestamp": "2026-04-13T14:32:14.185Z"
+        },
+        {
+          "direction": "out",
+          "text": "Buna ziua, pentru consultare individuala apasati aici - @zebraturbot",
+          "extra": {},
+          "timestamp": "2026-04-13T14:35:20.276Z"
         }
       ],
       "preferences": {
@@ -2837,6 +2843,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:30:24.500Z",
       "lastActive": "2026-04-13T14:30:35.803Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5918687987": {
+      "chatId": 5918687987,
+      "firstName": "AP",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:36:03.551Z",
+      "lastActive": "2026-04-13T14:36:03.551Z",
       "searches": [],
       "messages": [],
       "preferences": {
