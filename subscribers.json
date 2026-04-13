@@ -1594,7 +1594,7 @@
       "lastName": "Nazarii",
       "username": "Bocos_Anastasia",
       "joinedAt": "2026-04-13T14:56:37.125Z",
-      "lastActive": "2026-04-13T14:59:02.830Z",
+      "lastActive": "2026-04-13T15:00:29.916Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1617,6 +1617,28 @@
       "username": "AlexPodolschii",
       "joinedAt": "2026-04-13T14:53:02.128Z",
       "lastActive": "2026-04-13T14:53:07.442Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "1064936874": {
+      "chatId": 1064936874,
+      "firstName": "Dima",
+      "lastName": "Gabura",
+      "username": "DimaGabura1",
+      "joinedAt": "2026-04-13T15:00:43.671Z",
+      "lastActive": "2026-04-13T15:00:43.671Z",
       "searches": [],
       "messages": [],
       "preferences": {
