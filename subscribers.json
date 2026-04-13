@@ -6999,7 +6999,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T18:07:05.511Z",
-      "lastActive": "2026-04-13T18:16:56.505Z",
+      "lastActive": "2026-04-13T18:18:30.438Z",
       "searches": [
         {
           "country": "Grecia",
@@ -7039,6 +7039,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T18:17:42.292Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-11-20",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            0
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T18:19:08.562Z"
         }
       ],
       "messages": [
@@ -7052,7 +7065,8 @@
       "preferences": {
         "topCountries": [
           "Grecia",
-          "Cipru"
+          "Cipru",
+          "Egipt"
         ],
         "typicalAdults": "3",
         "hasChildren": true,
@@ -7067,14 +7081,15 @@
         "family",
         "all-inclusive",
         "dest:grecia",
-        "dest:cipru"
+        "dest:cipru",
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 128
+    "totalSearches": 129
   }
 }
