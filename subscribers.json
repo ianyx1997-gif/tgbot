@@ -6869,6 +6869,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6002589880": {
+      "chatId": 6002589880,
+      "firstName": "Karolina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T18:02:04.493Z",
+      "lastActive": "2026-04-13T18:02:04.493Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
