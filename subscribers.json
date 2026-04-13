@@ -789,7 +789,7 @@
       "lastName": "",
       "username": "gabb_y10",
       "joinedAt": "2026-04-13T13:58:44.588Z",
-      "lastActive": "2026-04-13T13:58:44.588Z",
+      "lastActive": "2026-04-13T14:00:49.949Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1140,6 +1140,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "1674469777": {
+      "chatId": 1674469777,
+      "firstName": "Dumitru",
+      "lastName": "costisin",
+      "username": "",
+      "joinedAt": "2026-04-13T14:01:06.941Z",
+      "lastActive": "2026-04-13T14:01:06.941Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     },
     "1855483984": {
       "chatId": 1855483984,
