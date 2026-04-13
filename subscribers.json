@@ -262,6 +262,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "754807927": {
+      "chatId": 754807927,
+      "firstName": "Сaterina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T11:09:33.193Z",
+      "lastActive": "2026-04-13T11:09:33.193Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "807814444": {
       "chatId": 807814444,
       "firstName": "Ianis",
@@ -429,7 +451,7 @@
       "lastName": "Евгеньева",
       "username": "",
       "joinedAt": "2026-04-13T11:07:26.641Z",
-      "lastActive": "2026-04-13T11:07:26.642Z",
+      "lastActive": "2026-04-13T11:09:17.742Z",
       "searches": [],
       "messages": [],
       "preferences": {
