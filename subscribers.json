@@ -110,6 +110,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "483361411": {
+      "chatId": 483361411,
+      "firstName": "Tatiana",
+      "lastName": "Bosfor",
+      "username": "bosfor_tur",
+      "joinedAt": "2026-04-13T14:22:58.758Z",
+      "lastActive": "2026-04-13T14:22:58.758Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "487116863": {
       "chatId": 487116863,
       "firstName": "Nicky",
@@ -1256,7 +1278,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:20:49.561Z",
-      "lastActive": "2026-04-13T14:20:58.343Z",
+      "lastActive": "2026-04-13T14:22:08.241Z",
       "searches": [],
       "messages": [],
       "preferences": {
