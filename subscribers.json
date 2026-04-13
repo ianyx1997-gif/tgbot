@@ -4302,25 +4302,42 @@
       "lastName": "Vitalie",
       "username": "",
       "joinedAt": "2026-04-13T15:16:02.147Z",
-      "lastActive": "2026-04-13T15:17:43.594Z",
-      "searches": [],
+      "lastActive": "2026-04-13T15:18:27.444Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-05-15",
+          "nights": 7,
+          "adults": 1,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T15:19:18.358Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 77
+    "totalSearches": 78
   }
 }
