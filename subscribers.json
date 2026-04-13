@@ -4032,6 +4032,35 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "2032897881": {
+      "chatId": 2032897881,
+      "firstName": "Tanea",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:52:43.639Z",
+      "lastActive": "2026-04-13T17:52:43.639Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "9",
+          "extra": null,
+          "timestamp": "2026-04-13T17:52:43.639Z"
+        }
+      ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2141974629": {
       "chatId": 2141974629,
       "firstName": "Mihai",
@@ -6674,7 +6703,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T17:32:37.119Z",
-      "lastActive": "2026-04-13T17:36:43.178Z",
+      "lastActive": "2026-04-13T17:52:18.173Z",
       "searches": [
         {
           "country": "Egipt",
