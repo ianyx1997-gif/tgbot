@@ -200,21 +200,47 @@
       "lastName": "Mărgineanu",
       "username": "irinag1993",
       "joinedAt": "2026-04-13T14:38:39.270Z",
-      "lastActive": "2026-04-13T14:38:43.210Z",
-      "searches": [],
+      "lastActive": "2026-04-13T17:34:16.477Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-10-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            3,
+            4
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T17:34:37.378Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          4
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "469599904": {
       "chatId": 469599904,
@@ -6512,6 +6538,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 116
+    "totalSearches": 117
   }
 }
