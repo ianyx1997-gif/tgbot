@@ -1060,6 +1060,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "7020796922": {
+      "chatId": 7020796922,
+      "firstName": "Dimitriana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T12:00:49.849Z",
+      "lastActive": "2026-04-13T12:00:49.849Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
