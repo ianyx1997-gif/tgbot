@@ -2168,9 +2168,16 @@
       "lastName": "",
       "username": "waldemar2280",
       "joinedAt": "2026-04-13T14:52:31.231Z",
-      "lastActive": "2026-04-13T14:52:44.223Z",
+      "lastActive": "2026-04-13T14:53:00.147Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Croația",
+          "extra": null,
+          "timestamp": "2026-04-13T14:53:00.147Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
