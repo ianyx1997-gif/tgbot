@@ -7791,7 +7791,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T20:30:01.983Z",
-      "lastActive": "2026-04-13T20:30:16.547Z",
+      "lastActive": "2026-04-13T20:31:15.872Z",
       "searches": [],
       "messages": [
         {
@@ -7799,6 +7799,12 @@
           "text": "Buna seara",
           "extra": null,
           "timestamp": "2026-04-13T20:30:16.547Z"
+        },
+        {
+          "direction": "in",
+          "text": "Ce oferte aveti la cipru\n20 iulie  27iulie\n2maturi \n1 copil 8 ani",
+          "extra": null,
+          "timestamp": "2026-04-13T20:31:15.872Z"
         }
       ],
       "preferences": {
