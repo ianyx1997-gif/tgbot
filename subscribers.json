@@ -6965,6 +6965,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T18:10:06.985Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            0
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T18:10:32.950Z"
         }
       ],
       "messages": [
@@ -6982,7 +6995,7 @@
         "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
-          12
+          0
         ],
         "preferredFood": "ai",
         "preferredStars": "4",
@@ -6991,15 +7004,14 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:grecia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 125
+    "totalSearches": 126
   }
 }
