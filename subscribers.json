@@ -717,8 +717,23 @@
       "lastName": "Grosu",
       "username": "",
       "joinedAt": "2026-04-13T11:01:42.154Z",
-      "lastActive": "2026-04-13T11:02:57.690Z",
-      "searches": [],
+      "lastActive": "2026-04-13T11:17:39.565Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-18",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            3,
+            8
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T11:18:13.983Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -728,17 +743,28 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          8
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "6725424227": {
       "chatId": 6725424227,
@@ -783,6 +809,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 13
+    "totalSearches": 14
   }
 }
