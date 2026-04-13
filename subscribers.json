@@ -1506,6 +1506,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1044173694": {
+      "chatId": 1044173694,
+      "firstName": "Александр",
+      "lastName": "Подольский",
+      "username": "AlexPodolschii",
+      "joinedAt": "2026-04-13T14:53:02.128Z",
+      "lastActive": "2026-04-13T14:53:02.128Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1118315057": {
       "chatId": 1118315057,
       "firstName": "Ruslana👸",
