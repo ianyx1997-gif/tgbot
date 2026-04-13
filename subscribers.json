@@ -7323,6 +7323,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6076767305": {
+      "chatId": 6076767305,
+      "firstName": "Альона",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T19:11:31.331Z",
+      "lastActive": "2026-04-13T19:11:31.331Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
