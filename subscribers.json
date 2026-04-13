@@ -4097,6 +4097,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6888292654": {
+      "chatId": 6888292654,
+      "firstName": "Эдуард",
+      "lastName": "Верстивский",
+      "username": "",
+      "joinedAt": "2026-04-13T15:07:11.236Z",
+      "lastActive": "2026-04-13T15:07:11.236Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
