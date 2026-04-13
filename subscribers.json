@@ -4077,6 +4077,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1812365466": {
+      "chatId": 1812365466,
+      "firstName": "Livia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T19:20:55.093Z",
+      "lastActive": "2026-04-13T19:20:55.093Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1841087362": {
       "chatId": 1841087362,
       "firstName": "Liliana🌸",
