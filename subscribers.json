@@ -110,7 +110,7 @@
       "lastName": "Park",
       "username": "erika_park",
       "joinedAt": "2026-04-13T10:55:33.317Z",
-      "lastActive": "2026-04-13T10:55:33.318Z",
+      "lastActive": "2026-04-13T10:55:35.290Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -271,6 +271,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5042215484": {
+      "chatId": 5042215484,
+      "firstName": "Victoria",
+      "lastName": "Bernevec",
+      "username": "",
+      "joinedAt": "2026-04-13T10:55:49.595Z",
+      "lastActive": "2026-04-13T10:55:49.595Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
