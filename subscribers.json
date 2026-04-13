@@ -2152,21 +2152,43 @@
       "lastName": "Victoria",
       "username": "",
       "joinedAt": "2026-04-13T15:25:02.348Z",
-      "lastActive": "2026-04-13T15:25:02.348Z",
-      "searches": [],
+      "lastActive": "2026-04-13T15:32:35.556Z",
+      "searches": [
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-08-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            5
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T15:32:57.748Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Albania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          5
+        ],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:albania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1353098621": {
       "chatId": 1353098621,
@@ -4493,6 +4515,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 81
+    "totalSearches": 82
   }
 }
