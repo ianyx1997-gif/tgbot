@@ -116,7 +116,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:37:53.560Z",
-      "lastActive": "2026-04-13T14:37:53.560Z",
+      "lastActive": "2026-04-13T14:38:03.432Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -463,7 +463,7 @@
       "lastName": "Nagit",
       "username": "silivus",
       "joinedAt": "2026-04-13T14:37:13.037Z",
-      "lastActive": "2026-04-13T14:37:13.037Z",
+      "lastActive": "2026-04-13T14:38:08.211Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2950,6 +2950,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:36:51.754Z",
       "lastActive": "2026-04-13T14:36:58.132Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5996607168": {
+      "chatId": 5996607168,
+      "firstName": "Carolina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:38:22.163Z",
+      "lastActive": "2026-04-13T14:38:22.163Z",
       "searches": [],
       "messages": [],
       "preferences": {
