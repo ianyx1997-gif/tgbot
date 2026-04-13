@@ -998,6 +998,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "636105655": {
+      "chatId": 636105655,
+      "firstName": "Vlada🦋",
+      "lastName": "",
+      "username": "vladabruma",
+      "joinedAt": "2026-04-13T17:47:48.701Z",
+      "lastActive": "2026-04-13T17:47:48.701Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "636571004": {
       "chatId": 636571004,
       "firstName": "Natalia",
