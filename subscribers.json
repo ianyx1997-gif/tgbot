@@ -878,6 +878,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "971132489": {
+      "chatId": 971132489,
+      "firstName": "🤍🤍",
+      "lastName": "",
+      "username": "buterflyelt",
+      "joinedAt": "2026-04-13T14:25:36.494Z",
+      "lastActive": "2026-04-13T14:25:36.494Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
@@ -2300,7 +2322,7 @@
       "lastName": "Gavrilița",
       "username": "",
       "joinedAt": "2026-04-13T14:17:49.588Z",
-      "lastActive": "2026-04-13T14:19:22.445Z",
+      "lastActive": "2026-04-13T14:25:40.694Z",
       "searches": [
         {
           "country": "Tunisia",
@@ -2384,9 +2406,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:25:00.925Z",
-      "lastActive": "2026-04-13T14:25:00.925Z",
+      "lastActive": "2026-04-13T14:25:50.781Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Buna ziua Dobedan Kemer pentru 3 persoane,inceputul lu august?",
+          "extra": null,
+          "timestamp": "2026-04-13T14:25:50.781Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -2406,7 +2435,7 @@
       "lastName": "Rusu",
       "username": "rosa_line666",
       "joinedAt": "2026-04-13T14:25:33.537Z",
-      "lastActive": "2026-04-13T14:25:33.537Z",
+      "lastActive": "2026-04-13T14:25:39.461Z",
       "searches": [],
       "messages": [],
       "preferences": {
