@@ -1978,9 +1978,16 @@
       "lastName": "Podvisevschi",
       "username": "",
       "joinedAt": "2026-04-13T14:01:39.114Z",
-      "lastActive": "2026-04-13T14:01:39.114Z",
+      "lastActive": "2026-04-13T14:07:13.348Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Rixos radamis. 1mai-8mai două persoane",
+          "extra": null,
+          "timestamp": "2026-04-13T14:07:13.348Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -2000,7 +2007,7 @@
       "lastName": "",
       "username": "lgarghel",
       "joinedAt": "2026-04-13T14:04:12.136Z",
-      "lastActive": "2026-04-13T14:04:20.747Z",
+      "lastActive": "2026-04-13T14:06:18.663Z",
       "searches": [],
       "messages": [],
       "preferences": {
