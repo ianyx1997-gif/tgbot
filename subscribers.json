@@ -6,7 +6,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T09:56:57.919Z",
-      "lastActive": "2026-04-13T10:01:01.264Z",
+      "lastActive": "2026-04-13T10:02:15.768Z",
       "searches": [
         {
           "country": "Muntenegru",
@@ -46,6 +46,33 @@
           "text": "🤟🏻",
           "extra": null,
           "timestamp": "2026-04-13T10:01:01.264Z"
+        },
+        {
+          "direction": "out",
+          "text": "Eu stiu totul despre tine",
+          "extra": {},
+          "timestamp": "2026-04-13T10:01:46.615Z"
+        },
+        {
+          "direction": "out",
+          "text": "I-au",
+          "extra": {
+            "buttons": [
+              [
+                {
+                  "text": "Verifica",
+                  "url": "https://www.instagram.com/loredana.verdis/"
+                }
+              ]
+            ]
+          },
+          "timestamp": "2026-04-13T10:02:03.796Z"
+        },
+        {
+          "direction": "in",
+          "text": "😂😂😂😂",
+          "extra": null,
+          "timestamp": "2026-04-13T10:02:15.768Z"
         }
       ],
       "preferences": {
