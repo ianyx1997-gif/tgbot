@@ -5897,9 +5897,16 @@
       "lastName": "Ляховецкая",
       "username": "",
       "joinedAt": "2026-04-13T16:44:54.028Z",
-      "lastActive": "2026-04-13T16:45:03.708Z",
+      "lastActive": "2026-04-13T16:45:34.829Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Сентябрь",
+          "extra": null,
+          "timestamp": "2026-04-13T16:45:34.829Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
