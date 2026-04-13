@@ -2823,6 +2823,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1870301915": {
+      "chatId": 1870301915,
+      "firstName": "Ludmila",
+      "lastName": "Sagovscaia",
+      "username": "",
+      "joinedAt": "2026-04-13T15:38:22.824Z",
+      "lastActive": "2026-04-13T15:38:22.824Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1878098409": {
       "chatId": 1878098409,
       "firstName": "Waldemar",
@@ -4663,7 +4685,7 @@
       "lastName": "",
       "username": "Canno121",
       "joinedAt": "2026-04-13T15:37:45.162Z",
-      "lastActive": "2026-04-13T15:37:49.104Z",
+      "lastActive": "2026-04-13T15:38:16.688Z",
       "searches": [],
       "messages": [],
       "preferences": {
