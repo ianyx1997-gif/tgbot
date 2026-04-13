@@ -2468,6 +2468,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7757284437": {
+      "chatId": 7757284437,
+      "firstName": "Victoria",
+      "lastName": "Lilicu",
+      "username": "",
+      "joinedAt": "2026-04-13T14:27:00.099Z",
+      "lastActive": "2026-04-13T14:27:00.099Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
