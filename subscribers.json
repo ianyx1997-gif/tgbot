@@ -186,7 +186,7 @@
       "lastName": "C.",
       "username": "",
       "joinedAt": "2026-04-13T14:30:03.067Z",
-      "lastActive": "2026-04-13T14:30:03.067Z",
+      "lastActive": "2026-04-13T14:30:36.624Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -770,7 +770,7 @@
       "lastName": "",
       "username": "marin_p93",
       "joinedAt": "2026-04-13T14:29:53.420Z",
-      "lastActive": "2026-04-13T14:29:59.282Z",
+      "lastActive": "2026-04-13T14:30:34.863Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2674,20 +2674,38 @@
       "username": "",
       "joinedAt": "2026-04-13T14:28:21.477Z",
       "lastActive": "2026-04-13T14:30:12.459Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": null,
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-13T14:30:45.567Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "5430531255": {
       "chatId": 5430531255,
@@ -2717,7 +2735,7 @@
       "lastName": "Burlacu",
       "username": "",
       "joinedAt": "2026-04-13T14:30:24.497Z",
-      "lastActive": "2026-04-13T14:30:24.497Z",
+      "lastActive": "2026-04-13T14:30:31.082Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2739,7 +2757,7 @@
       "lastName": "Calaras",
       "username": "",
       "joinedAt": "2026-04-13T14:30:24.500Z",
-      "lastActive": "2026-04-13T14:30:24.500Z",
+      "lastActive": "2026-04-13T14:30:35.803Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2758,6 +2776,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 55
+    "totalSearches": 56
   }
 }
