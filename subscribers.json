@@ -1647,7 +1647,7 @@
       "lastName": "Gheorghiță",
       "username": "nicoletagheorghita",
       "joinedAt": "2026-04-13T14:45:09.825Z",
-      "lastActive": "2026-04-13T14:45:09.825Z",
+      "lastActive": "2026-04-13T14:45:23.795Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3243,9 +3243,16 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-13T14:44:51.010Z",
+      "lastActive": "2026-04-13T14:45:49.962Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "10",
+          "extra": null,
+          "timestamp": "2026-04-13T14:45:49.962Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
