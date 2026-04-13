@@ -216,6 +216,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "469599904": {
+      "chatId": 469599904,
+      "firstName": "C",
+      "lastName": "",
+      "username": "d53a6b72f0",
+      "joinedAt": "2026-04-13T17:24:11.809Z",
+      "lastActive": "2026-04-13T17:24:11.809Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "479370752": {
       "chatId": 479370752,
       "firstName": "Tudor",
@@ -6223,7 +6245,7 @@
       "lastName": "",
       "username": "Dumyqw",
       "joinedAt": "2026-04-13T17:19:07.408Z",
-      "lastActive": "2026-04-13T17:19:08.093Z",
+      "lastActive": "2026-04-13T17:21:08.626Z",
       "searches": [
         {
           "country": "Turcia",
