@@ -227,7 +227,7 @@
       "lastName": "Sushi",
       "username": "",
       "joinedAt": "2026-04-13T11:01:35.966Z",
-      "lastActive": "2026-04-13T11:01:35.966Z",
+      "lastActive": "2026-04-13T11:01:45.778Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -411,6 +411,28 @@
       "username": "laura2403",
       "joinedAt": "2026-04-13T11:01:28.245Z",
       "lastActive": "2026-04-13T11:01:28.245Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "1855483984": {
+      "chatId": 1855483984,
+      "firstName": "Алексей",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T11:01:48.777Z",
+      "lastActive": "2026-04-13T11:01:48.777Z",
       "searches": [],
       "messages": [],
       "preferences": {
