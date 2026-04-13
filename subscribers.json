@@ -541,6 +541,12 @@
           "text": "As vrea sa aflu preturile pentru:\n17 - 18 august\n7 nopti\n2AD+2CHD (4ani si 2ani)\nHotele:\nClub Hotel Turan Prince World\nMirada Del Mar Hotel",
           "extra": null,
           "timestamp": "2026-04-13T14:45:20.856Z"
+        },
+        {
+          "direction": "out",
+          "text": "Bună ziua, aici puteți căuta oferte utilizând butoanele de mai sus. Dacă doriți să discutați cu un agent real, vă rugăm să apăsați aici - @zebraturbot",
+          "extra": {},
+          "timestamp": "2026-04-13T14:45:46.679Z"
         }
       ],
       "preferences": {
@@ -975,6 +981,28 @@
       ],
       "blocked": false,
       "totalSearches": 4
+    },
+    "810428221": {
+      "chatId": 810428221,
+      "firstName": "Pala",
+      "lastName": "",
+      "username": "Pal1a",
+      "joinedAt": "2026-04-13T14:46:17.436Z",
+      "lastActive": "2026-04-13T14:46:17.436Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     },
     "816504463": {
       "chatId": 816504463,
@@ -1647,7 +1675,7 @@
       "lastName": "Gheorghiță",
       "username": "nicoletagheorghita",
       "joinedAt": "2026-04-13T14:45:09.825Z",
-      "lastActive": "2026-04-13T14:45:23.795Z",
+      "lastActive": "2026-04-13T14:45:09.825Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3243,16 +3271,9 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-13T14:45:49.962Z",
+      "lastActive": "2026-04-13T14:44:51.010Z",
       "searches": [],
-      "messages": [
-        {
-          "direction": "in",
-          "text": "10",
-          "extra": null,
-          "timestamp": "2026-04-13T14:45:49.962Z"
-        }
-      ],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -3316,7 +3337,7 @@
       "lastName": "Tatiana",
       "username": "",
       "joinedAt": "2026-04-13T14:44:54.390Z",
-      "lastActive": "2026-04-13T14:45:05.360Z",
+      "lastActive": "2026-04-13T14:46:03.894Z",
       "searches": [],
       "messages": [],
       "preferences": {
