@@ -4075,6 +4075,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5580320671": {
+      "chatId": 5580320671,
+      "firstName": "Gurau Mihail",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:06:06.953Z",
+      "lastActive": "2026-04-13T15:06:06.953Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
