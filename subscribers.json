@@ -1,7 +1,49 @@
 {
-  "subscribers": {},
+  "subscribers": {
+    "807814444": {
+      "chatId": 807814444,
+      "firstName": "Ianis",
+      "lastName": "",
+      "username": "IANyX",
+      "joinedAt": "2026-04-13T09:47:39.373Z",
+      "lastActive": "2026-04-13T09:47:39.373Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-09",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T09:49:09.887Z"
+        }
+      ],
+      "messages": [],
+      "preferences": {
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
+      },
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
+      "blocked": false,
+      "totalSearches": 1
+    }
+  },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 0
+    "totalSearches": 1
   }
 }
