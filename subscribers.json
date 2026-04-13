@@ -2047,6 +2047,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1142665612": {
+      "chatId": 1142665612,
+      "firstName": "Deny",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:36:55.539Z",
+      "lastActive": "2026-04-13T15:36:55.539Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1170780685": {
       "chatId": 1170780685,
       "firstName": "Tatiana",
