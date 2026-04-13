@@ -3672,6 +3672,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1890268855": {
+      "chatId": 1890268855,
+      "firstName": "Kristi",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:30:53.996Z",
+      "lastActive": "2026-04-13T17:30:53.996Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1915719183": {
       "chatId": 1915719183,
       "firstName": "violin",
