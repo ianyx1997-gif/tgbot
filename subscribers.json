@@ -5143,6 +5143,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5868369441": {
+      "chatId": 5868369441,
+      "firstName": "Veronica",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:01:23.396Z",
+      "lastActive": "2026-04-13T16:01:23.396Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
