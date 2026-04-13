@@ -256,7 +256,7 @@
       "lastName": "",
       "username": "kedikiv",
       "joinedAt": "2026-04-13T12:34:27.927Z",
-      "lastActive": "2026-04-13T12:34:31.141Z",
+      "lastActive": "2026-04-13T15:26:37.985Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2124,8 +2124,8 @@
       "firstName": "Gangan",
       "lastName": "Victoria",
       "username": "",
-      "joinedAt": "2026-04-13T15:24:57.196Z",
-      "lastActive": "2026-04-13T15:24:57.196Z",
+      "joinedAt": "2026-04-13T15:25:02.348Z",
+      "lastActive": "2026-04-13T15:25:02.348Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4363,25 +4363,51 @@
       "lastName": "",
       "username": "smartinvestvasile",
       "joinedAt": "2026-04-13T15:23:40.006Z",
-      "lastActive": "2026-04-13T15:24:44.402Z",
-      "searches": [],
+      "lastActive": "2026-04-13T15:23:45.483Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-12",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            3,
+            0
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T15:24:21.174Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          0
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 78
+    "totalSearches": 79
   }
 }
