@@ -1373,6 +1373,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5219535013": {
+      "chatId": 5219535013,
+      "firstName": "Cristina",
+      "lastName": "Marin",
+      "username": "",
+      "joinedAt": "2026-04-13T12:46:11.477Z",
+      "lastActive": "2026-04-13T12:46:11.477Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
