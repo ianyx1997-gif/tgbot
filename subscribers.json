@@ -285,6 +285,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "494204638": {
+      "chatId": 494204638,
+      "firstName": "m",
+      "lastName": "",
+      "username": "tgmisha",
+      "joinedAt": "2026-04-13T14:44:07.636Z",
+      "lastActive": "2026-04-13T14:44:07.636Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "498960414": {
       "chatId": 498960414,
       "firstName": "Adrian",
@@ -3159,7 +3181,7 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-13T14:43:36.166Z",
+      "lastActive": "2026-04-13T14:44:06.194Z",
       "searches": [],
       "messages": [],
       "preferences": {
