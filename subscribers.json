@@ -4273,6 +4273,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5197194233": {
+      "chatId": 5197194233,
+      "firstName": "Topor",
+      "lastName": "Vitalie",
+      "username": "",
+      "joinedAt": "2026-04-13T15:16:02.147Z",
+      "lastActive": "2026-04-13T15:16:02.147Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
