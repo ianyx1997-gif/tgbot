@@ -252,7 +252,7 @@
       "lastName": "Pavlov",
       "username": "",
       "joinedAt": "2026-04-13T12:17:35.500Z",
-      "lastActive": "2026-04-13T12:34:33.714Z",
+      "lastActive": "2026-04-13T12:38:04.327Z",
       "searches": [
         {
           "country": "Turcia",
@@ -308,6 +308,17 @@
           "food": "ob",
           "stars": "4",
           "timestamp": "2026-04-13T12:34:49.208Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-13T12:38:24.726Z"
         }
       ],
       "messages": [],
@@ -331,7 +342,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     },
     "730279127": {
       "chatId": 730279127,
@@ -1344,6 +1355,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 30
+    "totalSearches": 31
   }
 }
