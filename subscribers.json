@@ -6826,6 +6826,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5317915025": {
+      "chatId": 5317915025,
+      "firstName": "33539",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:53:06.920Z",
+      "lastActive": "2026-04-13T17:53:06.920Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
