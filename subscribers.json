@@ -1993,6 +1993,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6171722320": {
+      "chatId": 6171722320,
+      "firstName": "A.G",
+      "lastName": "",
+      "username": "lgarghel",
+      "joinedAt": "2026-04-13T14:04:12.136Z",
+      "lastActive": "2026-04-13T14:04:12.136Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
