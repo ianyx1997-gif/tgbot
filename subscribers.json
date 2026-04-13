@@ -777,7 +777,7 @@
       "lastName": "Ap",
       "username": "ang_elly",
       "joinedAt": "2026-04-13T14:27:38.561Z",
-      "lastActive": "2026-04-13T14:27:38.561Z",
+      "lastActive": "2026-04-13T14:27:42.114Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2498,6 +2498,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:27:00.099Z",
       "lastActive": "2026-04-13T14:27:00.099Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5056736344": {
+      "chatId": 5056736344,
+      "firstName": "Tania",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:28:09.522Z",
+      "lastActive": "2026-04-13T14:28:09.522Z",
       "searches": [],
       "messages": [],
       "preferences": {
