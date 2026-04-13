@@ -22,6 +22,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "394161440": {
+      "chatId": 394161440,
+      "firstName": "Dorin",
+      "lastName": "Tabara",
+      "username": "",
+      "joinedAt": "2026-04-13T13:37:23.561Z",
+      "lastActive": "2026-04-13T13:37:23.561Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "448746757": {
       "chatId": 448746757,
       "firstName": "Betty",
