@@ -841,40 +841,21 @@
       "lastName": "",
       "username": "nottobragbutimcool",
       "joinedAt": "2026-04-13T17:16:51.140Z",
-      "lastActive": "2026-04-13T17:29:23.170Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-08-08",
-          "nights": 7,
-          "adults": 2,
-          "children": [],
-          "food": "uai",
-          "stars": "5",
-          "timestamp": "2026-04-13T17:29:37.197Z"
-        }
-      ],
+      "lastActive": "2026-04-13T17:16:51.140Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "uai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "all-inclusive",
-        "luxury",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "605614846": {
       "chatId": 605614846,
@@ -6389,22 +6370,49 @@
       "firstName": "Татьяна",
       "lastName": "Пынзарь",
       "username": "",
-      "joinedAt": "2026-04-13T17:29:42.987Z",
-      "lastActive": "2026-04-13T17:29:42.988Z",
-      "searches": [],
+      "joinedAt": "2026-04-13T17:29:58.863Z",
+      "lastActive": "2026-04-13T17:29:58.863Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-06-08",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            1,
+            7,
+            10
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T17:30:46.300Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          1,
+          7,
+          10
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
