@@ -2522,6 +2522,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1312392248": {
+      "chatId": 1312392248,
+      "firstName": "Constantin",
+      "lastName": "Muntean",
+      "username": "",
+      "joinedAt": "2026-04-13T16:10:09.218Z",
+      "lastActive": "2026-04-13T16:10:09.218Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1315427467": {
       "chatId": 1315427467,
       "firstName": "Gangan",
