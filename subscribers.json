@@ -186,9 +186,16 @@
       "lastName": "C.",
       "username": "",
       "joinedAt": "2026-04-13T14:30:03.067Z",
-      "lastActive": "2026-04-13T14:30:36.624Z",
+      "lastActive": "2026-04-13T14:32:14.185Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Mai",
+          "extra": null,
+          "timestamp": "2026-04-13T14:32:14.185Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -1329,7 +1336,7 @@
       "lastName": "C",
       "username": "",
       "joinedAt": "2026-04-13T14:30:55.133Z",
-      "lastActive": "2026-04-13T14:30:55.133Z",
+      "lastActive": "2026-04-13T14:32:02.285Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2695,7 +2702,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:28:21.477Z",
-      "lastActive": "2026-04-13T14:30:12.459Z",
+      "lastActive": "2026-04-13T14:32:11.020Z",
       "searches": [
         {
           "country": "Bulgaria",
@@ -2757,7 +2764,7 @@
       "lastName": "Burlacu",
       "username": "",
       "joinedAt": "2026-04-13T14:30:24.497Z",
-      "lastActive": "2026-04-13T14:30:31.082Z",
+      "lastActive": "2026-04-13T14:31:39.709Z",
       "searches": [],
       "messages": [],
       "preferences": {
