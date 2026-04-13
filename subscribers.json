@@ -3947,6 +3947,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1802850848": {
+      "chatId": 1802850848,
+      "firstName": "Eva",
+      "lastName": "Bahrin",
+      "username": "",
+      "joinedAt": "2026-04-13T18:58:54.414Z",
+      "lastActive": "2026-04-13T18:58:54.414Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1841087362": {
       "chatId": 1841087362,
       "firstName": "Liliana🌸",
