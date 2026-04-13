@@ -2144,7 +2144,7 @@
       "lastName": "Gavrilița",
       "username": "",
       "joinedAt": "2026-04-13T14:17:49.588Z",
-      "lastActive": "2026-04-13T14:17:49.588Z",
+      "lastActive": "2026-04-13T14:19:22.445Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2166,25 +2166,42 @@
       "lastName": "Oleinic",
       "username": "",
       "joinedAt": "2026-04-13T14:19:07.971Z",
-      "lastActive": "2026-04-13T14:19:07.971Z",
-      "searches": [],
+      "lastActive": "2026-04-13T14:19:16.486Z",
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-07-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T14:19:58.441Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 46
+    "totalSearches": 47
   }
 }
