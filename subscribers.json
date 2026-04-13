@@ -5520,11 +5520,11 @@
     },
     "5154185123": {
       "chatId": 5154185123,
-      "firstName": "",
+      "firstName": "Adelina",
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:18:02.312Z",
-      "lastActive": "2026-04-13T16:18:02.312Z",
+      "lastActive": "2026-04-13T16:20:16.799Z",
       "searches": [
         {
           "country": "Grecia",
@@ -5536,12 +5536,24 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-13T16:18:28.315Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-03",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T16:20:30.727Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -5554,14 +5566,14 @@
         "all-inclusive",
         "luxury",
         "dest:grecia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 99
+    "totalSearches": 100
   }
 }
