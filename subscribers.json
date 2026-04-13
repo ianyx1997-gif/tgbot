@@ -2307,7 +2307,7 @@
       "lastName": "B",
       "username": "",
       "joinedAt": "2026-04-13T15:07:28.251Z",
-      "lastActive": "2026-04-13T15:07:28.251Z",
+      "lastActive": "2026-04-13T15:07:43.422Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4126,9 +4126,16 @@
       "lastName": "Верстивский",
       "username": "",
       "joinedAt": "2026-04-13T15:07:11.236Z",
-      "lastActive": "2026-04-13T15:07:11.236Z",
+      "lastActive": "2026-04-13T15:07:54.552Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Ищу работу  водителем север молдовы",
+          "extra": null,
+          "timestamp": "2026-04-13T15:07:54.552Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
