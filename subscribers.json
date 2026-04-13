@@ -4428,9 +4428,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T15:26:57.005Z",
-      "lastActive": "2026-04-13T15:26:57.005Z",
+      "lastActive": "2026-04-13T15:27:18.322Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Georgia",
+          "extra": null,
+          "timestamp": "2026-04-13T15:27:18.322Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
