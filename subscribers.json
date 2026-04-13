@@ -969,13 +969,35 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "759010604": {
+      "chatId": 759010604,
+      "firstName": "Vasile",
+      "lastName": "",
+      "username": "vasilehincu",
+      "joinedAt": "2026-04-13T15:02:11.106Z",
+      "lastActive": "2026-04-13T15:02:11.106Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "769054120": {
       "chatId": 769054120,
       "firstName": "Cristian",
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:54:50.845Z",
-      "lastActive": "2026-04-13T14:56:38.994Z",
+      "lastActive": "2026-04-13T15:02:10.107Z",
       "searches": [],
       "messages": [
         {
@@ -1676,6 +1698,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T15:01:52.080Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-27",
+          "nights": 7,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T15:01:52.503Z"
         }
       ],
       "messages": [],
@@ -1692,11 +1725,10 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1118315057": {
       "chatId": 1118315057,
@@ -3855,6 +3887,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 70
+    "totalSearches": 71
   }
 }
