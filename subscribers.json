@@ -4251,6 +4251,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7743045459": {
+      "chatId": 7743045459,
+      "firstName": "Crasemira",
+      "lastName": "Crasemira",
+      "username": "",
+      "joinedAt": "2026-04-13T15:11:26.954Z",
+      "lastActive": "2026-04-13T15:11:26.954Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
