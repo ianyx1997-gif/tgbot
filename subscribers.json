@@ -3182,6 +3182,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1342635902": {
+      "chatId": 1342635902,
+      "firstName": "Ciobanu",
+      "lastName": "Cristina",
+      "username": "",
+      "joinedAt": "2026-04-13T18:06:20.903Z",
+      "lastActive": "2026-04-13T18:06:20.903Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1353098621": {
       "chatId": 1353098621,
       "firstName": "Cristina",
