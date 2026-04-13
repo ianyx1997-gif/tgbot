@@ -2846,6 +2846,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1295024546": {
+      "chatId": 1295024546,
+      "firstName": "Cristilia",
+      "lastName": "Crist",
+      "username": "",
+      "joinedAt": "2026-04-13T17:32:38.148Z",
+      "lastActive": "2026-04-13T17:32:38.148Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1310685181": {
       "chatId": 1310685181,
       "firstName": "Вероника",
