@@ -1550,6 +1550,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "872685248": {
+      "chatId": 872685248,
+      "firstName": "Tatiana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:30:40.696Z",
+      "lastActive": "2026-04-13T16:30:40.696Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "878563214": {
       "chatId": 878563214,
       "firstName": "Daniela",
