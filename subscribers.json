@@ -1016,20 +1016,8 @@
       "lastName": "",
       "username": "Leralavly",
       "joinedAt": "2026-04-13T15:04:06.536Z",
-      "lastActive": "2026-04-13T15:09:27.598Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-09-01",
-          "nights": 7,
-          "adults": 1,
-          "children": [],
-          "food": "ai",
-          "stars": "",
-          "timestamp": "2026-04-13T15:09:49.690Z"
-        }
-      ],
+      "lastActive": "2026-04-13T15:04:19.590Z",
+      "searches": [],
       "messages": [
         {
           "direction": "in",
@@ -1039,23 +1027,17 @@
         }
       ],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "1",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
+        "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": "7"
+        "preferredNights": null
       },
-      "tags": [
-        "all-inclusive",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "769054120": {
       "chatId": 769054120,
@@ -1485,12 +1467,24 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T15:04:51.866Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-10-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:09:13.767Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1502,10 +1496,10 @@
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "new"
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "962414927": {
       "chatId": 962414927,
@@ -2022,9 +2016,16 @@
       "lastName": "Евгеньева",
       "username": "",
       "joinedAt": "2026-04-13T11:07:26.641Z",
-      "lastActive": "2026-04-13T11:09:17.742Z",
+      "lastActive": "2026-04-13T15:10:00.073Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Отель Дизалия Палм Гарден",
+          "extra": null,
+          "timestamp": "2026-04-13T15:10:00.073Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
