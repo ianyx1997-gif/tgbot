@@ -3189,20 +3189,44 @@
       "username": "",
       "joinedAt": "2026-04-13T18:06:20.903Z",
       "lastActive": "2026-04-13T18:06:26.370Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            6,
+            4
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-13T18:08:10.596Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6,
+          4
+        ],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1353098621": {
       "chatId": 1353098621,
@@ -6946,6 +6970,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 123
+    "totalSearches": 124
   }
 }
