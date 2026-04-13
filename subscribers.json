@@ -2181,6 +2181,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1419091649": {
+      "chatId": 1419091649,
+      "firstName": "𝑶𝒌𝒔𝒂𝒏𝒂",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T15:16:55.812Z",
+      "lastActive": "2026-04-13T15:16:55.812Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1421594038": {
       "chatId": 1421594038,
       "firstName": "Mărioara",
@@ -4280,7 +4302,7 @@
       "lastName": "Vitalie",
       "username": "",
       "joinedAt": "2026-04-13T15:16:02.147Z",
-      "lastActive": "2026-04-13T15:16:02.147Z",
+      "lastActive": "2026-04-13T15:16:17.145Z",
       "searches": [],
       "messages": [],
       "preferences": {
