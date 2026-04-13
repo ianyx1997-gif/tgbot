@@ -783,6 +783,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1005234984": {
+      "chatId": 1005234984,
+      "firstName": "gabryy",
+      "lastName": "",
+      "username": "gabb_y10",
+      "joinedAt": "2026-04-13T13:58:44.588Z",
+      "lastActive": "2026-04-13T13:58:44.588Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1140654310": {
       "chatId": 1140654310,
       "firstName": "Daria",
