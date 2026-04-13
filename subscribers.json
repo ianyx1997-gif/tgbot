@@ -1576,7 +1576,7 @@
       "lastName": "Zeru",
       "username": "",
       "joinedAt": "2026-04-13T15:42:37.238Z",
-      "lastActive": "2026-04-13T15:42:37.238Z",
+      "lastActive": "2026-04-13T15:42:41.192Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4771,6 +4771,28 @@
       "username": "",
       "joinedAt": "2026-04-13T15:37:48.600Z",
       "lastActive": "2026-04-13T15:37:48.600Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7469554002": {
+      "chatId": 7469554002,
+      "firstName": "Nicolae",
+      "lastName": "Baltaga",
+      "username": "",
+      "joinedAt": "2026-04-13T15:42:50.117Z",
+      "lastActive": "2026-04-13T15:42:50.117Z",
       "searches": [],
       "messages": [],
       "preferences": {
