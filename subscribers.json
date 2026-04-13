@@ -388,9 +388,16 @@
       "lastName": "Maria",
       "username": "",
       "joinedAt": "2026-04-13T10:57:55.631Z",
-      "lastActive": "2026-04-13T10:57:55.631Z",
+      "lastActive": "2026-04-13T10:58:32.653Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Buna in bulgaria la hotelul veand regiunea Солнечный берег",
+          "extra": null,
+          "timestamp": "2026-04-13T10:58:32.653Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
