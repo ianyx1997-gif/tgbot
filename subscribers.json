@@ -972,7 +972,7 @@
       "lastName": "47",
       "username": "Student47m",
       "joinedAt": "2026-04-13T13:58:24.048Z",
-      "lastActive": "2026-04-13T13:58:24.048Z",
+      "lastActive": "2026-04-13T13:58:35.931Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1854,7 +1854,29 @@
       "lastName": "Tofan",
       "username": "",
       "joinedAt": "2026-04-13T13:58:31.507Z",
-      "lastActive": "2026-04-13T13:58:31.507Z",
+      "lastActive": "2026-04-13T13:58:36.921Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6785559688": {
+      "chatId": 6785559688,
+      "firstName": "Valentina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T13:58:39.812Z",
+      "lastActive": "2026-04-13T13:58:39.812Z",
       "searches": [],
       "messages": [],
       "preferences": {
