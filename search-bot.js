@@ -27,23 +27,16 @@ console.log('✅ ZebraTur Search Bot pornit!');
 
 // ===== DATA =====
 const COUNTRIES = [
-  { id: 115, name: 'Turcia', flag: '🇹🇷', transport: 'air', popular: true },
-  { id: 43,  name: 'Egipt', flag: '🇪🇬', transport: 'air', popular: true },
-  { id: 34,  name: 'Grecia', flag: '🇬🇷', transport: 'air', popular: true },
-  { id: 13,  name: 'Bulgaria', flag: '🇧🇬', transport: 'bus', popular: true },
-  { id: 54,  name: 'Cipru', flag: '🇨🇾', transport: 'air', popular: false },
-  { id: 135, name: 'Muntenegru', flag: '🇲🇪', transport: 'bus', popular: false },
-  { id: 92,  name: 'Emirate', flag: '🇦🇪', transport: 'air', popular: false },
-  { id: 49,  name: 'Spania', flag: '🇪🇸', transport: 'air', popular: false },
-  { id: 48,  name: 'Italia', flag: '🇮🇹', transport: 'air', popular: false },
-  { id: 114, name: 'Tunisia', flag: '🇹🇳', transport: 'air', popular: false },
-  { id: 113, name: 'Tailanda', flag: '🇹🇭', transport: 'air', popular: false },
-  { id: 79,  name: 'Maldive', flag: '🇲🇻', transport: 'air', popular: false },
-  { id: 10,  name: 'Albania', flag: '🇦🇱', transport: 'bus', popular: false },
-  { id: 42,  name: 'Dominicana', flag: '🇩🇴', transport: 'air', popular: false },
-  { id: 152, name: 'Tanzania', flag: '🇹🇿', transport: 'air', popular: false },
-  { id: 125, name: 'Sri Lanka', flag: '🇱🇰', transport: 'air', popular: false },
-  { id: 29,  name: 'Vietnam', flag: '🇻🇳', transport: 'air', popular: false },
+  { id: 115, name: 'Turcia', flag: '🇹🇷', transport: 'air' },
+  { id: 43,  name: 'Egipt', flag: '🇪🇬', transport: 'air' },
+  { id: 34,  name: 'Grecia', flag: '🇬🇷', transport: 'air' },
+  { id: 49,  name: 'Spania', flag: '🇪🇸', transport: 'air' },
+  { id: 135, name: 'Muntenegru', flag: '🇲🇪', transport: 'air' },
+  { id: 114, name: 'Tunisia', flag: '🇹🇳', transport: 'air' },
+  { id: 10,  name: 'Albania', flag: '🇦🇱', transport: 'air' },
+  { id: 54,  name: 'Cipru', flag: '🇨🇾', transport: 'air' },
+  { id: 13,  name: 'Bulgaria', flag: '🇧🇬', transport: 'bus' },
+  { id: 29,  name: 'Vietnam', flag: '🇻🇳', transport: 'air' },
 ];
 
 const DEPARTURE_CITIES = [
@@ -130,38 +123,39 @@ function fmtDate(dateStr) {
   return `${d.getDate()} ${months[d.getMonth()]}`;
 }
 
-function getNextMonthDates() {
-  const dates = [];
+const MONTH_NAMES = ['Ianuarie','Februarie','Martie','Aprilie','Mai','Iunie','Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'];
+const MONTH_SHORT = ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec'];
+
+function getAvailableMonths() {
+  const months = [];
   const now = new Date();
-  // Generate next 6 months of date options (1st and 15th of each month)
-  for (let m = 0; m < 6; m++) {
+  for (let m = 0; m < 8; m++) {
     const d = new Date(now.getFullYear(), now.getMonth() + m, 1);
-    // If this month, start from tomorrow or nearest week
-    if (m === 0) {
-      const nextWeek = new Date(now);
-      nextWeek.setDate(nextWeek.getDate() + 3);
-      dates.push({
-        date: nextWeek.toISOString().split('T')[0],
-        label: `${fmtDate(nextWeek.toISOString().split('T')[0])} (curând)`
-      });
-    }
-    // 1st of month
-    if (d > now) {
-      dates.push({
-        date: d.toISOString().split('T')[0],
-        label: `1 ${['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec'][d.getMonth()]}`
-      });
-    }
-    // 15th of month
-    const mid = new Date(d.getFullYear(), d.getMonth(), 15);
-    if (mid > now) {
-      dates.push({
-        date: mid.toISOString().split('T')[0],
-        label: `15 ${['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec'][mid.getMonth()]}`
-      });
-    }
+    months.push({
+      month: d.getMonth(),
+      year: d.getFullYear(),
+      label: `${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}`
+    });
   }
-  return dates.slice(0, 12); // max 12 options
+  return months;
+}
+
+function getDaysForMonth(month, year) {
+  const now = new Date();
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const days = [];
+  // Start from 1st or from today+2 if current month
+  const startDay = (year === now.getFullYear() && month === now.getMonth())
+    ? now.getDate() + 2
+    : 1;
+  for (let d = startDay; d <= daysInMonth; d++) {
+    days.push({
+      date: `${year}-${String(month + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`,
+      label: `${d}`
+    });
+  }
+  return days;
 }
 
 function buildSearchUrl(session) {
@@ -208,22 +202,16 @@ async function stepCountry(chatId, messageId) {
   const s = getSession(chatId);
   s.step = 'country';
 
-  const popular = COUNTRIES.filter(c => c.popular);
-  const others = COUNTRIES.filter(c => !c.popular);
-
   const keyboard = [];
-  // Popular countries — 2 per row
-  for (let i = 0; i < popular.length; i += 2) {
-    const row = popular.slice(i, i + 2).map(c => ({
+  // All countries — 2 per row
+  for (let i = 0; i < COUNTRIES.length; i += 2) {
+    keyboard.push(COUNTRIES.slice(i, i + 2).map(c => ({
       text: `${c.flag} ${c.name}`,
       callback_data: `country_${c.id}`
-    }));
-    keyboard.push(row);
+    })));
   }
-  // "More destinations" button
-  keyboard.push([{ text: '🌍 Mai multe destinații...', callback_data: 'country_more' }]);
 
-  const text = '🌍 <b>Alege destinația:</b>\n\n<i>Cele mai populare:</i>';
+  const text = '🌍 <b>Alege destinația:</b>';
 
   if (messageId) {
     await bot.editMessageText(text, {
@@ -236,24 +224,6 @@ async function stepCountry(chatId, messageId) {
       reply_markup: { inline_keyboard: keyboard }
     });
   }
-}
-
-async function stepCountryMore(chatId, messageId) {
-  const others = COUNTRIES.filter(c => !c.popular);
-  const keyboard = [];
-  for (let i = 0; i < others.length; i += 3) {
-    const row = others.slice(i, i + 3).map(c => ({
-      text: `${c.flag} ${c.name}`,
-      callback_data: `country_${c.id}`
-    }));
-    keyboard.push(row);
-  }
-  keyboard.push([{ text: '⬅️ Înapoi', callback_data: 'country_back' }]);
-
-  await bot.editMessageText('🌍 <b>Toate destinațiile:</b>', {
-    chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
-    reply_markup: { inline_keyboard: keyboard }
-  });
 }
 
 // ===== STEP: DEPARTURE CITY =====
@@ -288,24 +258,48 @@ async function stepDepartCity(chatId, messageId) {
   );
 }
 
-// ===== STEP: DATE =====
-async function stepDate(chatId, messageId) {
+// ===== STEP: MONTH =====
+async function stepMonth(chatId, messageId) {
   const s = getSession(chatId);
-  s.step = 'date';
+  s.step = 'month';
 
-  const dates = getNextMonthDates();
+  const months = getAvailableMonths();
   const keyboard = [];
-  for (let i = 0; i < dates.length; i += 3) {
-    keyboard.push(dates.slice(i, i + 3).map(d => ({
-      text: `📅 ${d.label}`,
-      callback_data: `date_${d.date}`
+  for (let i = 0; i < months.length; i += 2) {
+    keyboard.push(months.slice(i, i + 2).map(m => ({
+      text: `📅 ${m.label}`,
+      callback_data: `month_${m.month}_${m.year}`
     })));
   }
-  // "Flexible dates" option
-  keyboard.push([{ text: '📆 Flexibil (orice dată)', callback_data: 'date_flex' }]);
 
   await bot.editMessageText(
-    `${s.country.flag} <b>${s.country.name}</b> din ${s.departCity.name}\n\n📅 <b>Când vrei să pleci?</b>\n<i>Alege data aproximativă:</i>`,
+    `${s.country.flag} <b>${s.country.name}</b>\n\n📅 <b>În ce lună vrei să pleci?</b>`,
+    {
+      chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
+      reply_markup: { inline_keyboard: keyboard }
+    }
+  );
+}
+
+// ===== STEP: DAY =====
+async function stepDay(chatId, messageId) {
+  const s = getSession(chatId);
+  s.step = 'day';
+
+  const days = getDaysForMonth(s._selMonth, s._selYear);
+  const keyboard = [];
+  // 7 days per row (like a calendar)
+  for (let i = 0; i < days.length; i += 7) {
+    keyboard.push(days.slice(i, i + 7).map(d => ({
+      text: d.label,
+      callback_data: `day_${d.date}`
+    })));
+  }
+
+  const monthLabel = `${MONTH_NAMES[s._selMonth]} ${s._selYear}`;
+
+  await bot.editMessageText(
+    `${s.country.flag} <b>${s.country.name}</b>\n\n📅 <b>${monthLabel}</b> — alege ziua:`,
     {
       chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
       reply_markup: { inline_keyboard: keyboard }
@@ -347,18 +341,51 @@ async function stepAdults(chatId, messageId) {
     ADULTS_OPTIONS.map(n => ({
       text: n === s.adults ? `✅ ${n}` : `${n}`,
       callback_data: `adults_${n}`
-    })),
-    [{ text: '👶 + Adaugă copil', callback_data: 'add_child' },
-     { text: '➡️ Continuă', callback_data: 'adults_done' }]
+    }))
   ];
 
-  let childText = '';
-  if (s.children.length > 0) {
-    childText = `\n👶 Copii: ${s.children.map(a => a + ' ani').join(', ')}`;
-  }
+  await bot.editMessageText(
+    `${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n\n\n👥 <b>Câți adulți?</b>`,
+    {
+      chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
+      reply_markup: { inline_keyboard: keyboard }
+    }
+  );
+}
+
+// ===== STEP: HAS CHILDREN? =====
+async function stepHasChildren(chatId, messageId) {
+  const s = getSession(chatId);
+  s.step = 'has_children';
+
+  const keyboard = [
+    [{ text: '👶 Da', callback_data: 'has_children_yes' },
+     { text: '❌ Nu', callback_data: 'has_children_no' }]
+  ];
 
   await bot.editMessageText(
-    `${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n\n\n👥 <b>Câți adulți?</b>${childText}`,
+    `${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n | 👥 ${s.adults}ad\n\n👶 <b>Călătoriți cu copii?</b>`,
+    {
+      chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
+      reply_markup: { inline_keyboard: keyboard }
+    }
+  );
+}
+
+// ===== STEP: HOW MANY CHILDREN =====
+async function stepChildrenCount(chatId, messageId) {
+  const s = getSession(chatId);
+  s.step = 'children_count';
+
+  const keyboard = [
+    [1, 2, 3].map(n => ({
+      text: `${n}`,
+      callback_data: `childcount_${n}`
+    }))
+  ];
+
+  await bot.editMessageText(
+    `${s.country.flag} <b>${s.country.name}</b> | 👥 ${s.adults}ad\n\n👶 <b>Câți copii?</b>`,
     {
       chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
       reply_markup: { inline_keyboard: keyboard }
@@ -371,6 +398,9 @@ async function stepChildAge(chatId, messageId) {
   const s = getSession(chatId);
   s.step = 'child_age';
 
+  const childNum = s.children.length + 1;
+  const totalChildren = s._childrenTotal || 1;
+
   const keyboard = [];
   // Ages 0-17 in rows of 6
   for (let i = 0; i < 18; i += 6) {
@@ -380,10 +410,9 @@ async function stepChildAge(chatId, messageId) {
     }
     keyboard.push(row);
   }
-  keyboard.push([{ text: '❌ Anulează', callback_data: 'child_cancel' }]);
 
   await bot.editMessageText(
-    '👶 <b>Vârsta copilului:</b>',
+    `👶 <b>Vârsta copilului ${childNum} din ${totalChildren}:</b>`,
     {
       chat_id: chatId, message_id: messageId, parse_mode: 'HTML',
       reply_markup: { inline_keyboard: keyboard }
@@ -573,21 +602,13 @@ bot.on('callback_query', async (query) => {
     }
 
     // --- COUNTRY ---
-    if (data === 'country_more') {
-      await stepCountryMore(chatId, msgId);
-      return;
-    }
-    if (data === 'country_back') {
-      await stepCountry(chatId, msgId);
-      return;
-    }
     if (data.startsWith('country_')) {
       const countryId = parseInt(data.split('_')[1]);
       const country = COUNTRIES.find(c => c.id === countryId);
       if (country) {
         s.country = country;
         s.transport = country.transport;
-        await stepDate(chatId, msgId);
+        await stepMonth(chatId, msgId);
       }
       return;
     }
@@ -598,24 +619,24 @@ bot.on('callback_query', async (query) => {
       const city = DEPARTURE_CITIES.find(c => c.id === cityId);
       if (city) {
         s.departCity = city;
-        await stepDate(chatId, msgId);
+        await stepMonth(chatId, msgId);
       }
       return;
     }
 
-    // --- DATE ---
-    if (data === 'date_flex') {
-      // Use tomorrow + 14 days range
-      const tomorrow = new Date();
-      tomorrow.setDate(tomorrow.getDate() + 1);
-      s.dateFrom = tomorrow.toISOString().split('T')[0];
-      s.dateTo = addDays(s.dateFrom, 90); // 3 months range
-      await stepDuration(chatId, msgId);
+    // --- MONTH ---
+    if (data.startsWith('month_')) {
+      const parts = data.split('_');
+      s._selMonth = parseInt(parts[1]);
+      s._selYear = parseInt(parts[2]);
+      await stepDay(chatId, msgId);
       return;
     }
-    if (data.startsWith('date_')) {
-      s.dateFrom = data.split('_').slice(1).join('_'); // handle date format
-      s.dateTo = addDays(s.dateFrom, 14); // default 2 week window
+
+    // --- DAY ---
+    if (data.startsWith('day_')) {
+      s.dateFrom = data.substring(4); // day_2026-05-15 → 2026-05-15
+      s.dateTo = addDays(s.dateFrom, 14);
       await stepDuration(chatId, msgId);
       return;
     }
@@ -628,31 +649,42 @@ bot.on('callback_query', async (query) => {
     }
 
     // --- ADULTS ---
-    if (data === 'adults_done') {
+    if (data.startsWith('adults_')) {
+      s.adults = parseInt(data.split('_')[1]);
+      await stepHasChildren(chatId, msgId);
+      return;
+    }
+
+    // --- HAS CHILDREN? ---
+    if (data === 'has_children_no') {
+      s.children = [];
       await stepFood(chatId, msgId);
       return;
     }
-    if (data.startsWith('adults_')) {
-      s.adults = parseInt(data.split('_')[1]);
-      await stepAdults(chatId, msgId); // refresh to show selected
+    if (data === 'has_children_yes') {
+      s.children = [];
+      await stepChildrenCount(chatId, msgId);
       return;
     }
-    if (data === 'add_child') {
-      if (s.children.length >= 3) {
-        await bot.answerCallbackQuery(query.id, { text: 'Maximum 3 copii!', show_alert: true });
-        return;
-      }
+
+    // --- CHILDREN COUNT ---
+    if (data.startsWith('childcount_')) {
+      s._childrenTotal = parseInt(data.split('_')[1]);
+      s.children = [];
       await stepChildAge(chatId, msgId);
       return;
     }
+
+    // --- CHILD AGE ---
     if (data.startsWith('childage_')) {
       const age = parseInt(data.split('_')[1]);
       s.children.push(age);
-      await stepAdults(chatId, msgId); // back to adults to see child added
-      return;
-    }
-    if (data === 'child_cancel') {
-      await stepAdults(chatId, msgId);
+      // If more children to add
+      if (s.children.length < (s._childrenTotal || 1)) {
+        await stepChildAge(chatId, msgId);
+      } else {
+        await stepFood(chatId, msgId);
+      }
       return;
     }
 
@@ -685,7 +717,7 @@ bot.on('callback_query', async (query) => {
       return;
     }
     if (data === 'edit_date') {
-      await stepDate(chatId, msgId);
+      await stepMonth(chatId, msgId);
       return;
     }
     if (data === 'edit_duration') {
@@ -693,7 +725,8 @@ bot.on('callback_query', async (query) => {
       return;
     }
     if (data === 'edit_adults') {
-      s.children = []; // reset children when editing
+      s.children = [];
+      s._childrenTotal = 0;
       await stepAdults(chatId, msgId);
       return;
     }
