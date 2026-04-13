@@ -682,6 +682,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "2141974629": {
+      "chatId": 2141974629,
+      "firstName": "Mihai",
+      "lastName": "Credinta",
+      "username": "",
+      "joinedAt": "2026-04-13T11:39:33.826Z",
+      "lastActive": "2026-04-13T11:39:33.826Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "5042215484": {
       "chatId": 5042215484,
       "firstName": "Victoria",
