@@ -4280,6 +4280,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1922239918": {
+      "chatId": 1922239918,
+      "firstName": "M M",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T19:17:55.825Z",
+      "lastActive": "2026-04-13T19:17:55.825Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
