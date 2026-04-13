@@ -2257,7 +2257,7 @@
       "lastName": "",
       "username": "bv9500pro",
       "joinedAt": "2026-04-13T17:44:59.637Z",
-      "lastActive": "2026-04-13T17:44:59.637Z",
+      "lastActive": "2026-04-13T17:45:06.651Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6650,6 +6650,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7050484468": {
+      "chatId": 7050484468,
+      "firstName": "Iura",
+      "lastName": "G",
+      "username": "",
+      "joinedAt": "2026-04-13T17:45:18.195Z",
+      "lastActive": "2026-04-13T17:45:18.195Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
