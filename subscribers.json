@@ -242,12 +242,24 @@
           "food": "hb",
           "stars": "4",
           "timestamp": "2026-04-13T12:19:44.884Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-05-07",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-13T12:23:46.400Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Cipru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -258,10 +270,10 @@
       },
       "tags": [
         "dest:turcia",
-        "new"
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "730279127": {
       "chatId": 730279127,
@@ -1252,6 +1264,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 26
+    "totalSearches": 27
   }
 }
