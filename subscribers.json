@@ -2062,6 +2062,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "939963792": {
+      "chatId": 939963792,
+      "firstName": "katya",
+      "lastName": "",
+      "username": "katyarrins",
+      "joinedAt": "2026-04-13T19:00:14.039Z",
+      "lastActive": "2026-04-13T19:00:14.039Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "955011857": {
       "chatId": 955011857,
       "firstName": "Igor",
@@ -3953,38 +3975,21 @@
       "lastName": "Bahrin",
       "username": "",
       "joinedAt": "2026-04-13T18:58:54.414Z",
-      "lastActive": "2026-04-13T18:58:58.151Z",
-      "searches": [
-        {
-          "country": "Grecia",
-          "countryId": 34,
-          "dateFrom": "2026-09-12",
-          "nights": 5,
-          "adults": 2,
-          "children": [],
-          "food": "ob",
-          "stars": "",
-          "timestamp": "2026-04-13T18:59:26.924Z"
-        }
-      ],
+      "lastActive": "2026-04-13T18:58:54.414Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Grecia"
-        ],
-        "typicalAdults": "2",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": "5"
+        "preferredNights": null
       },
-      "tags": [
-        "dest:grecia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "1841087362": {
       "chatId": 1841087362,
@@ -7322,6 +7327,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 137
+    "totalSearches": 136
   }
 }
