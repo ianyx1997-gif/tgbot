@@ -2981,7 +2981,7 @@
       "lastName": "",
       "username": "laura2403",
       "joinedAt": "2026-04-13T11:01:28.245Z",
-      "lastActive": "2026-04-13T17:54:58.615Z",
+      "lastActive": "2026-04-13T17:56:07.767Z",
       "searches": [
         {
           "country": "Egipt",
@@ -3004,6 +3004,17 @@
           "food": "fb",
           "stars": "",
           "timestamp": "2026-04-13T17:55:17.169Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-16",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "hb",
+          "stars": "",
+          "timestamp": "2026-04-13T17:56:25.485Z"
         }
       ],
       "messages": [
@@ -3035,7 +3046,7 @@
         "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "1295024546": {
       "chatId": 1295024546,
@@ -6862,6 +6873,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 122
+    "totalSearches": 123
   }
 }
