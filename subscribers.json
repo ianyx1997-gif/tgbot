@@ -697,6 +697,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1194012874": {
+      "chatId": 1194012874,
+      "firstName": "Mariana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T12:45:20.491Z",
+      "lastActive": "2026-04-13T12:45:20.491Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1205038370": {
       "chatId": 1205038370,
       "firstName": "Валерия",
