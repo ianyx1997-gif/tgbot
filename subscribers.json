@@ -654,20 +654,39 @@
       "username": "denisdidic",
       "joinedAt": "2026-04-13T14:52:17.294Z",
       "lastActive": "2026-04-13T14:52:21.556Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T14:52:46.890Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "633776640": {
       "chatId": 633776640,
@@ -2149,7 +2168,7 @@
       "lastName": "",
       "username": "waldemar2280",
       "joinedAt": "2026-04-13T14:52:31.231Z",
-      "lastActive": "2026-04-13T14:52:31.231Z",
+      "lastActive": "2026-04-13T14:52:44.223Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3571,6 +3590,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 65
+    "totalSearches": 66
   }
 }
