@@ -5081,25 +5081,50 @@
       "lastName": "Vasile",
       "username": "",
       "joinedAt": "2026-04-13T15:58:03.887Z",
-      "lastActive": "2026-04-13T15:58:03.887Z",
-      "searches": [],
+      "lastActive": "2026-04-13T15:58:29.059Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            10,
+            11
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:59:27.252Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          10,
+          11
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 92
+    "totalSearches": 93
   }
 }
