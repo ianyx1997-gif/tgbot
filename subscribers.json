@@ -533,9 +533,16 @@
       "lastName": "Zadic",
       "username": "",
       "joinedAt": "2026-04-13T14:43:50.298Z",
-      "lastActive": "2026-04-13T14:43:50.298Z",
+      "lastActive": "2026-04-13T14:45:20.856Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "As vrea sa aflu preturile pentru:\n17 - 18 august\n7 nopti\n2AD+2CHD (4ani si 2ani)\nHotele:\nClub Hotel Turan Prince World\nMirada Del Mar Hotel",
+          "extra": null,
+          "timestamp": "2026-04-13T14:45:20.856Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
