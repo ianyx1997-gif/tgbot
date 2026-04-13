@@ -3359,7 +3359,7 @@
       "lastName": "Tatiana",
       "username": "",
       "joinedAt": "2026-04-13T14:44:54.390Z",
-      "lastActive": "2026-04-13T14:46:03.894Z",
+      "lastActive": "2026-04-13T14:47:19.147Z",
       "searches": [
         {
           "country": "Turcia",
@@ -3375,6 +3375,21 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-13T14:46:50.387Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            6,
+            9,
+            14
+          ],
+          "food": "fb",
+          "stars": "5",
+          "timestamp": "2026-04-13T14:47:55.257Z"
         }
       ],
       "messages": [],
@@ -3397,15 +3412,14 @@
         "family",
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 63
+    "totalSearches": 64
   }
 }
