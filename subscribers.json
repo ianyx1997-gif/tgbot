@@ -975,7 +975,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:54:50.845Z",
-      "lastActive": "2026-04-13T14:54:50.845Z",
+      "lastActive": "2026-04-13T14:54:58.016Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3708,6 +3708,28 @@
       "username": "IgnatSanduleac",
       "joinedAt": "2026-04-13T14:54:01.410Z",
       "lastActive": "2026-04-13T14:54:01.410Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7284237106": {
+      "chatId": 7284237106,
+      "firstName": "Tommy",
+      "lastName": "",
+      "username": "tomy_001",
+      "joinedAt": "2026-04-13T14:55:06.490Z",
+      "lastActive": "2026-04-13T14:55:06.490Z",
       "searches": [],
       "messages": [],
       "preferences": {
