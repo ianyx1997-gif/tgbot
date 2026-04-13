@@ -2695,7 +2695,51 @@
       "lastName": "",
       "username": "Angelika2023",
       "joinedAt": "2026-04-13T14:30:13.230Z",
-      "lastActive": "2026-04-13T14:30:13.230Z",
+      "lastActive": "2026-04-13T14:30:15.690Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6049099122": {
+      "chatId": 6049099122,
+      "firstName": "Cristina",
+      "lastName": "Burlacu",
+      "username": "",
+      "joinedAt": "2026-04-13T14:30:24.497Z",
+      "lastActive": "2026-04-13T14:30:24.497Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6855471879": {
+      "chatId": 6855471879,
+      "firstName": "Angela",
+      "lastName": "Calaras",
+      "username": "",
+      "joinedAt": "2026-04-13T14:30:24.500Z",
+      "lastActive": "2026-04-13T14:30:24.500Z",
       "searches": [],
       "messages": [],
       "preferences": {
