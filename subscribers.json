@@ -625,6 +625,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "622819349": {
+      "chatId": 622819349,
+      "firstName": "Денис",
+      "lastName": "Дидик",
+      "username": "denisdidic",
+      "joinedAt": "2026-04-13T14:52:17.294Z",
+      "lastActive": "2026-04-13T14:52:17.294Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "633776640": {
       "chatId": 633776640,
       "firstName": "Silvia",
