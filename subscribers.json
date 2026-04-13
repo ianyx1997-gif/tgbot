@@ -6324,6 +6324,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5752526071": {
+      "chatId": 5752526071,
+      "firstName": "Very-Nika",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:27:20.002Z",
+      "lastActive": "2026-04-13T17:27:20.002Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
