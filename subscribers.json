@@ -2159,6 +2159,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5049377982": {
+      "chatId": 5049377982,
+      "firstName": "Cristina",
+      "lastName": "Oleinic",
+      "username": "",
+      "joinedAt": "2026-04-13T14:19:07.971Z",
+      "lastActive": "2026-04-13T14:19:07.971Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
