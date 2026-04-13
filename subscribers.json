@@ -1236,8 +1236,8 @@
       "firstName": "A",
       "lastName": "",
       "username": "allexxandra222",
-      "joinedAt": "2026-04-13T15:53:40.758Z",
-      "lastActive": "2026-04-13T15:53:40.758Z",
+      "joinedAt": "2026-04-13T15:53:42.750Z",
+      "lastActive": "2026-04-13T15:53:42.750Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1570,39 +1570,20 @@
       "username": "heaven1596",
       "joinedAt": "2026-04-13T15:53:12.933Z",
       "lastActive": "2026-04-13T15:53:15.787Z",
-      "searches": [
-        {
-          "country": "Grecia",
-          "countryId": 34,
-          "dateFrom": "2026-09-15",
-          "nights": 7,
-          "adults": 2,
-          "children": [],
-          "food": "ai",
-          "stars": "5",
-          "timestamp": "2026-04-13T15:53:37.405Z"
-        }
-      ],
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Grecia"
-        ],
-        "typicalAdults": "2",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "all-inclusive",
-        "luxury",
-        "dest:grecia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "919550056": {
       "chatId": 919550056,
@@ -2063,7 +2044,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T15:53:29.983Z",
-      "lastActive": "2026-04-13T15:53:32.707Z",
+      "lastActive": "2026-04-13T15:53:29.983Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4971,6 +4952,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 90
+    "totalSearches": 89
   }
 }
