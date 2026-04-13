@@ -1170,6 +1170,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "623801957": {
+      "chatId": 623801957,
+      "firstName": "_cut3potato",
+      "lastName": "_",
+      "username": "Patricia_Neagu",
+      "joinedAt": "2026-04-13T22:13:15.267Z",
+      "lastActive": "2026-04-13T22:13:15.267Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "633776640": {
       "chatId": 633776640,
       "firstName": "Silvia",
