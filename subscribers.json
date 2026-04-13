@@ -22,6 +22,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "343777981": {
+      "chatId": 343777981,
+      "firstName": "Vlada",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T16:44:43.115Z",
+      "lastActive": "2026-04-13T16:44:43.115Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "391839896": {
       "chatId": 391839896,
       "firstName": "VR",
