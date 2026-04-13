@@ -5015,20 +5015,43 @@
       "username": "",
       "joinedAt": "2026-04-13T15:54:52.309Z",
       "lastActive": "2026-04-13T15:55:21.955Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:56:05.419Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          9
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7801475372": {
       "chatId": 7801475372,
@@ -5055,6 +5078,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 91
+    "totalSearches": 92
   }
 }
