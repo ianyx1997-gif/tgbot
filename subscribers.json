@@ -1467,12 +1467,24 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T15:04:51.866Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-10-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:09:13.767Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1484,10 +1496,10 @@
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "new"
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "962414927": {
       "chatId": 962414927,
@@ -4218,6 +4230,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 76
+    "totalSearches": 77
   }
 }
