@@ -688,7 +688,7 @@
       "lastName": "Credinta",
       "username": "",
       "joinedAt": "2026-04-13T11:39:33.826Z",
-      "lastActive": "2026-04-13T11:39:33.826Z",
+      "lastActive": "2026-04-13T11:40:48.245Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -874,7 +874,7 @@
       "lastName": "Viorika",
       "username": "",
       "joinedAt": "2026-04-13T11:35:47.437Z",
-      "lastActive": "2026-04-13T11:37:10.956Z",
+      "lastActive": "2026-04-13T11:40:52.918Z",
       "searches": [
         {
           "country": "Spania",
@@ -888,12 +888,26 @@
           "food": "fb",
           "stars": "3",
           "timestamp": "2026-04-13T11:39:00.338Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-07-07",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "fb",
+          "stars": "3",
+          "timestamp": "2026-04-13T11:41:57.800Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Cipru"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -908,14 +922,14 @@
         "family",
         "budget",
         "dest:spania",
-        "new"
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 16
+    "totalSearches": 17
   }
 }
