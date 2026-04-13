@@ -247,22 +247,47 @@
       "firstName": "Meet",
       "lastName": "",
       "username": "dianatihon",
-      "joinedAt": "2026-04-13T14:23:38.731Z",
-      "lastActive": "2026-04-13T14:23:38.732Z",
-      "searches": [],
+      "joinedAt": "2026-04-13T14:23:51.669Z",
+      "lastActive": "2026-04-13T14:23:51.669Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            3,
+            4
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T14:24:25.527Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          4
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "577381457": {
       "chatId": 577381457,
@@ -2349,6 +2374,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 50
+    "totalSearches": 51
   }
 }
