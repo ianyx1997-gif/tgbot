@@ -3710,6 +3710,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1443597481": {
+      "chatId": 1443597481,
+      "firstName": "max",
+      "lastName": "",
+      "username": "wMax420",
+      "joinedAt": "2026-04-13T19:43:38.735Z",
+      "lastActive": "2026-04-13T19:43:38.735Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1468212400": {
       "chatId": 1468212400,
       "firstName": "Nadia",
