@@ -1541,6 +1541,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "918808752": {
+      "chatId": 918808752,
+      "firstName": "Veronica RM",
+      "lastName": "",
+      "username": "heaven1596",
+      "joinedAt": "2026-04-13T15:53:12.933Z",
+      "lastActive": "2026-04-13T15:53:12.933Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "919550056": {
       "chatId": 919550056,
       "firstName": "Lilian",
