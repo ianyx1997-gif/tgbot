@@ -2119,6 +2119,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1315427467": {
+      "chatId": 1315427467,
+      "firstName": "Gangan",
+      "lastName": "Victoria",
+      "username": "",
+      "joinedAt": "2026-04-13T15:24:57.196Z",
+      "lastActive": "2026-04-13T15:24:57.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1353098621": {
       "chatId": 1353098621,
       "firstName": "Cristina",
@@ -4341,51 +4363,25 @@
       "lastName": "",
       "username": "smartinvestvasile",
       "joinedAt": "2026-04-13T15:23:40.006Z",
-      "lastActive": "2026-04-13T15:23:45.483Z",
-      "searches": [
-        {
-          "country": "Egipt",
-          "countryId": 43,
-          "dateFrom": "2026-07-12",
-          "nights": 7,
-          "adults": 2,
-          "children": [
-            3,
-            0
-          ],
-          "food": "ai",
-          "stars": "5",
-          "timestamp": "2026-04-13T15:24:21.174Z"
-        }
-      ],
+      "lastActive": "2026-04-13T15:24:44.402Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Egipt"
-        ],
-        "typicalAdults": "2",
-        "hasChildren": true,
-        "avgChildAges": [
-          3,
-          0
-        ],
-        "preferredFood": "ai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "family",
-        "all-inclusive",
-        "luxury",
-        "dest:egipt",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 79
+    "totalSearches": 78
   }
 }
