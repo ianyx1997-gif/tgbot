@@ -3229,6 +3229,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5632925432": {
+      "chatId": 5632925432,
+      "firstName": "Victor",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:44:50.391Z",
+      "lastActive": "2026-04-13T14:44:50.392Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
