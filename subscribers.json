@@ -2852,9 +2852,16 @@
       "lastName": "Crist",
       "username": "",
       "joinedAt": "2026-04-13T17:32:38.148Z",
-      "lastActive": "2026-04-13T17:32:38.148Z",
+      "lastActive": "2026-04-13T17:33:22.289Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Paris",
+          "extra": null,
+          "timestamp": "2026-04-13T17:33:22.289Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
