@@ -28,7 +28,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:44:43.115Z",
-      "lastActive": "2026-04-13T16:44:45.235Z",
+      "lastActive": "2026-04-13T16:51:55.672Z",
       "searches": [
         {
           "country": "Egipt",
@@ -40,6 +40,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T16:45:07.161Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-18",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T16:52:37.594Z"
         }
       ],
       "messages": [],
@@ -57,11 +68,10 @@
       "tags": [
         "all-inclusive",
         "luxury",
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "391839896": {
       "chatId": 391839896,
@@ -5968,6 +5978,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 108
+    "totalSearches": 109
   }
 }
