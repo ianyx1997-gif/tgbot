@@ -568,6 +568,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "588915684": {
+      "chatId": 588915684,
+      "firstName": "Maria",
+      "lastName": "Bunesco",
+      "username": "",
+      "joinedAt": "2026-04-13T14:51:19.021Z",
+      "lastActive": "2026-04-13T14:51:19.021Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "605614846": {
       "chatId": 605614846,
       "firstName": "Gheorghe",
