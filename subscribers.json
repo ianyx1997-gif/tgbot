@@ -2322,6 +2322,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "998994952": {
+      "chatId": 998994952,
+      "firstName": "Ecaterina Vascan",
+      "lastName": "",
+      "username": "katuuuuuushca",
+      "joinedAt": "2026-04-13T18:19:34.550Z",
+      "lastActive": "2026-04-13T18:19:34.550Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
