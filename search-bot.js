@@ -361,7 +361,7 @@ async function stepConfirm(chatId,mid) {
   const url=buildSearchUrl(s),sum=buildSummary(s);
   await bot.editMessageText(`✅ <b>Căutarea ta:</b>\n\n${sum}\n\n👇 Apasă pentru a vedea rezultatele:`,
     {chat_id:chatId,message_id:mid,parse_mode:'HTML',disable_web_page_preview:true,
-     reply_markup:{inline_keyboard:[[{text:'🔍 CAUTĂ TURURI!',url}],[{text:'✏️ Modifică',callback_data:'edit_search'},{text:'🔄 Căutare nouă',callback_data:'new_search'}]]}});
+     reply_markup:{inline_keyboard:[[{text:'🔍 CAUTĂ TURURI!',url}],[{text:'✏️ Modifică',callback_data:'edit_search'},{text:'🔄 Căutare nouă',callback_data:'new_search'}],[{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
 }
 async function stepEdit(chatId,mid) {
   const s=getSession(chatId); s.step='edit';
@@ -372,7 +372,8 @@ async function stepEdit(chatId,mid) {
       [{text:'🌍 Destinație',callback_data:'edit_country'},{text:'📅 Data',callback_data:'edit_date'}],
       [{text:'🌙 Durata',callback_data:'edit_duration'},{text:'👥 Turiști',callback_data:'edit_adults'}],
       [{text:'🍽️ Masă',callback_data:'edit_food'},{text:'⭐ Stele',callback_data:'edit_stars'}],
-      [{text:'🔍 CAUTĂ TURURI!',url}]]}});
+      [{text:'🔍 CAUTĂ TURURI!',url}],
+      [{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
 }
 
 // ================================================================
@@ -381,7 +382,7 @@ async function stepEdit(chatId,mid) {
 bot.onText(/\/start/, async (msg) => {
   const chatId=msg.chat.id; resetSession(chatId); updateSubInfo(chatId,msg.from); saveDB(); backupToGitHub().catch(()=>{});
   await bot.sendMessage(chatId,'👋 <b>Bun venit la ZebraTur!</b>\n\n🔍 Caută tururi în câteva secunde — alege destinația, datele și parametrii, iar eu îți generez link-ul direct.\n\nApasă butonul de mai jos! 👇',
-    {parse_mode:'HTML',reply_markup:{inline_keyboard:[[{text:'🔍 Caută un tur',callback_data:'start_search'}]]}});
+    {parse_mode:'HTML',reply_markup:{inline_keyboard:[[{text:'🔍 Caută un tur',callback_data:'start_search'}],[{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
   await bot.sendMessage(chatId,'💡 Poți folosi /cauta oricând.',{reply_markup:{keyboard:[[{text:'🔍 Caută un tur'}]],resize_keyboard:true,one_time_keyboard:false}});
 });
 
