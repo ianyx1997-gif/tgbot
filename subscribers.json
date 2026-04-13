@@ -1337,20 +1337,38 @@
       "username": "",
       "joinedAt": "2026-04-13T14:30:55.133Z",
       "lastActive": "2026-04-13T14:32:02.285Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-05-25",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T14:32:24.363Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1389932770": {
       "chatId": 1389932770,
@@ -2805,6 +2823,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 56
+    "totalSearches": 57
   }
 }
