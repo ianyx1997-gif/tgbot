@@ -158,6 +158,24 @@ function getDaysForMonth(month, year) {
   return days;
 }
 
+function buildPeople(adults, children) {
+  // Format: adults + 0+age for each child (e.g. 3 adults + children 2,4,4 = "3020404")
+  let p = String(adults);
+  for (const age of children) {
+    p += String(age).padStart(2, '0');
+  }
+  return p;
+}
+
+function expandStars(stars) {
+  // 3+ → "3,4,5", 4+ → "4,5", 5 → "5", empty → ""
+  if (!stars) return '';
+  const s = parseInt(stars);
+  const arr = [];
+  for (let i = s; i <= 5; i++) arr.push(i);
+  return arr.join(',');
+}
+
 function buildSearchUrl(session) {
   const checkIn = session.dateFrom;
   const checkTo = session.dateTo || addDays(checkIn, 14);
@@ -166,12 +184,12 @@ function buildSearchUrl(session) {
   let url = `${SITE_URL}#!i=${session.country.id}`;
   url += `&c=${checkIn}&v=${checkTo}`;
   url += `&l=${session.nights}`;
-  url += `&p=${session.adults}`;
+  url += `&p=${buildPeople(session.adults, session.children)}`;
   url += `&tc=${childAges}`;
   url += `&g=1`;
   url += `&d=${session.departCity.id}`;
   url += `&o=${expandFood(session.food)}`;
-  url += `&st=${session.stars}`;
+  url += `&st=${expandStars(session.stars)}`;
   url += `&pf=100&pt=20000`;
   url += `&rt=0,10&th=&e=`;
   url += `&r=${session.transport}`;
