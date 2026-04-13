@@ -3152,6 +3152,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7379533122": {
+      "chatId": 7379533122,
+      "firstName": "Люда",
+      "lastName": "Liuda",
+      "username": "",
+      "joinedAt": "2026-04-13T14:43:46.274Z",
+      "lastActive": "2026-04-13T14:43:46.274Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
