@@ -4646,6 +4646,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5943185701": {
+      "chatId": 5943185701,
+      "firstName": "Mariana",
+      "lastName": "Linga",
+      "username": "",
+      "joinedAt": "2026-04-13T15:37:48.600Z",
+      "lastActive": "2026-04-13T15:37:48.600Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
