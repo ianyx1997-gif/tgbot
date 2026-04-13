@@ -5150,7 +5150,29 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T16:01:23.396Z",
-      "lastActive": "2026-04-13T16:01:23.396Z",
+      "lastActive": "2026-04-13T16:02:22.471Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6489579343": {
+      "chatId": 6489579343,
+      "firstName": "Svetlana",
+      "lastName": "Svetlana",
+      "username": "",
+      "joinedAt": "2026-04-13T16:04:10.488Z",
+      "lastActive": "2026-04-13T16:04:10.488Z",
       "searches": [],
       "messages": [],
       "preferences": {
