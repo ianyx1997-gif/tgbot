@@ -677,7 +677,7 @@
       "lastName": "",
       "username": "IANyX",
       "joinedAt": "2026-04-13T09:47:39.373Z",
-      "lastActive": "2026-04-13T10:26:00.084Z",
+      "lastActive": "2026-04-13T14:34:32.475Z",
       "searches": [
         {
           "country": "Turcia",
@@ -746,6 +746,12 @@
             ]
           },
           "timestamp": "2026-04-13T10:56:04.227Z"
+        },
+        {
+          "direction": "in",
+          "text": "salut",
+          "extra": null,
+          "timestamp": "2026-04-13T14:34:32.476Z"
         }
       ],
       "preferences": {
