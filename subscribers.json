@@ -2959,6 +2959,12 @@
           "text": "Iunie",
           "extra": null,
           "timestamp": "2026-04-13T14:38:59.794Z"
+        },
+        {
+          "direction": "out",
+          "text": "Bună ziua, aici puteți căuta oferte utilizând butoanele de mai sus. Dacă doriți să discutați cu un agent real, vă rugăm să apăsați aici - @zebraturbot",
+          "extra": {},
+          "timestamp": "2026-04-13T14:40:03.846Z"
         }
       ],
       "preferences": {
@@ -3044,6 +3050,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:38:22.163Z",
       "lastActive": "2026-04-13T14:38:35.479Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5278876348": {
+      "chatId": 5278876348,
+      "firstName": "Giku",
+      "lastName": "Moscalu",
+      "username": "Giku9999",
+      "joinedAt": "2026-04-13T14:41:40.921Z",
+      "lastActive": "2026-04-13T14:41:40.921Z",
       "searches": [],
       "messages": [],
       "preferences": {
