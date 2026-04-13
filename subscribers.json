@@ -1935,20 +1935,38 @@
       "username": "valeria_vnl",
       "joinedAt": "2026-04-13T16:37:27.658Z",
       "lastActive": "2026-04-13T16:37:27.658Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-05",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-04-13T16:39:03.006Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1005234984": {
       "chatId": 1005234984,
@@ -5835,6 +5853,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 105
+    "totalSearches": 106
   }
 }
