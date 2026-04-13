@@ -6457,6 +6457,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7380688836": {
+      "chatId": 7380688836,
+      "firstName": "Lena🪐",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T17:32:37.119Z",
+      "lastActive": "2026-04-13T17:32:37.119Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
