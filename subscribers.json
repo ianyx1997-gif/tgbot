@@ -1595,20 +1595,46 @@
       "username": "Bocos_Anastasia",
       "joinedAt": "2026-04-13T14:56:37.125Z",
       "lastActive": "2026-04-13T15:00:29.916Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-22",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            8,
+            14
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T15:00:49.627Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          8,
+          14
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1044173694": {
       "chatId": 1044173694,
@@ -1638,7 +1664,7 @@
       "lastName": "Gabura",
       "username": "DimaGabura1",
       "joinedAt": "2026-04-13T15:00:43.671Z",
-      "lastActive": "2026-04-13T15:00:43.671Z",
+      "lastActive": "2026-04-13T15:00:47.772Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3811,6 +3837,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 68
+    "totalSearches": 69
   }
 }
