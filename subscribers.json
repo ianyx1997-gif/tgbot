@@ -988,7 +988,7 @@
       "lastName": "",
       "username": "Pal1a",
       "joinedAt": "2026-04-13T14:46:17.436Z",
-      "lastActive": "2026-04-13T14:46:17.436Z",
+      "lastActive": "2026-04-13T14:46:30.183Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1697,7 +1697,7 @@
       "lastName": "L",
       "username": "NadeaLv",
       "joinedAt": "2026-04-13T14:46:22.383Z",
-      "lastActive": "2026-04-13T14:46:22.383Z",
+      "lastActive": "2026-04-13T14:46:26.175Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3360,24 +3360,52 @@
       "username": "",
       "joinedAt": "2026-04-13T14:44:54.390Z",
       "lastActive": "2026-04-13T14:46:03.894Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            6,
+            9,
+            14
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T14:46:50.387Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6,
+          9,
+          14
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 62
+    "totalSearches": 63
   }
 }
