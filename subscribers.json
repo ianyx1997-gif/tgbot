@@ -505,6 +505,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "605614846": {
+      "chatId": 605614846,
+      "firstName": "Gheorghe",
+      "lastName": "Zadic",
+      "username": "",
+      "joinedAt": "2026-04-13T14:43:50.298Z",
+      "lastActive": "2026-04-13T14:43:50.298Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "633776640": {
       "chatId": 633776640,
       "firstName": "Silvia",
