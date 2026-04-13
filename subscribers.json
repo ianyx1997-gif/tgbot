@@ -1069,7 +1069,7 @@
       "lastName": "Chirilov",
       "username": "",
       "joinedAt": "2026-04-13T21:22:15.557Z",
-      "lastActive": "2026-04-13T21:25:45.130Z",
+      "lastActive": "2026-04-13T21:27:39.439Z",
       "searches": [
         {
           "country": "Grecia",
@@ -1092,28 +1092,42 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-13T21:26:35.359Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-17",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T21:28:01.707Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Grecia",
-          "Egipt"
+          "Egipt",
+          "Bulgaria"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "ai",
-        "preferredStars": "4",
+        "preferredStars": "5",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
+        "luxury",
         "dest:grecia",
-        "dest:egipt"
+        "dest:egipt",
+        "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "622819349": {
       "chatId": 622819349,
@@ -8059,6 +8073,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 158
+    "totalSearches": 159
   }
 }
