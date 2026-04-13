@@ -878,28 +878,6 @@
       "blocked": false,
       "totalSearches": 1
     },
-    "971132489": {
-      "chatId": 971132489,
-      "firstName": "🤍🤍",
-      "lastName": "",
-      "username": "buterflyelt",
-      "joinedAt": "2026-04-13T14:25:29.498Z",
-      "lastActive": "2026-04-13T14:25:29.498Z",
-      "searches": [],
-      "messages": [],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
@@ -2407,6 +2385,28 @@
       "username": "",
       "joinedAt": "2026-04-13T14:25:00.925Z",
       "lastActive": "2026-04-13T14:25:00.925Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6749169656": {
+      "chatId": 6749169656,
+      "firstName": "Liliana",
+      "lastName": "Rusu",
+      "username": "rosa_line666",
+      "joinedAt": "2026-04-13T14:25:33.537Z",
+      "lastActive": "2026-04-13T14:25:33.537Z",
       "searches": [],
       "messages": [],
       "preferences": {
