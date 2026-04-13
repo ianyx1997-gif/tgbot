@@ -1426,7 +1426,7 @@
       "lastName": "ll",
       "username": "Igorll99",
       "joinedAt": "2026-04-13T15:03:23.370Z",
-      "lastActive": "2026-04-13T15:03:23.370Z",
+      "lastActive": "2026-04-13T15:04:00.557Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1682,7 +1682,7 @@
       "lastName": "Nazarii",
       "username": "Bocos_Anastasia",
       "joinedAt": "2026-04-13T14:56:37.125Z",
-      "lastActive": "2026-04-13T15:00:29.916Z",
+      "lastActive": "2026-04-13T15:03:43.649Z",
       "searches": [
         {
           "country": "Turcia",
@@ -1697,12 +1697,24 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-13T15:00:49.627Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-08-22",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-13T15:04:05.624Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -1719,10 +1731,10 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1044173694": {
       "chatId": 1044173694,
@@ -3975,6 +3987,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 73
+    "totalSearches": 74
   }
 }
