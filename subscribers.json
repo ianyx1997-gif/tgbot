@@ -28,7 +28,7 @@
       "lastName": "Tabara",
       "username": "",
       "joinedAt": "2026-04-13T13:37:23.561Z",
-      "lastActive": "2026-04-13T13:37:23.561Z",
+      "lastActive": "2026-04-13T13:38:01.446Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1708,6 +1708,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5128960380": {
+      "chatId": 5128960380,
+      "firstName": "Nathalie",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T13:38:12.450Z",
+      "lastActive": "2026-04-13T13:38:12.450Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
