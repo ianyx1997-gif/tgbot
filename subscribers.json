@@ -396,6 +396,21 @@
           "text": "Buna in bulgaria la hotelul veand regiunea Солнечный берег",
           "extra": null,
           "timestamp": "2026-04-13T10:58:32.653Z"
+        },
+        {
+          "direction": "out",
+          "text": "Bună Maria, acesta este un bot care caută automat oferte, dacă dorești să-ți caute personal ofertele un agent real de-al nostru te rog apasă aici @zebraturbot sau pe butonul de mai jos",
+          "extra": {
+            "buttons": [
+              [
+                {
+                  "text": "Discută cu un expert",
+                  "url": "https://t.me/zebraturbot"
+                }
+              ]
+            ]
+          },
+          "timestamp": "2026-04-13T11:00:10.495Z"
         }
       ],
       "preferences": {
@@ -457,6 +472,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5221528981": {
+      "chatId": 5221528981,
+      "firstName": "Iana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T11:01:19.204Z",
+      "lastActive": "2026-04-13T11:01:19.204Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
