@@ -1971,6 +1971,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7432619552": {
+      "chatId": 7432619552,
+      "firstName": "Mihail",
+      "lastName": "Podvisevschi",
+      "username": "",
+      "joinedAt": "2026-04-13T14:01:39.114Z",
+      "lastActive": "2026-04-13T14:01:39.114Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
