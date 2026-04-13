@@ -1284,6 +1284,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5917408592": {
+      "chatId": 5917408592,
+      "firstName": "Crețu",
+      "lastName": "Andrei",
+      "username": "",
+      "joinedAt": "2026-04-13T12:30:27.272Z",
+      "lastActive": "2026-04-13T12:30:27.272Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
