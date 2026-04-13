@@ -2308,6 +2308,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1193649309": {
+      "chatId": 1193649309,
+      "firstName": "Anatol",
+      "lastName": "Podbeglii",
+      "username": "anatolpodbeglii",
+      "joinedAt": "2026-04-13T16:04:52.366Z",
+      "lastActive": "2026-04-13T16:04:52.366Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1194012874": {
       "chatId": 1194012874,
       "firstName": "Mariana",
@@ -5172,29 +5194,7 @@
       "lastName": "Svetlana",
       "username": "",
       "joinedAt": "2026-04-13T16:04:10.488Z",
-      "lastActive": "2026-04-13T16:04:18.721Z",
-      "searches": [],
-      "messages": [],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
-    "5277057541": {
-      "chatId": 5277057541,
-      "firstName": "Raisa",
-      "lastName": "Mirzenco",
-      "username": "",
-      "joinedAt": "2026-04-13T16:04:41.893Z",
-      "lastActive": "2026-04-13T16:04:41.893Z",
+      "lastActive": "2026-04-13T16:04:10.488Z",
       "searches": [],
       "messages": [],
       "preferences": {
