@@ -839,6 +839,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "551058792": {
+      "chatId": 551058792,
+      "firstName": "Cristian",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T19:54:02.935Z",
+      "lastActive": "2026-04-13T19:54:02.935Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "577381457": {
       "chatId": 577381457,
       "firstName": "LV",
