@@ -538,6 +538,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6471071660": {
+      "chatId": 6471071660,
+      "firstName": "Emanuela",
+      "lastName": "Grosu",
+      "username": "",
+      "joinedAt": "2026-04-13T11:01:42.154Z",
+      "lastActive": "2026-04-13T11:01:42.154Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
