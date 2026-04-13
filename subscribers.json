@@ -7825,6 +7825,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5827504362": {
+      "chatId": 5827504362,
+      "firstName": "Vrîncean",
+      "lastName": "Cristina",
+      "username": "cristina210989",
+      "joinedAt": "2026-04-13T20:34:53.515Z",
+      "lastActive": "2026-04-13T20:34:53.515Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
