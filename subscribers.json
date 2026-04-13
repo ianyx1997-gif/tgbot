@@ -6223,25 +6223,48 @@
       "lastName": "",
       "username": "Dumyqw",
       "joinedAt": "2026-04-13T17:19:07.408Z",
-      "lastActive": "2026-04-13T17:19:07.408Z",
-      "searches": [],
+      "lastActive": "2026-04-13T17:19:08.093Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-20",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            13
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T17:20:06.995Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          13
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 112
+    "totalSearches": 113
   }
 }
