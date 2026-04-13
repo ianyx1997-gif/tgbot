@@ -5592,6 +5592,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "6462234761": {
+      "chatId": 6462234761,
+      "firstName": "Sevciuc",
+      "lastName": "Nicolai",
+      "username": "",
+      "joinedAt": "2026-04-13T16:23:03.765Z",
+      "lastActive": "2026-04-13T16:23:03.765Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
