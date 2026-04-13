@@ -110,6 +110,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "479370752": {
+      "chatId": 479370752,
+      "firstName": "Tudor",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T14:37:53.560Z",
+      "lastActive": "2026-04-13T14:37:53.560Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "483361411": {
       "chatId": 483361411,
       "firstName": "Tatiana",
