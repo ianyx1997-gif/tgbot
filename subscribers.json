@@ -3716,21 +3716,40 @@
       "lastName": "",
       "username": "wMax420",
       "joinedAt": "2026-04-13T19:43:38.735Z",
-      "lastActive": "2026-04-13T19:43:38.735Z",
-      "searches": [],
+      "lastActive": "2026-04-13T19:43:43.389Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-20",
+          "nights": 10,
+          "adults": 1,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-13T19:44:20.013Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1468212400": {
       "chatId": 1468212400,
@@ -7636,6 +7655,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 144
+    "totalSearches": 145
   }
 }
