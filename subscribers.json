@@ -1231,6 +1231,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "781246293": {
+      "chatId": 781246293,
+      "firstName": "A",
+      "lastName": "",
+      "username": "allexxandra222",
+      "joinedAt": "2026-04-13T15:53:40.758Z",
+      "lastActive": "2026-04-13T15:53:40.758Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "790255254": {
       "chatId": 790255254,
       "firstName": "TTT",
