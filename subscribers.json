@@ -1075,6 +1075,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1421594038": {
+      "chatId": 1421594038,
+      "firstName": "Mărioara",
+      "lastName": "Cerneanu",
+      "username": "",
+      "joinedAt": "2026-04-13T14:13:42.944Z",
+      "lastActive": "2026-04-13T14:13:42.944Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1558157466": {
       "chatId": 1558157466,
       "firstName": "_Danutza_",
