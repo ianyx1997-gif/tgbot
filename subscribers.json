@@ -794,6 +794,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1209100588": {
+      "chatId": 1209100588,
+      "firstName": "Delia",
+      "lastName": "",
+      "username": "Bacal_Delia",
+      "joinedAt": "2026-04-13T12:56:59.875Z",
+      "lastActive": "2026-04-13T12:56:59.875Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1233801767": {
       "chatId": 1233801767,
       "firstName": "Laura",
