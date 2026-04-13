@@ -104,6 +104,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "730279127": {
+      "chatId": 730279127,
+      "firstName": "Erika",
+      "lastName": "Park",
+      "username": "erika_park",
+      "joinedAt": "2026-04-13T10:55:33.317Z",
+      "lastActive": "2026-04-13T10:55:33.318Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "807814444": {
       "chatId": 807814444,
       "firstName": "Ianis",
@@ -149,7 +171,23 @@
           "timestamp": "2026-04-13T10:26:10.574Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "out",
+          "text": "🤖 Am lansat Zebra Tour Bot — asistentul tău inteligent de vacanțe!\n\n✅ Caută oferte instant — 24/7, non-stop ✅ Funcționează direct în Telegram — nu trebuie să instalezi nimic ✅ Rezultate în câteva secunde — nu minute, nu ore ✅ Destinații, prețuri, hoteluri — totul la un click distanță ✅ Gratuit. Rapid. Simplu. 💯\n\n🏖️ Cum funcționează?\n\n1️⃣ Deschizi botul ➜ @zebratourbot 2️⃣ Alegi destinația și datele 📅 3️⃣ Primești ofertele instant 🎯",
+          "extra": {
+            "buttons": [
+              [
+                {
+                  "text": "🔥 TESTEAZĂ ACUM👇",
+                  "url": "https://t.me/zebratourbot"
+                }
+              ]
+            ]
+          },
+          "timestamp": "2026-04-13T10:54:59.365Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Turcia"
