@@ -334,13 +334,27 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T15:36:21.018Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            9,
+            12
+          ],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-13T15:38:00.389Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia",
-          "Bulgaria"
+          "Bulgaria",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -350,16 +364,16 @@
         ],
         "preferredFood": "ai",
         "preferredStars": "4",
-        "preferredNights": "7"
+        "preferredNights": "10"
       },
       "tags": [
         "family",
         "all-inclusive",
-        "dest:turcia",
-        "dest:bulgaria"
+        "dest:bulgaria",
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "494142020": {
       "chatId": 494142020,
@@ -4690,6 +4704,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 86
+    "totalSearches": 87
   }
 }
