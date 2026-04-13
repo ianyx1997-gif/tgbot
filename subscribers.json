@@ -845,7 +845,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T19:54:02.935Z",
-      "lastActive": "2026-04-13T19:54:02.935Z",
+      "lastActive": "2026-04-13T19:55:32.281Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -7680,8 +7680,20 @@
       "lastName": "Camere Supraveghere",
       "username": "",
       "joinedAt": "2026-04-13T19:54:01.105Z",
-      "lastActive": "2026-04-13T19:55:14.627Z",
-      "searches": [],
+      "lastActive": "2026-04-13T19:55:28.235Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-30",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T19:55:47.992Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -7691,21 +7703,28 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 145
+    "totalSearches": 146
   }
 }
