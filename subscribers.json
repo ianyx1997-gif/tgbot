@@ -5755,25 +5755,51 @@
       "lastName": "Babii",
       "username": "",
       "joinedAt": "2026-04-13T16:32:53.397Z",
-      "lastActive": "2026-04-13T16:32:53.397Z",
-      "searches": [],
+      "lastActive": "2026-04-13T16:33:09.242Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            12,
+            14
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-13T16:34:01.802Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          12,
+          14
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 103
+    "totalSearches": 104
   }
 }
