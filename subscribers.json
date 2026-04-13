@@ -878,6 +878,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "971132489": {
+      "chatId": 971132489,
+      "firstName": "🤍🤍",
+      "lastName": "",
+      "username": "buterflyelt",
+      "joinedAt": "2026-04-13T14:25:29.498Z",
+      "lastActive": "2026-04-13T14:25:29.498Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
