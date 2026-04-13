@@ -7740,6 +7740,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6224229357": {
+      "chatId": 6224229357,
+      "firstName": "62303",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T20:06:20.343Z",
+      "lastActive": "2026-04-13T20:06:20.343Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
