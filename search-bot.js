@@ -26,7 +26,7 @@ const { Pool } = require('pg');
 
 // ===== CONFIG =====
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const SITE_URL = process.env.SITE_URL || 'https://zebratur.md/offers';
+const SITE_URL = process.env.SITE_URL || 'https://zebratur.md/tourbot';
 const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID ? parseInt(process.env.ADMIN_CHAT_ID) : null;
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'zebratur2026';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
