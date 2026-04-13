@@ -7791,9 +7791,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T20:30:01.983Z",
-      "lastActive": "2026-04-13T20:30:01.983Z",
+      "lastActive": "2026-04-13T20:30:16.547Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Buna seara",
+          "extra": null,
+          "timestamp": "2026-04-13T20:30:16.547Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
