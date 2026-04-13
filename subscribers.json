@@ -1063,6 +1063,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "618028883": {
+      "chatId": 618028883,
+      "firstName": "Elena",
+      "lastName": "Chirilov",
+      "username": "",
+      "joinedAt": "2026-04-13T21:22:15.557Z",
+      "lastActive": "2026-04-13T21:22:15.557Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "622819349": {
       "chatId": 622819349,
       "firstName": "Денис",
