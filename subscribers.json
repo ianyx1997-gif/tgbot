@@ -633,6 +633,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1582005924": {
+      "chatId": 1582005924,
+      "firstName": "Budiș",
+      "lastName": "Ecaterina",
+      "username": "",
+      "joinedAt": "2026-04-13T12:16:52.031Z",
+      "lastActive": "2026-04-13T12:16:52.031Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1855483984": {
       "chatId": 1855483984,
       "firstName": "Алексей",
