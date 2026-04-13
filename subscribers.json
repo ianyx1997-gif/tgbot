@@ -305,21 +305,45 @@
       "lastName": "",
       "username": "Sasa12313",
       "joinedAt": "2026-04-13T15:32:58.712Z",
-      "lastActive": "2026-04-13T15:32:58.712Z",
-      "searches": [],
+      "lastActive": "2026-04-13T15:34:47.602Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            9,
+            1
+          ],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:35:19.900Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          9,
+          1
+        ],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "494142020": {
       "chatId": 494142020,
@@ -4511,7 +4535,7 @@
       "lastName": "Tepes",
       "username": "",
       "joinedAt": "2026-04-13T15:28:29.845Z",
-      "lastActive": "2026-04-13T15:33:13.029Z",
+      "lastActive": "2026-04-13T15:34:18.680Z",
       "searches": [],
       "messages": [
         {
@@ -4543,6 +4567,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 82
+    "totalSearches": 83
   }
 }
