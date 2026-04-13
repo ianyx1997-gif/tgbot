@@ -1045,6 +1045,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1987608688": {
+      "chatId": 1987608688,
+      "firstName": "Bianca",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T13:07:18.384Z",
+      "lastActive": "2026-04-13T13:07:18.384Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2022019521": {
       "chatId": 2022019521,
       "firstName": "Becciv",
