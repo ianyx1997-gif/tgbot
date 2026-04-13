@@ -2205,45 +2205,21 @@
       "lastName": "Radu",
       "username": "",
       "joinedAt": "2026-04-13T17:03:14.177Z",
-      "lastActive": "2026-04-13T17:03:19.918Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-09-01",
-          "nights": 7,
-          "adults": 2,
-          "children": [
-            10
-          ],
-          "food": "ai",
-          "stars": "5",
-          "timestamp": "2026-04-13T17:03:51.323Z"
-        }
-      ],
+      "lastActive": "2026-04-13T17:03:14.177Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
-        "hasChildren": true,
-        "avgChildAges": [
-          10
-        ],
-        "preferredFood": "ai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "family",
-        "all-inclusive",
-        "luxury",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "1044173694": {
       "chatId": 1044173694,
@@ -2717,7 +2693,7 @@
       "lastName": "",
       "username": "laura2403",
       "joinedAt": "2026-04-13T11:01:28.245Z",
-      "lastActive": "2026-04-13T11:01:28.245Z",
+      "lastActive": "2026-04-13T17:04:06.169Z",
       "searches": [
         {
           "country": "Egipt",
@@ -2731,7 +2707,14 @@
           "timestamp": "2026-04-13T17:02:55.375Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Uite aici \nAm nevoie de Egipt 3-4 nopti pe data de 16 aprilie  5 adulti",
+          "extra": null,
+          "timestamp": "2026-04-13T17:04:06.169Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Egipt"
@@ -2966,8 +2949,8 @@
       "firstName": "emmyy 🦋",
       "lastName": "",
       "username": "jskk06",
-      "joinedAt": "2026-04-13T17:03:59.523Z",
-      "lastActive": "2026-04-13T17:03:59.523Z",
+      "joinedAt": "2026-04-13T17:04:04.992Z",
+      "lastActive": "2026-04-13T17:04:04.992Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6118,6 +6101,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 112
+    "totalSearches": 111
   }
 }
