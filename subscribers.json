@@ -3678,7 +3678,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T17:30:53.996Z",
-      "lastActive": "2026-04-13T17:30:53.996Z",
+      "lastActive": "2026-04-13T17:31:25.557Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6435,6 +6435,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8038513327": {
+      "chatId": 8038513327,
+      "firstName": "Alice",
+      "lastName": "GB",
+      "username": "",
+      "joinedAt": "2026-04-13T17:31:25.944Z",
+      "lastActive": "2026-04-13T17:31:25.944Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
