@@ -1232,7 +1232,7 @@
       "lastName": "",
       "username": "dannapewpew",
       "joinedAt": "2026-04-13T14:53:13.770Z",
-      "lastActive": "2026-04-13T14:53:13.770Z",
+      "lastActive": "2026-04-13T14:53:20.093Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1883,6 +1883,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1547692578": {
+      "chatId": 1547692578,
+      "firstName": "Nicolae M",
+      "lastName": "",
+      "username": "nicolaemorari",
+      "joinedAt": "2026-04-13T14:53:57.472Z",
+      "lastActive": "2026-04-13T14:53:57.472Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1558157466": {
       "chatId": 1558157466,
       "firstName": "_Danutza_",
@@ -2212,7 +2234,7 @@
       "lastName": "",
       "username": "waldemar2280",
       "joinedAt": "2026-04-13T14:52:31.231Z",
-      "lastActive": "2026-04-13T14:53:00.147Z",
+      "lastActive": "2026-04-13T14:53:44.385Z",
       "searches": [],
       "messages": [
         {
