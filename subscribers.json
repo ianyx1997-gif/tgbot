@@ -2062,7 +2062,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T15:53:29.983Z",
-      "lastActive": "2026-04-13T15:53:29.983Z",
+      "lastActive": "2026-04-13T15:54:51.917Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -2552,7 +2552,7 @@
       "lastName": "Marga",
       "username": "",
       "joinedAt": "2026-04-13T15:54:39.596Z",
-      "lastActive": "2026-04-13T15:54:39.596Z",
+      "lastActive": "2026-04-13T15:54:44.642Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -4974,6 +4974,28 @@
       "username": "",
       "joinedAt": "2026-04-13T15:42:50.117Z",
       "lastActive": "2026-04-13T15:42:50.117Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5268847591": {
+      "chatId": 5268847591,
+      "firstName": "Sârbu",
+      "lastName": "Viorica",
+      "username": "",
+      "joinedAt": "2026-04-13T15:54:52.309Z",
+      "lastActive": "2026-04-13T15:54:52.309Z",
       "searches": [],
       "messages": [],
       "preferences": {
