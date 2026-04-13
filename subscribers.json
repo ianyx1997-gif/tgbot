@@ -1928,6 +1928,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "973964704": {
+      "chatId": 973964704,
+      "firstName": "Valeria Glușcenco",
+      "lastName": "",
+      "username": "valeria_vnl",
+      "joinedAt": "2026-04-13T16:37:27.658Z",
+      "lastActive": "2026-04-13T16:37:27.658Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
@@ -5755,7 +5777,7 @@
       "lastName": "Babii",
       "username": "",
       "joinedAt": "2026-04-13T16:32:53.397Z",
-      "lastActive": "2026-04-13T16:36:04.764Z",
+      "lastActive": "2026-04-13T16:37:09.782Z",
       "searches": [
         {
           "country": "Egipt",
