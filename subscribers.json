@@ -7557,6 +7557,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6289156735": {
+      "chatId": 6289156735,
+      "firstName": "Svetlana",
+      "lastName": "Pavelco",
+      "username": "",
+      "joinedAt": "2026-04-13T19:26:35.660Z",
+      "lastActive": "2026-04-13T19:26:35.660Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
