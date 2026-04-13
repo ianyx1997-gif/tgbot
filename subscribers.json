@@ -2036,46 +2036,21 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T17:12:35.565Z",
-      "lastActive": "2026-04-13T17:13:36.424Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-07-26",
-          "nights": 7,
-          "adults": 2,
-          "children": [
-            8,
-            13
-          ],
-          "food": "ai",
-          "stars": "4",
-          "timestamp": "2026-04-13T17:14:07.585Z"
-        }
-      ],
+      "lastActive": "2026-04-13T17:12:35.565Z",
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
-        "hasChildren": true,
-        "avgChildAges": [
-          8,
-          13
-        ],
-        "preferredFood": "ai",
-        "preferredStars": "4",
-        "preferredNights": "7"
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "family",
-        "all-inclusive",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "1005234984": {
       "chatId": 1005234984,
@@ -6175,9 +6150,16 @@
       "lastName": "M",
       "username": "",
       "joinedAt": "2026-04-13T17:11:57.578Z",
-      "lastActive": "2026-04-13T17:12:17.416Z",
+      "lastActive": "2026-04-13T17:14:20.160Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "12.08-18.08",
+          "extra": null,
+          "timestamp": "2026-04-13T17:14:20.160Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -6194,6 +6176,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 113
+    "totalSearches": 112
   }
 }
