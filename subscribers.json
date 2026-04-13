@@ -3252,6 +3252,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1737544060": {
+      "chatId": 1737544060,
+      "firstName": "ionutz",
+      "lastName": "",
+      "username": "ionutz_w210",
+      "joinedAt": "2026-04-13T17:01:36.822Z",
+      "lastActive": "2026-04-13T17:01:36.822Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1777332667": {
       "chatId": 1777332667,
       "firstName": "Viorica",
