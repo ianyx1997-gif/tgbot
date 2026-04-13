@@ -6,7 +6,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T09:56:57.919Z",
-      "lastActive": "2026-04-13T10:02:15.768Z",
+      "lastActive": "2026-04-13T10:02:37.895Z",
       "searches": [
         {
           "country": "Muntenegru",
@@ -73,6 +73,12 @@
           "text": "😂😂😂😂",
           "extra": null,
           "timestamp": "2026-04-13T10:02:15.768Z"
+        },
+        {
+          "direction": "in",
+          "text": "Periculos",
+          "extra": null,
+          "timestamp": "2026-04-13T10:02:37.895Z"
         }
       ],
       "preferences": {
