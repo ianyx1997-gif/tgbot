@@ -3870,6 +3870,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1764800418": {
+      "chatId": 1764800418,
+      "firstName": "Chirica",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T18:28:50.952Z",
+      "lastActive": "2026-04-13T18:28:50.952Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1777332667": {
       "chatId": 1777332667,
       "firstName": "Viorica",
