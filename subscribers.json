@@ -184,7 +184,23 @@
           "timestamp": "2026-04-13T10:10:25.063Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "out",
+          "text": "Te-am identificat cu succes",
+          "extra": {
+            "buttons": [
+              [
+                {
+                  "text": "Verifică informația",
+                  "url": "https://www.instagram.com/marinacaftanache"
+                }
+              ]
+            ]
+          },
+          "timestamp": "2026-04-13T10:11:31.323Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Grecia"
