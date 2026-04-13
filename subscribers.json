@@ -4460,6 +4460,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6759397959": {
+      "chatId": 6759397959,
+      "firstName": "vlad",
+      "lastName": "Tepes",
+      "username": "",
+      "joinedAt": "2026-04-13T15:28:29.845Z",
+      "lastActive": "2026-04-13T15:28:29.845Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
