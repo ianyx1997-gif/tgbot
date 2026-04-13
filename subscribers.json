@@ -1069,7 +1069,7 @@
       "lastName": "Chirilov",
       "username": "",
       "joinedAt": "2026-04-13T21:22:15.557Z",
-      "lastActive": "2026-04-13T21:27:39.439Z",
+      "lastActive": "2026-04-13T21:28:42.662Z",
       "searches": [
         {
           "country": "Grecia",
@@ -3724,21 +3724,46 @@
       "lastName": "❤️",
       "username": "wTJuOrbBiIWt",
       "joinedAt": "2026-04-13T15:49:34.274Z",
-      "lastActive": "2026-04-13T15:49:34.274Z",
-      "searches": [],
+      "lastActive": "2026-04-13T21:35:47.001Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-22",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            2,
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T21:36:38.971Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          7
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1389932770": {
       "chatId": 1389932770,
@@ -8073,6 +8098,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 159
+    "totalSearches": 160
   }
 }
