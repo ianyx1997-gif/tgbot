@@ -305,7 +305,7 @@
       "lastName": "",
       "username": "Sasa12313",
       "joinedAt": "2026-04-13T15:32:58.712Z",
-      "lastActive": "2026-04-13T15:34:47.602Z",
+      "lastActive": "2026-04-13T15:35:44.255Z",
       "searches": [
         {
           "country": "Turcia",
@@ -320,30 +320,46 @@
           "food": "ob",
           "stars": "4",
           "timestamp": "2026-04-13T15:35:19.900Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            9,
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-13T15:36:21.018Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Bulgaria"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
           9,
-          1
+          12
         ],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": "4",
         "preferredNights": "7"
       },
       "tags": [
         "family",
+        "all-inclusive",
         "dest:turcia",
-        "new"
+        "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "494142020": {
       "chatId": 494142020,
@@ -4590,6 +4606,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 84
+    "totalSearches": 85
   }
 }
