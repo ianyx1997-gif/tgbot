@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "530424562": {
+      "chatId": 530424562,
+      "firstName": "Sergiu",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-13T10:56:02.585Z",
+      "lastActive": "2026-04-13T10:56:02.585Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "577381457": {
       "chatId": 577381457,
       "firstName": "LV",
@@ -278,7 +300,7 @@
       "lastName": "Bernevec",
       "username": "",
       "joinedAt": "2026-04-13T10:55:49.595Z",
-      "lastActive": "2026-04-13T10:55:49.595Z",
+      "lastActive": "2026-04-13T10:55:54.955Z",
       "searches": [],
       "messages": [],
       "preferences": {
