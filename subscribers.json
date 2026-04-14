@@ -9060,9 +9060,16 @@
       "lastName": "Ceban",
       "username": "",
       "joinedAt": "2026-04-14T06:51:22.348Z",
-      "lastActive": "2026-04-14T06:51:22.348Z",
+      "lastActive": "2026-04-14T06:52:21.086Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Bulgaria cele mai bune oferte luna septembrie",
+          "extra": null,
+          "timestamp": "2026-04-14T06:52:21.086Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
