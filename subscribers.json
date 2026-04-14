@@ -9108,25 +9108,42 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T06:55:39.307Z",
-      "lastActive": "2026-04-14T06:55:39.307Z",
-      "searches": [],
+      "lastActive": "2026-04-14T06:56:21.663Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-07",
+          "nights": 12,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-14T06:56:59.562Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "12"
       },
-      "tags": [],
+      "tags": [
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 178
+    "totalSearches": 179
   }
 }
