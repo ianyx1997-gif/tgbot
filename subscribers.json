@@ -2341,6 +2341,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "921675808": {
+      "chatId": 921675808,
+      "firstName": "Nicu",
+      "lastName": "Ciubotaru",
+      "username": "",
+      "joinedAt": "2026-04-14T04:53:05.352Z",
+      "lastActive": "2026-04-14T04:53:05.352Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "926146282": {
       "chatId": 926146282,
       "firstName": "Igor",
