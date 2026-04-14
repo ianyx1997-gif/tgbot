@@ -11026,6 +11026,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5367008748": {
+      "chatId": 5367008748,
+      "firstName": "Olesea",
+      "lastName": "",
+      "username": "olesea124",
+      "joinedAt": "2026-04-14T19:37:22.115Z",
+      "lastActive": "2026-04-14T19:37:22.115Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
