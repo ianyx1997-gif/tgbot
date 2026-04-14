@@ -4659,6 +4659,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1521327552": {
+      "chatId": 1521327552,
+      "firstName": "Владислав",
+      "lastName": "Пилясов",
+      "username": "",
+      "joinedAt": "2026-04-14T15:54:01.850Z",
+      "lastActive": "2026-04-14T15:54:01.850Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1533783436": {
       "chatId": 1533783436,
       "firstName": "Sergiu",
