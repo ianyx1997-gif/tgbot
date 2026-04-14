@@ -9142,14 +9142,25 @@
           "food": "bb",
           "stars": "",
           "timestamp": "2026-04-14T07:00:46.271Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-09-04",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-14T07:01:04.029Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
+          "Spania",
           "Grecia",
-          "Vietnam",
-          "Spania"
+          "Vietnam"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -9159,12 +9170,12 @@
         "preferredNights": "10"
       },
       "tags": [
+        "dest:spania",
         "dest:grecia",
-        "dest:vietnam",
-        "dest:spania"
+        "dest:vietnam"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "5141262506": {
       "chatId": 5141262506,
@@ -9172,7 +9183,7 @@
       "lastName": "Natalia",
       "username": "",
       "joinedAt": "2026-04-14T07:00:53.458Z",
-      "lastActive": "2026-04-14T07:00:53.458Z",
+      "lastActive": "2026-04-14T07:01:01.298Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -9191,6 +9202,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 181
+    "totalSearches": 182
   }
 }
