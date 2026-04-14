@@ -9820,6 +9820,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5243600134": {
+      "chatId": 5243600134,
+      "firstName": "Ana",
+      "lastName": "Melnic",
+      "username": "",
+      "joinedAt": "2026-04-14T09:12:34.585Z",
+      "lastActive": "2026-04-14T09:12:34.585Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
