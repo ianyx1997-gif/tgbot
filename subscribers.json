@@ -3092,21 +3092,39 @@
       "lastName": "Irina",
       "username": "HeiIris",
       "joinedAt": "2026-04-14T00:43:14.110Z",
-      "lastActive": "2026-04-14T00:43:14.110Z",
-      "searches": [],
+      "lastActive": "2026-04-14T00:44:04.124Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-04-21",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-14T00:44:30.234Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1118315057": {
       "chatId": 1118315057,
@@ -8149,6 +8167,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 160
+    "totalSearches": 161
   }
 }
