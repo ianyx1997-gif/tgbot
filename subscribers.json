@@ -10479,6 +10479,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5163837643": {
+      "chatId": 5163837643,
+      "firstName": "Daniela",
+      "lastName": "",
+      "username": "DanielaCrivoi",
+      "joinedAt": "2026-04-14T11:44:58.663Z",
+      "lastActive": "2026-04-14T11:44:58.663Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
