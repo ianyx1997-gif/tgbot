@@ -2176,6 +2176,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "835081755": {
+      "chatId": 835081755,
+      "firstName": "Valiusa🤭",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T09:06:46.891Z",
+      "lastActive": "2026-04-14T09:06:46.891Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "835574752": {
       "chatId": 835574752,
       "firstName": "Calin",
