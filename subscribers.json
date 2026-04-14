@@ -1809,6 +1809,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "770182009": {
+      "chatId": 770182009,
+      "firstName": "Mariana",
+      "lastName": "Nika",
+      "username": "",
+      "joinedAt": "2026-04-14T08:44:45.111Z",
+      "lastActive": "2026-04-14T08:44:45.111Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "781246293": {
       "chatId": 781246293,
       "firstName": "A",
