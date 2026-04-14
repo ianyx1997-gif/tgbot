@@ -143,6 +143,28 @@
       "blocked": false,
       "totalSearches": 4
     },
+    "358085191": {
+      "chatId": 358085191,
+      "firstName": "Игорь",
+      "lastName": "",
+      "username": "igorisava",
+      "joinedAt": "2026-04-14T05:23:08.905Z",
+      "lastActive": "2026-04-14T05:23:08.905Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "391839896": {
       "chatId": 391839896,
       "firstName": "VR",
