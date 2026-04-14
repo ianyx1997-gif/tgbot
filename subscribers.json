@@ -10851,6 +10851,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "8719384631": {
+      "chatId": 8719384631,
+      "firstName": "Tatiana",
+      "lastName": "Rotaru",
+      "username": "",
+      "joinedAt": "2026-04-14T17:07:55.957Z",
+      "lastActive": "2026-04-14T17:07:55.957Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
