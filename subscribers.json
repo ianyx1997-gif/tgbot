@@ -9108,7 +9108,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T06:55:39.307Z",
-      "lastActive": "2026-04-14T06:58:17.556Z",
+      "lastActive": "2026-04-14T07:00:13.982Z",
       "searches": [
         {
           "country": "Grecia",
@@ -9131,13 +9131,25 @@
           "food": "bb",
           "stars": "",
           "timestamp": "2026-04-14T06:59:05.749Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-06",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-14T07:00:46.271Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Grecia",
-          "Vietnam"
+          "Vietnam",
+          "Spania"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -9148,14 +9160,15 @@
       },
       "tags": [
         "dest:grecia",
-        "dest:vietnam"
+        "dest:vietnam",
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 180
+    "totalSearches": 181
   }
 }
