@@ -9972,6 +9972,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7197159501": {
+      "chatId": 7197159501,
+      "firstName": "Batrincea",
+      "lastName": "Mariana",
+      "username": "",
+      "joinedAt": "2026-04-14T09:24:54.027Z",
+      "lastActive": "2026-04-14T09:24:54.027Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
