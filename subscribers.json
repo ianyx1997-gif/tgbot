@@ -2592,6 +2592,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "913387985": {
+      "chatId": 913387985,
+      "firstName": "Maria",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T21:51:22.910Z",
+      "lastActive": "2026-04-14T21:51:22.910Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "918808752": {
       "chatId": 918808752,
       "firstName": "Veronica RM",
