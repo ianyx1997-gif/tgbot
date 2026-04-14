@@ -259,9 +259,16 @@
       "lastName": "Negai",
       "username": "",
       "joinedAt": "2026-04-14T06:23:35.710Z",
-      "lastActive": "2026-04-14T06:23:53.260Z",
+      "lastActive": "2026-04-14T06:26:34.216Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "9,5,12",
+          "extra": null,
+          "timestamp": "2026-04-14T06:26:34.216Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -313,28 +320,6 @@
           "timestamp": "2026-04-13T10:57:39.639Z"
         }
       ],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
-    "452140859": {
-      "chatId": 452140859,
-      "firstName": "Valentin",
-      "lastName": "Perlog",
-      "username": "Perlogv",
-      "joinedAt": "2026-04-14T06:26:09.286Z",
-      "lastActive": "2026-04-14T06:26:09.286Z",
-      "searches": [],
-      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -4227,8 +4212,8 @@
       "firstName": "Marcel S.",
       "lastName": "Eco Glass Haus",
       "username": "EcoGlassHaus",
-      "joinedAt": "2026-04-14T06:25:42.194Z",
-      "lastActive": "2026-04-14T06:25:42.194Z",
+      "joinedAt": "2026-04-14T06:25:37.800Z",
+      "lastActive": "2026-04-14T06:25:37.800Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -8839,7 +8824,7 @@
       "lastName": "C",
       "username": "gabriela_434",
       "joinedAt": "2026-04-14T06:23:10.700Z",
-      "lastActive": "2026-04-14T06:24:39.841Z",
+      "lastActive": "2026-04-14T06:26:31.271Z",
       "searches": [
         {
           "country": "Grecia",
