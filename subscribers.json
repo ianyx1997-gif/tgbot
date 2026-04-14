@@ -3024,21 +3024,39 @@
       "lastName": "1337",
       "username": "vendetta228",
       "joinedAt": "2026-04-14T17:00:27.120Z",
-      "lastActive": "2026-04-14T17:00:27.120Z",
-      "searches": [],
+      "lastActive": "2026-04-14T17:00:36.265Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-19",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-14T17:01:11.135Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "987251434": {
       "chatId": 987251434,
@@ -10773,6 +10791,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 214
+    "totalSearches": 215
   }
 }
