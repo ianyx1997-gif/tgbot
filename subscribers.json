@@ -8450,9 +8450,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T05:31:48.854Z",
-      "lastActive": "2026-04-14T05:32:48.174Z",
+      "lastActive": "2026-04-14T05:37:42.469Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "🇪🇬 Egipt | 📅 21 apr | 🌙 7n\n\n👥 Câți adulți?",
+          "extra": null,
+          "timestamp": "2026-04-14T05:37:42.469Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
