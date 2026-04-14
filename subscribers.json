@@ -8562,7 +8562,7 @@
       "lastName": "Spam",
       "username": "",
       "joinedAt": "2026-04-14T05:54:33.123Z",
-      "lastActive": "2026-04-14T05:55:43.072Z",
+      "lastActive": "2026-04-14T05:59:19.611Z",
       "searches": [
         {
           "country": "Egipt",
@@ -8576,6 +8576,19 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-14T05:56:22.559Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-10-27",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-14T05:59:45.559Z"
         }
       ],
       "messages": [],
@@ -8596,11 +8609,10 @@
         "family",
         "all-inclusive",
         "luxury",
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "5224404484": {
       "chatId": 5224404484,
@@ -8645,6 +8657,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 169
+    "totalSearches": 170
   }
 }
