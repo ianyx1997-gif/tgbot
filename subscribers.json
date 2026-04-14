@@ -10997,6 +10997,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5390626611": {
+      "chatId": 5390626611,
+      "firstName": "Oly",
+      "lastName": "Garabajiu",
+      "username": "Olygut",
+      "joinedAt": "2026-04-14T19:27:04.714Z",
+      "lastActive": "2026-04-14T19:27:04.714Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
