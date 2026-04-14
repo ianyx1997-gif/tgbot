@@ -814,12 +814,24 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-14T10:18:27.669Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-26",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-14T10:19:16.748Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Spania"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -832,10 +844,10 @@
         "all-inclusive",
         "budget",
         "dest:turcia",
-        "new"
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "527092947": {
       "chatId": 527092947,
@@ -10130,6 +10142,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 202
+    "totalSearches": 203
   }
 }
