@@ -9544,6 +9544,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5187295328": {
+      "chatId": 5187295328,
+      "firstName": "Vitalie",
+      "lastName": "Brinza",
+      "username": "",
+      "joinedAt": "2026-04-14T08:15:58.993Z",
+      "lastActive": "2026-04-14T08:15:58.993Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
