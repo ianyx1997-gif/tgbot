@@ -9165,6 +9165,28 @@
       ],
       "blocked": false,
       "totalSearches": 3
+    },
+    "5141262506": {
+      "chatId": 5141262506,
+      "firstName": "Natalia",
+      "lastName": "Natalia",
+      "username": "",
+      "joinedAt": "2026-04-14T07:00:53.458Z",
+      "lastActive": "2026-04-14T07:00:53.458Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
