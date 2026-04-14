@@ -9705,6 +9705,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6217453438": {
+      "chatId": 6217453438,
+      "firstName": "Adelina",
+      "lastName": "Sn",
+      "username": "adelinasnn",
+      "joinedAt": "2026-04-14T08:49:45.756Z",
+      "lastActive": "2026-04-14T08:49:45.756Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
