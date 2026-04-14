@@ -3086,6 +3086,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1118148378": {
+      "chatId": 1118148378,
+      "firstName": "♡",
+      "lastName": "Irina",
+      "username": "HeiIris",
+      "joinedAt": "2026-04-14T00:43:14.110Z",
+      "lastActive": "2026-04-14T00:43:14.110Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1118315057": {
       "chatId": 1118315057,
       "firstName": "Ruslana👸",
