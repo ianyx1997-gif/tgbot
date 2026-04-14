@@ -3018,6 +3018,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "983356635": {
+      "chatId": 983356635,
+      "firstName": "marin",
+      "lastName": "1337",
+      "username": "vendetta228",
+      "joinedAt": "2026-04-14T17:00:27.120Z",
+      "lastActive": "2026-04-14T17:00:27.120Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "987251434": {
       "chatId": 987251434,
       "firstName": "Natalia",
