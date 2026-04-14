@@ -5723,6 +5723,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "2054617032": {
+      "chatId": 2054617032,
+      "firstName": "Coscodan",
+      "lastName": "Cristina",
+      "username": "",
+      "joinedAt": "2026-04-14T11:26:42.092Z",
+      "lastActive": "2026-04-14T11:26:42.092Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2096442373": {
       "chatId": 2096442373,
       "firstName": "Марина",
