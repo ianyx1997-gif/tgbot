@@ -2570,6 +2570,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "892891018": {
+      "chatId": 892891018,
+      "firstName": "Nastya",
+      "lastName": "Shinchevici",
+      "username": "",
+      "joinedAt": "2026-04-14T16:00:47.757Z",
+      "lastActive": "2026-04-14T16:00:47.758Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "918808752": {
       "chatId": 918808752,
       "firstName": "Veronica RM",
