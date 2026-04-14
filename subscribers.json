@@ -9551,25 +9551,49 @@
       "lastName": "Brinza",
       "username": "",
       "joinedAt": "2026-04-14T08:15:58.993Z",
-      "lastActive": "2026-04-14T08:15:58.993Z",
-      "searches": [],
+      "lastActive": "2026-04-14T08:16:42.058Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-21",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T08:17:37.943Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          9
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 189
+    "totalSearches": 190
   }
 }
