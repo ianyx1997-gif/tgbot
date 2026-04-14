@@ -3322,6 +3322,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1025044684": {
+      "chatId": 1025044684,
+      "firstName": "Stela",
+      "lastName": "Stela",
+      "username": "",
+      "joinedAt": "2026-04-14T14:42:36.426Z",
+      "lastActive": "2026-04-14T14:42:36.426Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1027098646": {
       "chatId": 1027098646,
       "firstName": "Evghenia",
