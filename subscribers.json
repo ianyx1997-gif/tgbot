@@ -11004,9 +11004,16 @@
       "lastName": "Garabajiu",
       "username": "Olygut",
       "joinedAt": "2026-04-14T19:27:04.714Z",
-      "lastActive": "2026-04-14T19:27:04.714Z",
+      "lastActive": "2026-04-14T19:27:55.154Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Excursie in Paris",
+          "extra": null,
+          "timestamp": "2026-04-14T19:27:55.155Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
