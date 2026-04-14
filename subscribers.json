@@ -4827,7 +4827,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T07:18:24.483Z",
-      "lastActive": "2026-04-14T07:18:24.483Z",
+      "lastActive": "2026-04-14T07:19:49.717Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -9284,6 +9284,28 @@
           "timestamp": "2026-04-14T07:19:19.050Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5114406082": {
+      "chatId": 5114406082,
+      "firstName": "Marionela",
+      "lastName": "Vetrici",
+      "username": "",
+      "joinedAt": "2026-04-14T07:21:47.151Z",
+      "lastActive": "2026-04-14T07:21:47.151Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
