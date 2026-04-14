@@ -9303,8 +9303,20 @@
       "lastName": "Vetrici",
       "username": "",
       "joinedAt": "2026-04-14T07:21:47.151Z",
-      "lastActive": "2026-04-14T07:22:54.401Z",
-      "searches": [],
+      "lastActive": "2026-04-14T07:23:57.460Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-05",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-14T07:24:30.784Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -9314,21 +9326,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 183
+    "totalSearches": 184
   }
 }
