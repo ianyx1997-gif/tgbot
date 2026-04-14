@@ -3567,6 +3567,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "1265413177": {
+      "chatId": 1265413177,
+      "firstName": "Larcenkoiryna",
+      "lastName": "Larcenkoiryna",
+      "username": "",
+      "joinedAt": "2026-04-14T04:37:29.199Z",
+      "lastActive": "2026-04-14T04:37:29.199Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1295024546": {
       "chatId": 1295024546,
       "firstName": "Cristilia",
