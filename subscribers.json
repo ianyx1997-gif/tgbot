@@ -10138,6 +10138,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6679261736": {
+      "chatId": 6679261736,
+      "firstName": "Iuliana",
+      "lastName": "Burduja",
+      "username": "",
+      "joinedAt": "2026-04-14T10:23:09.664Z",
+      "lastActive": "2026-04-14T10:23:09.664Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
