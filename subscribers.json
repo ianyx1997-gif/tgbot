@@ -4991,6 +4991,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1770449011": {
+      "chatId": 1770449011,
+      "firstName": "Daniela",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T10:40:04.979Z",
+      "lastActive": "2026-04-14T10:40:04.979Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1777332667": {
       "chatId": 1777332667,
       "firstName": "Viorica",
