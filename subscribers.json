@@ -9491,6 +9491,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5918795339": {
+      "chatId": 5918795339,
+      "firstName": "argentina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T07:59:13.787Z",
+      "lastActive": "2026-04-14T07:59:13.787Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
