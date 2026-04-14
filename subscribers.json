@@ -9943,6 +9943,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5349073450": {
+      "chatId": 5349073450,
+      "firstName": "Ecaterina",
+      "lastName": "Turceac",
+      "username": "",
+      "joinedAt": "2026-04-14T09:20:44.673Z",
+      "lastActive": "2026-04-14T09:20:44.673Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
