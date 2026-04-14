@@ -9734,7 +9734,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T08:57:45.187Z",
-      "lastActive": "2026-04-14T08:58:33.944Z",
+      "lastActive": "2026-04-14T09:00:10.228Z",
       "searches": [
         {
           "country": "Spania",
@@ -9746,31 +9746,44 @@
           "food": "ob",
           "stars": "3",
           "timestamp": "2026-04-14T08:58:48.358Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-10-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-14T09:00:26.475Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": "3",
-        "preferredNights": "7"
+        "preferredNights": "5"
       },
       "tags": [
+        "all-inclusive",
         "budget",
         "dest:spania",
-        "new"
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 193
+    "totalSearches": 194
   }
 }
