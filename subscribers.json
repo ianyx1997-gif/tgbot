@@ -5675,12 +5675,24 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-13T13:16:51.279Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-02",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-14T12:04:02.239Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Grecia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -5691,10 +5703,10 @@
       },
       "tags": [
         "dest:spania",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "2022019521": {
       "chatId": 2022019521,
@@ -10558,6 +10570,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 210
+    "totalSearches": 211
   }
 }
