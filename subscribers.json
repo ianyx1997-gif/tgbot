@@ -10317,20 +10317,46 @@
       "username": "adelinasnn",
       "joinedAt": "2026-04-14T08:49:45.756Z",
       "lastActive": "2026-04-14T08:50:48.187Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            0,
+            3
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T18:55:48.603Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          0,
+          3
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "6234391925": {
       "chatId": 6234391925,
@@ -10975,6 +11001,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 219
+    "totalSearches": 220
   }
 }
