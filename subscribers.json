@@ -9223,9 +9223,16 @@
       "lastName": "Elena",
       "username": "",
       "joinedAt": "2026-04-14T07:12:17.403Z",
-      "lastActive": "2026-04-14T07:12:17.403Z",
+      "lastActive": "2026-04-14T07:13:06.891Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "15.04 2 maturi si un copi 7 ani, oferte Egipt 4 nopti",
+          "extra": null,
+          "timestamp": "2026-04-14T07:13:06.891Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
