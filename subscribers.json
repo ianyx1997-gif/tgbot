@@ -10180,7 +10180,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T10:34:38.196Z",
-      "lastActive": "2026-04-14T10:35:39.057Z",
+      "lastActive": "2026-04-14T10:36:14.012Z",
       "searches": [],
       "messages": [
         {
@@ -10188,6 +10188,12 @@
           "text": "Vacanta in iunie",
           "extra": null,
           "timestamp": "2026-04-14T10:35:39.057Z"
+        },
+        {
+          "direction": "in",
+          "text": "Iunie",
+          "extra": null,
+          "timestamp": "2026-04-14T10:36:14.012Z"
         }
       ],
       "preferences": {
