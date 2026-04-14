@@ -10925,6 +10925,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6604724923": {
+      "chatId": 6604724923,
+      "firstName": "Vasile",
+      "lastName": "Rosca",
+      "username": "",
+      "joinedAt": "2026-04-14T18:44:30.823Z",
+      "lastActive": "2026-04-14T18:44:30.823Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
