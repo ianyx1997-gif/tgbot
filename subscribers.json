@@ -10880,6 +10880,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5108853397": {
+      "chatId": 5108853397,
+      "firstName": "Adrian",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T17:55:22.779Z",
+      "lastActive": "2026-04-14T17:55:22.779Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
