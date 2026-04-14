@@ -253,6 +253,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "397766560": {
+      "chatId": 397766560,
+      "firstName": "Radu",
+      "lastName": "Negai",
+      "username": "",
+      "joinedAt": "2026-04-14T06:23:35.710Z",
+      "lastActive": "2026-04-14T06:23:35.710Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "412313370": {
       "chatId": 412313370,
       "firstName": "Doinita",
@@ -8773,7 +8795,7 @@
       "lastName": "C",
       "username": "gabriela_434",
       "joinedAt": "2026-04-14T06:23:10.700Z",
-      "lastActive": "2026-04-14T06:23:13.267Z",
+      "lastActive": "2026-04-14T06:23:34.018Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -8794,8 +8816,8 @@
       "firstName": "Deviza",
       "lastName": "Cristina",
       "username": "",
-      "joinedAt": "2026-04-14T06:23:25.216Z",
-      "lastActive": "2026-04-14T06:23:25.216Z",
+      "joinedAt": "2026-04-14T06:23:30.655Z",
+      "lastActive": "2026-04-14T06:23:30.655Z",
       "searches": [],
       "messages": [],
       "preferences": {
