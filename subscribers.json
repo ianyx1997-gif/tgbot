@@ -8283,9 +8283,16 @@
       "lastName": "Lumina",
       "username": "",
       "joinedAt": "2026-04-14T04:27:51.364Z",
-      "lastActive": "2026-04-14T04:27:51.364Z",
+      "lastActive": "2026-04-14T04:28:39.548Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "10",
+          "extra": null,
+          "timestamp": "2026-04-14T04:28:39.548Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
