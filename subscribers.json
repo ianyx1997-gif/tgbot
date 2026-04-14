@@ -8577,6 +8577,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5224404484": {
+      "chatId": 5224404484,
+      "firstName": "Lilia",
+      "lastName": "Cernei",
+      "username": "",
+      "joinedAt": "2026-04-14T05:56:20.256Z",
+      "lastActive": "2026-04-14T05:56:20.256Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
