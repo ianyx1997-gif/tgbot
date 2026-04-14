@@ -10514,6 +10514,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7036902886": {
+      "chatId": 7036902886,
+      "firstName": "Ольга",
+      "lastName": "",
+      "username": "Olga_morosan",
+      "joinedAt": "2026-04-14T11:52:23.039Z",
+      "lastActive": "2026-04-14T11:52:23.039Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
