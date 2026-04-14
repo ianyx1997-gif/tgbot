@@ -10486,9 +10486,16 @@
       "lastName": "",
       "username": "DanielaCrivoi",
       "joinedAt": "2026-04-14T11:44:58.663Z",
-      "lastActive": "2026-04-14T11:44:58.663Z",
+      "lastActive": "2026-04-14T11:45:30.147Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Bună \nMă interesează Grecia, 2 maturi și 2 copii",
+          "extra": null,
+          "timestamp": "2026-04-14T11:45:30.147Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
