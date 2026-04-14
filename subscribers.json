@@ -4200,6 +4200,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1490185624": {
+      "chatId": 1490185624,
+      "firstName": "Marcel S.",
+      "lastName": "Eco Glass Haus",
+      "username": "EcoGlassHaus",
+      "joinedAt": "2026-04-14T06:25:37.800Z",
+      "lastActive": "2026-04-14T06:25:37.800Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1547692578": {
       "chatId": 1547692578,
       "firstName": "Nicolae M",
