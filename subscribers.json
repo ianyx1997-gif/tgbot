@@ -9216,6 +9216,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5157427346": {
+      "chatId": 5157427346,
+      "firstName": "Gutu",
+      "lastName": "Elena",
+      "username": "",
+      "joinedAt": "2026-04-14T07:12:17.403Z",
+      "lastActive": "2026-04-14T07:12:17.403Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
