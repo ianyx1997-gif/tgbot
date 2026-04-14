@@ -8237,24 +8237,49 @@
       "username": "",
       "joinedAt": "2026-04-14T04:14:30.513Z",
       "lastActive": "2026-04-14T04:14:30.514Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-21",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            5,
+            9
+          ],
+          "food": "uai",
+          "stars": "4",
+          "timestamp": "2026-04-14T04:15:56.005Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          9
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 162
+    "totalSearches": 163
   }
 }
