@@ -4444,6 +4444,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1715564269": {
+      "chatId": 1715564269,
+      "firstName": "Roman",
+      "lastName": "Victor",
+      "username": "",
+      "joinedAt": "2026-04-14T05:55:51.375Z",
+      "lastActive": "2026-04-14T05:55:51.375Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1737544060": {
       "chatId": 1737544060,
       "firstName": "ionutz",
@@ -8540,7 +8562,7 @@
       "lastName": "Spam",
       "username": "",
       "joinedAt": "2026-04-14T05:54:33.123Z",
-      "lastActive": "2026-04-14T05:54:33.123Z",
+      "lastActive": "2026-04-14T05:55:43.072Z",
       "searches": [],
       "messages": [],
       "preferences": {
