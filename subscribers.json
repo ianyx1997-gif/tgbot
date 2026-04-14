@@ -10858,9 +10858,16 @@
       "lastName": "Rotaru",
       "username": "",
       "joinedAt": "2026-04-14T17:07:55.957Z",
-      "lastActive": "2026-04-14T17:07:55.957Z",
+      "lastActive": "2026-04-14T17:43:18.321Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Turcia, 2 persoane, All Inclusive, 1400-1500 €, începând cu 15-16-17 august",
+          "extra": null,
+          "timestamp": "2026-04-14T17:43:18.321Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
