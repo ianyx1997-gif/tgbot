@@ -8653,6 +8653,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7287541650": {
+      "chatId": 7287541650,
+      "firstName": "Traian",
+      "lastName": "Sandulescu",
+      "username": "",
+      "joinedAt": "2026-04-14T06:01:49.798Z",
+      "lastActive": "2026-04-14T06:01:49.798Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
