@@ -10145,7 +10145,7 @@
       "lastName": "Burduja",
       "username": "",
       "joinedAt": "2026-04-14T10:23:09.664Z",
-      "lastActive": "2026-04-14T10:24:20.401Z",
+      "lastActive": "2026-04-14T10:24:43.523Z",
       "searches": [],
       "messages": [
         {
@@ -10153,6 +10153,12 @@
           "text": "+",
           "extra": null,
           "timestamp": "2026-04-14T10:24:20.401Z"
+        },
+        {
+          "direction": "in",
+          "text": "Turcia",
+          "extra": null,
+          "timestamp": "2026-04-14T10:24:43.523Z"
         }
       ],
       "preferences": {
