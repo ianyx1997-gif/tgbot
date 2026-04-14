@@ -8229,6 +8229,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5134801910": {
+      "chatId": 5134801910,
+      "firstName": "Veronica",
+      "lastName": "Carp",
+      "username": "",
+      "joinedAt": "2026-04-14T04:14:30.513Z",
+      "lastActive": "2026-04-14T04:14:30.514Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
