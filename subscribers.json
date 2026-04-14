@@ -4398,6 +4398,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1646194891": {
+      "chatId": 1646194891,
+      "firstName": "Mariana",
+      "lastName": "",
+      "username": "chitanumariana",
+      "joinedAt": "2026-04-14T06:34:42.354Z",
+      "lastActive": "2026-04-14T06:34:42.354Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1651364982": {
       "chatId": 1651364982,
       "firstName": "B.M.",
