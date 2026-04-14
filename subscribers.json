@@ -4039,21 +4039,45 @@
       "lastName": "Liudmila",
       "username": "pascari_liudmila",
       "joinedAt": "2026-04-14T11:35:17.788Z",
-      "lastActive": "2026-04-14T11:35:17.788Z",
-      "searches": [],
+      "lastActive": "2026-04-14T11:36:27.908Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-14T11:37:09.816Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1310685181": {
       "chatId": 1310685181,
@@ -10440,6 +10464,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 207
+    "totalSearches": 208
   }
 }
