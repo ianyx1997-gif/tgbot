@@ -10145,9 +10145,16 @@
       "lastName": "Burduja",
       "username": "",
       "joinedAt": "2026-04-14T10:23:09.664Z",
-      "lastActive": "2026-04-14T10:23:09.664Z",
+      "lastActive": "2026-04-14T10:24:20.401Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "+",
+          "extra": null,
+          "timestamp": "2026-04-14T10:24:20.401Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
