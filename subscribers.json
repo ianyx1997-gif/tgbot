@@ -3573,21 +3573,39 @@
       "lastName": "Larcenkoiryna",
       "username": "",
       "joinedAt": "2026-04-14T04:37:29.199Z",
-      "lastActive": "2026-04-14T04:37:29.199Z",
-      "searches": [],
+      "lastActive": "2026-04-14T04:38:10.362Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-06-01",
+          "nights": 5,
+          "adults": 1,
+          "children": [],
+          "food": "uai",
+          "stars": "4",
+          "timestamp": "2026-04-14T04:38:31.907Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1295024546": {
       "chatId": 1295024546,
@@ -8337,6 +8355,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 163
+    "totalSearches": 164
   }
 }
