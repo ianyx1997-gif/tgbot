@@ -8660,7 +8660,29 @@
       "lastName": "Sandulescu",
       "username": "",
       "joinedAt": "2026-04-14T06:01:49.798Z",
-      "lastActive": "2026-04-14T06:01:49.798Z",
+      "lastActive": "2026-04-14T06:01:54.615Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5017282699": {
+      "chatId": 5017282699,
+      "firstName": "Bondari",
+      "lastName": "Eugenia",
+      "username": "",
+      "joinedAt": "2026-04-14T06:02:11.206Z",
+      "lastActive": "2026-04-14T06:02:11.206Z",
       "searches": [],
       "messages": [],
       "preferences": {
