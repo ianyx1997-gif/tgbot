@@ -4404,9 +4404,16 @@
       "lastName": "",
       "username": "chitanumariana",
       "joinedAt": "2026-04-14T06:34:42.354Z",
-      "lastActive": "2026-04-14T06:34:42.354Z",
+      "lastActive": "2026-04-14T06:36:26.865Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "6 iulie 2026",
+          "extra": null,
+          "timestamp": "2026-04-14T06:36:26.865Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
