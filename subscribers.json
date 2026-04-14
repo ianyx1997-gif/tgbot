@@ -8773,7 +8773,29 @@
       "lastName": "C",
       "username": "gabriela_434",
       "joinedAt": "2026-04-14T06:23:10.700Z",
-      "lastActive": "2026-04-14T06:23:10.701Z",
+      "lastActive": "2026-04-14T06:23:13.267Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5192861389": {
+      "chatId": 5192861389,
+      "firstName": "Deviza",
+      "lastName": "Cristina",
+      "username": "",
+      "joinedAt": "2026-04-14T06:23:25.216Z",
+      "lastActive": "2026-04-14T06:23:25.216Z",
       "searches": [],
       "messages": [],
       "preferences": {
