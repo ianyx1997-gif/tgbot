@@ -10023,6 +10023,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5516677913": {
+      "chatId": 5516677913,
+      "firstName": "Anatolie",
+      "lastName": "Cojocaru",
+      "username": "",
+      "joinedAt": "2026-04-14T09:44:57.335Z",
+      "lastActive": "2026-04-14T09:44:57.335Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
