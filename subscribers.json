@@ -9979,25 +9979,44 @@
       "lastName": "Mariana",
       "username": "",
       "joinedAt": "2026-04-14T09:24:54.027Z",
-      "lastActive": "2026-04-14T09:24:54.027Z",
-      "searches": [],
+      "lastActive": "2026-04-14T09:25:51.210Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-02",
+          "nights": 5,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-14T09:26:38.761Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 198
+    "totalSearches": 199
   }
 }
