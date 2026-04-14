@@ -9612,6 +9612,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6012770331": {
+      "chatId": 6012770331,
+      "firstName": "Nona",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T08:43:30.859Z",
+      "lastActive": "2026-04-14T08:43:30.859Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
