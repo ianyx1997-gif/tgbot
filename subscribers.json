@@ -9712,7 +9712,29 @@
       "lastName": "Sn",
       "username": "adelinasnn",
       "joinedAt": "2026-04-14T08:49:45.756Z",
-      "lastActive": "2026-04-14T08:49:45.756Z",
+      "lastActive": "2026-04-14T08:50:48.187Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "6234391925": {
+      "chatId": 6234391925,
+      "firstName": "_nattlyx__",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T08:57:45.187Z",
+      "lastActive": "2026-04-14T08:57:45.187Z",
       "searches": [],
       "messages": [],
       "preferences": {
