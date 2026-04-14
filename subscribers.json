@@ -8795,21 +8795,48 @@
       "lastName": "C",
       "username": "gabriela_434",
       "joinedAt": "2026-04-14T06:23:10.700Z",
-      "lastActive": "2026-04-14T06:23:34.018Z",
-      "searches": [],
+      "lastActive": "2026-04-14T06:24:39.841Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-21",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            4,
+            3,
+            10
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-14T06:25:12.531Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          4,
+          3,
+          10
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "5192861389": {
       "chatId": 5192861389,
@@ -8854,6 +8881,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 172
+    "totalSearches": 173
   }
 }
