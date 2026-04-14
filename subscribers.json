@@ -8737,6 +8737,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6423868813": {
+      "chatId": 6423868813,
+      "firstName": "Deleanu",
+      "lastName": "Diana",
+      "username": "",
+      "joinedAt": "2026-04-14T06:14:20.800Z",
+      "lastActive": "2026-04-14T06:14:20.800Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
