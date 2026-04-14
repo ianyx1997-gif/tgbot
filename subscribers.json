@@ -4564,7 +4564,7 @@
       "lastName": "",
       "username": "danielabalasoi",
       "joinedAt": "2026-04-14T06:31:54.721Z",
-      "lastActive": "2026-04-14T06:32:51.761Z",
+      "lastActive": "2026-04-14T06:37:35.903Z",
       "searches": [
         {
           "country": "Turcia",
@@ -4587,6 +4587,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-14T06:33:34.576Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-14T06:37:54.497Z"
         }
       ],
       "messages": [],
@@ -4607,7 +4618,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "1715564269": {
       "chatId": 1715564269,
@@ -9024,6 +9035,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 176
+    "totalSearches": 177
   }
 }
