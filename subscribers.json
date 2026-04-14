@@ -4472,7 +4472,7 @@
       "lastName": "",
       "username": "BVEppnyUP",
       "joinedAt": "2026-04-14T06:04:12.129Z",
-      "lastActive": "2026-04-14T06:05:02.780Z",
+      "lastActive": "2026-04-14T06:22:59.539Z",
       "searches": [
         {
           "country": "Turcia",
@@ -4486,7 +4486,14 @@
           "timestamp": "2026-04-14T06:05:22.436Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Vreau să aflu prețul pentru hotelul Ozkaymak Marina Hotek",
+          "extra": null,
+          "timestamp": "2026-04-14T06:22:59.539Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Turcia"
