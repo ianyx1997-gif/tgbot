@@ -9060,8 +9060,20 @@
       "lastName": "Ceban",
       "username": "",
       "joinedAt": "2026-04-14T06:51:22.348Z",
-      "lastActive": "2026-04-14T06:52:21.086Z",
-      "searches": [],
+      "lastActive": "2026-04-14T06:52:56.498Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-09-05",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T06:53:33.816Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -9071,21 +9083,28 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 177
+    "totalSearches": 178
   }
 }
