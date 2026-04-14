@@ -10573,9 +10573,16 @@
       "lastName": "Lucia",
       "username": "",
       "joinedAt": "2026-04-14T12:05:36.743Z",
-      "lastActive": "2026-04-14T12:05:36.743Z",
+      "lastActive": "2026-04-14T12:06:30.586Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-04-14T12:06:30.586Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
