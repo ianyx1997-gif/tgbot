@@ -8192,25 +8192,47 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T03:44:57.217Z",
-      "lastActive": "2026-04-14T03:44:57.217Z",
-      "searches": [],
+      "lastActive": "2026-04-14T03:45:55.554Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-09",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "fb",
+          "stars": "4",
+          "timestamp": "2026-04-14T03:46:24.344Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          12
+        ],
+        "preferredFood": "fb",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 161
+    "totalSearches": 162
   }
 }
