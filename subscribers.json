@@ -8276,6 +8276,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6261605700": {
+      "chatId": 6261605700,
+      "firstName": "B",
+      "lastName": "Lumina",
+      "username": "",
+      "joinedAt": "2026-04-14T04:27:51.364Z",
+      "lastActive": "2026-04-14T04:27:51.364Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
