@@ -4547,6 +4547,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-14T06:33:07.536Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-18",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-14T06:33:34.576Z"
         }
       ],
       "messages": [],
@@ -4564,11 +4575,10 @@
       "tags": [
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1715564269": {
       "chatId": 1715564269,
@@ -8985,6 +8995,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 175
+    "totalSearches": 176
   }
 }
