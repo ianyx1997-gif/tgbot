@@ -11065,6 +11065,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6079110611": {
+      "chatId": 6079110611,
+      "firstName": "Irina",
+      "lastName": "Sni",
+      "username": "Naferini",
+      "joinedAt": "2026-04-14T21:19:33.331Z",
+      "lastActive": "2026-04-14T21:19:33.331Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
