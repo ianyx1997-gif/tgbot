@@ -2967,6 +2967,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "999535908": {
+      "chatId": 999535908,
+      "firstName": "Crisstina",
+      "lastName": "Butnaru",
+      "username": "crisstina007",
+      "joinedAt": "2026-04-14T09:15:48.386Z",
+      "lastActive": "2026-04-14T09:15:48.386Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
