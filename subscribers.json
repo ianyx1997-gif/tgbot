@@ -8472,6 +8472,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6294864809": {
+      "chatId": 6294864809,
+      "firstName": "Haine Noi",
+      "lastName": "Zara",
+      "username": "",
+      "joinedAt": "2026-04-14T05:40:54.078Z",
+      "lastActive": "2026-04-14T05:40:54.078Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
