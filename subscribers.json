@@ -9437,25 +9437,42 @@
       "lastName": "",
       "username": "cezarcrt",
       "joinedAt": "2026-04-14T07:33:38.930Z",
-      "lastActive": "2026-04-14T07:33:38.930Z",
-      "searches": [],
+      "lastActive": "2026-04-14T07:33:41.441Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-12",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "fb",
+          "stars": "",
+          "timestamp": "2026-04-14T07:34:03.920Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "fb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 186
+    "totalSearches": 187
   }
 }
