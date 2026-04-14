@@ -796,6 +796,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "523159275": {
+      "chatId": 523159275,
+      "firstName": "Alexandru",
+      "lastName": "Farima",
+      "username": "alxfrma",
+      "joinedAt": "2026-04-14T10:17:03.499Z",
+      "lastActive": "2026-04-14T10:17:03.499Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "527092947": {
       "chatId": 527092947,
       "firstName": "Vitalie",
