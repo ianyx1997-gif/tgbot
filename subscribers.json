@@ -10045,6 +10045,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7436213981": {
+      "chatId": 7436213981,
+      "firstName": "Дана",
+      "lastName": "",
+      "username": "Danochhhhkaa",
+      "joinedAt": "2026-04-14T10:13:41.299Z",
+      "lastActive": "2026-04-14T10:13:41.299Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
