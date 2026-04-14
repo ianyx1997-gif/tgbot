@@ -9303,9 +9303,16 @@
       "lastName": "Vetrici",
       "username": "",
       "joinedAt": "2026-04-14T07:21:47.151Z",
-      "lastActive": "2026-04-14T07:21:47.151Z",
+      "lastActive": "2026-04-14T07:22:54.401Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "5",
+          "extra": null,
+          "timestamp": "2026-04-14T07:22:54.401Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
