@@ -9430,6 +9430,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5607444538": {
+      "chatId": 5607444538,
+      "firstName": "Cezar",
+      "lastName": "",
+      "username": "cezarcrt",
+      "joinedAt": "2026-04-14T07:33:38.930Z",
+      "lastActive": "2026-04-14T07:33:38.930Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
