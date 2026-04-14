@@ -3101,6 +3101,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1051887377": {
+      "chatId": 1051887377,
+      "firstName": "CDVL",
+      "lastName": "",
+      "username": "CVD0987",
+      "joinedAt": "2026-04-14T07:29:16.268Z",
+      "lastActive": "2026-04-14T07:29:16.268Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1063087948": {
       "chatId": 1063087948,
       "firstName": "Сергей",
