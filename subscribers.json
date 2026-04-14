@@ -5493,6 +5493,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1945197007": {
+      "chatId": 1945197007,
+      "firstName": "Maria",
+      "lastName": "Stegarescu",
+      "username": "",
+      "joinedAt": "2026-04-14T10:41:34.997Z",
+      "lastActive": "2026-04-14T10:41:34.997Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
