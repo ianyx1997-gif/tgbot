@@ -5499,21 +5499,47 @@
       "lastName": "Stegarescu",
       "username": "",
       "joinedAt": "2026-04-14T10:41:34.997Z",
-      "lastActive": "2026-04-14T10:41:34.997Z",
-      "searches": [],
+      "lastActive": "2026-04-14T10:41:40.334Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-05",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            5,
+            10
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T10:42:21.052Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          10
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1987608688": {
       "chatId": 1987608688,
@@ -10274,6 +10300,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 204
+    "totalSearches": 205
   }
 }
