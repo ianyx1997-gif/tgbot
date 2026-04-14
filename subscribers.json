@@ -9991,6 +9991,17 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-14T09:26:38.761Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-02",
+          "nights": 5,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-14T09:27:34.796Z"
         }
       ],
       "messages": [],
@@ -10008,15 +10019,14 @@
       "tags": [
         "all-inclusive",
         "budget",
-        "dest:spania",
-        "new"
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 199
+    "totalSearches": 200
   }
 }
