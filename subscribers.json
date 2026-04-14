@@ -9053,6 +9053,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8211253861": {
+      "chatId": 8211253861,
+      "firstName": "Viorel",
+      "lastName": "Ceban",
+      "username": "",
+      "joinedAt": "2026-04-14T06:51:22.348Z",
+      "lastActive": "2026-04-14T06:51:22.348Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
