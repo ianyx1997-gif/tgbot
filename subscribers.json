@@ -8494,6 +8494,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6707767561": {
+      "chatId": 6707767561,
+      "firstName": "Simion",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T05:48:43.105Z",
+      "lastActive": "2026-04-14T05:48:43.105Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
