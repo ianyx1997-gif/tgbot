@@ -9101,6 +9101,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7307978886": {
+      "chatId": 7307978886,
+      "firstName": "Ana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T06:55:39.307Z",
+      "lastActive": "2026-04-14T06:55:39.307Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
