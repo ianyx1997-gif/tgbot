@@ -4466,6 +4466,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1734430656": {
+      "chatId": 1734430656,
+      "firstName": "Dabija Valeria",
+      "lastName": "",
+      "username": "BVEppnyUP",
+      "joinedAt": "2026-04-14T06:04:12.129Z",
+      "lastActive": "2026-04-14T06:04:12.129Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1737544060": {
       "chatId": 1737544060,
       "firstName": "ionutz",
@@ -8660,7 +8682,7 @@
       "lastName": "Sandulescu",
       "username": "",
       "joinedAt": "2026-04-14T06:01:49.798Z",
-      "lastActive": "2026-04-14T06:01:54.615Z",
+      "lastActive": "2026-04-14T06:02:46.653Z",
       "searches": [],
       "messages": [],
       "preferences": {
