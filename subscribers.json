@@ -4569,6 +4569,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1533783436": {
+      "chatId": 1533783436,
+      "firstName": "Sergiu",
+      "lastName": "Dari",
+      "username": "Darisergiu",
+      "joinedAt": "2026-04-14T11:18:31.243Z",
+      "lastActive": "2026-04-14T11:18:31.243Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1547692578": {
       "chatId": 1547692578,
       "firstName": "Nicolae M",
