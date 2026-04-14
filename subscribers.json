@@ -10787,6 +10787,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7114552612": {
+      "chatId": 7114552612,
+      "firstName": "Сергей",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T17:05:04.198Z",
+      "lastActive": "2026-04-14T17:05:04.199Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
