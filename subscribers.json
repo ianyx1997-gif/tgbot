@@ -326,6 +326,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "452140859": {
+      "chatId": 452140859,
+      "firstName": "Valentin",
+      "lastName": "Perlog",
+      "username": "Perlogv",
+      "joinedAt": "2026-04-14T06:26:09.286Z",
+      "lastActive": "2026-04-14T06:26:09.286Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "452407657": {
       "chatId": 452407657,
       "firstName": "Irina",
@@ -4205,8 +4227,8 @@
       "firstName": "Marcel S.",
       "lastName": "Eco Glass Haus",
       "username": "EcoGlassHaus",
-      "joinedAt": "2026-04-14T06:25:37.800Z",
-      "lastActive": "2026-04-14T06:25:37.800Z",
+      "joinedAt": "2026-04-14T06:25:42.194Z",
+      "lastActive": "2026-04-14T06:25:42.194Z",
       "searches": [],
       "messages": [],
       "preferences": {
