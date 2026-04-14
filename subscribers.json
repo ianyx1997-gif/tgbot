@@ -10794,9 +10794,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-14T17:05:04.198Z",
-      "lastActive": "2026-04-14T17:05:04.199Z",
+      "lastActive": "2026-04-14T17:05:38.371Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "6",
+          "extra": null,
+          "timestamp": "2026-04-14T17:05:38.371Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
