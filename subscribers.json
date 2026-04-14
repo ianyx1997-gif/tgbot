@@ -4821,6 +4821,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1812234212": {
+      "chatId": 1812234212,
+      "firstName": "Andry",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T07:18:24.483Z",
+      "lastActive": "2026-04-14T07:18:24.483Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1812365466": {
       "chatId": 1812365466,
       "firstName": "Livia",
