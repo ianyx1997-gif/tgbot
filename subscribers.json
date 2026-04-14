@@ -1211,6 +1211,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "615914942": {
+      "chatId": 615914942,
+      "firstName": "Vadim",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T13:08:37.362Z",
+      "lastActive": "2026-04-14T13:08:37.362Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "618028883": {
       "chatId": 618028883,
       "firstName": "Elena",
