@@ -10573,8 +10573,20 @@
       "lastName": "Lucia",
       "username": "",
       "joinedAt": "2026-04-14T12:05:36.743Z",
-      "lastActive": "2026-04-14T12:06:30.586Z",
-      "searches": [],
+      "lastActive": "2026-04-14T12:07:27.170Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-24",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-14T12:08:18.634Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -10584,21 +10596,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 211
+    "totalSearches": 212
   }
 }
