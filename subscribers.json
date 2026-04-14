@@ -1814,21 +1814,47 @@
       "lastName": "Tatiana",
       "username": "",
       "joinedAt": "2026-04-14T10:50:26.060Z",
-      "lastActive": "2026-04-14T10:50:26.060Z",
-      "searches": [],
+      "lastActive": "2026-04-14T10:51:06.524Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            7,
+            13
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T10:51:48.876Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          7,
+          13
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "769054120": {
       "chatId": 769054120,
@@ -10322,6 +10348,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 205
+    "totalSearches": 206
   }
 }
