@@ -9303,7 +9303,7 @@
       "lastName": "Vetrici",
       "username": "",
       "joinedAt": "2026-04-14T07:21:47.151Z",
-      "lastActive": "2026-04-14T07:23:57.460Z",
+      "lastActive": "2026-04-14T07:25:22.035Z",
       "searches": [
         {
           "country": "Bulgaria",
@@ -9343,6 +9343,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6530163470": {
+      "chatId": 6530163470,
+      "firstName": "Ecaterina",
+      "lastName": "Pugacevschi",
+      "username": "",
+      "joinedAt": "2026-04-14T07:25:22.311Z",
+      "lastActive": "2026-04-14T07:25:22.311Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
