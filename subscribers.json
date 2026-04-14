@@ -4263,6 +4263,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1473927201": {
+      "chatId": 1473927201,
+      "firstName": "Dumitru",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T07:44:15.493Z",
+      "lastActive": "2026-04-14T07:44:15.493Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1490185624": {
       "chatId": 1490185624,
       "firstName": "Marcel S.",
