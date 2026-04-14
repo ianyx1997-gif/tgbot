@@ -259,16 +259,9 @@
       "lastName": "Negai",
       "username": "",
       "joinedAt": "2026-04-14T06:23:35.710Z",
-      "lastActive": "2026-04-14T06:26:34.216Z",
+      "lastActive": "2026-04-14T06:23:53.260Z",
       "searches": [],
-      "messages": [
-        {
-          "direction": "in",
-          "text": "9,5,12",
-          "extra": null,
-          "timestamp": "2026-04-14T06:26:34.216Z"
-        }
-      ],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -320,6 +313,28 @@
           "timestamp": "2026-04-13T10:57:39.639Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "452140859": {
+      "chatId": 452140859,
+      "firstName": "Valentin",
+      "lastName": "Perlog",
+      "username": "Perlogv",
+      "joinedAt": "2026-04-14T06:26:09.286Z",
+      "lastActive": "2026-04-14T06:26:09.286Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -4212,22 +4227,41 @@
       "firstName": "Marcel S.",
       "lastName": "Eco Glass Haus",
       "username": "EcoGlassHaus",
-      "joinedAt": "2026-04-14T06:25:37.800Z",
-      "lastActive": "2026-04-14T06:25:37.800Z",
-      "searches": [],
+      "joinedAt": "2026-04-14T06:25:42.194Z",
+      "lastActive": "2026-04-14T06:26:45.166Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-23",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-14T06:27:07.192Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1547692578": {
       "chatId": 1547692578,
@@ -8824,7 +8858,7 @@
       "lastName": "C",
       "username": "gabriela_434",
       "joinedAt": "2026-04-14T06:23:10.700Z",
-      "lastActive": "2026-04-14T06:26:31.271Z",
+      "lastActive": "2026-04-14T06:24:39.841Z",
       "searches": [
         {
           "country": "Grecia",
@@ -8910,6 +8944,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 173
+    "totalSearches": 174
   }
 }
