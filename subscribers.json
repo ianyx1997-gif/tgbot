@@ -8443,6 +8443,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7895962471": {
+      "chatId": 7895962471,
+      "firstName": "Tescureanu Eugen",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T05:31:48.854Z",
+      "lastActive": "2026-04-14T05:31:48.854Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
