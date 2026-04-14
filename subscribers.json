@@ -8533,6 +8533,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7855822706": {
+      "chatId": 7855822706,
+      "firstName": "Svetlana",
+      "lastName": "Spam",
+      "username": "",
+      "joinedAt": "2026-04-14T05:54:33.123Z",
+      "lastActive": "2026-04-14T05:54:33.123Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
