@@ -8766,6 +8766,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5145731762": {
+      "chatId": 5145731762,
+      "firstName": "G",
+      "lastName": "C",
+      "username": "gabriela_434",
+      "joinedAt": "2026-04-14T06:23:10.700Z",
+      "lastActive": "2026-04-14T06:23:10.701Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
