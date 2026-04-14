@@ -10173,6 +10173,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5945329368": {
+      "chatId": 5945329368,
+      "firstName": "Ursu Parsacovia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-14T10:34:38.196Z",
+      "lastActive": "2026-04-14T10:34:38.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
