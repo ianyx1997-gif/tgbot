@@ -1401,7 +1401,7 @@
       "lastName": "Zadic",
       "username": "",
       "joinedAt": "2026-04-13T14:43:50.298Z",
-      "lastActive": "2026-04-15T09:15:44.091Z",
+      "lastActive": "2026-04-15T09:16:38.703Z",
       "searches": [],
       "messages": [
         {
@@ -1423,6 +1423,12 @@
             "broadcast": true
           },
           "timestamp": "2026-04-15T08:29:57.400Z"
+        },
+        {
+          "direction": "in",
+          "text": "3",
+          "extra": null,
+          "timestamp": "2026-04-15T09:16:38.703Z"
         }
       ],
       "preferences": {
@@ -14163,7 +14169,7 @@
       "lastName": "Dubinet",
       "username": "",
       "joinedAt": "2026-04-15T09:15:42.715Z",
-      "lastActive": "2026-04-15T09:16:09.300Z",
+      "lastActive": "2026-04-15T09:16:25.155Z",
       "searches": [],
       "messages": [
         {
