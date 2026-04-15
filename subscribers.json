@@ -9234,7 +9234,22 @@
       "username": "IgnatSanduleac",
       "joinedAt": "2026-04-13T14:54:01.410Z",
       "lastActive": "2026-04-13T14:54:01.410Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-08",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            5,
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T08:55:56.312Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -9246,17 +9261,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          7
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7284237106": {
       "chatId": 7284237106,
@@ -14027,6 +14052,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 231
+    "totalSearches": 232
   }
 }
