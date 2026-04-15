@@ -14195,8 +14195,20 @@
       "lastName": "Dubinet",
       "username": "",
       "joinedAt": "2026-04-15T09:15:42.715Z",
-      "lastActive": "2026-04-15T09:16:25.155Z",
-      "searches": [],
+      "lastActive": "2026-04-15T09:19:10.111Z",
+      "searches": [
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-09-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "4",
+          "timestamp": "2026-04-15T09:19:42.310Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -14206,21 +14218,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Albania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:albania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 237
+    "totalSearches": 238
   }
 }
