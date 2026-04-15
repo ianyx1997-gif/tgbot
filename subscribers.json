@@ -1908,6 +1908,28 @@
       "blocked": false,
       "totalSearches": 8
     },
+    "663771910": {
+      "chatId": 663771910,
+      "firstName": "LACRAMIOARE",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T11:26:45.346Z",
+      "lastActive": "2026-04-15T11:26:45.346Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "692161244": {
       "chatId": 692161244,
       "firstName": "Sabina",
