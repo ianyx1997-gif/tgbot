@@ -4134,6 +4134,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "999809741": {
+      "chatId": 999809741,
+      "firstName": "🧡",
+      "lastName": "❤",
+      "username": "",
+      "joinedAt": "2026-04-15T21:51:05.733Z",
+      "lastActive": "2026-04-15T21:51:05.733Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1005234984": {
       "chatId": 1005234984,
       "firstName": "gabryy",
