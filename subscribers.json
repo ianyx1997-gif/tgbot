@@ -8002,6 +8002,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "2142528074": {
+      "chatId": 2142528074,
+      "firstName": "Cristina",
+      "lastName": "",
+      "username": "krisssstiiiinaaaa",
+      "joinedAt": "2026-04-15T20:14:01.143Z",
+      "lastActive": "2026-04-15T20:14:01.143Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "5042215484": {
       "chatId": 5042215484,
       "firstName": "Victoria",
