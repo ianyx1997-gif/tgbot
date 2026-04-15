@@ -11714,6 +11714,20 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-15T17:44:04.496Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            0,
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T17:45:27.808Z"
         }
       ],
       "messages": [
@@ -11735,8 +11749,8 @@
       "preferences": {
         "topCountries": [
           "Grecia",
-          "Cipru",
-          "Egipt"
+          "Egipt",
+          "Cipru"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -11752,12 +11766,12 @@
         "family",
         "all-inclusive",
         "dest:grecia",
-        "dest:cipru",
         "dest:egipt",
+        "dest:cipru",
         "active"
       ],
       "blocked": false,
-      "totalSearches": 13
+      "totalSearches": 14
     },
     "5093483737": {
       "chatId": 5093483737,
@@ -14716,6 +14730,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 256
+    "totalSearches": 257
   }
 }
