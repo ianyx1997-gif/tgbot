@@ -8777,8 +8777,22 @@
       "lastName": "Lilicu",
       "username": "",
       "joinedAt": "2026-04-13T14:27:00.099Z",
-      "lastActive": "2026-04-13T14:27:00.099Z",
-      "searches": [],
+      "lastActive": "2026-04-15T11:30:00.458Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            3
+          ],
+          "food": "ob",
+          "stars": "3",
+          "timestamp": "2026-04-15T11:30:41.418Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -8790,17 +8804,26 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3
+        ],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "5056736344": {
       "chatId": 5056736344,
@@ -14347,6 +14370,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 241
+    "totalSearches": 242
   }
 }
