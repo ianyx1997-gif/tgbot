@@ -14124,24 +14124,42 @@
       "username": "Eliza_Rotari",
       "joinedAt": "2026-04-15T09:04:41.899Z",
       "lastActive": "2026-04-15T09:04:41.899Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-15",
+          "nights": 5,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T09:06:30.903Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 235
+    "totalSearches": 236
   }
 }
