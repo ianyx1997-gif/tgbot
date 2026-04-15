@@ -4140,21 +4140,44 @@
       "lastName": "❤",
       "username": "",
       "joinedAt": "2026-04-15T21:51:05.733Z",
-      "lastActive": "2026-04-15T21:51:05.733Z",
-      "searches": [],
+      "lastActive": "2026-04-15T21:52:26.681Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-15",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            6
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T21:52:53.386Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1005234984": {
       "chatId": 1005234984,
@@ -14879,6 +14902,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 262
+    "totalSearches": 263
   }
 }
