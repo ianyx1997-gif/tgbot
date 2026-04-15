@@ -14516,9 +14516,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-15T15:06:53.505Z",
-      "lastActive": "2026-04-15T15:07:04.925Z",
+      "lastActive": "2026-04-15T15:07:49.690Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "După 20 august 2026",
+          "extra": null,
+          "timestamp": "2026-04-15T15:07:49.691Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
