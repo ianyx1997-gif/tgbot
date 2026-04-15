@@ -4619,9 +4619,16 @@
       "lastName": "Irina",
       "username": "",
       "joinedAt": "2026-04-15T14:32:22.302Z",
-      "lastActive": "2026-04-15T14:32:22.302Z",
+      "lastActive": "2026-04-15T14:33:50.793Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "🇧🇬 26.06.26\nПервая линия 2+1(7)",
+          "extra": null,
+          "timestamp": "2026-04-15T14:33:50.793Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
