@@ -11232,9 +11232,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-15T04:55:24.879Z",
-      "lastActive": "2026-04-15T04:55:24.879Z",
+      "lastActive": "2026-04-15T04:56:15.340Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "3",
+          "extra": null,
+          "timestamp": "2026-04-15T04:56:15.340Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
