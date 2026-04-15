@@ -9289,8 +9289,20 @@
       "lastName": "",
       "username": "tomy_001",
       "joinedAt": "2026-04-13T14:55:06.490Z",
-      "lastActive": "2026-04-13T14:55:06.490Z",
-      "searches": [],
+      "lastActive": "2026-04-15T08:57:42.432Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "fb",
+          "stars": "4",
+          "timestamp": "2026-04-15T08:58:18.255Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -9302,17 +9314,22 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "fb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7016583032": {
       "chatId": 7016583032,
@@ -14055,7 +14072,7 @@
       "lastName": "Olaru",
       "username": "xxxtyyytzzz",
       "joinedAt": "2026-04-15T08:56:32.483Z",
-      "lastActive": "2026-04-15T08:56:32.483Z",
+      "lastActive": "2026-04-15T08:57:50.926Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -14074,6 +14091,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 232
+    "totalSearches": 233
   }
 }
