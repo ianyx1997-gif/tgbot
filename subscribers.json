@@ -5128,6 +5128,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1267269461": {
+      "chatId": 1267269461,
+      "firstName": "Oxana",
+      "lastName": "Golovca",
+      "username": "",
+      "joinedAt": "2026-04-15T09:41:19.593Z",
+      "lastActive": "2026-04-15T09:41:19.593Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1295024546": {
       "chatId": 1295024546,
       "firstName": "Cristilia",
