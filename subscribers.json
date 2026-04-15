@@ -11225,6 +11225,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5166406208": {
+      "chatId": 5166406208,
+      "firstName": "Natalia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T04:55:24.879Z",
+      "lastActive": "2026-04-15T04:55:24.879Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
