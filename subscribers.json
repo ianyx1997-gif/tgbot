@@ -5560,6 +5560,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1853463651": {
+      "chatId": 1853463651,
+      "firstName": "Ionela",
+      "lastName": "",
+      "username": "eionelaaaa",
+      "joinedAt": "2026-04-15T06:29:59.864Z",
+      "lastActive": "2026-04-15T06:29:59.864Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1855483984": {
       "chatId": 1855483984,
       "firstName": "Алексей",
