@@ -5540,6 +5540,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1813568031": {
+      "chatId": 1813568031,
+      "firstName": "Andrei",
+      "lastName": "",
+      "username": "kxanii",
+      "joinedAt": "2026-04-15T08:12:59.323Z",
+      "lastActive": "2026-04-15T08:12:59.323Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1841087362": {
       "chatId": 1841087362,
       "firstName": "Liliana🌸",
