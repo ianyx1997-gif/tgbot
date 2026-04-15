@@ -1401,8 +1401,23 @@
       "lastName": "Zadic",
       "username": "",
       "joinedAt": "2026-04-13T14:43:50.298Z",
-      "lastActive": "2026-04-15T09:16:38.703Z",
-      "searches": [],
+      "lastActive": "2026-04-15T09:17:48.954Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-14",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            3,
+            5
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-15T09:18:18.420Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -1432,17 +1447,28 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          5
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "615914942": {
       "chatId": 615914942,
@@ -14195,6 +14221,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 236
+    "totalSearches": 237
   }
 }
