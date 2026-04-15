@@ -1953,21 +1953,39 @@
       "lastName": "Cazac",
       "username": "CazacPatricia",
       "joinedAt": "2026-04-15T14:27:34.482Z",
-      "lastActive": "2026-04-15T14:27:34.482Z",
-      "searches": [],
+      "lastActive": "2026-04-15T14:27:40.076Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-23",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T14:28:40.642Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "692161244": {
       "chatId": 692161244,
@@ -14431,6 +14449,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 243
+    "totalSearches": 244
   }
 }
