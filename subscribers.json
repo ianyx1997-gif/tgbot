@@ -14207,6 +14207,17 @@
           "food": "uai",
           "stars": "4",
           "timestamp": "2026-04-15T09:19:42.310Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-09-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-15T09:20:27.993Z"
         }
       ],
       "messages": [
@@ -14230,15 +14241,14 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:albania",
-        "new"
+        "dest:albania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 238
+    "totalSearches": 239
   }
 }
