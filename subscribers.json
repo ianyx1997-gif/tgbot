@@ -14218,6 +14218,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-15T09:20:27.993Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-09-22",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-15T09:21:33.075Z"
         }
       ],
       "messages": [
@@ -14230,25 +14241,28 @@
       ],
       "preferences": {
         "topCountries": [
-          "Albania"
+          "Albania",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "uai",
-        "preferredStars": "4",
+        "preferredStars": "5",
         "preferredNights": "10"
       },
       "tags": [
         "all-inclusive",
-        "dest:albania"
+        "luxury",
+        "dest:albania",
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 239
+    "totalSearches": 240
   }
 }
