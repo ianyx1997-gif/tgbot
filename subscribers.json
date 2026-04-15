@@ -14116,6 +14116,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8208059538": {
+      "chatId": 8208059538,
+      "firstName": "Eliza",
+      "lastName": "Rotari",
+      "username": "Eliza_Rotari",
+      "joinedAt": "2026-04-15T09:04:41.899Z",
+      "lastActive": "2026-04-15T09:04:41.899Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
