@@ -14509,6 +14509,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7138364921": {
+      "chatId": 7138364921,
+      "firstName": "Raia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T15:06:53.505Z",
+      "lastActive": "2026-04-15T15:06:53.505Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
