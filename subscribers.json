@@ -11658,6 +11658,20 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-15T17:37:27.010Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            0,
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T17:38:33.937Z"
         }
       ],
       "messages": [
@@ -11701,7 +11715,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 9
+      "totalSearches": 10
     },
     "5093483737": {
       "chatId": 5093483737,
@@ -14660,6 +14674,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 252
+    "totalSearches": 253
   }
 }
