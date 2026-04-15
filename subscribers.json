@@ -11185,25 +11185,50 @@
       "lastName": "Mihaela",
       "username": "",
       "joinedAt": "2026-04-15T04:36:01.725Z",
-      "lastActive": "2026-04-15T04:36:01.725Z",
-      "searches": [],
+      "lastActive": "2026-04-15T04:36:47.355Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-19",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7,
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T04:37:39.036Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          7,
+          7
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 224
+    "totalSearches": 225
   }
 }
