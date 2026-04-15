@@ -57,6 +57,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "304018131": {
+      "chatId": 304018131,
+      "firstName": "Valentina Stanilesco",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T16:12:34.899Z",
+      "lastActive": "2026-04-15T16:12:34.899Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "335065525": {
       "chatId": 335065525,
       "firstName": "𝒜. 𝒟",
