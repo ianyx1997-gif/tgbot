@@ -11437,8 +11437,20 @@
       "lastName": "Gonța",
       "username": "",
       "joinedAt": "2026-04-13T17:51:31.367Z",
-      "lastActive": "2026-04-13T17:51:31.367Z",
-      "searches": [],
+      "lastActive": "2026-04-15T17:51:51.178Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-02",
+          "nights": 7,
+          "adults": 1,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-15T17:52:52.862Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -11450,17 +11462,24 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "5317915025": {
       "chatId": 5317915025,
@@ -14758,6 +14777,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 259
+    "totalSearches": 260
   }
 }
