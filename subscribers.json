@@ -14156,6 +14156,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8472435750": {
+      "chatId": 8472435750,
+      "firstName": "Vladislav",
+      "lastName": "Dubinet",
+      "username": "",
+      "joinedAt": "2026-04-15T09:15:42.715Z",
+      "lastActive": "2026-04-15T09:15:42.715Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
