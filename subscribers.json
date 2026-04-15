@@ -11321,25 +11321,43 @@
       "lastName": "Mavashi",
       "username": "",
       "joinedAt": "2026-04-15T07:23:23.405Z",
-      "lastActive": "2026-04-15T07:23:23.405Z",
-      "searches": [],
+      "lastActive": "2026-04-15T07:24:20.124Z",
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-08-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-04-15T07:24:50.032Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "luxury",
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 227
+    "totalSearches": 228
   }
 }
