@@ -3666,6 +3666,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "975825995": {
+      "chatId": 975825995,
+      "firstName": "Olga",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T08:35:37.903Z",
+      "lastActive": "2026-04-15T08:35:37.903Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "983356635": {
       "chatId": 983356635,
       "firstName": "marin",
@@ -8995,7 +9017,7 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-13T14:44:51.010Z",
+      "lastActive": "2026-04-15T08:35:32.142Z",
       "searches": [],
       "messages": [
         {
