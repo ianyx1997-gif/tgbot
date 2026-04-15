@@ -5546,21 +5546,40 @@
       "lastName": "",
       "username": "kxanii",
       "joinedAt": "2026-04-15T08:12:59.323Z",
-      "lastActive": "2026-04-15T08:12:59.323Z",
-      "searches": [],
+      "lastActive": "2026-04-15T08:13:33.743Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-07",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-15T08:14:05.619Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1841087362": {
       "chatId": 1841087362,
@@ -11402,6 +11421,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 228
+    "totalSearches": 229
   }
 }
