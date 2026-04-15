@@ -14048,6 +14048,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5184251427": {
+      "chatId": 5184251427,
+      "firstName": "Vlad",
+      "lastName": "Olaru",
+      "username": "xxxtyyytzzz",
+      "joinedAt": "2026-04-15T08:56:32.483Z",
+      "lastActive": "2026-04-15T08:56:32.483Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
