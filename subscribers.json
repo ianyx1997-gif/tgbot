@@ -11178,6 +11178,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5582916101": {
+      "chatId": 5582916101,
+      "firstName": "Cojocaru-Purcel",
+      "lastName": "Mihaela",
+      "username": "",
+      "joinedAt": "2026-04-15T04:36:01.725Z",
+      "lastActive": "2026-04-15T04:36:01.725Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
