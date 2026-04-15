@@ -410,8 +410,20 @@
       "lastName": "Perlog",
       "username": "Perlogv",
       "joinedAt": "2026-04-14T06:26:09.286Z",
-      "lastActive": "2026-04-14T06:26:09.286Z",
-      "searches": [],
+      "lastActive": "2026-04-15T10:51:38.905Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-09",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "5",
+          "timestamp": "2026-04-15T10:51:59.750Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -423,17 +435,23 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "452407657": {
       "chatId": 452407657,
@@ -14307,6 +14325,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 240
+    "totalSearches": 241
   }
 }
