@@ -1947,6 +1947,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "689398349": {
+      "chatId": 689398349,
+      "firstName": "Patricia",
+      "lastName": "Cazac",
+      "username": "CazacPatricia",
+      "joinedAt": "2026-04-15T14:27:34.482Z",
+      "lastActive": "2026-04-15T14:27:34.482Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "692161244": {
       "chatId": 692161244,
       "firstName": "Sabina",
