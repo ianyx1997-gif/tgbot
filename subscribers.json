@@ -1972,6 +1972,28 @@
       "blocked": false,
       "totalSearches": 8
     },
+    "652034190": {
+      "chatId": 652034190,
+      "firstName": "Olya",
+      "lastName": "",
+      "username": "olyabw",
+      "joinedAt": "2026-04-15T19:51:36.075Z",
+      "lastActive": "2026-04-15T19:51:36.075Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "663771910": {
       "chatId": 663771910,
       "firstName": "LACRAMIOARE",
