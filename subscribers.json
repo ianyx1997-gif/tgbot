@@ -11354,6 +11354,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6072568248": {
+      "chatId": 6072568248,
+      "firstName": "Cătălina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-15T07:37:53.177Z",
+      "lastActive": "2026-04-15T07:37:53.177Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
