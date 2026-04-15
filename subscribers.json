@@ -1651,7 +1651,19 @@
       "username": "Patricia_Neagu",
       "joinedAt": "2026-04-13T22:13:15.267Z",
       "lastActive": "2026-04-15T12:27:52.346Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-07-28",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-15T14:03:08.013Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -1669,17 +1681,22 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "633776640": {
       "chatId": 633776640,
@@ -14392,6 +14409,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 242
+    "totalSearches": 243
   }
 }
