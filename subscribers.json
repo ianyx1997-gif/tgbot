@@ -4633,6 +4633,19 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-15T14:42:17.082Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T14:42:37.455Z"
         }
       ],
       "messages": [
@@ -4653,18 +4666,16 @@
           7
         ],
         "preferredFood": "ai",
-        "preferredStars": "5",
+        "preferredStars": "4",
         "preferredNights": "7"
       },
       "tags": [
         "family",
         "all-inclusive",
-        "luxury",
-        "dest:bulgaria",
-        "new"
+        "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1118148378": {
       "chatId": 1118148378,
@@ -14502,6 +14513,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 245
+    "totalSearches": 246
   }
 }
