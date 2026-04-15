@@ -11536,7 +11536,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T18:07:05.511Z",
-      "lastActive": "2026-04-15T17:41:50.122Z",
+      "lastActive": "2026-04-15T17:42:49.584Z",
       "searches": [
         {
           "country": "Grecia",
@@ -11686,6 +11686,20 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-15T17:42:16.600Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            0,
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-15T17:43:16.343Z"
         }
       ],
       "messages": [
@@ -11729,7 +11743,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 11
+      "totalSearches": 12
     },
     "5093483737": {
       "chatId": 5093483737,
@@ -14688,6 +14702,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 254
+    "totalSearches": 255
   }
 }
