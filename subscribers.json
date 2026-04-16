@@ -1852,6 +1852,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "526653991": {
+      "chatId": 526653991,
+      "firstName": "Vadim Braga",
+      "lastName": "",
+      "username": "VadimBragaa",
+      "joinedAt": "2026-04-16T18:00:04.968Z",
+      "lastActive": "2026-04-16T18:00:04.968Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "527092947": {
       "chatId": 527092947,
       "firstName": "Vitalie",
