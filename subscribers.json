@@ -1798,6 +1798,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "536090646": {
+      "chatId": 536090646,
+      "firstName": "Валерий",
+      "lastName": "Чебан",
+      "username": "projecting9",
+      "joinedAt": "2026-04-16T13:18:55.548Z",
+      "lastActive": "2026-04-16T13:18:55.548Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "540563074": {
       "chatId": 540563074,
       "firstName": "Alexandrina",
