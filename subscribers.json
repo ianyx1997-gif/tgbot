@@ -1541,28 +1541,6 @@
       "blocked": false,
       "totalSearches": 0
     },
-    "592782573": {
-      "chatId": 592782573,
-      "firstName": "Алина Гайчан",
-      "lastName": "",
-      "username": "agaicean",
-      "joinedAt": "2026-04-16T12:18:33.599Z",
-      "lastActive": "2026-04-16T12:18:33.599Z",
-      "searches": [],
-      "messages": [],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
     "600219887": {
       "chatId": 600219887,
       "firstName": "ㅤ",
@@ -4088,7 +4066,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:17:28.266Z",
-      "lastActive": "2026-04-16T12:18:23.447Z",
+      "lastActive": "2026-04-16T12:17:50.363Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6187,8 +6165,8 @@
       "firstName": "Beus",
       "lastName": "Liudmila",
       "username": "",
-      "joinedAt": "2026-04-16T12:18:37.591Z",
-      "lastActive": "2026-04-16T12:18:37.591Z",
+      "joinedAt": "2026-04-16T12:18:41.355Z",
+      "lastActive": "2026-04-16T12:18:41.355Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -15611,6 +15589,28 @@
       "username": "ruslanababyi",
       "joinedAt": "2026-04-16T12:14:17.675Z",
       "lastActive": "2026-04-16T12:14:24.808Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7000122362": {
+      "chatId": 7000122362,
+      "firstName": "Lander",
+      "lastName": "Lander",
+      "username": "tinger19",
+      "joinedAt": "2026-04-16T12:18:41.651Z",
+      "lastActive": "2026-04-16T12:18:41.651Z",
       "searches": [],
       "messages": [],
       "preferences": {
