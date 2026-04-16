@@ -1396,6 +1396,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "531942468": {
+      "chatId": 531942468,
+      "firstName": "Ekaterina",
+      "lastName": "Sokol",
+      "username": "katya_cherpicka",
+      "joinedAt": "2026-04-16T12:22:41.792Z",
+      "lastActive": "2026-04-16T12:22:41.792Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "546291086": {
       "chatId": 546291086,
       "firstName": "Meet",
