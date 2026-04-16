@@ -6232,7 +6232,7 @@
       "lastName": "Стас",
       "username": "",
       "joinedAt": "2026-04-16T12:18:51.257Z",
-      "lastActive": "2026-04-16T12:24:30.251Z",
+      "lastActive": "2026-04-16T14:05:12.440Z",
       "searches": [
         {
           "country": "Vietnam",
@@ -6244,12 +6244,24 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-16T12:24:46.015Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-18",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T14:05:36.742Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Vietnam"
+          "Vietnam",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -6260,10 +6272,10 @@
       },
       "tags": [
         "dest:vietnam",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1118148378": {
       "chatId": 1118148378,
@@ -17312,6 +17324,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 287
+    "totalSearches": 288
   }
 }
