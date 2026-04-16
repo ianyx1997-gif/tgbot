@@ -752,21 +752,44 @@
       "lastName": "",
       "username": "roibushek",
       "joinedAt": "2026-04-16T13:11:23.339Z",
-      "lastActive": "2026-04-16T13:11:23.339Z",
-      "searches": [],
+      "lastActive": "2026-04-16T13:11:59.365Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-18",
+          "nights": 7,
+          "adults": 1,
+          "children": [
+            0
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-16T13:12:31.816Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          0
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "448746757": {
       "chatId": 448746757,
@@ -17070,6 +17093,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 285
+    "totalSearches": 286
   }
 }
