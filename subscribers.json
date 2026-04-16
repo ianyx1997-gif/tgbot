@@ -4190,6 +4190,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "903305083": {
+      "chatId": 903305083,
+      "firstName": "Anastacia",
+      "lastName": "Evtodieva",
+      "username": "Anastacia1209",
+      "joinedAt": "2026-04-16T12:57:42.688Z",
+      "lastActive": "2026-04-16T12:57:42.688Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "913387985": {
       "chatId": 913387985,
       "firstName": "Maria",
