@@ -6486,7 +6486,19 @@
       "username": "",
       "joinedAt": "2026-04-16T12:21:55.187Z",
       "lastActive": "2026-04-16T12:27:31.680Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-10",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-16T12:28:57.167Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -6496,17 +6508,22 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1342635902": {
       "chatId": 1342635902,
@@ -16188,6 +16205,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 277
+    "totalSearches": 278
   }
 }
