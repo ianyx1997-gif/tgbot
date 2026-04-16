@@ -17580,6 +17580,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5135769107": {
+      "chatId": 5135769107,
+      "firstName": "opex",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T15:54:18.670Z",
+      "lastActive": "2026-04-16T15:54:18.670Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
