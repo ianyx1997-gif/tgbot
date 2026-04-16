@@ -5471,6 +5471,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1041461398": {
+      "chatId": 1041461398,
+      "firstName": "Маркус, но Евгений",
+      "lastName": "",
+      "username": "MrMarkVdovin",
+      "joinedAt": "2026-04-16T12:49:21.829Z",
+      "lastActive": "2026-04-16T12:49:21.829Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1044173694": {
       "chatId": 1044173694,
       "firstName": "Александр",
@@ -16639,7 +16661,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:47:23.894Z",
-      "lastActive": "2026-04-16T12:47:23.894Z",
+      "lastActive": "2026-04-16T12:48:20.275Z",
       "searches": [],
       "messages": [],
       "preferences": {
