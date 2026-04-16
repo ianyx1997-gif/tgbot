@@ -2493,9 +2493,16 @@
       "lastName": "",
       "username": "johnnjk",
       "joinedAt": "2026-04-16T12:35:36.212Z",
-      "lastActive": "2026-04-16T12:35:36.212Z",
+      "lastActive": "2026-04-16T12:36:21.382Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "7",
+          "extra": null,
+          "timestamp": "2026-04-16T12:36:21.382Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
