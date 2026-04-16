@@ -8292,6 +8292,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1925068619": {
+      "chatId": 1925068619,
+      "firstName": "Olga-turist",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:20:23.897Z",
+      "lastActive": "2026-04-16T12:20:23.897Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1945197007": {
       "chatId": 1945197007,
       "firstName": "Maria",
