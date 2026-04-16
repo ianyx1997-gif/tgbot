@@ -15337,6 +15337,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7410656806": {
+      "chatId": 7410656806,
+      "firstName": "Руслана",
+      "lastName": "",
+      "username": "ruslanababyi",
+      "joinedAt": "2026-04-16T12:14:17.675Z",
+      "lastActive": "2026-04-16T12:14:17.675Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
