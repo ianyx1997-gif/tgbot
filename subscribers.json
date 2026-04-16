@@ -136,6 +136,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "269729209": {
+      "chatId": 269729209,
+      "firstName": "AnastasiA",
+      "lastName": "",
+      "username": "luckeranastasia",
+      "joinedAt": "2026-04-16T15:08:09.475Z",
+      "lastActive": "2026-04-16T15:08:09.475Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "273133337": {
       "chatId": 273133337,
       "firstName": "V1kToR",
