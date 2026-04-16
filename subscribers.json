@@ -6447,6 +6447,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1296259753": {
+      "chatId": 1296259753,
+      "firstName": "Мэри",
+      "lastName": "",
+      "username": "Marshrutkas",
+      "joinedAt": "2026-04-16T12:45:28.001Z",
+      "lastActive": "2026-04-16T12:45:28.001Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1308164278": {
       "chatId": 1308164278,
       "firstName": "Pascari",
