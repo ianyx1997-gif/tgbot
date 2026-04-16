@@ -6182,6 +6182,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1360081644": {
+      "chatId": 1360081644,
+      "firstName": "Beus",
+      "lastName": "Liudmila",
+      "username": "",
+      "joinedAt": "2026-04-16T12:18:37.591Z",
+      "lastActive": "2026-04-16T12:18:37.591Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1373502768": {
       "chatId": 1373502768,
       "firstName": "Laurenția",
