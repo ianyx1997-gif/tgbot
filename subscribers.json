@@ -16123,7 +16123,7 @@
       "lastName": "",
       "username": "ruslanababyi",
       "joinedAt": "2026-04-16T12:14:17.675Z",
-      "lastActive": "2026-04-16T12:28:16.907Z",
+      "lastActive": "2026-04-16T12:29:44.871Z",
       "searches": [
         {
           "country": "Turcia",
@@ -16135,12 +16135,24 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-16T12:28:41.888Z"
+        },
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-11-30",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T12:30:06.227Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Vietnam"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -16153,10 +16165,10 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "new"
+        "dest:vietnam"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "7000122362": {
       "chatId": 7000122362,
@@ -16205,6 +16217,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 278
+    "totalSearches": 279
   }
 }
