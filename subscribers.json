@@ -1420,6 +1420,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "566407836": {
+      "chatId": 566407836,
+      "firstName": "Lara",
+      "lastName": "A",
+      "username": "LaraSqrrrl",
+      "joinedAt": "2026-04-16T12:19:49.617Z",
+      "lastActive": "2026-04-16T12:19:49.617Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "577381457": {
       "chatId": 577381457,
       "firstName": "LV",
