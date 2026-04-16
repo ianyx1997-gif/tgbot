@@ -17022,6 +17022,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5194361297": {
+      "chatId": 5194361297,
+      "firstName": "Zinaida",
+      "lastName": "Plamadeala",
+      "username": "",
+      "joinedAt": "2026-04-16T13:10:49.977Z",
+      "lastActive": "2026-04-16T13:10:49.977Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
