@@ -1045,6 +1045,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "479438537": {
+      "chatId": 479438537,
+      "firstName": "Наталья",
+      "lastName": "Яковенко",
+      "username": "",
+      "joinedAt": "2026-04-16T13:07:56.725Z",
+      "lastActive": "2026-04-16T13:07:56.725Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "483361411": {
       "chatId": 483361411,
       "firstName": "Tatiana",
@@ -4826,7 +4848,7 @@
       "lastName": "",
       "username": "Smart_Birdy",
       "joinedAt": "2026-04-16T13:03:14.624Z",
-      "lastActive": "2026-04-16T13:03:14.624Z",
+      "lastActive": "2026-04-16T13:07:50.347Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -7478,7 +7500,7 @@
       "lastName": "Anna",
       "username": "Mazuru16",
       "joinedAt": "2026-04-16T13:07:06.832Z",
-      "lastActive": "2026-04-16T13:07:06.832Z",
+      "lastActive": "2026-04-16T13:07:55.241Z",
       "searches": [],
       "messages": [],
       "preferences": {
