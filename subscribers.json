@@ -15856,6 +15856,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5325805631": {
+      "chatId": 5325805631,
+      "firstName": "Vitu",
+      "lastName": "Marius",
+      "username": "xywzx7",
+      "joinedAt": "2026-04-16T12:21:36.659Z",
+      "lastActive": "2026-04-16T12:21:36.659Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
