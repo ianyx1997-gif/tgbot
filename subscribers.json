@@ -420,7 +420,7 @@
       "lastName": "",
       "username": "vadisson1",
       "joinedAt": "2026-04-16T12:24:29.853Z",
-      "lastActive": "2026-04-16T12:24:29.853Z",
+      "lastActive": "2026-04-16T12:24:32.925Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1447,20 +1447,45 @@
       "username": "katya_cherpicka",
       "joinedAt": "2026-04-16T12:22:41.792Z",
       "lastActive": "2026-04-16T12:22:47.535Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-19",
+          "nights": 12,
+          "adults": 2,
+          "children": [
+            8,
+            13
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-16T12:24:43.570Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          8,
+          13
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "12"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "546291086": {
       "chatId": 546291086,
@@ -3391,7 +3416,7 @@
       "lastName": "",
       "username": "nikita_bogdan_c",
       "joinedAt": "2026-04-16T12:22:48.316Z",
-      "lastActive": "2026-04-16T12:22:48.316Z",
+      "lastActive": "2026-04-16T12:24:35.357Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5450,7 +5475,7 @@
       "lastName": "Стас",
       "username": "",
       "joinedAt": "2026-04-16T12:18:51.257Z",
-      "lastActive": "2026-04-16T12:21:53.814Z",
+      "lastActive": "2026-04-16T12:24:30.251Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -16054,6 +16079,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 274
+    "totalSearches": 275
   }
 }
