@@ -3306,7 +3306,7 @@
       "lastName": "Гранатырь",
       "username": "",
       "joinedAt": "2026-04-16T17:59:57.092Z",
-      "lastActive": "2026-04-16T18:00:08.299Z",
+      "lastActive": "2026-04-16T18:08:16.110Z",
       "searches": [
         {
           "country": "Grecia",
@@ -3320,12 +3320,26 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-16T18:00:47.168Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-09",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-16T18:09:27.101Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Spania"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -3333,16 +3347,16 @@
           12
         ],
         "preferredFood": null,
-        "preferredStars": null,
+        "preferredStars": "4",
         "preferredNights": "10"
       },
       "tags": [
         "family",
         "dest:grecia",
-        "new"
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "730279127": {
       "chatId": 730279127,
@@ -17876,6 +17890,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 297
+    "totalSearches": 298
   }
 }
