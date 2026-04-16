@@ -5129,6 +5129,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1093684455": {
+      "chatId": 1093684455,
+      "firstName": "Арик",
+      "lastName": "Стас",
+      "username": "",
+      "joinedAt": "2026-04-16T12:18:51.257Z",
+      "lastActive": "2026-04-16T12:18:51.257Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1118148378": {
       "chatId": 1118148378,
       "firstName": "♡",
