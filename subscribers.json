@@ -3502,6 +3502,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "843821634": {
+      "chatId": 843821634,
+      "firstName": "",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:24:06.284Z",
+      "lastActive": "2026-04-16T12:24:06.284Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "859130809": {
       "chatId": 859130809,
       "firstName": "Angelina",
@@ -5006,6 +5028,28 @@
           "timestamp": "2026-04-15T08:30:06.064Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "1025613860": {
+      "chatId": 1025613860,
+      "firstName": "виктория",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:24:09.821Z",
+      "lastActive": "2026-04-16T12:24:09.821Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
