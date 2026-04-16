@@ -1847,6 +1847,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "564616173": {
+      "chatId": 564616173,
+      "firstName": "Irina",
+      "lastName": "",
+      "username": "elirina12",
+      "joinedAt": "2026-04-16T13:02:42.712Z",
+      "lastActive": "2026-04-16T13:02:42.712Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "566407836": {
       "chatId": 566407836,
       "firstName": "Lara",
@@ -7855,39 +7877,20 @@
       "username": "",
       "joinedAt": "2026-04-16T13:01:34.587Z",
       "lastActive": "2026-04-16T13:01:39.190Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-09-12",
-          "nights": 7,
-          "adults": 2,
-          "children": [],
-          "food": "ai",
-          "stars": "5",
-          "timestamp": "2026-04-16T13:02:26.520Z"
-        }
-      ],
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "all-inclusive",
-        "luxury",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "1646194891": {
       "chatId": 1646194891,
@@ -16899,6 +16902,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 286
+    "totalSearches": 285
   }
 }
