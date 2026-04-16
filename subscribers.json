@@ -2487,6 +2487,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "684203134": {
+      "chatId": 684203134,
+      "firstName": "Джоникей",
+      "lastName": "",
+      "username": "johnnjk",
+      "joinedAt": "2026-04-16T12:35:36.212Z",
+      "lastActive": "2026-04-16T12:35:36.212Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "689398349": {
       "chatId": 689398349,
       "firstName": "Patricia",
