@@ -223,21 +223,38 @@
       "lastName": "Ion",
       "username": "",
       "joinedAt": "2026-04-16T06:06:29.961Z",
-      "lastActive": "2026-04-16T06:06:29.961Z",
-      "searches": [],
+      "lastActive": "2026-04-16T06:08:00.114Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-23",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-16T06:08:33.391Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "358085191": {
       "chatId": 358085191,
@@ -14993,6 +15010,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 264
+    "totalSearches": 265
   }
 }
