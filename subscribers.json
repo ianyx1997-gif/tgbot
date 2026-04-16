@@ -5121,6 +5121,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "982486086": {
+      "chatId": 982486086,
+      "firstName": "Kirill",
+      "lastName": "Shevtsov",
+      "username": "kirsh03",
+      "joinedAt": "2026-04-16T13:31:06.824Z",
+      "lastActive": "2026-04-16T13:31:06.824Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "983356635": {
       "chatId": 983356635,
       "firstName": "marin",
