@@ -1702,6 +1702,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "540563074": {
+      "chatId": 540563074,
+      "firstName": "Alexandrina",
+      "lastName": "Alexandru",
+      "username": "alexandrinss",
+      "joinedAt": "2026-04-16T13:02:00.085Z",
+      "lastActive": "2026-04-16T13:02:00.085Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "546291086": {
       "chatId": 546291086,
       "firstName": "Meet",
@@ -7832,7 +7854,7 @@
       "lastName": "D",
       "username": "",
       "joinedAt": "2026-04-16T13:01:34.587Z",
-      "lastActive": "2026-04-16T13:01:34.587Z",
+      "lastActive": "2026-04-16T13:01:39.190Z",
       "searches": [],
       "messages": [],
       "preferences": {
