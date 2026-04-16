@@ -3450,6 +3450,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "894556332": {
+      "chatId": 894556332,
+      "firstName": "No",
+      "lastName": "Name",
+      "username": "olechka_vodich",
+      "joinedAt": "2026-04-16T12:15:54.759Z",
+      "lastActive": "2026-04-16T12:15:54.759Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "913387985": {
       "chatId": 913387985,
       "firstName": "Maria",
@@ -7566,8 +7588,8 @@
       "firstName": "I.",
       "lastName": "M",
       "username": "MIV251",
-      "joinedAt": "2026-04-16T12:15:46.351Z",
-      "lastActive": "2026-04-16T12:15:46.351Z",
+      "joinedAt": "2026-04-16T12:15:46.515Z",
+      "lastActive": "2026-04-16T12:15:46.515Z",
       "searches": [],
       "messages": [],
       "preferences": {
