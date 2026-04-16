@@ -7525,6 +7525,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1707944382": {
+      "chatId": 1707944382,
+      "firstName": "Татьяна",
+      "lastName": "",
+      "username": "TatyanaMihailov",
+      "joinedAt": "2026-04-16T12:25:52.935Z",
+      "lastActive": "2026-04-16T12:25:52.935Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1709141621": {
       "chatId": 1709141621,
       "firstName": "Daniella",
