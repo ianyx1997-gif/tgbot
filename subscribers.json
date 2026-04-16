@@ -5477,7 +5477,7 @@
       "lastName": "",
       "username": "MrMarkVdovin",
       "joinedAt": "2026-04-16T12:49:21.829Z",
-      "lastActive": "2026-04-16T12:49:21.829Z",
+      "lastActive": "2026-04-16T12:50:09.018Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -16684,6 +16684,28 @@
       "username": "",
       "joinedAt": "2026-04-16T12:49:59.212Z",
       "lastActive": "2026-04-16T12:49:59.212Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5240017365": {
+      "chatId": 5240017365,
+      "firstName": "Андрей",
+      "lastName": "",
+      "username": "krd_admin_2025",
+      "joinedAt": "2026-04-16T12:50:15.209Z",
+      "lastActive": "2026-04-16T12:50:15.209Z",
       "searches": [],
       "messages": [],
       "preferences": {
