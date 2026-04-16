@@ -179,6 +179,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "335971140": {
+      "chatId": 335971140,
+      "firstName": "Svetlana",
+      "lastName": "",
+      "username": "lana_mi28",
+      "joinedAt": "2026-04-16T12:19:46.060Z",
+      "lastActive": "2026-04-16T12:19:46.060Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "343777981": {
       "chatId": 343777981,
       "firstName": "Vlada",
