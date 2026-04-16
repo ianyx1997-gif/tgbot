@@ -15054,7 +15054,7 @@
       "lastName": "Andru89",
       "username": "",
       "joinedAt": "2026-04-16T08:14:16.871Z",
-      "lastActive": "2026-04-16T08:15:33.865Z",
+      "lastActive": "2026-04-16T08:16:28.798Z",
       "searches": [],
       "messages": [
         {
@@ -15062,6 +15062,12 @@
           "text": "2",
           "extra": null,
           "timestamp": "2026-04-16T08:15:33.865Z"
+        },
+        {
+          "direction": "in",
+          "text": "22",
+          "extra": null,
+          "timestamp": "2026-04-16T08:16:28.798Z"
         }
       ],
       "preferences": {
