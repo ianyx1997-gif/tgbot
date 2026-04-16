@@ -6267,6 +6267,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1086284061": {
+      "chatId": 1086284061,
+      "firstName": "Нати",
+      "lastName": "",
+      "username": "marcovki",
+      "joinedAt": "2026-04-16T15:13:18.242Z",
+      "lastActive": "2026-04-16T15:13:18.242Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1090138041": {
       "chatId": 1090138041,
       "firstName": "Irina",
