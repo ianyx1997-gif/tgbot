@@ -6273,21 +6273,38 @@
       "lastName": "",
       "username": "marcovki",
       "joinedAt": "2026-04-16T15:13:18.242Z",
-      "lastActive": "2026-04-16T15:13:18.242Z",
-      "searches": [],
+      "lastActive": "2026-04-16T15:14:41.393Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-08-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T15:14:53.777Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1090138041": {
       "chatId": 1090138041,
@@ -17545,6 +17562,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 291
+    "totalSearches": 292
   }
 }
