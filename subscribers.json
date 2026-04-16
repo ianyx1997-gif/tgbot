@@ -1329,9 +1329,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T13:08:41.381Z",
-      "lastActive": "2026-04-16T13:08:52.151Z",
+      "lastActive": "2026-04-16T13:09:54.472Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "10 nopti",
+          "extra": null,
+          "timestamp": "2026-04-16T13:09:54.472Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
