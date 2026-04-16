@@ -16298,6 +16298,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5517284267": {
+      "chatId": 5517284267,
+      "firstName": "Helga_",
+      "lastName": "",
+      "username": "Helga314",
+      "joinedAt": "2026-04-16T12:33:56.001Z",
+      "lastActive": "2026-04-16T12:33:56.001Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
