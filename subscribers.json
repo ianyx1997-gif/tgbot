@@ -1858,7 +1858,7 @@
       "lastName": "",
       "username": "VadimBragaa",
       "joinedAt": "2026-04-16T18:00:04.968Z",
-      "lastActive": "2026-04-16T18:00:04.968Z",
+      "lastActive": "2026-04-16T18:00:13.475Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3284,21 +3284,43 @@
       "lastName": "Гранатырь",
       "username": "",
       "joinedAt": "2026-04-16T17:59:57.092Z",
-      "lastActive": "2026-04-16T17:59:57.092Z",
-      "searches": [],
+      "lastActive": "2026-04-16T18:00:08.299Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-13",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T18:00:47.168Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          12
+        ],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "730279127": {
       "chatId": 730279127,
@@ -17832,6 +17854,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 296
+    "totalSearches": 297
   }
 }
