@@ -2302,21 +2302,39 @@
       "lastName": "",
       "username": "ayv74",
       "joinedAt": "2026-04-16T18:49:20.333Z",
-      "lastActive": "2026-04-16T18:49:20.333Z",
-      "searches": [],
+      "lastActive": "2026-04-16T18:50:40.330Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-01",
+          "nights": 7,
+          "adults": 4,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-16T18:51:09.795Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "4",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "577381457": {
       "chatId": 577381457,
@@ -17963,6 +17981,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 300
+    "totalSearches": 301
   }
 }
