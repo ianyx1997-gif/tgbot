@@ -17729,25 +17729,48 @@
       "lastName": "Sandru",
       "username": "",
       "joinedAt": "2026-04-16T17:12:33.232Z",
-      "lastActive": "2026-04-16T17:12:33.232Z",
-      "searches": [],
+      "lastActive": "2026-04-16T17:13:58.356Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-05",
+          "nights": 7,
+          "adults": 1,
+          "children": [
+            11
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-16T17:14:19.383Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 294
+    "totalSearches": 295
   }
 }
