@@ -1356,21 +1356,38 @@
       "lastName": "K.",
       "username": "thetawaves",
       "joinedAt": "2026-04-16T12:55:57.982Z",
-      "lastActive": "2026-04-16T12:55:57.982Z",
-      "searches": [],
+      "lastActive": "2026-04-16T12:55:59.852Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-26",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-16T12:56:32.633Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "505836396": {
       "chatId": 505836396,
@@ -16775,6 +16792,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 284
+    "totalSearches": 285
   }
 }
