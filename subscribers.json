@@ -1323,6 +1323,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "495093358": {
+      "chatId": 495093358,
+      "firstName": "I.О.",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T13:08:41.381Z",
+      "lastActive": "2026-04-16T13:08:41.381Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "498960414": {
       "chatId": 498960414,
       "firstName": "Adrian",
