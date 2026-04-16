@@ -4114,6 +4114,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "985105024": {
+      "chatId": 985105024,
+      "firstName": "Ксюша",
+      "lastName": "",
+      "username": "xksenyas",
+      "joinedAt": "2026-04-16T12:14:31.497Z",
+      "lastActive": "2026-04-16T12:14:31.497Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "987251434": {
       "chatId": 987251434,
       "firstName": "Natalia",
@@ -15344,7 +15366,7 @@
       "lastName": "",
       "username": "ruslanababyi",
       "joinedAt": "2026-04-16T12:14:17.675Z",
-      "lastActive": "2026-04-16T12:14:17.675Z",
+      "lastActive": "2026-04-16T12:14:24.808Z",
       "searches": [],
       "messages": [],
       "preferences": {
