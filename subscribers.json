@@ -41,6 +41,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "169644137": {
+      "chatId": 169644137,
+      "firstName": "𝓐𝓹𝓣𝓮𝓜",
+      "lastName": "",
+      "username": "bestrike",
+      "joinedAt": "2026-04-16T13:18:58.911Z",
+      "lastActive": "2026-04-16T13:18:58.911Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "170382142": {
       "chatId": 170382142,
       "firstName": "Ludmila L.",
