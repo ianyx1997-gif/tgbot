@@ -16705,9 +16705,16 @@
       "lastName": "",
       "username": "krd_admin_2025",
       "joinedAt": "2026-04-16T12:50:15.209Z",
-      "lastActive": "2026-04-16T12:50:15.209Z",
+      "lastActive": "2026-04-16T12:50:33.688Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "нарусском",
+          "extra": null,
+          "timestamp": "2026-04-16T12:50:33.689Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
