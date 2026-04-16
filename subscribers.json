@@ -2524,6 +2524,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "699713876": {
+      "chatId": 699713876,
+      "firstName": "Алина",
+      "lastName": "",
+      "username": "all_yesterday",
+      "joinedAt": "2026-04-16T12:28:28.854Z",
+      "lastActive": "2026-04-16T12:28:28.854Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "712878143": {
       "chatId": 712878143,
       "firstName": "",
@@ -16084,7 +16106,7 @@
       "lastName": "",
       "username": "ruslanababyi",
       "joinedAt": "2026-04-16T12:14:17.675Z",
-      "lastActive": "2026-04-16T12:14:24.808Z",
+      "lastActive": "2026-04-16T12:28:16.907Z",
       "searches": [],
       "messages": [],
       "preferences": {
