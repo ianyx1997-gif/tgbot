@@ -2530,7 +2530,7 @@
       "lastName": "",
       "username": "all_yesterday",
       "joinedAt": "2026-04-16T12:28:28.854Z",
-      "lastActive": "2026-04-16T12:28:28.854Z",
+      "lastActive": "2026-04-16T12:28:38.400Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -16107,20 +16107,39 @@
       "username": "ruslanababyi",
       "joinedAt": "2026-04-16T12:14:17.675Z",
       "lastActive": "2026-04-16T12:28:16.907Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-10-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-16T12:28:41.888Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7000122362": {
       "chatId": 7000122362,
@@ -16169,6 +16188,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 276
+    "totalSearches": 277
   }
 }
