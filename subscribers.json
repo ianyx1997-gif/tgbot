@@ -2246,6 +2246,45 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "712878143": {
+      "chatId": 712878143,
+      "firstName": "",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:18:08.586Z",
+      "lastActive": "2026-04-16T12:18:08.586Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-29",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T12:18:08.586Z"
+        }
+      ],
+      "messages": [],
+      "preferences": {
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": "5"
+      },
+      "tags": [
+        "dest:turcia",
+        "new"
+      ],
+      "blocked": false,
+      "totalSearches": 1
+    },
     "730279127": {
       "chatId": 730279127,
       "firstName": "Erika",
@@ -4027,7 +4066,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:17:28.266Z",
-      "lastActive": "2026-04-16T12:17:28.266Z",
+      "lastActive": "2026-04-16T12:17:50.363Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -5659,7 +5698,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:17:07.351Z",
-      "lastActive": "2026-04-16T12:17:07.351Z",
+      "lastActive": "2026-04-16T12:17:55.610Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -15546,6 +15585,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 271
+    "totalSearches": 272
   }
 }
