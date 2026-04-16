@@ -1541,6 +1541,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "592782573": {
+      "chatId": 592782573,
+      "firstName": "Алина Гайчан",
+      "lastName": "",
+      "username": "agaicean",
+      "joinedAt": "2026-04-16T12:18:33.599Z",
+      "lastActive": "2026-04-16T12:18:33.599Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "600219887": {
       "chatId": 600219887,
       "firstName": "ㅤ",
@@ -4066,7 +4088,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:17:28.266Z",
-      "lastActive": "2026-04-16T12:17:50.363Z",
+      "lastActive": "2026-04-16T12:18:23.447Z",
       "searches": [],
       "messages": [],
       "preferences": {
