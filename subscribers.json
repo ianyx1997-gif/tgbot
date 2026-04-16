@@ -18066,6 +18066,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6195725958": {
+      "chatId": 6195725958,
+      "firstName": "Mila",
+      "lastName": "Bailieva",
+      "username": "MilaBailieva",
+      "joinedAt": "2026-04-16T20:16:55.658Z",
+      "lastActive": "2026-04-16T20:16:55.658Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
