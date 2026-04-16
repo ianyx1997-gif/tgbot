@@ -185,21 +185,40 @@
       "lastName": "",
       "username": "lana_mi28",
       "joinedAt": "2026-04-16T12:19:48.093Z",
-      "lastActive": "2026-04-16T12:19:48.093Z",
-      "searches": [],
+      "lastActive": "2026-04-16T12:19:50.159Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-05",
+          "nights": 7,
+          "adults": 4,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-16T12:20:09.124Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "4",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "343777981": {
       "chatId": 343777981,
@@ -1426,7 +1445,7 @@
       "lastName": "A",
       "username": "LaraSqrrrl",
       "joinedAt": "2026-04-16T12:19:49.617Z",
-      "lastActive": "2026-04-16T12:19:49.617Z",
+      "lastActive": "2026-04-16T12:19:52.759Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -15717,6 +15736,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 272
+    "totalSearches": 273
   }
 }
