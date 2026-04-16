@@ -540,9 +540,16 @@
       "lastName": "",
       "username": "V_V1980",
       "joinedAt": "2026-04-16T12:16:54.925Z",
-      "lastActive": "2026-04-16T12:16:54.925Z",
+      "lastActive": "2026-04-16T12:17:12.402Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Италия автобусный тур май",
+          "extra": null,
+          "timestamp": "2026-04-16T12:17:12.402Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
