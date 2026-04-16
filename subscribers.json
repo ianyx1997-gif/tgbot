@@ -615,20 +615,44 @@
       "username": "igor_boronciuc",
       "joinedAt": "2026-04-16T13:33:34.429Z",
       "lastActive": "2026-04-16T13:33:34.429Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-09",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            1
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-16T13:34:39.442Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          1
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "391839896": {
       "chatId": 391839896,
@@ -17181,6 +17205,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 286
+    "totalSearches": 287
   }
 }
