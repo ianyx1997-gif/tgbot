@@ -130,6 +130,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "302734897": {
+      "chatId": 302734897,
+      "firstName": "Iri",
+      "lastName": "",
+      "username": "irinareyterr",
+      "joinedAt": "2026-04-16T12:23:30.035Z",
+      "lastActive": "2026-04-16T12:23:30.035Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "304018131": {
       "chatId": 304018131,
       "firstName": "Valentina Stanilesco",
@@ -1708,11 +1730,11 @@
     },
     "592782573": {
       "chatId": 592782573,
-      "firstName": "",
+      "firstName": "Алина Гайчан",
       "lastName": "",
-      "username": "",
+      "username": "agaicean",
       "joinedAt": "2026-04-16T12:20:19.628Z",
-      "lastActive": "2026-04-16T12:20:19.628Z",
+      "lastActive": "2026-04-16T12:23:09.988Z",
       "searches": [],
       "messages": [],
       "preferences": {
