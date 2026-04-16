@@ -51,6 +51,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "240578778": {
+      "chatId": 240578778,
+      "firstName": "Ambivert",
+      "lastName": "",
+      "username": "NaSvyazi",
+      "joinedAt": "2026-04-16T12:20:37.590Z",
+      "lastActive": "2026-04-16T12:20:37.590Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "287289666": {
       "chatId": 287289666,
       "firstName": "Даша",
@@ -8334,7 +8356,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:20:23.897Z",
-      "lastActive": "2026-04-16T12:20:23.897Z",
+      "lastActive": "2026-04-16T12:20:36.740Z",
       "searches": [],
       "messages": [],
       "preferences": {
