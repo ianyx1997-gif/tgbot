@@ -4547,6 +4547,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "841372930": {
+      "chatId": 841372930,
+      "firstName": "den",
+      "lastName": "",
+      "username": "denn883",
+      "joinedAt": "2026-04-16T21:37:35.893Z",
+      "lastActive": "2026-04-16T21:37:35.893Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "843821634": {
       "chatId": 843821634,
       "firstName": "Liliana🦴",
