@@ -1243,7 +1243,7 @@
       "lastName": "",
       "username": "inonig",
       "joinedAt": "2026-04-16T12:26:55.507Z",
-      "lastActive": "2026-04-16T12:26:55.508Z",
+      "lastActive": "2026-04-16T12:27:29.920Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6463,9 +6463,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:21:55.187Z",
-      "lastActive": "2026-04-16T12:21:55.187Z",
+      "lastActive": "2026-04-16T12:27:31.680Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Chisinau - roma - Chisinau 13.05.26 -16.05.2026",
+          "extra": null,
+          "timestamp": "2026-04-16T12:27:31.681Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
