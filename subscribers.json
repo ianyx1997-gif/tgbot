@@ -3345,6 +3345,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "748576400": {
+      "chatId": 748576400,
+      "firstName": "i.munteanu",
+      "lastName": "",
+      "username": "imunteanuu",
+      "joinedAt": "2026-04-16T15:55:55.594Z",
+      "lastActive": "2026-04-16T15:55:55.594Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "754807927": {
       "chatId": 754807927,
       "firstName": "Сaterina",
