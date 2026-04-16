@@ -126,6 +126,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "329868419": {
+      "chatId": 329868419,
+      "firstName": "Iurii",
+      "lastName": "Ostrovskii",
+      "username": "ostrovskiiiu",
+      "joinedAt": "2026-04-16T12:15:04.880Z",
+      "lastActive": "2026-04-16T12:15:04.880Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "335065525": {
       "chatId": 335065525,
       "firstName": "𝒜. 𝒟",
