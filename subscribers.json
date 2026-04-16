@@ -15047,6 +15047,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5256176615": {
+      "chatId": 5256176615,
+      "firstName": "Andru",
+      "lastName": "Andru89",
+      "username": "",
+      "joinedAt": "2026-04-16T08:14:16.871Z",
+      "lastActive": "2026-04-16T08:14:16.871Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
