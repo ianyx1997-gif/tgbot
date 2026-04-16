@@ -2790,6 +2790,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "700804701": {
+      "chatId": 700804701,
+      "firstName": "Лена",
+      "lastName": "Порожнякова",
+      "username": "Lena1075",
+      "joinedAt": "2026-04-16T12:58:57.156Z",
+      "lastActive": "2026-04-16T12:58:57.156Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "712878143": {
       "chatId": 712878143,
       "firstName": "",
