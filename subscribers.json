@@ -6022,7 +6022,7 @@
       "lastName": "",
       "username": "marinaciachir",
       "joinedAt": "2026-04-16T14:28:16.670Z",
-      "lastActive": "2026-04-16T14:28:16.670Z",
+      "lastActive": "2026-04-16T14:28:29.476Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -17372,24 +17372,42 @@
       "username": "",
       "joinedAt": "2026-04-16T14:27:18.207Z",
       "lastActive": "2026-04-16T14:28:16.272Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-03",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-16T14:28:34.930Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 288
+    "totalSearches": 289
   }
 }
