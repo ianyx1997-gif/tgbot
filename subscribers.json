@@ -6343,6 +6343,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1098151515": {
+      "chatId": 1098151515,
+      "firstName": "Натали",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T15:00:48.982Z",
+      "lastActive": "2026-04-16T15:00:48.982Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1118148378": {
       "chatId": 1118148378,
       "firstName": "♡",
