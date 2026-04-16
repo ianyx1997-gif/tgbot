@@ -15104,6 +15104,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7940622556": {
+      "chatId": 7940622556,
+      "firstName": "Gorobica",
+      "lastName": "Cristina",
+      "username": "",
+      "joinedAt": "2026-04-16T08:37:00.970Z",
+      "lastActive": "2026-04-16T08:37:00.970Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
