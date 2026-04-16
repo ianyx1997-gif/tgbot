@@ -1966,6 +1966,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "610865924": {
+      "chatId": 610865924,
+      "firstName": "Виктор",
+      "lastName": "",
+      "username": "victor_sce",
+      "joinedAt": "2026-04-16T12:33:13.925Z",
+      "lastActive": "2026-04-16T12:33:13.925Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "615914942": {
       "chatId": 615914942,
       "firstName": "Vadim",
