@@ -5487,21 +5487,38 @@
       "lastName": "",
       "username": "xksenyas",
       "joinedAt": "2026-04-16T12:14:31.497Z",
-      "lastActive": "2026-04-16T12:14:36.718Z",
-      "searches": [],
+      "lastActive": "2026-04-16T17:41:22.046Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-08",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T17:41:46.102Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "987251434": {
       "chatId": 987251434,
@@ -17771,6 +17788,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 295
+    "totalSearches": 296
   }
 }
