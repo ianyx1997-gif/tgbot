@@ -4553,21 +4553,38 @@
       "lastName": "",
       "username": "denn883",
       "joinedAt": "2026-04-16T21:37:35.893Z",
-      "lastActive": "2026-04-16T21:37:35.893Z",
-      "searches": [],
+      "lastActive": "2026-04-16T21:37:38.680Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-07-02",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-16T21:38:06.291Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "bb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "843821634": {
       "chatId": 843821634,
@@ -18138,6 +18155,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 304
+    "totalSearches": 305
   }
 }
