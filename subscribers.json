@@ -22,6 +22,35 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "194171829": {
+      "chatId": 194171829,
+      "firstName": "Лина",
+      "lastName": "",
+      "username": "linabln",
+      "joinedAt": "2026-04-16T12:20:24.289Z",
+      "lastActive": "2026-04-16T12:20:34.487Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "на русском можешь?",
+          "extra": null,
+          "timestamp": "2026-04-16T12:20:34.487Z"
+        }
+      ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "287289666": {
       "chatId": 287289666,
       "firstName": "Даша",
@@ -1467,7 +1496,7 @@
       "lastName": "A",
       "username": "LaraSqrrrl",
       "joinedAt": "2026-04-16T12:19:49.617Z",
-      "lastActive": "2026-04-16T12:19:52.759Z",
+      "lastActive": "2026-04-16T12:20:32.902Z",
       "searches": [],
       "messages": [],
       "preferences": {
