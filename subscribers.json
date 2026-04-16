@@ -184,8 +184,8 @@
       "firstName": "Svetlana",
       "lastName": "",
       "username": "lana_mi28",
-      "joinedAt": "2026-04-16T12:19:46.060Z",
-      "lastActive": "2026-04-16T12:19:46.060Z",
+      "joinedAt": "2026-04-16T12:19:48.093Z",
+      "lastActive": "2026-04-16T12:19:48.093Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -1550,28 +1550,6 @@
           "timestamp": "2026-04-15T08:29:56.125Z"
         }
       ],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
-    "592782573": {
-      "chatId": 592782573,
-      "firstName": "Алина Гайчан",
-      "lastName": "",
-      "username": "agaicean",
-      "joinedAt": "2026-04-16T12:19:26.575Z",
-      "lastActive": "2026-04-16T12:19:26.575Z",
-      "searches": [],
-      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -3302,28 +3280,6 @@
           "timestamp": "2026-04-15T08:30:01.853Z"
         }
       ],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
-    "843821634": {
-      "chatId": 843821634,
-      "firstName": "Liliana🦴",
-      "lastName": "",
-      "username": "Loans129",
-      "joinedAt": "2026-04-16T12:19:43.597Z",
-      "lastActive": "2026-04-16T12:19:43.597Z",
-      "searches": [],
-      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
@@ -6254,7 +6210,7 @@
       "lastName": "Liudmila",
       "username": "",
       "joinedAt": "2026-04-16T12:18:41.355Z",
-      "lastActive": "2026-04-16T12:19:32.252Z",
+      "lastActive": "2026-04-16T12:18:41.355Z",
       "searches": [],
       "messages": [],
       "preferences": {
