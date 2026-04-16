@@ -1237,6 +1237,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "505836396": {
+      "chatId": 505836396,
+      "firstName": "Ольга",
+      "lastName": "",
+      "username": "inonig",
+      "joinedAt": "2026-04-16T12:26:55.507Z",
+      "lastActive": "2026-04-16T12:26:55.508Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "506569590": {
       "chatId": 506569590,
       "firstName": "A",
