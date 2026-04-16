@@ -17383,6 +17383,17 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-04-16T14:28:34.930Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-16T14:29:44.579Z"
         }
       ],
       "messages": [],
@@ -17399,15 +17410,14 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:bulgaria",
-        "new"
+        "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 289
+    "totalSearches": 290
   }
 }
