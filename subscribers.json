@@ -1882,6 +1882,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "531311270": {
+      "chatId": 531311270,
+      "firstName": "Alexandru",
+      "lastName": "Boțan",
+      "username": "",
+      "joinedAt": "2026-04-16T14:41:08.919Z",
+      "lastActive": "2026-04-16T14:41:08.919Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "531942468": {
       "chatId": 531942468,
       "firstName": "Ekaterina",
