@@ -751,6 +751,28 @@
       "blocked": true,
       "totalSearches": 1
     },
+    "473953925": {
+      "chatId": 473953925,
+      "firstName": "Ivan",
+      "lastName": "",
+      "username": "Shagr76",
+      "joinedAt": "2026-04-16T12:20:20.308Z",
+      "lastActive": "2026-04-16T12:20:20.308Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "479370752": {
       "chatId": 479370752,
       "firstName": "Tudor",
@@ -1591,6 +1613,28 @@
           "timestamp": "2026-04-15T08:29:56.125Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "592782573": {
+      "chatId": 592782573,
+      "firstName": "",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:20:19.628Z",
+      "lastActive": "2026-04-16T12:20:19.628Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
