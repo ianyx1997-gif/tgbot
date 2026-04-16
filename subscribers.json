@@ -17286,6 +17286,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6134868512": {
+      "chatId": 6134868512,
+      "firstName": "Павел",
+      "lastName": "",
+      "username": "ZaharovPave",
+      "joinedAt": "2026-04-16T13:46:17.455Z",
+      "lastActive": "2026-04-16T13:46:17.455Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
