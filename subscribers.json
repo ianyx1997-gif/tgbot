@@ -1402,7 +1402,7 @@
       "lastName": "Sokol",
       "username": "katya_cherpicka",
       "joinedAt": "2026-04-16T12:22:41.792Z",
-      "lastActive": "2026-04-16T12:22:41.792Z",
+      "lastActive": "2026-04-16T12:22:47.535Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3328,6 +3328,28 @@
           "timestamp": "2026-04-15T08:30:00.420Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "823854342": {
+      "chatId": 823854342,
+      "firstName": "Nikita",
+      "lastName": "",
+      "username": "nikita_bogdan_c",
+      "joinedAt": "2026-04-16T12:22:48.316Z",
+      "lastActive": "2026-04-16T12:22:48.316Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
