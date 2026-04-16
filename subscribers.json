@@ -17722,6 +17722,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5912798552": {
+      "chatId": 5912798552,
+      "firstName": "Paula",
+      "lastName": "Sandru",
+      "username": "",
+      "joinedAt": "2026-04-16T17:12:33.232Z",
+      "lastActive": "2026-04-16T17:12:33.232Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
