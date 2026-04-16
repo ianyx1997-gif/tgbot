@@ -8549,6 +8549,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1876134111": {
+      "chatId": 1876134111,
+      "firstName": "Анна",
+      "lastName": "Фомина",
+      "username": "fomina_fam",
+      "joinedAt": "2026-04-16T12:33:35.080Z",
+      "lastActive": "2026-04-16T12:33:35.080Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1878098409": {
       "chatId": 1878098409,
       "firstName": "Waldemar",
