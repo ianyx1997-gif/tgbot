@@ -17320,6 +17320,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5687781658": {
+      "chatId": 5687781658,
+      "firstName": "Liudmila",
+      "lastName": "Olari",
+      "username": "",
+      "joinedAt": "2026-04-16T14:14:57.945Z",
+      "lastActive": "2026-04-16T14:14:57.945Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
