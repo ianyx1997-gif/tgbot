@@ -16364,6 +16364,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5604078513": {
+      "chatId": 5604078513,
+      "firstName": "Ciobanu",
+      "lastName": "Catalina",
+      "username": "",
+      "joinedAt": "2026-04-16T12:35:40.956Z",
+      "lastActive": "2026-04-16T12:35:40.956Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
