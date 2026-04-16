@@ -1037,7 +1037,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T13:35:14.766Z",
-      "lastActive": "2026-04-16T13:36:13.168Z",
+      "lastActive": "2026-04-16T13:36:14.848Z",
       "searches": [],
       "messages": [
         {
@@ -1051,6 +1051,12 @@
           "text": "5",
           "extra": null,
           "timestamp": "2026-04-16T13:36:13.168Z"
+        },
+        {
+          "direction": "in",
+          "text": "7",
+          "extra": null,
+          "timestamp": "2026-04-16T13:36:14.848Z"
         }
       ],
       "preferences": {
@@ -4787,6 +4793,28 @@
       },
       "tags": [],
       "blocked": true,
+      "totalSearches": 0
+    },
+    "939552949": {
+      "chatId": 939552949,
+      "firstName": "Evghenia",
+      "lastName": "Odnostalco",
+      "username": "babkastalker",
+      "joinedAt": "2026-04-16T13:36:27.542Z",
+      "lastActive": "2026-04-16T13:36:27.542Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
       "totalSearches": 0
     },
     "939963792": {
