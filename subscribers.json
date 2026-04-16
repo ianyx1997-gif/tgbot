@@ -142,21 +142,38 @@
       "lastName": "",
       "username": "luckeranastasia",
       "joinedAt": "2026-04-16T15:08:09.475Z",
-      "lastActive": "2026-04-16T15:08:09.475Z",
-      "searches": [],
+      "lastActive": "2026-04-16T15:08:21.303Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-13",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T15:08:45.219Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "273133337": {
       "chatId": 273133337,
@@ -17506,6 +17523,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 290
+    "totalSearches": 291
   }
 }
