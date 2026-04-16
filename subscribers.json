@@ -534,6 +534,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "449886756": {
+      "chatId": 449886756,
+      "firstName": "BASKOV V. V.",
+      "lastName": "",
+      "username": "V_V1980",
+      "joinedAt": "2026-04-16T12:16:54.925Z",
+      "lastActive": "2026-04-16T12:16:54.925Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "452140859": {
       "chatId": 452140859,
       "firstName": "Valentin",
