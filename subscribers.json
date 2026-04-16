@@ -3004,6 +3004,28 @@
       "blocked": false,
       "totalSearches": 8
     },
+    "640769100": {
+      "chatId": 640769100,
+      "firstName": "Condrea",
+      "lastName": "Iuliana",
+      "username": "",
+      "joinedAt": "2026-04-16T18:02:54.728Z",
+      "lastActive": "2026-04-16T18:02:54.728Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "652034190": {
       "chatId": 652034190,
       "firstName": "Olya",
