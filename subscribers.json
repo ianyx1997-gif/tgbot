@@ -7826,6 +7826,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1637360750": {
+      "chatId": 1637360750,
+      "firstName": "Jorik",
+      "lastName": "D",
+      "username": "",
+      "joinedAt": "2026-04-16T13:01:34.587Z",
+      "lastActive": "2026-04-16T13:01:34.587Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1646194891": {
       "chatId": 1646194891,
       "firstName": "Mariana",
