@@ -7171,21 +7171,38 @@
       "lastName": "",
       "username": "valerika_134",
       "joinedAt": "2026-04-16T10:43:27.166Z",
-      "lastActive": "2026-04-16T10:43:27.166Z",
-      "searches": [],
+      "lastActive": "2026-04-16T10:44:24.548Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-16T10:44:41.318Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1797876078": {
       "chatId": 1797876078,
@@ -15225,6 +15242,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 269
+    "totalSearches": 270
   }
 }
