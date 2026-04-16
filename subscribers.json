@@ -7165,6 +7165,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1795550642": {
+      "chatId": 1795550642,
+      "firstName": "Valeria",
+      "lastName": "",
+      "username": "valerika_134",
+      "joinedAt": "2026-04-16T10:43:27.166Z",
+      "lastActive": "2026-04-16T10:43:27.166Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1797876078": {
       "chatId": 1797876078,
       "firstName": "Octa",
