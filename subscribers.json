@@ -4820,6 +4820,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "964087868": {
+      "chatId": 964087868,
+      "firstName": "Ivan",
+      "lastName": "",
+      "username": "Smart_Birdy",
+      "joinedAt": "2026-04-16T13:03:14.624Z",
+      "lastActive": "2026-04-16T13:03:14.624Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "971132489": {
       "chatId": 971132489,
       "firstName": "🤍🤍",
