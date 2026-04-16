@@ -120,7 +120,7 @@
       "lastName": "",
       "username": "V1kToR_K",
       "joinedAt": "2026-04-16T12:45:39.338Z",
-      "lastActive": "2026-04-16T12:45:42.728Z",
+      "lastActive": "2026-04-16T12:46:46.979Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -16590,6 +16590,28 @@
       "username": "",
       "joinedAt": "2026-04-16T12:36:53.196Z",
       "lastActive": "2026-04-16T12:36:53.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "7965667705": {
+      "chatId": 7965667705,
+      "firstName": "Taxi po fene",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:47:23.894Z",
+      "lastActive": "2026-04-16T12:47:23.894Z",
       "searches": [],
       "messages": [],
       "preferences": {
