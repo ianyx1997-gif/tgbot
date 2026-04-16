@@ -5624,6 +5624,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "1238801505": {
+      "chatId": 1238801505,
+      "firstName": "Альбина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:17:07.351Z",
+      "lastActive": "2026-04-16T12:17:07.351Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1263840191": {
       "chatId": 1263840191,
       "firstName": "Natalia",
