@@ -18018,6 +18018,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5250907189": {
+      "chatId": 5250907189,
+      "firstName": "Катя",
+      "lastName": "Катерина",
+      "username": "",
+      "joinedAt": "2026-04-16T20:12:42.113Z",
+      "lastActive": "2026-04-16T20:12:42.113Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
