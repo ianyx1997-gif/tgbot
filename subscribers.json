@@ -1072,6 +1072,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "469423676": {
+      "chatId": 469423676,
+      "firstName": "Dan",
+      "lastName": "Bulat",
+      "username": "bulatdan",
+      "joinedAt": "2026-04-16T14:41:37.445Z",
+      "lastActive": "2026-04-16T14:41:37.445Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "469599904": {
       "chatId": 469599904,
       "firstName": "C",
