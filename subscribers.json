@@ -120,7 +120,7 @@
       "lastName": "",
       "username": "V1kToR_K",
       "joinedAt": "2026-04-16T12:45:39.338Z",
-      "lastActive": "2026-04-16T12:45:39.338Z",
+      "lastActive": "2026-04-16T12:45:42.728Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3720,6 +3720,28 @@
           "timestamp": "2026-04-15T08:30:01.698Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "836886291": {
+      "chatId": 836886291,
+      "firstName": "Кирилл",
+      "lastName": "",
+      "username": "impools",
+      "joinedAt": "2026-04-16T12:45:54.965Z",
+      "lastActive": "2026-04-16T12:45:54.965Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
