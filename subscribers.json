@@ -16393,6 +16393,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5680631949": {
+      "chatId": 5680631949,
+      "firstName": "Maйя",
+      "lastName": "Руденко",
+      "username": "",
+      "joinedAt": "2026-04-16T12:36:53.196Z",
+      "lastActive": "2026-04-16T12:36:53.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
