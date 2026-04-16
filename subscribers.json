@@ -1356,21 +1356,40 @@
       "lastName": "Constantinova",
       "username": "",
       "joinedAt": "2026-04-16T12:39:43.788Z",
-      "lastActive": "2026-04-16T12:39:43.788Z",
-      "searches": [],
+      "lastActive": "2026-04-16T12:40:33.765Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-11-03",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-16T12:40:58.481Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "523159275": {
       "chatId": 523159275,
@@ -16441,6 +16460,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 280
+    "totalSearches": 281
   }
 }
