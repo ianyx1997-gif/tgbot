@@ -16676,6 +16676,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7596332915": {
+      "chatId": 7596332915,
+      "firstName": "Анатолий",
+      "lastName": "Скутару",
+      "username": "",
+      "joinedAt": "2026-04-16T12:49:59.212Z",
+      "lastActive": "2026-04-16T12:49:59.212Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
