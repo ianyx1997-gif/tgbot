@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "116827708": {
+      "chatId": 116827708,
+      "firstName": "Alexandr",
+      "lastName": "Zelinschi",
+      "username": "greenwest",
+      "joinedAt": "2026-04-16T12:31:54.691Z",
+      "lastActive": "2026-04-16T12:31:54.691Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "170382142": {
       "chatId": 170382142,
       "firstName": "Ludmila L.",
