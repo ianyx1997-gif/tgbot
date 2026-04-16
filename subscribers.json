@@ -3504,25 +3504,43 @@
     },
     "843821634": {
       "chatId": 843821634,
-      "firstName": "",
+      "firstName": "Liliana🦴",
       "lastName": "",
-      "username": "",
+      "username": "Loans129",
       "joinedAt": "2026-04-16T12:24:06.284Z",
-      "lastActive": "2026-04-16T12:24:06.284Z",
-      "searches": [],
+      "lastActive": "2026-04-16T12:24:12.862Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-20",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-16T12:24:28.038Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "859130809": {
       "chatId": 859130809,
@@ -5047,7 +5065,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T12:24:09.821Z",
-      "lastActive": "2026-04-16T12:24:09.821Z",
+      "lastActive": "2026-04-16T12:24:15.974Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -16014,6 +16032,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 273
+    "totalSearches": 274
   }
 }
