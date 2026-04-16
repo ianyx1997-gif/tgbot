@@ -6016,6 +6016,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1059288338": {
+      "chatId": 1059288338,
+      "firstName": "МАРИНА",
+      "lastName": "",
+      "username": "marinaciachir",
+      "joinedAt": "2026-04-16T14:28:16.670Z",
+      "lastActive": "2026-04-16T14:28:16.670Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1063087948": {
       "chatId": 1063087948,
       "firstName": "Сергей",
@@ -17349,7 +17371,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T14:27:18.207Z",
-      "lastActive": "2026-04-16T14:27:18.207Z",
+      "lastActive": "2026-04-16T14:28:16.272Z",
       "searches": [],
       "messages": [],
       "preferences": {
