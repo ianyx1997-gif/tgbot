@@ -3066,6 +3066,28 @@
       "blocked": false,
       "totalSearches": 8
     },
+    "639205052": {
+      "chatId": 639205052,
+      "firstName": "Evelina",
+      "lastName": "Gn",
+      "username": "akdeny",
+      "joinedAt": "2026-04-16T22:57:23.171Z",
+      "lastActive": "2026-04-16T22:57:23.171Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "640769100": {
       "chatId": 640769100,
       "firstName": "Condrea",
