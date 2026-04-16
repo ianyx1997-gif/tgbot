@@ -786,9 +786,16 @@
       "lastName": "",
       "username": "Shagr76",
       "joinedAt": "2026-04-16T12:20:20.308Z",
-      "lastActive": "2026-04-16T12:20:20.308Z",
+      "lastActive": "2026-04-16T12:20:36.644Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Египет",
+          "extra": null,
+          "timestamp": "2026-04-16T12:20:36.644Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
