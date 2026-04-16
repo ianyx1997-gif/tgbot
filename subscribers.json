@@ -17558,6 +17558,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "6810762675": {
+      "chatId": 6810762675,
+      "firstName": "Alexandr",
+      "lastName": "Rogovei",
+      "username": "chtsgnw",
+      "joinedAt": "2026-04-16T15:34:55.844Z",
+      "lastActive": "2026-04-16T15:34:55.844Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
