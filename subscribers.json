@@ -17624,6 +17624,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7288756722": {
+      "chatId": 7288756722,
+      "firstName": "Маля",
+      "lastName": "",
+      "username": "malliaLy",
+      "joinedAt": "2026-04-16T16:20:31.107Z",
+      "lastActive": "2026-04-16T16:20:31.107Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
