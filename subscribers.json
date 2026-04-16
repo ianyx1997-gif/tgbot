@@ -3148,6 +3148,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "782110647": {
+      "chatId": 782110647,
+      "firstName": "Masha",
+      "lastName": "",
+      "username": "margomang24",
+      "joinedAt": "2026-04-16T12:35:03.152Z",
+      "lastActive": "2026-04-16T12:35:03.152Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "787180242": {
       "chatId": 787180242,
       "firstName": "Dina",
