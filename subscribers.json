@@ -4021,6 +4021,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "963039908": {
+      "chatId": 963039908,
+      "firstName": "Екатерина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:17:28.266Z",
+      "lastActive": "2026-04-16T12:17:28.266Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "971132489": {
       "chatId": 971132489,
       "firstName": "🤍🤍",
