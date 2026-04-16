@@ -18025,25 +18025,51 @@
       "lastName": "Катерина",
       "username": "",
       "joinedAt": "2026-04-16T20:12:42.113Z",
-      "lastActive": "2026-04-16T20:12:42.113Z",
-      "searches": [],
+      "lastActive": "2026-04-16T20:12:53.805Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-19",
+          "nights": 10,
+          "adults": 4,
+          "children": [
+            7,
+            13,
+            16
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-16T20:14:06.644Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          7,
+          13,
+          16
+        ],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 302
+    "totalSearches": 303
   }
 }
