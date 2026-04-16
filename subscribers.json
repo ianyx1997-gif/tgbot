@@ -2056,6 +2056,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "536215693": {
+      "chatId": 536215693,
+      "firstName": "Наталья",
+      "lastName": "В.",
+      "username": "",
+      "joinedAt": "2026-04-16T18:34:47.030Z",
+      "lastActive": "2026-04-16T18:34:47.030Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "540563074": {
       "chatId": 540563074,
       "firstName": "Alexandrina",
