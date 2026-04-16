@@ -608,6 +608,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "391301442": {
+      "chatId": 391301442,
+      "firstName": "Igor",
+      "lastName": "Boronciuc",
+      "username": "igor_boronciuc",
+      "joinedAt": "2026-04-16T13:33:34.429Z",
+      "lastActive": "2026-04-16T13:33:34.429Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "391839896": {
       "chatId": 391839896,
       "firstName": "VR",
@@ -5127,7 +5149,7 @@
       "lastName": "Shevtsov",
       "username": "kirsh03",
       "joinedAt": "2026-04-16T13:31:06.824Z",
-      "lastActive": "2026-04-16T13:31:06.824Z",
+      "lastActive": "2026-04-16T13:32:10.965Z",
       "searches": [],
       "messages": [],
       "preferences": {
