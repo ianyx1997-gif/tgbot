@@ -5300,7 +5300,7 @@
       "lastName": "Стас",
       "username": "",
       "joinedAt": "2026-04-16T12:18:51.257Z",
-      "lastActive": "2026-04-16T12:18:51.257Z",
+      "lastActive": "2026-04-16T12:21:53.814Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -6242,6 +6242,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "1315880551": {
+      "chatId": 1315880551,
+      "firstName": "Elena Burduja",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:21:55.187Z",
+      "lastActive": "2026-04-16T12:21:55.187Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     },
     "1342635902": {
       "chatId": 1342635902,
