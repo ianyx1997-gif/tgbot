@@ -6,21 +6,40 @@
       "lastName": "Zelinschi",
       "username": "greenwest",
       "joinedAt": "2026-04-16T12:31:54.691Z",
-      "lastActive": "2026-04-16T12:31:54.691Z",
-      "searches": [],
+      "lastActive": "2026-04-16T12:31:57.197Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-16T12:32:21.196Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "170382142": {
       "chatId": 170382142,
@@ -16239,6 +16258,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 279
+    "totalSearches": 280
   }
 }
