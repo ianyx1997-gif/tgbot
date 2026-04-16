@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "170382142": {
+      "chatId": 170382142,
+      "firstName": "Ludmila L.",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:14:42.952Z",
+      "lastActive": "2026-04-16T12:14:42.952Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "287289666": {
       "chatId": 287289666,
       "firstName": "Даша",
@@ -4120,7 +4142,7 @@
       "lastName": "",
       "username": "xksenyas",
       "joinedAt": "2026-04-16T12:14:31.497Z",
-      "lastActive": "2026-04-16T12:14:31.497Z",
+      "lastActive": "2026-04-16T12:14:36.718Z",
       "searches": [],
       "messages": [],
       "preferences": {
