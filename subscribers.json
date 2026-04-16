@@ -10086,6 +10086,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1957512704": {
+      "chatId": 1957512704,
+      "firstName": "Știrbachi",
+      "lastName": "Olga",
+      "username": "",
+      "joinedAt": "2026-04-16T20:04:24.412Z",
+      "lastActive": "2026-04-16T20:04:24.412Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
