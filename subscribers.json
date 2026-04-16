@@ -7561,6 +7561,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "1829283645": {
+      "chatId": 1829283645,
+      "firstName": "I.",
+      "lastName": "M",
+      "username": "MIV251",
+      "joinedAt": "2026-04-16T12:15:46.351Z",
+      "lastActive": "2026-04-16T12:15:46.351Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1841087362": {
       "chatId": 1841087362,
       "firstName": "Liliana🌸",
