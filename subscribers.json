@@ -1329,7 +1329,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-16T13:08:41.381Z",
-      "lastActive": "2026-04-16T13:08:41.381Z",
+      "lastActive": "2026-04-16T13:08:52.151Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -7522,9 +7522,16 @@
       "lastName": "Anna",
       "username": "Mazuru16",
       "joinedAt": "2026-04-16T13:07:06.832Z",
-      "lastActive": "2026-04-16T13:07:55.241Z",
+      "lastActive": "2026-04-16T13:08:55.596Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-04-16T13:08:55.596Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
