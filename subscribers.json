@@ -3256,6 +3256,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "724974252": {
+      "chatId": 724974252,
+      "firstName": "Максим",
+      "lastName": "Гранатырь",
+      "username": "",
+      "joinedAt": "2026-04-16T17:59:57.092Z",
+      "lastActive": "2026-04-16T17:59:57.092Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "730279127": {
       "chatId": 730279127,
       "firstName": "Erika",
