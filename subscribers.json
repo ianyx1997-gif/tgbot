@@ -1549,6 +1549,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "503689555": {
+      "chatId": 503689555,
+      "firstName": "Юлия",
+      "lastName": "",
+      "username": "juliamella",
+      "joinedAt": "2026-04-16T13:36:14.260Z",
+      "lastActive": "2026-04-16T13:36:14.260Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "504033543": {
       "chatId": 504033543,
       "firstName": "A.",
