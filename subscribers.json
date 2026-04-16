@@ -746,6 +746,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "417297545": {
+      "chatId": 417297545,
+      "firstName": "Оля",
+      "lastName": "",
+      "username": "roibushek",
+      "joinedAt": "2026-04-16T13:11:23.339Z",
+      "lastActive": "2026-04-16T13:11:23.339Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "448746757": {
       "chatId": 448746757,
       "firstName": "Betty",
