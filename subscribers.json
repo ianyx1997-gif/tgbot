@@ -15238,6 +15238,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5365598576": {
+      "chatId": 5365598576,
+      "firstName": "Alina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-16T12:00:30.673Z",
+      "lastActive": "2026-04-16T12:00:30.673Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
