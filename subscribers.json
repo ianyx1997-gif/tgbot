@@ -5378,21 +5378,46 @@
       "lastName": "Suhodol",
       "username": "",
       "joinedAt": "2026-04-16T04:41:19.819Z",
-      "lastActive": "2026-04-16T04:41:19.819Z",
-      "searches": [],
+      "lastActive": "2026-04-16T04:42:06.143Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-05",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            12,
+            12
+          ],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-04-16T04:43:08.660Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          12,
+          12
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1265413177": {
       "chatId": 1265413177,
@@ -14924,6 +14949,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 263
+    "totalSearches": 264
   }
 }
