@@ -1350,6 +1350,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "504033543": {
+      "chatId": 504033543,
+      "firstName": "A.",
+      "lastName": "K.",
+      "username": "thetawaves",
+      "joinedAt": "2026-04-16T12:55:57.982Z",
+      "lastActive": "2026-04-16T12:55:57.982Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "505836396": {
       "chatId": 505836396,
       "firstName": "Ольга",
