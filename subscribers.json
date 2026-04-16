@@ -15054,9 +15054,16 @@
       "lastName": "Andru89",
       "username": "",
       "joinedAt": "2026-04-16T08:14:16.871Z",
-      "lastActive": "2026-04-16T08:14:16.871Z",
+      "lastActive": "2026-04-16T08:15:33.865Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-04-16T08:15:33.865Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
