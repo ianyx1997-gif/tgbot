@@ -217,6 +217,28 @@
       "blocked": false,
       "totalSearches": 4
     },
+    "344350159": {
+      "chatId": 344350159,
+      "firstName": "C",
+      "lastName": "Ion",
+      "username": "",
+      "joinedAt": "2026-04-16T06:06:29.961Z",
+      "lastActive": "2026-04-16T06:06:29.961Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "358085191": {
       "chatId": 358085191,
       "firstName": "Игорь",
