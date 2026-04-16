@@ -3429,6 +3429,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "914810778": {
+      "chatId": 914810778,
+      "firstName": "Irina",
+      "lastName": "Turcanu",
+      "username": "Irinaad1",
+      "joinedAt": "2026-04-16T09:37:32.477Z",
+      "lastActive": "2026-04-16T09:37:32.477Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "918808752": {
       "chatId": 918808752,
       "firstName": "Veronica RM",
