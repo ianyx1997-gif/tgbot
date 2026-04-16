@@ -114,6 +114,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "273133337": {
+      "chatId": 273133337,
+      "firstName": "V1kToR",
+      "lastName": "",
+      "username": "V1kToR_K",
+      "joinedAt": "2026-04-16T12:45:39.338Z",
+      "lastActive": "2026-04-16T12:45:39.338Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "287289666": {
       "chatId": 287289666,
       "firstName": "Даша",
@@ -6453,7 +6475,7 @@
       "lastName": "",
       "username": "Marshrutkas",
       "joinedAt": "2026-04-16T12:45:28.001Z",
-      "lastActive": "2026-04-16T12:45:28.001Z",
+      "lastActive": "2026-04-16T12:45:31.289Z",
       "searches": [],
       "messages": [],
       "preferences": {
