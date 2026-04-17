@@ -844,6 +844,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "411770945": {
+      "chatId": 411770945,
+      "firstName": "Алёнушка",
+      "lastName": "",
+      "username": "Alenushka1910",
+      "joinedAt": "2026-04-17T07:13:13.967Z",
+      "lastActive": "2026-04-17T07:13:13.967Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "412313370": {
       "chatId": 412313370,
       "firstName": "Doinita",
@@ -7796,7 +7818,7 @@
       "lastName": "Bradu",
       "username": "",
       "joinedAt": "2026-04-17T07:10:11.792Z",
-      "lastActive": "2026-04-17T07:11:41.757Z",
+      "lastActive": "2026-04-17T07:13:05.218Z",
       "searches": [
         {
           "country": "Bulgaria",
