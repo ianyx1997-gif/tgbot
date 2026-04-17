@@ -20438,6 +20438,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5974037106": {
+      "chatId": 5974037106,
+      "firstName": "73706",
+      "lastName": "Адам",
+      "username": "Sidney98765",
+      "joinedAt": "2026-04-17T20:36:15.551Z",
+      "lastActive": "2026-04-17T20:36:15.551Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
