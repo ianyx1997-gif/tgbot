@@ -669,6 +669,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "359160369": {
+      "chatId": 359160369,
+      "firstName": "A🙂",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T07:19:36.236Z",
+      "lastActive": "2026-04-17T07:19:36.236Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "391301442": {
       "chatId": 391301442,
       "firstName": "Igor",
