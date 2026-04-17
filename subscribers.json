@@ -19802,6 +19802,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5571594375": {
+      "chatId": 5571594375,
+      "firstName": "Анжела Васильевна",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T10:44:33.213Z",
+      "lastActive": "2026-04-17T10:44:33.213Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
