@@ -9339,6 +9339,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1624510245": {
+      "chatId": 1624510245,
+      "firstName": "Galina",
+      "lastName": "Parfionova",
+      "username": "",
+      "joinedAt": "2026-04-17T07:28:58.395Z",
+      "lastActive": "2026-04-17T07:28:58.395Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1637360750": {
       "chatId": 1637360750,
       "firstName": "Jorik",
