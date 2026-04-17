@@ -2900,6 +2900,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "568869711": {
+      "chatId": 568869711,
+      "firstName": "Vitalii",
+      "lastName": "Mocanu",
+      "username": "viemo777",
+      "joinedAt": "2026-04-17T09:20:03.300Z",
+      "lastActive": "2026-04-17T09:20:03.300Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "574186754": {
       "chatId": 574186754,
       "firstName": "Игорь",
