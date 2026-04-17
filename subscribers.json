@@ -2179,6 +2179,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "517225912": {
+      "chatId": 517225912,
+      "firstName": "Baron",
+      "lastName": "DeValont",
+      "username": "baron_devalont",
+      "joinedAt": "2026-04-17T08:03:24.923Z",
+      "lastActive": "2026-04-17T08:03:24.923Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "523159275": {
       "chatId": 523159275,
       "firstName": "Alexandru",
