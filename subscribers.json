@@ -3409,7 +3409,7 @@
       "lastName": "Волошановская",
       "username": "Vol_lidia",
       "joinedAt": "2026-04-17T07:19:47.323Z",
-      "lastActive": "2026-04-17T08:50:49.948Z",
+      "lastActive": "2026-04-17T08:54:36.280Z",
       "searches": [
         {
           "country": "Grecia",
@@ -3449,6 +3449,19 @@
           "food": "bb",
           "stars": "",
           "timestamp": "2026-04-17T08:47:27.583Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-06-16",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-17T08:54:59.378Z"
         }
       ],
       "messages": [],
@@ -3474,7 +3487,7 @@
         "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "632905247": {
       "chatId": 632905247,
@@ -19632,6 +19645,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 331
+    "totalSearches": 332
   }
 }
