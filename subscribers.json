@@ -20406,25 +20406,42 @@
       "lastName": "",
       "username": "Tatka0900",
       "joinedAt": "2026-04-17T19:04:06.128Z",
-      "lastActive": "2026-04-17T19:04:06.128Z",
-      "searches": [],
+      "lastActive": "2026-04-17T19:04:08.528Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-09-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-17T19:04:32.946Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 341
+    "totalSearches": 342
   }
 }
