@@ -3253,6 +3253,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "600371390": {
+      "chatId": 600371390,
+      "firstName": "Sergiy",
+      "lastName": "",
+      "username": "sergdfds",
+      "joinedAt": "2026-04-17T15:17:36.157Z",
+      "lastActive": "2026-04-17T15:17:36.157Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "605614846": {
       "chatId": 605614846,
       "firstName": "Gheorghe",
