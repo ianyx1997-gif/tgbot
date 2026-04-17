@@ -970,21 +970,39 @@
       "lastName": "Voikoo [SUNNY]",
       "username": "AlexVoikoo",
       "joinedAt": "2026-04-17T07:15:24.317Z",
-      "lastActive": "2026-04-17T07:15:24.317Z",
-      "searches": [],
+      "lastActive": "2026-04-17T07:16:03.279Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-10",
+          "nights": 5,
+          "adults": 3,
+          "children": [],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-04-17T07:17:47.668Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "luxury",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "436769019": {
       "chatId": 436769019,
@@ -18901,6 +18919,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 315
+    "totalSearches": 316
   }
 }
