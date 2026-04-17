@@ -2185,21 +2185,44 @@
       "lastName": "J",
       "username": "RJ3009",
       "joinedAt": "2026-04-17T08:18:57.361Z",
-      "lastActive": "2026-04-17T08:18:57.361Z",
-      "searches": [],
+      "lastActive": "2026-04-17T08:19:44.964Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-04-30",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ob",
+          "stars": "5",
+          "timestamp": "2026-04-17T08:20:09.552Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2
+        ],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "luxury",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "517225912": {
       "chatId": 517225912,
@@ -19399,6 +19422,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 325
+    "totalSearches": 326
   }
 }
