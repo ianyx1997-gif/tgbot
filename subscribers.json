@@ -3183,7 +3183,7 @@
       "lastName": "Волошановская",
       "username": "Vol_lidia",
       "joinedAt": "2026-04-17T07:19:47.323Z",
-      "lastActive": "2026-04-17T07:20:41.688Z",
+      "lastActive": "2026-04-17T07:31:33.378Z",
       "searches": [
         {
           "country": "Grecia",
@@ -3197,12 +3197,26 @@
           "food": "bb",
           "stars": "",
           "timestamp": "2026-04-17T07:21:33.003Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-16",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-17T07:31:59.902Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -3216,10 +3230,10 @@
       "tags": [
         "family",
         "dest:grecia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "633776640": {
       "chatId": 633776640,
@@ -19086,6 +19100,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 319
+    "totalSearches": 320
   }
 }
