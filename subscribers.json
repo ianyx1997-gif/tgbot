@@ -894,21 +894,38 @@
       "lastName": "",
       "username": "PraskovyaDm",
       "joinedAt": "2026-04-17T08:33:16.376Z",
-      "lastActive": "2026-04-17T08:33:16.376Z",
-      "searches": [],
+      "lastActive": "2026-04-17T08:33:20.985Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-11-13",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-17T08:33:51.848Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "411770945": {
       "chatId": 411770945,
@@ -19506,6 +19523,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 327
+    "totalSearches": 328
   }
 }
