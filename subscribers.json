@@ -1396,6 +1396,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "487176373": {
+      "chatId": 487176373,
+      "firstName": "Dmitrii",
+      "lastName": "",
+      "username": "Jidazh",
+      "joinedAt": "2026-04-17T05:15:35.323Z",
+      "lastActive": "2026-04-17T05:15:35.323Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "487581095": {
       "chatId": 487581095,
       "firstName": "Александр",
