@@ -3177,6 +3177,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "632473549": {
+      "chatId": 632473549,
+      "firstName": "Лидия",
+      "lastName": "Волошановская",
+      "username": "Vol_lidia",
+      "joinedAt": "2026-04-17T07:19:47.323Z",
+      "lastActive": "2026-04-17T07:19:47.323Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "633776640": {
       "chatId": 633776640,
       "firstName": "Silvia",
@@ -4334,7 +4356,7 @@
       "lastName": "",
       "username": "ykowalski",
       "joinedAt": "2026-04-17T07:19:43.986Z",
-      "lastActive": "2026-04-17T07:19:43.986Z",
+      "lastActive": "2026-04-17T07:19:47.023Z",
       "searches": [],
       "messages": [],
       "preferences": {
