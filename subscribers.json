@@ -3500,6 +3500,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "619082105": {
+      "chatId": 619082105,
+      "firstName": "R",
+      "lastName": "N",
+      "username": "",
+      "joinedAt": "2026-04-17T18:26:20.383Z",
+      "lastActive": "2026-04-17T18:26:20.383Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "622819349": {
       "chatId": 622819349,
       "firstName": "Денис",
