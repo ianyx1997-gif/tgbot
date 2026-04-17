@@ -2281,6 +2281,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "543988458": {
+      "chatId": 543988458,
+      "firstName": "Диана",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T07:05:07.752Z",
+      "lastActive": "2026-04-17T07:05:07.752Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "545951001": {
       "chatId": 545951001,
       "firstName": "Валентина",
@@ -4381,38 +4403,20 @@
       "username": "maryam_salohova",
       "joinedAt": "2026-04-17T07:04:03.682Z",
       "lastActive": "2026-04-17T07:04:12.674Z",
-      "searches": [
-        {
-          "country": "Turcia",
-          "countryId": 115,
-          "dateFrom": "2026-06-10",
-          "nights": 7,
-          "adults": 2,
-          "children": [],
-          "food": "ai",
-          "stars": "4",
-          "timestamp": "2026-04-17T07:04:47.111Z"
-        }
-      ],
+      "searches": [],
       "messages": [],
       "preferences": {
-        "topCountries": [
-          "Turcia"
-        ],
-        "typicalAdults": "2",
+        "topCountries": [],
+        "typicalAdults": 2,
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
-        "preferredStars": "4",
-        "preferredNights": "7"
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
       },
-      "tags": [
-        "all-inclusive",
-        "dest:turcia",
-        "new"
-      ],
+      "tags": [],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 0
     },
     "807814444": {
       "chatId": 807814444,
@@ -18681,6 +18685,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 312
+    "totalSearches": 311
   }
 }
