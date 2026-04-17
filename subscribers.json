@@ -4328,6 +4328,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "780073270": {
+      "chatId": 780073270,
+      "firstName": "Yulia",
+      "lastName": "",
+      "username": "ykowalski",
+      "joinedAt": "2026-04-17T07:19:43.986Z",
+      "lastActive": "2026-04-17T07:19:43.986Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "781246293": {
       "chatId": 781246293,
       "firstName": "A",
