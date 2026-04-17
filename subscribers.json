@@ -3941,6 +3941,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-17T07:27:38.843Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            8
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-17T07:27:45.856Z"
         }
       ],
       "messages": [],
@@ -3960,11 +3973,10 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "738797034": {
       "chatId": 738797034,
@@ -19030,6 +19042,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 318
+    "totalSearches": 319
   }
 }
