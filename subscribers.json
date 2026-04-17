@@ -10479,6 +10479,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1977974813": {
+      "chatId": 1977974813,
+      "firstName": "Лиза",
+      "lastName": "",
+      "username": "licarrey",
+      "joinedAt": "2026-04-17T07:02:47.072Z",
+      "lastActive": "2026-04-17T07:02:47.072Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
