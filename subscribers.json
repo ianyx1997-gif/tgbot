@@ -1282,6 +1282,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "480477962": {
+      "chatId": 480477962,
+      "firstName": "Стас",
+      "lastName": "",
+      "username": "Stas23999",
+      "joinedAt": "2026-04-17T06:56:43.559Z",
+      "lastActive": "2026-04-17T06:56:43.559Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "483361411": {
       "chatId": 483361411,
       "firstName": "Tatiana",
