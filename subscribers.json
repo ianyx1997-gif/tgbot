@@ -1527,7 +1527,7 @@
       "lastName": "Vozian",
       "username": "olavozian",
       "joinedAt": "2026-04-17T06:02:24.873Z",
-      "lastActive": "2026-04-17T06:06:34.445Z",
+      "lastActive": "2026-04-17T06:10:07.582Z",
       "searches": [
         {
           "country": "Spania",
@@ -1561,6 +1561,17 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-17T06:07:00.005Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-06-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-17T06:10:30.571Z"
         }
       ],
       "messages": [],
@@ -1583,7 +1594,7 @@
         "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "494142020": {
       "chatId": 494142020,
@@ -18347,6 +18358,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 309
+    "totalSearches": 310
   }
 }
