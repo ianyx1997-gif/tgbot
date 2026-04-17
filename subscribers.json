@@ -9978,9 +9978,16 @@
       "lastName": "R",
       "username": "Calmaros",
       "joinedAt": "2026-04-17T08:00:56.372Z",
-      "lastActive": "2026-04-17T08:00:56.372Z",
+      "lastActive": "2026-04-17T08:02:13.279Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "4",
+          "extra": null,
+          "timestamp": "2026-04-17T08:02:13.280Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
