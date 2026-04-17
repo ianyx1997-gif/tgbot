@@ -20190,7 +20190,7 @@
       "lastName": "",
       "username": "Alinkapb1",
       "joinedAt": "2026-04-17T18:13:00.779Z",
-      "lastActive": "2026-04-17T18:14:40.102Z",
+      "lastActive": "2026-04-17T18:16:06.681Z",
       "searches": [
         {
           "country": "Egipt",
@@ -20205,6 +20205,20 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-04-17T18:15:06.506Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-29",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            4,
+            9
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-17T18:16:27.877Z"
         }
       ],
       "messages": [
@@ -20217,7 +20231,8 @@
       ],
       "preferences": {
         "topCountries": [
-          "Egipt"
+          "Egipt",
+          "Bulgaria"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -20233,14 +20248,14 @@
         "family",
         "all-inclusive",
         "dest:egipt",
-        "new"
+        "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 338
+    "totalSearches": 339
   }
 }
