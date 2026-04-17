@@ -20337,6 +20337,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7988690130": {
+      "chatId": 7988690130,
+      "firstName": "Нонна",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T18:47:44.646Z",
+      "lastActive": "2026-04-17T18:47:44.646Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
