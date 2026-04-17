@@ -9124,6 +9124,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1671392512": {
+      "chatId": 1671392512,
+      "firstName": "Karolina",
+      "lastName": "",
+      "username": "karolinakus",
+      "joinedAt": "2026-04-17T07:03:06.633Z",
+      "lastActive": "2026-04-17T07:03:06.633Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1673882195": {
       "chatId": 1673882195,
       "firstName": "Cristina",
