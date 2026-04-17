@@ -2711,28 +2711,6 @@
       "blocked": false,
       "totalSearches": 0
     },
-    "597324307": {
-      "chatId": 597324307,
-      "firstName": "Gradinaru",
-      "lastName": "Anatolie",
-      "username": "",
-      "joinedAt": "2026-04-17T07:05:54.703Z",
-      "lastActive": "2026-04-17T07:05:54.703Z",
-      "searches": [],
-      "messages": [],
-      "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
-      },
-      "tags": [],
-      "blocked": false,
-      "totalSearches": 0
-    },
     "600219887": {
       "chatId": 600219887,
       "firstName": "ㅤ",
@@ -10718,6 +10696,35 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "1992459635": {
+      "chatId": 1992459635,
+      "firstName": "Gold8877",
+      "lastName": "",
+      "username": "Timegoes2025",
+      "joinedAt": "2026-04-17T07:06:15.377Z",
+      "lastActive": "2026-04-17T07:06:15.377Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Поездка в Румынию с 1 мая",
+          "extra": null,
+          "timestamp": "2026-04-17T07:06:15.377Z"
+        }
+      ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     },
     "2009510633": {
       "chatId": 2009510633,
