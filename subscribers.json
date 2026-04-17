@@ -1175,6 +1175,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "450427892": {
+      "chatId": 450427892,
+      "firstName": "Malinici",
+      "lastName": "Alexei",
+      "username": "",
+      "joinedAt": "2026-04-17T09:58:33.886Z",
+      "lastActive": "2026-04-17T09:58:33.886Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "452140859": {
       "chatId": 452140859,
       "firstName": "Valentin",
