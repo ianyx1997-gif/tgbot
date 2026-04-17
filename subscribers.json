@@ -2562,8 +2562,20 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-17T07:05:07.752Z",
-      "lastActive": "2026-04-17T07:05:52.257Z",
-      "searches": [],
+      "lastActive": "2026-04-17T08:31:13.026Z",
+      "searches": [
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-06-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-17T08:31:38.747Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -2573,17 +2585,23 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Tunisia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:tunisia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "545951001": {
       "chatId": 545951001,
@@ -7686,7 +7704,7 @@
       "lastName": "",
       "username": "VV0304",
       "joinedAt": "2026-04-17T08:26:40.093Z",
-      "lastActive": "2026-04-17T08:26:40.093Z",
+      "lastActive": "2026-04-17T08:27:40.911Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -19466,6 +19484,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 326
+    "totalSearches": 327
   }
 }
