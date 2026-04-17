@@ -8360,6 +8360,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1328734244": {
+      "chatId": 1328734244,
+      "firstName": "Maria",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T07:31:28.629Z",
+      "lastActive": "2026-04-17T07:31:28.629Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1335890020": {
       "chatId": 1335890020,
       "firstName": "Ольга",
