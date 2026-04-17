@@ -1288,7 +1288,7 @@
       "lastName": "",
       "username": "Stas23999",
       "joinedAt": "2026-04-17T06:56:43.559Z",
-      "lastActive": "2026-04-17T06:56:43.559Z",
+      "lastActive": "2026-04-17T06:57:20.374Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -10458,6 +10458,28 @@
       "username": "",
       "joinedAt": "2026-04-16T04:44:18.943Z",
       "lastActive": "2026-04-16T04:44:18.943Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "2012324505": {
+      "chatId": 2012324505,
+      "firstName": "Alexandra",
+      "lastName": "Bogataya",
+      "username": "s_bogataya",
+      "joinedAt": "2026-04-17T06:57:34.157Z",
+      "lastActive": "2026-04-17T06:57:34.157Z",
       "searches": [],
       "messages": [],
       "preferences": {
