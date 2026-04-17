@@ -916,21 +916,39 @@
       "lastName": "",
       "username": "prion1900",
       "joinedAt": "2026-04-17T11:19:39.211Z",
-      "lastActive": "2026-04-17T11:19:39.211Z",
-      "searches": [],
+      "lastActive": "2026-04-17T11:20:36.310Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-17T11:21:19.086Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "408452173": {
       "chatId": 408452173,
@@ -19866,6 +19884,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 333
+    "totalSearches": 334
   }
 }
