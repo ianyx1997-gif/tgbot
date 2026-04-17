@@ -1527,21 +1527,38 @@
       "lastName": "Vozian",
       "username": "olavozian",
       "joinedAt": "2026-04-17T06:02:24.873Z",
-      "lastActive": "2026-04-17T06:02:24.873Z",
-      "searches": [],
+      "lastActive": "2026-04-17T06:03:48.196Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-17T06:04:17.988Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "bb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "494142020": {
       "chatId": 494142020,
@@ -18305,6 +18322,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 306
+    "totalSearches": 307
   }
 }
