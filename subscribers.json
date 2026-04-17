@@ -20359,6 +20359,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5152135270": {
+      "chatId": 5152135270,
+      "firstName": "Lungu",
+      "lastName": "Calin",
+      "username": "",
+      "joinedAt": "2026-04-17T18:54:28.801Z",
+      "lastActive": "2026-04-17T18:54:28.801Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
