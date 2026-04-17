@@ -18173,6 +18173,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5150557421": {
+      "chatId": 5150557421,
+      "firstName": "Сергей",
+      "lastName": "В",
+      "username": "Serhiivov",
+      "joinedAt": "2026-04-17T00:45:58.329Z",
+      "lastActive": "2026-04-17T00:45:58.329Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
