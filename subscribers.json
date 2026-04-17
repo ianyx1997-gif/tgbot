@@ -7768,6 +7768,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1278597774": {
+      "chatId": 1278597774,
+      "firstName": "Lena",
+      "lastName": "Bradu",
+      "username": "",
+      "joinedAt": "2026-04-17T07:10:11.792Z",
+      "lastActive": "2026-04-17T07:10:11.792Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1295024546": {
       "chatId": 1295024546,
       "firstName": "Cristilia",
