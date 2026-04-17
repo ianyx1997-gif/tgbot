@@ -3676,6 +3676,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "733262641": {
+      "chatId": 733262641,
+      "firstName": "Natalia",
+      "lastName": "Slavinscaia",
+      "username": "tawa_03",
+      "joinedAt": "2026-04-17T07:01:31.908Z",
+      "lastActive": "2026-04-17T07:01:34.560Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "738797034": {
       "chatId": 738797034,
       "firstName": "Panda",
@@ -10046,6 +10068,28 @@
           "timestamp": "2026-04-15T08:30:16.470Z"
         }
       ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "1875267850": {
+      "chatId": 1875267850,
+      "firstName": "Maria",
+      "lastName": "Verdeș",
+      "username": "maria_verdes1",
+      "joinedAt": "2026-04-17T07:01:34.958Z",
+      "lastActive": "2026-04-17T07:01:34.958Z",
+      "searches": [],
+      "messages": [],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
