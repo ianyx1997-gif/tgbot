@@ -20303,25 +20303,44 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-17T18:40:15.163Z",
-      "lastActive": "2026-04-17T18:40:15.163Z",
-      "searches": [],
+      "lastActive": "2026-04-17T18:41:12.023Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-11",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-17T18:41:55.121Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 339
+    "totalSearches": 340
   }
 }
