@@ -610,6 +610,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "353603343": {
+      "chatId": 353603343,
+      "firstName": "Оксана",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T07:04:41.556Z",
+      "lastActive": "2026-04-17T07:04:41.556Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "358085191": {
       "chatId": 358085191,
       "firstName": "Игорь",
@@ -7332,7 +7354,7 @@
       "lastName": "",
       "username": "abvgdec",
       "joinedAt": "2026-04-17T07:04:38.197Z",
-      "lastActive": "2026-04-17T07:04:38.197Z",
+      "lastActive": "2026-04-17T07:04:40.740Z",
       "searches": [],
       "messages": [],
       "preferences": {
