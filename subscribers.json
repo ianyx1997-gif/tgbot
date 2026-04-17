@@ -2711,6 +2711,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "597324307": {
+      "chatId": 597324307,
+      "firstName": "Gradinaru",
+      "lastName": "Anatolie",
+      "username": "",
+      "joinedAt": "2026-04-17T07:05:54.703Z",
+      "lastActive": "2026-04-17T07:05:54.703Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "600219887": {
       "chatId": 600219887,
       "firstName": "ㅤ",
