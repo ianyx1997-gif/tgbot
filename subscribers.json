@@ -19418,6 +19418,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5537019655": {
+      "chatId": 5537019655,
+      "firstName": "VASYL",
+      "lastName": "",
+      "username": "polianchych",
+      "joinedAt": "2026-04-17T08:24:36.602Z",
+      "lastActive": "2026-04-17T08:24:36.602Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
