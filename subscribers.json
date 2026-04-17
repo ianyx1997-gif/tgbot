@@ -8504,21 +8504,38 @@
       "lastName": "",
       "username": "destisae",
       "joinedAt": "2026-04-17T07:55:58.984Z",
-      "lastActive": "2026-04-17T07:55:58.984Z",
-      "searches": [],
+      "lastActive": "2026-04-17T07:57:26.430Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-09-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-17T07:58:04.296Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1342635902": {
       "chatId": 1342635902,
@@ -19202,6 +19219,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 322
+    "totalSearches": 323
   }
 }
