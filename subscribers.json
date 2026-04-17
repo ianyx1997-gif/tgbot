@@ -1628,6 +1628,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "481249699": {
+      "chatId": 481249699,
+      "firstName": "Женя",
+      "lastName": "",
+      "username": "Jeniok",
+      "joinedAt": "2026-04-17T18:22:44.904Z",
+      "lastActive": "2026-04-17T18:22:44.904Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "483361411": {
       "chatId": 483361411,
       "firstName": "Tatiana",
