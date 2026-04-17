@@ -18442,6 +18442,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5532265079": {
+      "chatId": 5532265079,
+      "firstName": "Anna",
+      "lastName": "Gritiuc",
+      "username": "",
+      "joinedAt": "2026-04-17T07:01:30.785Z",
+      "lastActive": "2026-04-17T07:01:30.785Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
