@@ -3698,21 +3698,45 @@
       "lastName": "P.",
       "username": "elena_fors",
       "joinedAt": "2026-04-17T08:07:58.675Z",
-      "lastActive": "2026-04-17T08:07:58.675Z",
-      "searches": [],
+      "lastActive": "2026-04-17T08:09:08.750Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-02",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            5,
+            1
+          ],
+          "food": "fb",
+          "stars": "4",
+          "timestamp": "2026-04-17T08:09:58.349Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          1
+        ],
+        "preferredFood": "fb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "684203134": {
       "chatId": 684203134,
@@ -19314,6 +19338,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 323
+    "totalSearches": 324
   }
 }
