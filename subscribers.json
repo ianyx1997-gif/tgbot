@@ -2185,7 +2185,7 @@
       "lastName": "DeValont",
       "username": "baron_devalont",
       "joinedAt": "2026-04-17T08:03:24.923Z",
-      "lastActive": "2026-04-17T08:03:24.923Z",
+      "lastActive": "2026-04-17T08:04:05.185Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -3677,6 +3677,28 @@
       "username": "",
       "joinedAt": "2026-04-15T11:26:45.346Z",
       "lastActive": "2026-04-15T11:26:45.346Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "665337800": {
+      "chatId": 665337800,
+      "firstName": "Elena",
+      "lastName": "P.",
+      "username": "elena_fors",
+      "joinedAt": "2026-04-17T08:07:58.675Z",
+      "lastActive": "2026-04-17T08:07:58.675Z",
       "searches": [],
       "messages": [],
       "preferences": {
