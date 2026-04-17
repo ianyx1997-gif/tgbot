@@ -11506,6 +11506,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1882160394": {
+      "chatId": 1882160394,
+      "firstName": "Александр",
+      "lastName": "",
+      "username": "Ghost_Alexander",
+      "joinedAt": "2026-04-17T15:06:09.755Z",
+      "lastActive": "2026-04-17T15:06:09.755Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1884700011": {
       "chatId": 1884700011,
       "firstName": "Iulia",
