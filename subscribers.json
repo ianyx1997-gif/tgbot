@@ -8498,6 +8498,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1339577386": {
+      "chatId": 1339577386,
+      "firstName": "Ира",
+      "lastName": "",
+      "username": "destisae",
+      "joinedAt": "2026-04-17T07:55:58.984Z",
+      "lastActive": "2026-04-17T07:55:58.984Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1342635902": {
       "chatId": 1342635902,
       "firstName": "Ciobanu",
