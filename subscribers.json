@@ -7497,6 +7497,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1038882247": {
+      "chatId": 1038882247,
+      "firstName": "Катерина",
+      "lastName": "",
+      "username": "Kate_marmelad",
+      "joinedAt": "2026-04-17T15:14:41.103Z",
+      "lastActive": "2026-04-17T15:14:41.104Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1041461398": {
       "chatId": 1041461398,
       "firstName": "Маркус, но Евгений",
