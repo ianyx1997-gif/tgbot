@@ -2720,6 +2720,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "574186754": {
+      "chatId": 574186754,
+      "firstName": "Игорь",
+      "lastName": "Лавренчук",
+      "username": "ilavrenciuc",
+      "joinedAt": "2026-04-17T07:45:14.217Z",
+      "lastActive": "2026-04-17T07:45:14.217Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "577381457": {
       "chatId": 577381457,
       "firstName": "LV",
