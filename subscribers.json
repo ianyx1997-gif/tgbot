@@ -888,6 +888,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "408452173": {
+      "chatId": 408452173,
+      "firstName": "Praskovya",
+      "lastName": "",
+      "username": "PraskovyaDm",
+      "joinedAt": "2026-04-17T08:33:16.376Z",
+      "lastActive": "2026-04-17T08:33:16.376Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "411770945": {
       "chatId": 411770945,
       "firstName": "Алёнушка",
@@ -2562,7 +2584,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-17T07:05:07.752Z",
-      "lastActive": "2026-04-17T08:31:13.026Z",
+      "lastActive": "2026-04-17T08:32:21.120Z",
       "searches": [
         {
           "country": "Tunisia",
