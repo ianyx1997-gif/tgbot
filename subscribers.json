@@ -7503,21 +7503,39 @@
       "lastName": "",
       "username": "Kate_marmelad",
       "joinedAt": "2026-04-17T15:14:41.103Z",
-      "lastActive": "2026-04-17T15:14:41.104Z",
-      "searches": [],
+      "lastActive": "2026-04-17T15:15:30.245Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-09-04",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-04-17T15:16:15.844Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1041461398": {
       "chatId": 1041461398,
@@ -20147,6 +20165,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 336
+    "totalSearches": 337
   }
 }
