@@ -20296,6 +20296,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5710889884": {
+      "chatId": 5710889884,
+      "firstName": "Сергей",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T18:40:15.163Z",
+      "lastActive": "2026-04-17T18:40:15.163Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
