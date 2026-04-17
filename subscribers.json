@@ -7326,6 +7326,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1201878096": {
+      "chatId": 1201878096,
+      "firstName": "маш",
+      "lastName": "",
+      "username": "abvgdec",
+      "joinedAt": "2026-04-17T07:04:38.197Z",
+      "lastActive": "2026-04-17T07:04:38.197Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1205038370": {
       "chatId": 1205038370,
       "firstName": "Валерия",
@@ -9152,7 +9174,7 @@
       "lastName": "",
       "username": "karolinakus",
       "joinedAt": "2026-04-17T07:03:06.633Z",
-      "lastActive": "2026-04-17T07:03:06.633Z",
+      "lastActive": "2026-04-17T07:04:24.346Z",
       "searches": [
         {
           "country": "Egipt",
