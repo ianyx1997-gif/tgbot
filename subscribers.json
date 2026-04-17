@@ -7918,6 +7918,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1335890020": {
+      "chatId": 1335890020,
+      "firstName": "Ольга",
+      "lastName": "",
+      "username": "olgaanatolevna2011",
+      "joinedAt": "2026-04-17T06:43:04.189Z",
+      "lastActive": "2026-04-17T06:43:04.189Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1342635902": {
       "chatId": 1342635902,
       "firstName": "Ciobanu",
