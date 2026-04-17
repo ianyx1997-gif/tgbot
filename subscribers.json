@@ -3928,20 +3928,43 @@
       "username": "tawa_03",
       "joinedAt": "2026-04-17T07:01:31.908Z",
       "lastActive": "2026-04-17T07:01:34.560Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            8
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-17T07:27:38.843Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          8
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "738797034": {
       "chatId": 738797034,
@@ -19007,6 +19030,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 317
+    "totalSearches": 318
   }
 }
