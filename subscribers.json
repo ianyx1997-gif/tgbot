@@ -8380,6 +8380,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1480924062": {
+      "chatId": 1480924062,
+      "firstName": "Valera",
+      "lastName": "Kuznetsov",
+      "username": "",
+      "joinedAt": "2026-04-17T02:58:21.748Z",
+      "lastActive": "2026-04-17T02:58:21.748Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1490185624": {
       "chatId": 1490185624,
       "firstName": "Marcel S.",
