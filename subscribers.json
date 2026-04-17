@@ -3967,6 +3967,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "651878158": {
+      "chatId": 651878158,
+      "firstName": "Марина Петровская",
+      "lastName": "",
+      "username": "marina_petrovscaia",
+      "joinedAt": "2026-04-17T12:57:50.025Z",
+      "lastActive": "2026-04-17T12:57:50.025Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "652034190": {
       "chatId": 652034190,
       "firstName": "Olya",
