@@ -850,7 +850,7 @@
       "lastName": "",
       "username": "Alenushka1910",
       "joinedAt": "2026-04-17T07:13:13.967Z",
-      "lastActive": "2026-04-17T07:13:13.967Z",
+      "lastActive": "2026-04-17T07:13:56.345Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -7818,7 +7818,7 @@
       "lastName": "Bradu",
       "username": "",
       "joinedAt": "2026-04-17T07:10:11.792Z",
-      "lastActive": "2026-04-17T07:13:05.218Z",
+      "lastActive": "2026-04-17T07:14:00.239Z",
       "searches": [
         {
           "country": "Bulgaria",
@@ -7830,12 +7830,24 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-04-17T07:12:09.315Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-17T07:14:22.434Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Bulgaria"
+          "Bulgaria",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -7847,10 +7859,10 @@
       "tags": [
         "all-inclusive",
         "dest:bulgaria",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1295024546": {
       "chatId": 1295024546,
@@ -18845,6 +18857,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 313
+    "totalSearches": 314
   }
 }
