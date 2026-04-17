@@ -136,6 +136,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "259136866": {
+      "chatId": 259136866,
+      "firstName": "Maria",
+      "lastName": "Fetsyak",
+      "username": "Fetsiak_Mariia",
+      "joinedAt": "2026-04-17T07:58:51.223Z",
+      "lastActive": "2026-04-17T07:58:51.223Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "269729209": {
       "chatId": 269729209,
       "firstName": "AnastasiA",
