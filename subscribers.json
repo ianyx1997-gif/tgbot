@@ -20033,6 +20033,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5864217465": {
+      "chatId": 5864217465,
+      "firstName": "Natali",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-17T13:27:40.708Z",
+      "lastActive": "2026-04-17T13:27:40.708Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
