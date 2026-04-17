@@ -1993,20 +1993,44 @@
       "username": "milena_miller",
       "joinedAt": "2026-04-17T07:43:51.233Z",
       "lastActive": "2026-04-17T07:43:51.233Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-20",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            3
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-17T07:44:56.126Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "505836396": {
       "chatId": 505836396,
@@ -19122,6 +19146,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 320
+    "totalSearches": 321
   }
 }
