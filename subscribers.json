@@ -1527,7 +1527,7 @@
       "lastName": "Vozian",
       "username": "olavozian",
       "joinedAt": "2026-04-17T06:02:24.873Z",
-      "lastActive": "2026-04-17T06:03:48.196Z",
+      "lastActive": "2026-04-17T06:05:23.719Z",
       "searches": [
         {
           "country": "Spania",
@@ -1539,12 +1539,24 @@
           "food": "bb",
           "stars": "",
           "timestamp": "2026-04-17T06:04:17.988Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-06-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-17T06:05:44.662Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -1555,10 +1567,10 @@
       },
       "tags": [
         "dest:spania",
-        "new"
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "494142020": {
       "chatId": 494142020,
@@ -18322,6 +18334,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 307
+    "totalSearches": 308
   }
 }
