@@ -11499,6 +11499,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1967748829": {
+      "chatId": 1967748829,
+      "firstName": "Суня",
+      "lastName": "Ам",
+      "username": "Sunya99",
+      "joinedAt": "2026-04-17T09:08:12.520Z",
+      "lastActive": "2026-04-17T09:08:12.520Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1977974813": {
       "chatId": 1977974813,
       "firstName": "Лиза",
