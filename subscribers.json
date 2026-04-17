@@ -910,6 +910,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "402940247": {
+      "chatId": 402940247,
+      "firstName": "Миша",
+      "lastName": "",
+      "username": "prion1900",
+      "joinedAt": "2026-04-17T11:19:39.211Z",
+      "lastActive": "2026-04-17T11:19:39.211Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "408452173": {
       "chatId": 408452173,
       "firstName": "Praskovya",
