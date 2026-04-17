@@ -1114,6 +1114,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "454571570": {
+      "chatId": 454571570,
+      "firstName": "Serega",
+      "lastName": "Serega🐾",
+      "username": "CTaPeTC",
+      "joinedAt": "2026-04-17T07:10:24.996Z",
+      "lastActive": "2026-04-17T07:10:24.996Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "463739400": {
       "chatId": 463739400,
       "firstName": "Kirill",
@@ -7774,7 +7796,7 @@
       "lastName": "Bradu",
       "username": "",
       "joinedAt": "2026-04-17T07:10:11.792Z",
-      "lastActive": "2026-04-17T07:10:11.792Z",
+      "lastActive": "2026-04-17T07:10:20.336Z",
       "searches": [],
       "messages": [],
       "preferences": {
