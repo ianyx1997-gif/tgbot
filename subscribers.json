@@ -7680,6 +7680,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1159842113": {
+      "chatId": 1159842113,
+      "firstName": "Виталий",
+      "lastName": "",
+      "username": "VV0304",
+      "joinedAt": "2026-04-17T08:26:40.093Z",
+      "lastActive": "2026-04-17T08:26:40.093Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1160219067": {
       "chatId": 1160219067,
       "firstName": "Alexeev",
