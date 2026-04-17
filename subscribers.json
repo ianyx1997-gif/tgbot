@@ -8070,20 +8070,37 @@
       "username": "BaltariVitalii",
       "joinedAt": "2026-04-17T08:15:39.218Z",
       "lastActive": "2026-04-17T08:15:39.218Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-09-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-17T08:16:49.448Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Albania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:albania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1263840191": {
       "chatId": 1263840191,
@@ -19360,6 +19377,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 324
+    "totalSearches": 325
   }
 }
