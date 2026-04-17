@@ -632,6 +632,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "351404114": {
+      "chatId": 351404114,
+      "firstName": "Costel",
+      "lastName": "",
+      "username": "Batereyk",
+      "joinedAt": "2026-04-17T10:21:13.808Z",
+      "lastActive": "2026-04-17T10:21:13.808Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "353603343": {
       "chatId": 353603343,
       "firstName": "Оксана",
