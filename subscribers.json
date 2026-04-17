@@ -2290,6 +2290,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "507129723": {
+      "chatId": 507129723,
+      "firstName": "RomaV",
+      "lastName": "",
+      "username": "RomanVasilos",
+      "joinedAt": "2026-04-17T11:55:18.125Z",
+      "lastActive": "2026-04-17T11:55:18.125Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "507327889": {
       "chatId": 507327889,
       "firstName": "Nadejda",
