@@ -898,6 +898,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "436769019": {
+      "chatId": 436769019,
+      "firstName": "Socol",
+      "lastName": "Maxim",
+      "username": "maxim_soco3",
+      "joinedAt": "2026-04-17T07:01:52.794Z",
+      "lastActive": "2026-04-17T07:01:52.794Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "448746757": {
       "chatId": 448746757,
       "firstName": "Betty",
