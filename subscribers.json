@@ -851,20 +851,42 @@
       "username": "Alenushka1910",
       "joinedAt": "2026-04-17T07:13:13.967Z",
       "lastActive": "2026-04-17T07:13:56.345Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-06-06",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            10
+          ],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-17T07:14:25.036Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          10
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "412313370": {
       "chatId": 412313370,
@@ -18857,6 +18879,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 314
+    "totalSearches": 315
   }
 }
