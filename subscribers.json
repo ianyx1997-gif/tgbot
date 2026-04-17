@@ -1593,6 +1593,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "486872701": {
+      "chatId": 486872701,
+      "firstName": "Ирина",
+      "lastName": "",
+      "username": "ir_cic24",
+      "joinedAt": "2026-04-17T09:18:34.478Z",
+      "lastActive": "2026-04-17T09:18:34.478Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "487116863": {
       "chatId": 487116863,
       "firstName": "Nicky",
