@@ -1521,6 +1521,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "492771738": {
+      "chatId": 492771738,
+      "firstName": "Olga",
+      "lastName": "Vozian",
+      "username": "olavozian",
+      "joinedAt": "2026-04-17T06:02:24.873Z",
+      "lastActive": "2026-04-17T06:02:24.873Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "494142020": {
       "chatId": 494142020,
       "firstName": "Natalia",
