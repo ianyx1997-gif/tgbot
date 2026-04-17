@@ -9058,6 +9058,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1660059528": {
+      "chatId": 1660059528,
+      "firstName": "Vica",
+      "lastName": "Lesnic",
+      "username": "",
+      "joinedAt": "2026-04-17T07:01:20.631Z",
+      "lastActive": "2026-04-17T07:01:20.631Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1673882195": {
       "chatId": 1673882195,
       "firstName": "Cristina",
