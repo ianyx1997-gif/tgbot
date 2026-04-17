@@ -4358,7 +4358,7 @@
       "lastName": "",
       "username": "maryam_salohova",
       "joinedAt": "2026-04-17T07:04:03.682Z",
-      "lastActive": "2026-04-17T07:04:03.682Z",
+      "lastActive": "2026-04-17T07:04:12.674Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -9153,20 +9153,39 @@
       "username": "karolinakus",
       "joinedAt": "2026-04-17T07:03:06.633Z",
       "lastActive": "2026-04-17T07:03:06.633Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-08-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "3",
+          "timestamp": "2026-04-17T07:04:15.227Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "budget",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1673882195": {
       "chatId": 1673882195,
@@ -18600,6 +18619,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 310
+    "totalSearches": 311
   }
 }
