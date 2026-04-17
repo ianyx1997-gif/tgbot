@@ -19924,6 +19924,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6629815819": {
+      "chatId": 6629815819,
+      "firstName": "Doina",
+      "lastName": "Lazar",
+      "username": "",
+      "joinedAt": "2026-04-17T12:22:09.068Z",
+      "lastActive": "2026-04-17T12:22:09.068Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
