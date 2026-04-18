@@ -20678,9 +20678,16 @@
       "lastName": "S",
       "username": "",
       "joinedAt": "2026-04-18T15:29:45.324Z",
-      "lastActive": "2026-04-18T15:31:37.501Z",
+      "lastActive": "2026-04-18T15:32:01.407Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Cauta",
+          "extra": null,
+          "timestamp": "2026-04-18T15:32:01.408Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
