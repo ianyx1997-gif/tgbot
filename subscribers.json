@@ -20624,6 +20624,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6337843033": {
+      "chatId": 6337843033,
+      "firstName": "Rodica",
+      "lastName": "S",
+      "username": "",
+      "joinedAt": "2026-04-18T15:29:45.324Z",
+      "lastActive": "2026-04-18T15:29:45.324Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
