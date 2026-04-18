@@ -10947,8 +10947,20 @@
       "lastName": "",
       "username": "ionutz_w210",
       "joinedAt": "2026-04-13T17:01:36.822Z",
-      "lastActive": "2026-04-13T17:01:36.822Z",
-      "searches": [],
+      "lastActive": "2026-04-18T11:03:44.905Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-07",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-18T11:04:22.126Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -10960,17 +10972,23 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1764800418": {
       "chatId": 1764800418,
@@ -20610,6 +20628,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 344
+    "totalSearches": 345
   }
 }
