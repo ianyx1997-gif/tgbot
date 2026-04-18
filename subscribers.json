@@ -20678,7 +20678,7 @@
       "lastName": "S",
       "username": "",
       "joinedAt": "2026-04-18T15:29:45.324Z",
-      "lastActive": "2026-04-18T15:32:01.407Z",
+      "lastActive": "2026-04-18T15:34:08.108Z",
       "searches": [],
       "messages": [
         {
@@ -20686,6 +20686,12 @@
           "text": "Cauta",
           "extra": null,
           "timestamp": "2026-04-18T15:32:01.408Z"
+        },
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-04-18T15:34:08.108Z"
         }
       ],
       "preferences": {
