@@ -11107,21 +11107,46 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-18T15:30:23.575Z",
-      "lastActive": "2026-04-18T15:30:23.575Z",
-      "searches": [],
+      "lastActive": "2026-04-18T15:31:10.948Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-22",
+          "nights": 5,
+          "adults": 3,
+          "children": [
+            5,
+            10
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-18T15:31:49.793Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          10
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1795550642": {
       "chatId": 1795550642,
@@ -20653,7 +20678,7 @@
       "lastName": "S",
       "username": "",
       "joinedAt": "2026-04-18T15:29:45.324Z",
-      "lastActive": "2026-04-18T15:29:45.324Z",
+      "lastActive": "2026-04-18T15:31:37.501Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -20672,6 +20697,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 345
+    "totalSearches": 346
   }
 }
