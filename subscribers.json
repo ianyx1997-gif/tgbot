@@ -7693,7 +7693,7 @@
       "lastName": "Вьюненко",
       "username": "lferety",
       "joinedAt": "2026-04-18T17:07:15.070Z",
-      "lastActive": "2026-04-18T17:09:17.481Z",
+      "lastActive": "2026-04-18T17:11:48.934Z",
       "searches": [
         {
           "country": "Cipru",
@@ -7716,13 +7716,25 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-18T17:09:28.758Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "",
+          "timestamp": "2026-04-18T17:12:06.523Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Cipru",
-          "Turcia"
+          "Turcia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -7734,10 +7746,11 @@
       "tags": [
         "all-inclusive",
         "dest:cipru",
-        "dest:turcia"
+        "dest:turcia",
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "1038882247": {
       "chatId": 1038882247,
@@ -20762,6 +20775,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 348
+    "totalSearches": 349
   }
 }
