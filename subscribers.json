@@ -1911,6 +1911,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "492626193": {
+      "chatId": 492626193,
+      "firstName": "Евгений",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-18T08:07:49.400Z",
+      "lastActive": "2026-04-18T08:07:49.400Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "492771738": {
       "chatId": 492771738,
       "firstName": "Olga",
