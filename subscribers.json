@@ -11101,6 +11101,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1789650399": {
+      "chatId": 1789650399,
+      "firstName": "Kristina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-18T15:30:23.575Z",
+      "lastActive": "2026-04-18T15:30:23.575Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1795550642": {
       "chatId": 1795550642,
       "firstName": "Valeria",
