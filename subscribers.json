@@ -7687,6 +7687,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1033997781": {
+      "chatId": 1033997781,
+      "firstName": "Виктор",
+      "lastName": "Вьюненко",
+      "username": "lferety",
+      "joinedAt": "2026-04-18T17:07:15.070Z",
+      "lastActive": "2026-04-18T17:07:15.071Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1038882247": {
       "chatId": 1038882247,
       "firstName": "Катерина",
