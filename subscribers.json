@@ -20822,6 +20822,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7060483397": {
+      "chatId": 7060483397,
+      "firstName": "Larisa",
+      "lastName": "Prutean",
+      "username": "",
+      "joinedAt": "2026-04-18T21:03:14.120Z",
+      "lastActive": "2026-04-18T21:03:14.120Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
