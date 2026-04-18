@@ -5206,6 +5206,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "780769366": {
+      "chatId": 780769366,
+      "firstName": "RODICA",
+      "lastName": "J😉😉",
+      "username": "",
+      "joinedAt": "2026-04-18T19:02:55.410Z",
+      "lastActive": "2026-04-18T19:02:55.410Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "781246293": {
       "chatId": 781246293,
       "firstName": "A",
