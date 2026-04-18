@@ -5060,6 +5060,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "779227892": {
+      "chatId": 779227892,
+      "firstName": "Denis",
+      "lastName": "",
+      "username": "Den_A_K",
+      "joinedAt": "2026-04-18T07:58:10.711Z",
+      "lastActive": "2026-04-18T07:58:10.711Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "780073270": {
       "chatId": 780073270,
       "firstName": "Yulia",
