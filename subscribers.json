@@ -7693,7 +7693,7 @@
       "lastName": "Вьюненко",
       "username": "lferety",
       "joinedAt": "2026-04-18T17:07:15.070Z",
-      "lastActive": "2026-04-18T17:11:48.934Z",
+      "lastActive": "2026-04-18T17:13:00.923Z",
       "searches": [
         {
           "country": "Cipru",
@@ -7727,6 +7727,17 @@
           "food": "uai",
           "stars": "",
           "timestamp": "2026-04-18T17:12:06.523Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-18T17:13:25.056Z"
         }
       ],
       "messages": [],
@@ -7750,7 +7761,7 @@
         "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "1038882247": {
       "chatId": 1038882247,
@@ -20775,6 +20786,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 349
+    "totalSearches": 350
   }
 }
