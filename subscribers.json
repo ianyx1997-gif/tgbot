@@ -5212,9 +5212,16 @@
       "lastName": "J😉😉",
       "username": "",
       "joinedAt": "2026-04-18T19:02:55.410Z",
-      "lastActive": "2026-04-18T19:02:55.410Z",
+      "lastActive": "2026-04-18T19:03:53.895Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2 adulți și 2 copii",
+          "extra": null,
+          "timestamp": "2026-04-18T19:03:53.895Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
