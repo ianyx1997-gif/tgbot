@@ -20460,6 +20460,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5989033513": {
+      "chatId": 5989033513,
+      "firstName": "Cristina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-18T06:18:32.069Z",
+      "lastActive": "2026-04-18T06:18:32.069Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
