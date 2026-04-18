@@ -812,6 +812,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "393050354": {
+      "chatId": 393050354,
+      "firstName": "Alexandra",
+      "lastName": "Şilova",
+      "username": "Rosedalemoon",
+      "joinedAt": "2026-04-18T08:40:30.139Z",
+      "lastActive": "2026-04-18T08:40:30.139Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "394161440": {
       "chatId": 394161440,
       "firstName": "Dorin",
