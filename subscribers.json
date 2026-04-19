@@ -6861,6 +6861,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "933804638": {
+      "chatId": 933804638,
+      "firstName": "A",
+      "lastName": "T",
+      "username": "ary2304",
+      "joinedAt": "2026-04-19T22:25:59.974Z",
+      "lastActive": "2026-04-19T22:25:59.974Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "939552949": {
       "chatId": 939552949,
       "firstName": "Evghenia",
