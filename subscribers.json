@@ -1062,7 +1062,7 @@
       "lastName": "Levițchi",
       "username": "",
       "joinedAt": "2026-04-19T22:13:48.850Z",
-      "lastActive": "2026-04-19T22:14:48.594Z",
+      "lastActive": "2026-04-19T22:16:06.830Z",
       "searches": [
         {
           "country": "Vietnam",
@@ -1076,6 +1076,19 @@
           "food": "hb",
           "stars": "4",
           "timestamp": "2026-04-19T22:15:20.382Z"
+        },
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-10-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-19T22:16:26.301Z"
         }
       ],
       "messages": [
@@ -1101,11 +1114,10 @@
       },
       "tags": [
         "family",
-        "dest:vietnam",
-        "new"
+        "dest:vietnam"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "408452173": {
       "chatId": 408452173,
@@ -21449,6 +21461,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 361
+    "totalSearches": 362
   }
 }
