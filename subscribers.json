@@ -4987,6 +4987,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "749938025": {
+      "chatId": 749938025,
+      "firstName": "Ольга",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-19T20:32:51.199Z",
+      "lastActive": "2026-04-19T20:32:51.199Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "754807927": {
       "chatId": 754807927,
       "firstName": "Сaterina",
