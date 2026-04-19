@@ -8611,6 +8611,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1158869613": {
+      "chatId": 1158869613,
+      "firstName": "Ирина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-19T12:46:53.834Z",
+      "lastActive": "2026-04-19T12:46:53.834Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1159842113": {
       "chatId": 1159842113,
       "firstName": "Виталий",
