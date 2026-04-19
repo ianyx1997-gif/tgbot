@@ -1062,8 +1062,22 @@
       "lastName": "Levițchi",
       "username": "",
       "joinedAt": "2026-04-19T22:13:48.850Z",
-      "lastActive": "2026-04-19T22:14:06.117Z",
-      "searches": [],
+      "lastActive": "2026-04-19T22:14:48.594Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-11-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "hb",
+          "stars": "4",
+          "timestamp": "2026-04-19T22:15:20.382Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -1073,17 +1087,25 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "hb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "408452173": {
       "chatId": 408452173,
@@ -21427,6 +21449,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 360
+    "totalSearches": 361
   }
 }
