@@ -114,6 +114,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "224293691": {
+      "chatId": 224293691,
+      "firstName": "M",
+      "lastName": "",
+      "username": "darwin_md",
+      "joinedAt": "2026-04-19T04:30:47.176Z",
+      "lastActive": "2026-04-19T04:30:47.176Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "240578778": {
       "chatId": 240578778,
       "firstName": "Ambivert",
