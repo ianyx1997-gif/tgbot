@@ -21320,25 +21320,43 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-19T18:59:17.305Z",
-      "lastActive": "2026-04-19T18:59:17.305Z",
-      "searches": [],
+      "lastActive": "2026-04-19T19:00:35.386Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-09-09",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "3",
+          "timestamp": "2026-04-19T19:01:50.454Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 358
+    "totalSearches": 359
   }
 }
