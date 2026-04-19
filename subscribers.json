@@ -21272,9 +21272,16 @@
       "lastName": "CrisTyna",
       "username": "",
       "joinedAt": "2026-04-19T18:15:56.191Z",
-      "lastActive": "2026-04-19T18:15:56.191Z",
+      "lastActive": "2026-04-19T18:16:29.410Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Beliss deluxe belek 2 adulti 8 august 6 zile",
+          "extra": null,
+          "timestamp": "2026-04-19T18:16:29.410Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
