@@ -21265,6 +21265,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5946260660": {
+      "chatId": 5946260660,
+      "firstName": "Goncear",
+      "lastName": "CrisTyna",
+      "username": "",
+      "joinedAt": "2026-04-19T18:15:56.191Z",
+      "lastActive": "2026-04-19T18:15:56.191Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
