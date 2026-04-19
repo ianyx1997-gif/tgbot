@@ -4699,9 +4699,16 @@
       "lastName": "Tatar",
       "username": "",
       "joinedAt": "2026-04-19T14:37:37.816Z",
-      "lastActive": "2026-04-19T14:37:37.816Z",
+      "lastActive": "2026-04-19T14:56:42.488Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Portugalia , Italia",
+          "extra": null,
+          "timestamp": "2026-04-19T14:56:42.488Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
