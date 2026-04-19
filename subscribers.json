@@ -21120,25 +21120,42 @@
       "lastName": "",
       "username": "mamazon_sigma",
       "joinedAt": "2026-04-19T15:02:12.133Z",
-      "lastActive": "2026-04-19T15:02:12.133Z",
-      "searches": [],
+      "lastActive": "2026-04-19T15:02:19.213Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-28",
+          "nights": 7,
+          "adults": 4,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-19T15:02:48.527Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "4",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 355
+    "totalSearches": 356
   }
 }
