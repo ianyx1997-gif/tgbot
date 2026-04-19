@@ -20955,6 +20955,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5898505866": {
+      "chatId": 5898505866,
+      "firstName": "Любовь",
+      "lastName": "Антоновна",
+      "username": "",
+      "joinedAt": "2026-04-19T11:56:46.062Z",
+      "lastActive": "2026-04-19T11:56:46.062Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
