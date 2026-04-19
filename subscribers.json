@@ -21152,6 +21152,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5914367253": {
+      "chatId": 5914367253,
+      "firstName": "Nadejda",
+      "lastName": "Ciorici",
+      "username": "",
+      "joinedAt": "2026-04-19T15:17:47.764Z",
+      "lastActive": "2026-04-19T15:17:47.764Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
