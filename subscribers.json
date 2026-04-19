@@ -4693,6 +4693,28 @@
       "blocked": false,
       "totalSearches": 4
     },
+    "730167628": {
+      "chatId": 730167628,
+      "firstName": "Sabina",
+      "lastName": "Tatar",
+      "username": "",
+      "joinedAt": "2026-04-19T14:37:37.816Z",
+      "lastActive": "2026-04-19T14:37:37.816Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "730279127": {
       "chatId": 730279127,
       "firstName": "Erika",
