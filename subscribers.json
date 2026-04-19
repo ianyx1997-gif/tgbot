@@ -21062,6 +21062,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6187891139": {
+      "chatId": 6187891139,
+      "firstName": "Ксюша",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-19T14:22:19.578Z",
+      "lastActive": "2026-04-19T14:22:19.578Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
