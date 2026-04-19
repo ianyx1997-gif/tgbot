@@ -21313,6 +21313,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6451876666": {
+      "chatId": 6451876666,
+      "firstName": "Vlad",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-19T18:59:17.305Z",
+      "lastActive": "2026-04-19T18:59:17.305Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
