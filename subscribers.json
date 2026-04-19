@@ -2589,6 +2589,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "509574713": {
+      "chatId": 509574713,
+      "firstName": "Оксана",
+      "lastName": "-",
+      "username": "Oksana_KD",
+      "joinedAt": "2026-04-19T13:10:58.964Z",
+      "lastActive": "2026-04-19T13:10:58.964Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "517225912": {
       "chatId": 517225912,
       "firstName": "Baron",
