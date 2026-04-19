@@ -1056,6 +1056,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "404625406": {
+      "chatId": 404625406,
+      "firstName": "Nata",
+      "lastName": "Levițchi",
+      "username": "",
+      "joinedAt": "2026-04-19T22:13:48.850Z",
+      "lastActive": "2026-04-19T22:13:48.850Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "408452173": {
       "chatId": 408452173,
       "firstName": "Praskovya",
