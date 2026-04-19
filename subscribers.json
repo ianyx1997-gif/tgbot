@@ -2714,9 +2714,16 @@
       "lastName": "Irina",
       "username": "Papazenish",
       "joinedAt": "2026-04-19T07:17:40.030Z",
-      "lastActive": "2026-04-19T07:17:40.030Z",
+      "lastActive": "2026-04-19T07:17:55.322Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "На русском можно?",
+          "extra": null,
+          "timestamp": "2026-04-19T07:17:55.322Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
