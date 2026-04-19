@@ -21113,6 +21113,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7139059054": {
+      "chatId": 7139059054,
+      "firstName": "Sigma",
+      "lastName": "",
+      "username": "mamazon_sigma",
+      "joinedAt": "2026-04-19T15:02:12.133Z",
+      "lastActive": "2026-04-19T15:02:12.133Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
