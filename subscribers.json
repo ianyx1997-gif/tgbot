@@ -6176,6 +6176,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "850255496": {
+      "chatId": 850255496,
+      "firstName": "Alex",
+      "lastName": "",
+      "username": "smurf2233",
+      "joinedAt": "2026-04-19T18:13:02.916Z",
+      "lastActive": "2026-04-19T18:13:02.916Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "859130809": {
       "chatId": 859130809,
       "firstName": "Angelina",
