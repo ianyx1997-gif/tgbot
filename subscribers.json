@@ -4606,6 +4606,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "719422965": {
+      "chatId": 719422965,
+      "firstName": "Nataly",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-19T18:03:08.565Z",
+      "lastActive": "2026-04-19T18:03:08.565Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "724974252": {
       "chatId": 724974252,
       "firstName": "Максим",
