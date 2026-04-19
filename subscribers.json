@@ -120,21 +120,43 @@
       "lastName": "",
       "username": "darwin_md",
       "joinedAt": "2026-04-19T04:30:47.176Z",
-      "lastActive": "2026-04-19T04:30:47.176Z",
-      "searches": [],
+      "lastActive": "2026-04-19T04:31:10.158Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-14",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-19T04:31:58.635Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2
+        ],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "240578778": {
       "chatId": 240578778,
@@ -20896,6 +20918,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 352
+    "totalSearches": 353
   }
 }
