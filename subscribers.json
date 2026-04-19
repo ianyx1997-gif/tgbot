@@ -1277,6 +1277,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "446012096": {
+      "chatId": 446012096,
+      "firstName": "R",
+      "lastName": "C",
+      "username": "rmzan_ch",
+      "joinedAt": "2026-04-19T12:30:13.749Z",
+      "lastActive": "2026-04-19T12:30:13.749Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "448746757": {
       "chatId": 448746757,
       "firstName": "Betty",
