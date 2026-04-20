@@ -4675,21 +4675,49 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-20T10:55:20.693Z",
-      "lastActive": "2026-04-20T10:55:20.693Z",
-      "searches": [],
+      "lastActive": "2026-04-20T11:12:09.800Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-01",
+          "nights": 5,
+          "adults": 1,
+          "children": [
+            5,
+            11,
+            12
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-20T11:13:04.229Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          11,
+          12
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "719422965": {
       "chatId": 719422965,
@@ -21981,6 +22009,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 371
+    "totalSearches": 372
   }
 }
