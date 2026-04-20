@@ -21698,7 +21698,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-18T06:18:32.069Z",
-      "lastActive": "2026-04-20T19:12:40.699Z",
+      "lastActive": "2026-04-20T19:29:47.575Z",
       "searches": [
         {
           "country": "Grecia",
@@ -21738,12 +21738,26 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-20T19:14:10.078Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-05-30",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "fb",
+          "stars": "",
+          "timestamp": "2026-04-20T19:30:20.256Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -21757,10 +21771,11 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -22381,6 +22396,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 387
+    "totalSearches": 388
   }
 }
