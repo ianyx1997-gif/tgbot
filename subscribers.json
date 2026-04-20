@@ -21741,6 +21741,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5230090727": {
+      "chatId": 5230090727,
+      "firstName": "Ti8content://com.android.chrome.FileProvider/images/screenshot/1",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-20T07:21:57.008Z",
+      "lastActive": "2026-04-20T07:21:57.008Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
