@@ -8618,6 +8618,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1039915918": {
+      "chatId": 1039915918,
+      "firstName": "Марина",
+      "lastName": "tavolca",
+      "username": "MarinaTcaci",
+      "joinedAt": "2026-04-20T19:08:48.707Z",
+      "lastActive": "2026-04-20T19:08:48.708Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1041461398": {
       "chatId": 1041461398,
       "firstName": "Маркус, но Евгений",
