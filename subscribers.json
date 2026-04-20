@@ -4636,7 +4636,7 @@
       "lastName": "",
       "username": "NasteAaaak",
       "joinedAt": "2026-04-20T18:03:21.626Z",
-      "lastActive": "2026-04-20T18:04:46.715Z",
+      "lastActive": "2026-04-20T18:05:41.555Z",
       "searches": [
         {
           "country": "Grecia",
@@ -4659,13 +4659,25 @@
           "food": "bb",
           "stars": "3",
           "timestamp": "2026-04-20T18:04:57.799Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-06-10",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-20T18:06:05.133Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Grecia",
-          "Spania"
+          "Spania",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -4677,10 +4689,11 @@
       "tags": [
         "budget",
         "dest:grecia",
-        "dest:spania"
+        "dest:spania",
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "712878143": {
       "chatId": 712878143,
@@ -22246,6 +22259,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 380
+    "totalSearches": 381
   }
 }
