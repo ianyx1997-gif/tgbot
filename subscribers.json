@@ -21505,25 +21505,50 @@
       "lastName": "Gorodetki",
       "username": "gorodetkiv",
       "joinedAt": "2026-04-20T03:12:11.789Z",
-      "lastActive": "2026-04-20T03:12:11.789Z",
-      "searches": [],
+      "lastActive": "2026-04-20T03:13:23.565Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-08-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            6,
+            13
+          ],
+          "food": "uai",
+          "stars": "",
+          "timestamp": "2026-04-20T03:14:17.331Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6,
+          13
+        ],
+        "preferredFood": "uai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 363
+    "totalSearches": 364
   }
 }
