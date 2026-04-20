@@ -7568,6 +7568,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "985220517": {
+      "chatId": 985220517,
+      "firstName": "Irina",
+      "lastName": "Gh.",
+      "username": "",
+      "joinedAt": "2026-04-20T08:32:44.550Z",
+      "lastActive": "2026-04-20T08:32:44.550Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "987251434": {
       "chatId": 987251434,
       "firstName": "Natalia",
