@@ -11004,6 +11004,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1632539789": {
+      "chatId": 1632539789,
+      "firstName": "Valentina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-20T07:00:41.152Z",
+      "lastActive": "2026-04-20T07:00:41.152Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1637360750": {
       "chatId": 1637360750,
       "firstName": "Jorik",
