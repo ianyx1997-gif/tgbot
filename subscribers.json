@@ -8495,6 +8495,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1055838455": {
+      "chatId": 1055838455,
+      "firstName": "Andrei",
+      "lastName": "Simco",
+      "username": "",
+      "joinedAt": "2026-04-20T09:37:30.646Z",
+      "lastActive": "2026-04-20T09:37:30.646Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1059288338": {
       "chatId": 1059288338,
       "firstName": "МАРИНА",
