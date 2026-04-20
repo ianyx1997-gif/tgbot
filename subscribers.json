@@ -4669,6 +4669,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "714036164": {
+      "chatId": 714036164,
+      "firstName": "Diana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-20T10:55:20.693Z",
+      "lastActive": "2026-04-20T10:55:20.693Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "719422965": {
       "chatId": 719422965,
       "firstName": "Nataly",
