@@ -7574,7 +7574,7 @@
       "lastName": "Gh.",
       "username": "",
       "joinedAt": "2026-04-20T08:32:44.550Z",
-      "lastActive": "2026-04-20T08:35:40.665Z",
+      "lastActive": "2026-04-20T08:37:01.116Z",
       "searches": [
         {
           "country": "Egipt",
@@ -7597,6 +7597,17 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-20T08:36:09.284Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-24",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-20T08:37:28.725Z"
         }
       ],
       "messages": [],
@@ -7617,7 +7628,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "987251434": {
       "chatId": 987251434,
@@ -21880,6 +21891,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 369
+    "totalSearches": 370
   }
 }
