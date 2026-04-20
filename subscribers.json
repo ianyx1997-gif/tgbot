@@ -21725,6 +21725,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-20T19:14:00.669Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-30",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-20T19:14:10.078Z"
         }
       ],
       "messages": [],
@@ -21747,7 +21760,7 @@
         "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -22368,6 +22381,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 386
+    "totalSearches": 387
   }
 }
