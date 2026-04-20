@@ -22168,6 +22168,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6666444383": {
+      "chatId": 6666444383,
+      "firstName": "Adrian",
+      "lastName": "P",
+      "username": "andron005",
+      "joinedAt": "2026-04-20T16:59:23.218Z",
+      "lastActive": "2026-04-20T16:59:23.218Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
