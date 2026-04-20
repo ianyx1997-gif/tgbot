@@ -22426,25 +22426,43 @@
       "lastName": "",
       "username": "Victor_s_191",
       "joinedAt": "2026-04-20T20:10:07.394Z",
-      "lastActive": "2026-04-20T20:10:07.394Z",
-      "searches": [],
+      "lastActive": "2026-04-20T20:10:57.353Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-04-24",
+          "nights": 5,
+          "adults": 1,
+          "children": [],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-04-20T20:11:50.365Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 390
+    "totalSearches": 391
   }
 }
