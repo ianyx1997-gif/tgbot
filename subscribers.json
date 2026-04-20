@@ -4630,6 +4630,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "708457282": {
+      "chatId": 708457282,
+      "firstName": "Anastasia",
+      "lastName": "",
+      "username": "NasteAaaak",
+      "joinedAt": "2026-04-20T18:03:21.626Z",
+      "lastActive": "2026-04-20T18:03:21.626Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "712878143": {
       "chatId": 712878143,
       "firstName": "",
