@@ -4706,6 +4706,21 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-20T11:13:52.483Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-22",
+          "nights": 7,
+          "adults": 1,
+          "children": [
+            5,
+            11,
+            12
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-20T11:15:17.423Z"
         }
       ],
       "messages": [],
@@ -4731,7 +4746,7 @@
         "dest:bulgaria"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "719422965": {
       "chatId": 719422965,
@@ -22023,6 +22038,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 373
+    "totalSearches": 374
   }
 }
