@@ -21698,7 +21698,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-18T06:18:32.069Z",
-      "lastActive": "2026-04-20T19:29:47.575Z",
+      "lastActive": "2026-04-20T19:32:00.406Z",
       "searches": [
         {
           "country": "Grecia",
@@ -21764,6 +21764,19 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-20T19:30:44.461Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-05-30",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-20T19:32:24.860Z"
         }
       ],
       "messages": [],
@@ -21789,7 +21802,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -22410,6 +22423,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 389
+    "totalSearches": 390
   }
 }
