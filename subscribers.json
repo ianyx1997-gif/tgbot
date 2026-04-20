@@ -22034,6 +22034,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7497006105": {
+      "chatId": 7497006105,
+      "firstName": "Mihaela",
+      "lastName": "Turcanu",
+      "username": "",
+      "joinedAt": "2026-04-20T12:21:43.425Z",
+      "lastActive": "2026-04-20T12:21:43.425Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
