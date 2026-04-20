@@ -21751,6 +21751,19 @@
           "food": "fb",
           "stars": "",
           "timestamp": "2026-04-20T19:30:20.256Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-05-30",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-20T19:30:44.461Z"
         }
       ],
       "messages": [],
@@ -21772,10 +21785,11 @@
         "family",
         "all-inclusive",
         "dest:grecia",
-        "dest:muntenegru"
+        "dest:muntenegru",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -22396,6 +22410,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 388
+    "totalSearches": 389
   }
 }
