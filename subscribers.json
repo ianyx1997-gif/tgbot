@@ -21712,6 +21712,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-20T19:13:41.916Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-30",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-20T19:14:00.669Z"
         }
       ],
       "messages": [],
@@ -21731,11 +21744,10 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:grecia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -22356,6 +22368,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 385
+    "totalSearches": 386
   }
 }
