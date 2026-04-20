@@ -19369,7 +19369,7 @@
       "lastName": "Burduja",
       "username": "",
       "joinedAt": "2026-04-14T10:23:09.664Z",
-      "lastActive": "2026-04-15T02:31:28.517Z",
+      "lastActive": "2026-04-20T14:14:48.462Z",
       "searches": [
         {
           "country": "Turcia",
@@ -19403,6 +19403,12 @@
             "broadcast": true
           },
           "timestamp": "2026-04-15T08:30:39.184Z"
+        },
+        {
+          "direction": "in",
+          "text": "Grecia",
+          "extra": null,
+          "timestamp": "2026-04-20T14:14:48.462Z"
         }
       ],
       "preferences": {
