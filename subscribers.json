@@ -21909,6 +21909,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7044411835": {
+      "chatId": 7044411835,
+      "firstName": "Lilia",
+      "lastName": "Rudac",
+      "username": "",
+      "joinedAt": "2026-04-20T10:52:33.378Z",
+      "lastActive": "2026-04-20T10:52:33.378Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
