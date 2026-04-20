@@ -7023,7 +7023,7 @@
       "lastName": "ℌ𝔬𝔱𝔶𝔬𝔤𝔲🦋",
       "username": "",
       "joinedAt": "2026-04-20T13:07:37.608Z",
-      "lastActive": "2026-04-20T13:14:03.476Z",
+      "lastActive": "2026-04-20T13:19:07.183Z",
       "searches": [
         {
           "country": "Turcia",
@@ -7046,28 +7046,41 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-20T13:14:24.416Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-06-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-20T13:19:26.648Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Turcia",
-          "Grecia"
+          "Grecia",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "uai",
+        "preferredFood": "ai",
         "preferredStars": "4",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "933804638": {
       "chatId": 933804638,
@@ -22131,6 +22144,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 377
+    "totalSearches": 378
   }
 }
