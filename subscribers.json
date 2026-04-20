@@ -22419,6 +22419,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5313382162": {
+      "chatId": 5313382162,
+      "firstName": "Виктор191",
+      "lastName": "",
+      "username": "Victor_s_191",
+      "joinedAt": "2026-04-20T20:10:07.394Z",
+      "lastActive": "2026-04-20T20:10:07.394Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
