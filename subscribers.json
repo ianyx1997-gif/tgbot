@@ -8457,21 +8457,38 @@
       "lastName": "",
       "username": "anych00",
       "joinedAt": "2026-04-17T14:19:27.320Z",
-      "lastActive": "2026-04-17T14:19:27.320Z",
-      "searches": [],
+      "lastActive": "2026-04-20T18:32:01.280Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-20T18:32:30.135Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1033997781": {
       "chatId": 1033997781,
@@ -22259,6 +22276,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 381
+    "totalSearches": 382
   }
 }
