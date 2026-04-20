@@ -21545,6 +21545,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7135945653": {
+      "chatId": 7135945653,
+      "firstName": "Eli🤌",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-20T03:23:08.497Z",
+      "lastActive": "2026-04-20T03:23:08.497Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
