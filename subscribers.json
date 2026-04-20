@@ -7050,6 +7050,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "949076440": {
+      "chatId": 949076440,
+      "firstName": "Алиса",
+      "lastName": "",
+      "username": "alissa_kv",
+      "joinedAt": "2026-04-20T05:54:14.828Z",
+      "lastActive": "2026-04-20T05:54:14.828Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "955011857": {
       "chatId": 955011857,
       "firstName": "Igor",
