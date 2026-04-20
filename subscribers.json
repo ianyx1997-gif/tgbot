@@ -7023,7 +7023,7 @@
       "lastName": "ℌ𝔬𝔱𝔶𝔬𝔤𝔲🦋",
       "username": "",
       "joinedAt": "2026-04-20T13:07:37.608Z",
-      "lastActive": "2026-04-20T13:07:40.387Z",
+      "lastActive": "2026-04-20T13:14:03.476Z",
       "searches": [
         {
           "country": "Turcia",
@@ -7035,12 +7035,24 @@
           "food": "uai",
           "stars": "4",
           "timestamp": "2026-04-20T13:08:13.052Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-06-11",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-20T13:14:24.416Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Grecia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -7052,10 +7064,10 @@
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "933804638": {
       "chatId": 933804638,
@@ -22119,6 +22131,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 376
+    "totalSearches": 377
   }
 }
