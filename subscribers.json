@@ -21498,6 +21498,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5462791567": {
+      "chatId": 5462791567,
+      "firstName": "Vladimir",
+      "lastName": "Gorodetki",
+      "username": "gorodetkiv",
+      "joinedAt": "2026-04-20T03:12:11.789Z",
+      "lastActive": "2026-04-20T03:12:11.789Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
