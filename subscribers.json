@@ -7017,6 +7017,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "927739987": {
+      "chatId": 927739987,
+      "firstName": "🦋𝔏𝔲𝔠𝔦𝔠𝔞",
+      "lastName": "ℌ𝔬𝔱𝔶𝔬𝔤𝔲🦋",
+      "username": "",
+      "joinedAt": "2026-04-20T13:07:37.608Z",
+      "lastActive": "2026-04-20T13:07:37.608Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "933804638": {
       "chatId": 933804638,
       "firstName": "A",
