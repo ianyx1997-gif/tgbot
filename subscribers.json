@@ -6706,9 +6706,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-20T04:57:30.737Z",
-      "lastActive": "2026-04-20T04:57:30.737Z",
+      "lastActive": "2026-04-20T04:58:48.158Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Vacanță în Turcia 2 mături și 3 copii 1, 5, 10 ani pe o săptămâna",
+          "extra": null,
+          "timestamp": "2026-04-20T04:58:48.159Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
