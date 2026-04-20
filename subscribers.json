@@ -7933,6 +7933,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1016078096": {
+      "chatId": 1016078096,
+      "firstName": "Евгений",
+      "lastName": "Слюсаренко",
+      "username": "",
+      "joinedAt": "2026-04-20T07:34:21.395Z",
+      "lastActive": "2026-04-20T07:34:21.395Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1017038633": {
       "chatId": 1017038633,
       "firstName": "Anastasia",
