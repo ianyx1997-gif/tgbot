@@ -21552,7 +21552,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-20T03:23:08.497Z",
-      "lastActive": "2026-04-20T03:24:19.056Z",
+      "lastActive": "2026-04-20T03:25:22.656Z",
       "searches": [],
       "messages": [
         {
@@ -21560,6 +21560,12 @@
           "text": "Grecia septembrie 5 maturi și un copil 12 ani",
           "extra": null,
           "timestamp": "2026-04-20T03:24:19.056Z"
+        },
+        {
+          "direction": "in",
+          "text": "1 septembrie",
+          "extra": null,
+          "timestamp": "2026-04-20T03:25:22.656Z"
         }
       ],
       "preferences": {
