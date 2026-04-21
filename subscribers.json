@@ -9623,6 +9623,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1230837881": {
+      "chatId": 1230837881,
+      "firstName": "Алла",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T04:23:59.335Z",
+      "lastActive": "2026-04-21T04:23:59.335Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1233326146": {
       "chatId": 1233326146,
       "firstName": "Rodica",
