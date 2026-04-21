@@ -23003,25 +23003,52 @@
       "lastName": "Tatiana",
       "username": "TanyaCoptil",
       "joinedAt": "2026-04-21T18:18:13.160Z",
-      "lastActive": "2026-04-21T18:18:13.160Z",
-      "searches": [],
+      "lastActive": "2026-04-21T18:18:59.026Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            15,
+            12,
+            8
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-21T18:19:37.939Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          15,
+          12,
+          8
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 399
+    "totalSearches": 400
   }
 }
