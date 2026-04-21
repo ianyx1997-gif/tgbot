@@ -10857,21 +10857,43 @@
       "lastName": "",
       "username": "Denlencik",
       "joinedAt": "2026-04-21T12:46:25.574Z",
-      "lastActive": "2026-04-21T12:46:25.574Z",
-      "searches": [],
+      "lastActive": "2026-04-21T12:47:18.204Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-08-02",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            10
+          ],
+          "food": "bb",
+          "stars": "",
+          "timestamp": "2026-04-21T12:48:45.016Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          10
+        ],
+        "preferredFood": "bb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1419091649": {
       "chatId": 1419091649,
@@ -22813,6 +22835,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 395
+    "totalSearches": 396
   }
 }
