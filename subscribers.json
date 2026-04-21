@@ -5969,6 +5969,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "798369066": {
+      "chatId": 798369066,
+      "firstName": "Calestru",
+      "lastName": "Vlad",
+      "username": "",
+      "joinedAt": "2026-04-21T08:18:37.604Z",
+      "lastActive": "2026-04-21T08:18:37.604Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "803389282": {
       "chatId": 803389282,
       "firstName": "Talik",
