@@ -22503,6 +22503,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6250553051": {
+      "chatId": 6250553051,
+      "firstName": "Миха",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T05:05:05.267Z",
+      "lastActive": "2026-04-21T05:05:05.267Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
