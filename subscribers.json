@@ -85,6 +85,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "189702862": {
+      "chatId": 189702862,
+      "firstName": "Оксана",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T20:28:56.967Z",
+      "lastActive": "2026-04-21T20:28:56.967Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "194171829": {
       "chatId": 194171829,
       "firstName": "Лина",
