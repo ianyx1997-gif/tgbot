@@ -22893,6 +22893,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7299988521": {
+      "chatId": 7299988521,
+      "firstName": "Наталья 🗺️🧳💃🏼✈️🛳️🌊",
+      "lastName": "",
+      "username": "Nataliabakosh",
+      "joinedAt": "2026-04-21T17:35:04.257Z",
+      "lastActive": "2026-04-21T17:35:04.257Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
