@@ -7295,6 +7295,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "939523083": {
+      "chatId": 939523083,
+      "firstName": "Daniela",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T13:04:23.923Z",
+      "lastActive": "2026-04-21T13:04:23.923Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "939552949": {
       "chatId": 939552949,
       "firstName": "Evghenia",
