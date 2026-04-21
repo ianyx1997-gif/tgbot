@@ -5534,6 +5534,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "769386606": {
+      "chatId": 769386606,
+      "firstName": "A",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T07:55:09.770Z",
+      "lastActive": "2026-04-21T07:55:09.770Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "770182009": {
       "chatId": 770182009,
       "firstName": "Mariana",
