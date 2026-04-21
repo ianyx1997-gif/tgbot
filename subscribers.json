@@ -22573,6 +22573,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5206586717": {
+      "chatId": 5206586717,
+      "firstName": "Iurie",
+      "lastName": "Iurie",
+      "username": "",
+      "joinedAt": "2026-04-21T06:06:42.088Z",
+      "lastActive": "2026-04-21T06:06:42.088Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
