@@ -10851,6 +10851,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1412783851": {
+      "chatId": 1412783851,
+      "firstName": "Елена Ходоровская",
+      "lastName": "",
+      "username": "Denlencik",
+      "joinedAt": "2026-04-21T12:46:25.574Z",
+      "lastActive": "2026-04-21T12:46:25.574Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1419091649": {
       "chatId": 1419091649,
       "firstName": "𝑶𝒌𝒔𝒂𝒏𝒂",
