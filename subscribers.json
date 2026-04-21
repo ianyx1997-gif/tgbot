@@ -22481,6 +22481,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5786713236": {
+      "chatId": 5786713236,
+      "firstName": "Наталья",
+      "lastName": "М",
+      "username": "",
+      "joinedAt": "2026-04-21T04:51:00.752Z",
+      "lastActive": "2026-04-21T04:51:00.752Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
