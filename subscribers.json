@@ -1278,6 +1278,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "435527494": {
+      "chatId": 435527494,
+      "firstName": "Лера 🩷",
+      "lastName": "",
+      "username": "lglicin",
+      "joinedAt": "2026-04-21T05:12:01.354Z",
+      "lastActive": "2026-04-21T05:12:01.354Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "436723766": {
       "chatId": 436723766,
       "firstName": "Alex",
