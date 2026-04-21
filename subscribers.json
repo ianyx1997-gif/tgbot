@@ -22871,6 +22871,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5173018089": {
+      "chatId": 5173018089,
+      "firstName": "Veronica",
+      "lastName": "Negara",
+      "username": "",
+      "joinedAt": "2026-04-21T15:11:36.674Z",
+      "lastActive": "2026-04-21T15:11:36.674Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
