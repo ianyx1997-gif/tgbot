@@ -22580,25 +22580,51 @@
       "lastName": "Iurie",
       "username": "",
       "joinedAt": "2026-04-21T06:06:42.088Z",
-      "lastActive": "2026-04-21T06:06:42.088Z",
-      "searches": [],
+      "lastActive": "2026-04-21T06:07:30.928Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7,
+            9
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-21T06:09:04.239Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          7,
+          9
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 392
+    "totalSearches": 393
   }
 }
