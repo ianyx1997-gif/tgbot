@@ -4349,6 +4349,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "644965280": {
+      "chatId": 644965280,
+      "firstName": "Daniela",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-21T09:51:27.656Z",
+      "lastActive": "2026-04-21T09:51:27.656Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "651878158": {
       "chatId": 651878158,
       "firstName": "Марина Петровская",
