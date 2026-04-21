@@ -22934,6 +22934,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "8025450015": {
+      "chatId": 8025450015,
+      "firstName": "Valeria",
+      "lastName": "Nurkova",
+      "username": "",
+      "joinedAt": "2026-04-21T17:55:26.439Z",
+      "lastActive": "2026-04-21T17:55:26.439Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
