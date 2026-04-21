@@ -5975,21 +5975,40 @@
       "lastName": "Vlad",
       "username": "",
       "joinedAt": "2026-04-21T08:18:37.604Z",
-      "lastActive": "2026-04-21T08:18:37.604Z",
-      "searches": [],
+      "lastActive": "2026-04-21T08:19:22.095Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-21T08:19:37.384Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "803389282": {
       "chatId": 803389282,
@@ -22704,6 +22723,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 393
+    "totalSearches": 394
   }
 }
