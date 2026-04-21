@@ -22748,25 +22748,49 @@
       "lastName": "VASILE",
       "username": "",
       "joinedAt": "2026-04-21T11:35:41.575Z",
-      "lastActive": "2026-04-21T11:35:54.181Z",
-      "searches": [],
+      "lastActive": "2026-04-21T11:36:44.596Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            8,
+            5
+          ],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-21T11:38:10.519Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          8,
+          5
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 394
+    "totalSearches": 395
   }
 }
