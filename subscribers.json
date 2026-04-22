@@ -6172,6 +6172,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "803978250": {
+      "chatId": 803978250,
+      "firstName": "Olga",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-22T20:01:14.776Z",
+      "lastActive": "2026-04-22T20:01:14.776Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "804862939": {
       "chatId": 804862939,
       "firstName": "Maryam",
