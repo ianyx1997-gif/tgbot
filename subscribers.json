@@ -10833,6 +10833,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1392747034": {
+      "chatId": 1392747034,
+      "firstName": "Диана",
+      "lastName": "",
+      "username": "Diana2202",
+      "joinedAt": "2026-04-22T06:41:16.816Z",
+      "lastActive": "2026-04-22T06:41:16.816Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1402868089": {
       "chatId": 1402868089,
       "firstName": "Mariana",
