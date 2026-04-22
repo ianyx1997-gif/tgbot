@@ -3568,6 +3568,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "590595133": {
+      "chatId": 590595133,
+      "firstName": "Gorban",
+      "lastName": "Olga",
+      "username": "Olgagorban75",
+      "joinedAt": "2026-04-22T11:55:04.782Z",
+      "lastActive": "2026-04-22T11:55:04.782Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "592782573": {
       "chatId": 592782573,
       "firstName": "Алина Гайчан",
