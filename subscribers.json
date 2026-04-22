@@ -3574,9 +3574,16 @@
       "lastName": "Olga",
       "username": "Olgagorban75",
       "joinedAt": "2026-04-22T11:55:04.782Z",
-      "lastActive": "2026-04-22T11:55:04.782Z",
+      "lastActive": "2026-04-22T11:56:30.024Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "1-3",
+          "extra": null,
+          "timestamp": "2026-04-22T11:56:30.024Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
