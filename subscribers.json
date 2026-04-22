@@ -676,6 +676,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "347303151": {
+      "chatId": 347303151,
+      "firstName": "Samoil",
+      "lastName": "Svetlana",
+      "username": "",
+      "joinedAt": "2026-04-22T14:46:59.047Z",
+      "lastActive": "2026-04-22T14:46:59.047Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "350365670": {
       "chatId": 350365670,
       "firstName": "Вадим",
