@@ -23188,9 +23188,16 @@
       "lastName": "Doina",
       "username": "",
       "joinedAt": "2026-04-22T09:21:32.780Z",
-      "lastActive": "2026-04-22T09:21:32.780Z",
+      "lastActive": "2026-04-22T09:23:00.572Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "6",
+          "extra": null,
+          "timestamp": "2026-04-22T09:23:00.572Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
