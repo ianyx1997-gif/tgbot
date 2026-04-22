@@ -10839,7 +10839,7 @@
       "lastName": "",
       "username": "Diana2202",
       "joinedAt": "2026-04-22T06:41:16.816Z",
-      "lastActive": "2026-04-22T06:42:25.239Z",
+      "lastActive": "2026-04-22T06:44:07.067Z",
       "searches": [
         {
           "country": "Grecia",
@@ -10854,6 +10854,20 @@
           "food": "bb",
           "stars": "3",
           "timestamp": "2026-04-22T06:43:27.479Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-01",
+          "nights": 14,
+          "adults": 2,
+          "children": [
+            5,
+            14
+          ],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-22T06:44:45.364Z"
         }
       ],
       "messages": [],
@@ -10861,11 +10875,11 @@
         "topCountries": [
           "Grecia"
         ],
-        "typicalAdults": "4",
+        "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
           5,
-          1
+          14
         ],
         "preferredFood": "bb",
         "preferredStars": "3",
@@ -10874,11 +10888,10 @@
       "tags": [
         "family",
         "budget",
-        "dest:grecia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1402868089": {
       "chatId": 1402868089,
@@ -23150,6 +23163,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 402
+    "totalSearches": 403
   }
 }
