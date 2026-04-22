@@ -23323,6 +23323,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6478746228": {
+      "chatId": 6478746228,
+      "firstName": "Anastasia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-22T18:04:45.462Z",
+      "lastActive": "2026-04-22T18:04:45.462Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
