@@ -23301,6 +23301,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5007783382": {
+      "chatId": 5007783382,
+      "firstName": "И",
+      "lastName": "I",
+      "username": "klubnicika2016",
+      "joinedAt": "2026-04-22T14:53:46.981Z",
+      "lastActive": "2026-04-22T14:53:46.981Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
