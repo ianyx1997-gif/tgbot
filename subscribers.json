@@ -11237,6 +11237,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1456093725": {
+      "chatId": 1456093725,
+      "firstName": "Cătălina",
+      "lastName": "Caraman",
+      "username": "caramanc93",
+      "joinedAt": "2026-04-22T12:56:58.178Z",
+      "lastActive": "2026-04-22T12:56:58.178Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1468212400": {
       "chatId": 1468212400,
       "firstName": "Nadia",
