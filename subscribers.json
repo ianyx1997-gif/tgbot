@@ -23181,6 +23181,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7889957442": {
+      "chatId": 7889957442,
+      "firstName": "Doina",
+      "lastName": "Doina",
+      "username": "",
+      "joinedAt": "2026-04-22T09:21:32.780Z",
+      "lastActive": "2026-04-22T09:21:32.780Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
