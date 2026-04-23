@@ -13874,21 +13874,40 @@
       "lastName": "",
       "username": "AdrianaTabacaru31",
       "joinedAt": "2026-04-23T17:39:01.829Z",
-      "lastActive": "2026-04-23T17:39:01.829Z",
-      "searches": [],
+      "lastActive": "2026-04-23T17:40:08.140Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-21",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-23T17:40:48.136Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1987608688": {
       "chatId": 1987608688,
@@ -23871,6 +23890,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 415
+    "totalSearches": 416
   }
 }
