@@ -23396,6 +23396,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6151396086": {
+      "chatId": 6151396086,
+      "firstName": "Wadymkins",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-23T05:27:48.315Z",
+      "lastActive": "2026-04-23T05:27:48.315Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
