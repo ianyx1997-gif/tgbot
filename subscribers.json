@@ -23436,6 +23436,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6661150938": {
+      "chatId": 6661150938,
+      "firstName": "ALEXANDR",
+      "lastName": "Calantirschi",
+      "username": "RedBlueWarrior27",
+      "joinedAt": "2026-04-23T07:35:29.424Z",
+      "lastActive": "2026-04-23T07:35:29.424Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
