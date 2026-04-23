@@ -486,6 +486,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "321235365": {
+      "chatId": 321235365,
+      "firstName": "Александра",
+      "lastName": "Царь",
+      "username": "AlexKingofhell",
+      "joinedAt": "2026-04-23T20:46:21.161Z",
+      "lastActive": "2026-04-23T20:46:21.161Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "329868419": {
       "chatId": 329868419,
       "firstName": "Iurii",
