@@ -13635,7 +13635,7 @@
       "lastName": "Silvia",
       "username": "",
       "joinedAt": "2026-04-23T16:36:29.238Z",
-      "lastActive": "2026-04-23T16:41:57.125Z",
+      "lastActive": "2026-04-23T16:42:06.414Z",
       "searches": [
         {
           "country": "Egipt",
@@ -13657,6 +13657,12 @@
           "text": "Sharm din 8-9 mai",
           "extra": null,
           "timestamp": "2026-04-23T16:41:57.126Z"
+        },
+        {
+          "direction": "in",
+          "text": "Coral Sensatori",
+          "extra": null,
+          "timestamp": "2026-04-23T16:42:06.414Z"
         }
       ],
       "preferences": {
