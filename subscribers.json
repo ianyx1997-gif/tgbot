@@ -9662,6 +9662,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1138662250": {
+      "chatId": 1138662250,
+      "firstName": "Валерия",
+      "lastName": "",
+      "username": "lirruu",
+      "joinedAt": "2026-04-23T19:09:54.918Z",
+      "lastActive": "2026-04-23T19:09:54.918Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1140654310": {
       "chatId": 1140654310,
       "firstName": "Daria",
