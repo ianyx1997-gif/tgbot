@@ -23374,6 +23374,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5892584809": {
+      "chatId": 5892584809,
+      "firstName": "Gabriela✨",
+      "lastName": "",
+      "username": "gabrielarotaru",
+      "joinedAt": "2026-04-23T04:51:07.024Z",
+      "lastActive": "2026-04-23T04:51:07.024Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
