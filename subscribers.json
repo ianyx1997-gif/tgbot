@@ -13635,21 +13635,45 @@
       "lastName": "Silvia",
       "username": "",
       "joinedAt": "2026-04-23T16:36:29.238Z",
-      "lastActive": "2026-04-23T16:37:41.998Z",
-      "searches": [],
+      "lastActive": "2026-04-23T16:37:47.416Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-17",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-23T16:38:21.886Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          1
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1945197007": {
       "chatId": 1945197007,
@@ -23806,6 +23830,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 414
+    "totalSearches": 415
   }
 }
