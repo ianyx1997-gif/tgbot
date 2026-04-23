@@ -11365,6 +11365,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1480286834": {
+      "chatId": 1480286834,
+      "firstName": "A",
+      "lastName": "C",
+      "username": "",
+      "joinedAt": "2026-04-23T12:10:29.861Z",
+      "lastActive": "2026-04-23T12:10:29.861Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1480924062": {
       "chatId": 1480924062,
       "firstName": "Valera",
