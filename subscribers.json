@@ -445,7 +445,7 @@
       "lastName": "",
       "username": "sasha_dance_and_wine",
       "joinedAt": "2026-04-23T14:20:25.271Z",
-      "lastActive": "2026-04-23T14:20:54.926Z",
+      "lastActive": "2026-04-23T14:25:37.292Z",
       "searches": [],
       "messages": [
         {
@@ -6591,6 +6591,28 @@
       "username": "impools",
       "joinedAt": "2026-04-16T12:45:54.965Z",
       "lastActive": "2026-04-16T12:45:54.965Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "837978678": {
+      "chatId": 837978678,
+      "firstName": "Kat",
+      "lastName": "",
+      "username": "KatherineMCM",
+      "joinedAt": "2026-04-23T14:25:46.563Z",
+      "lastActive": "2026-04-23T14:25:46.563Z",
       "searches": [],
       "messages": [],
       "preferences": {
