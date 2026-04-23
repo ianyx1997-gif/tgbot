@@ -13868,6 +13868,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1986520665": {
+      "chatId": 1986520665,
+      "firstName": "Adriana",
+      "lastName": "",
+      "username": "AdrianaTabacaru31",
+      "joinedAt": "2026-04-23T17:39:01.829Z",
+      "lastActive": "2026-04-23T17:39:01.829Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1987608688": {
       "chatId": 1987608688,
       "firstName": "Bianca",
