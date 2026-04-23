@@ -439,6 +439,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "320481478": {
+      "chatId": 320481478,
+      "firstName": "Alexandra",
+      "lastName": "",
+      "username": "sasha_dance_and_wine",
+      "joinedAt": "2026-04-23T14:20:25.271Z",
+      "lastActive": "2026-04-23T14:20:25.271Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "329868419": {
       "chatId": 329868419,
       "firstName": "Iurii",
