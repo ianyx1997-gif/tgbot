@@ -13635,7 +13635,7 @@
       "lastName": "Silvia",
       "username": "",
       "joinedAt": "2026-04-23T16:36:29.238Z",
-      "lastActive": "2026-04-23T16:42:06.414Z",
+      "lastActive": "2026-04-23T16:42:32.490Z",
       "searches": [
         {
           "country": "Egipt",
@@ -13663,6 +13663,12 @@
           "text": "Coral Sensatori",
           "extra": null,
           "timestamp": "2026-04-23T16:42:06.414Z"
+        },
+        {
+          "direction": "in",
+          "text": "3ad+ 1copil de 1 an",
+          "extra": null,
+          "timestamp": "2026-04-23T16:42:32.490Z"
         }
       ],
       "preferences": {
