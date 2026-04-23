@@ -3322,21 +3322,40 @@
       "lastName": "Sinchevici",
       "username": "",
       "joinedAt": "2026-04-23T14:31:17.630Z",
-      "lastActive": "2026-04-23T14:31:17.630Z",
-      "searches": [],
+      "lastActive": "2026-04-23T14:32:17.159Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-16",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-23T14:32:34.649Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "551058792": {
       "chatId": 551058792,
@@ -23705,6 +23724,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 411
+    "totalSearches": 412
   }
 }
