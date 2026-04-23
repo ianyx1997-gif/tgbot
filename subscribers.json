@@ -18083,6 +18083,20 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-23T08:48:45.336Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-09-04",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            0,
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-23T15:47:52.584Z"
         }
       ],
       "messages": [
@@ -18105,7 +18119,7 @@
         "topCountries": [
           "Grecia",
           "Egipt",
-          "Turcia"
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -18122,11 +18136,11 @@
         "all-inclusive",
         "dest:grecia",
         "dest:egipt",
-        "dest:turcia",
+        "dest:tunisia",
         "active"
       ],
       "blocked": false,
-      "totalSearches": 17
+      "totalSearches": 18
     },
     "5093483737": {
       "chatId": 5093483737,
@@ -23724,6 +23738,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 412
+    "totalSearches": 413
   }
 }
