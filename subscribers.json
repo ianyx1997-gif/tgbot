@@ -5505,6 +5505,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "750835144": {
+      "chatId": 750835144,
+      "firstName": "И",
+      "lastName": "",
+      "username": "Times_tree",
+      "joinedAt": "2026-04-23T18:26:21.418Z",
+      "lastActive": "2026-04-23T18:26:21.418Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "754807927": {
       "chatId": 754807927,
       "firstName": "Сaterina",
