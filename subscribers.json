@@ -446,7 +446,19 @@
       "username": "sasha_dance_and_wine",
       "joinedAt": "2026-04-23T14:20:25.271Z",
       "lastActive": "2026-04-23T14:25:37.292Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-05-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "5",
+          "timestamp": "2026-04-23T14:26:08.010Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -456,17 +468,23 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Tunisia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "luxury",
+        "dest:tunisia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "329868419": {
       "chatId": 329868419,
@@ -6612,7 +6630,7 @@
       "lastName": "",
       "username": "KatherineMCM",
       "joinedAt": "2026-04-23T14:25:46.563Z",
-      "lastActive": "2026-04-23T14:25:46.563Z",
+      "lastActive": "2026-04-23T14:26:01.784Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -23647,6 +23665,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 409
+    "totalSearches": 410
   }
 }
