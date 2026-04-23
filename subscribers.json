@@ -13629,6 +13629,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1942107924": {
+      "chatId": 1942107924,
+      "firstName": "Rotaru",
+      "lastName": "Silvia",
+      "username": "",
+      "joinedAt": "2026-04-23T16:36:29.238Z",
+      "lastActive": "2026-04-23T16:36:29.238Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1945197007": {
       "chatId": 1945197007,
       "firstName": "Maria",
