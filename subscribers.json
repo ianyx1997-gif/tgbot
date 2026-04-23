@@ -23443,7 +23443,7 @@
       "lastName": "Calantirschi",
       "username": "RedBlueWarrior27",
       "joinedAt": "2026-04-23T07:35:29.424Z",
-      "lastActive": "2026-04-23T07:36:27.831Z",
+      "lastActive": "2026-04-23T07:38:12.986Z",
       "searches": [
         {
           "country": "Spania",
@@ -23457,12 +23457,26 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-23T07:37:15.430Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-08-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-23T07:38:43.797Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -23477,14 +23491,14 @@
         "family",
         "all-inclusive",
         "dest:spania",
-        "new"
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 406
+    "totalSearches": 407
   }
 }
