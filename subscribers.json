@@ -445,9 +445,16 @@
       "lastName": "",
       "username": "sasha_dance_and_wine",
       "joinedAt": "2026-04-23T14:20:25.271Z",
-      "lastActive": "2026-04-23T14:20:25.271Z",
+      "lastActive": "2026-04-23T14:20:54.926Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Egypt",
+          "extra": null,
+          "timestamp": "2026-04-23T14:20:54.926Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
