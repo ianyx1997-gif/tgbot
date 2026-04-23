@@ -1388,6 +1388,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "433124293": {
+      "chatId": 433124293,
+      "firstName": "Vasili",
+      "lastName": "P",
+      "username": "",
+      "joinedAt": "2026-04-23T16:30:23.941Z",
+      "lastActive": "2026-04-23T16:30:23.941Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "435527494": {
       "chatId": 435527494,
       "firstName": "Лера 🩷",
