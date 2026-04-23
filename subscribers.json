@@ -3316,6 +3316,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "550252057": {
+      "chatId": 550252057,
+      "firstName": "Vladimir",
+      "lastName": "Sinchevici",
+      "username": "",
+      "joinedAt": "2026-04-23T14:31:17.630Z",
+      "lastActive": "2026-04-23T14:31:17.630Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "551058792": {
       "chatId": 551058792,
       "firstName": "Cristian",
