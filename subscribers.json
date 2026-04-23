@@ -23560,25 +23560,42 @@
       "lastName": "Gorbatina",
       "username": "KiraGorbatina",
       "joinedAt": "2026-04-23T12:39:43.010Z",
-      "lastActive": "2026-04-23T12:39:43.010Z",
-      "searches": [],
+      "lastActive": "2026-04-23T12:40:27.531Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-01",
+          "nights": 12,
+          "adults": 3,
+          "children": [],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-23T12:41:09.458Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "12"
       },
-      "tags": [],
+      "tags": [
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 408
+    "totalSearches": 409
   }
 }
