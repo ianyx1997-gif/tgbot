@@ -23509,6 +23509,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "8635381814": {
+      "chatId": 8635381814,
+      "firstName": "Ольга",
+      "lastName": "Марчукова",
+      "username": "",
+      "joinedAt": "2026-04-23T11:59:02.424Z",
+      "lastActive": "2026-04-23T11:59:02.424Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
