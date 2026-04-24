@@ -28463,6 +28463,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6545477102": {
+      "chatId": 6545477102,
+      "firstName": "Ion",
+      "lastName": "Groza",
+      "username": "iongroza7",
+      "joinedAt": "2026-04-24T10:20:59.689Z",
+      "lastActive": "2026-04-24T10:20:59.689Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
