@@ -23952,6 +23952,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6153333162": {
+      "chatId": 6153333162,
+      "firstName": "Екатерина",
+      "lastName": "Филиппова",
+      "username": "",
+      "joinedAt": "2026-04-24T07:20:04.047Z",
+      "lastActive": "2026-04-24T07:20:04.047Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
