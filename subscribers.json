@@ -28962,6 +28962,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5606171468": {
+      "chatId": 5606171468,
+      "firstName": "Oxana Cherneva",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-24T20:22:01.579Z",
+      "lastActive": "2026-04-24T20:22:01.579Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
