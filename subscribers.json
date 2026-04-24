@@ -2335,6 +2335,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "474869131": {
+      "chatId": 474869131,
+      "firstName": "Irina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-24T12:43:19.531Z",
+      "lastActive": "2026-04-24T12:43:19.531Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "479370752": {
       "chatId": 479370752,
       "firstName": "Tudor",
