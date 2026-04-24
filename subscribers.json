@@ -17351,7 +17351,7 @@
       "lastName": "Bernevec",
       "username": "",
       "joinedAt": "2026-04-13T10:55:49.595Z",
-      "lastActive": "2026-04-13T10:56:39.881Z",
+      "lastActive": "2026-04-24T18:43:05.136Z",
       "searches": [
         {
           "country": "Spania",
@@ -17366,6 +17366,20 @@
           "food": "ob",
           "stars": "3",
           "timestamp": "2026-04-13T10:57:14.551Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-08",
+          "nights": 5,
+          "adults": 4,
+          "children": [
+            13,
+            15
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-24T18:43:52.487Z"
         }
       ],
       "messages": [
@@ -17403,11 +17417,10 @@
       "tags": [
         "family",
         "budget",
-        "dest:spania",
-        "new"
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "5221528981": {
       "chatId": 5221528981,
@@ -28882,6 +28895,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 434
+    "totalSearches": 435
   }
 }
