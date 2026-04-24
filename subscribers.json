@@ -28679,6 +28679,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6567463184": {
+      "chatId": 6567463184,
+      "firstName": "Maxim",
+      "lastName": "",
+      "username": "DMD0228",
+      "joinedAt": "2026-04-24T12:56:57.479Z",
+      "lastActive": "2026-04-24T12:56:57.479Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
