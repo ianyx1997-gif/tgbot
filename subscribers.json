@@ -28836,6 +28836,28 @@
       ],
       "blocked": false,
       "totalSearches": 3
+    },
+    "6334004962": {
+      "chatId": 6334004962,
+      "firstName": "Cristina",
+      "lastName": "Caraus",
+      "username": "C_Cris_V",
+      "joinedAt": "2026-04-24T16:05:19.174Z",
+      "lastActive": "2026-04-24T16:05:19.174Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
