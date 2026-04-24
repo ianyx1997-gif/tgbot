@@ -28905,6 +28905,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5201254491": {
+      "chatId": 5201254491,
+      "firstName": "Ursu",
+      "lastName": "Lucia",
+      "username": "Ursu28",
+      "joinedAt": "2026-04-24T19:30:16.932Z",
+      "lastActive": "2026-04-24T19:30:16.932Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
