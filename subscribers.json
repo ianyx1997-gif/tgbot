@@ -8736,8 +8736,20 @@
       "lastName": "",
       "username": "heaven1596",
       "joinedAt": "2026-04-13T15:53:12.933Z",
-      "lastActive": "2026-04-13T15:53:15.787Z",
-      "searches": [],
+      "lastActive": "2026-04-24T10:06:39.360Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-14",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-24T10:07:00.029Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -8757,17 +8769,24 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "919550056": {
       "chatId": 919550056,
@@ -28425,6 +28444,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 418
+    "totalSearches": 419
   }
 }
