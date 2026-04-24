@@ -26688,6 +26688,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-24T10:05:18.235Z"
+        },
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-06-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-24T10:06:12.423Z"
         }
       ],
       "messages": [
@@ -26724,7 +26737,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 7
+      "totalSearches": 8
     },
     "6337843033": {
       "chatId": 6337843033,
@@ -28412,6 +28425,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 417
+    "totalSearches": 418
   }
 }
