@@ -28502,6 +28502,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7182916612": {
+      "chatId": 7182916612,
+      "firstName": "Bogdan",
+      "lastName": "Bogdan",
+      "username": "",
+      "joinedAt": "2026-04-24T11:25:56.767Z",
+      "lastActive": "2026-04-24T11:25:56.767Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
