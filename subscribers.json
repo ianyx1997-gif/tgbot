@@ -28752,6 +28752,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6633511834": {
+      "chatId": 6633511834,
+      "firstName": "Mihail",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-24T14:31:58.555Z",
+      "lastActive": "2026-04-24T14:31:58.555Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
