@@ -14209,6 +14209,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "2022060414": {
+      "chatId": 2022060414,
+      "firstName": "Andrei",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-24T07:22:50.259Z",
+      "lastActive": "2026-04-24T07:22:50.259Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2032897881": {
       "chatId": 2032897881,
       "firstName": "Tanea",
@@ -23959,7 +23981,7 @@
       "lastName": "Филиппова",
       "username": "",
       "joinedAt": "2026-04-24T07:20:04.047Z",
-      "lastActive": "2026-04-24T07:20:04.047Z",
+      "lastActive": "2026-04-24T07:20:42.540Z",
       "searches": [],
       "messages": [],
       "preferences": {
