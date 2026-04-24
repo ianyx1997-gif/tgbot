@@ -28605,6 +28605,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "6278019294": {
+      "chatId": 6278019294,
+      "firstName": "Tatiana",
+      "lastName": "76",
+      "username": "",
+      "joinedAt": "2026-04-24T12:14:54.344Z",
+      "lastActive": "2026-04-24T12:14:54.344Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
