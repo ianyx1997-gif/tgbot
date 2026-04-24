@@ -28612,7 +28612,7 @@
       "lastName": "76",
       "username": "",
       "joinedAt": "2026-04-24T12:14:54.344Z",
-      "lastActive": "2026-04-24T12:17:25.728Z",
+      "lastActive": "2026-04-24T12:18:29.810Z",
       "searches": [],
       "messages": [
         {
@@ -28620,6 +28620,12 @@
           "text": "Bună ziua!",
           "extra": null,
           "timestamp": "2026-04-24T12:17:25.728Z"
+        },
+        {
+          "direction": "in",
+          "text": "Mă interesează ce oferte aveți în  Atena,în luna Mai,iunie.",
+          "extra": null,
+          "timestamp": "2026-04-24T12:18:29.810Z"
         }
       ],
       "preferences": {
