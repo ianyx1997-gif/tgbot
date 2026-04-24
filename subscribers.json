@@ -13184,7 +13184,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-24T19:48:23.671Z",
-      "lastActive": "2026-04-24T19:49:15.933Z",
+      "lastActive": "2026-04-24T19:49:26.724Z",
       "searches": [],
       "messages": [
         {
@@ -13192,6 +13192,12 @@
           "text": "10",
           "extra": null,
           "timestamp": "2026-04-24T19:49:15.933Z"
+        },
+        {
+          "direction": "in",
+          "text": "Nopți",
+          "extra": null,
+          "timestamp": "2026-04-24T19:49:26.724Z"
         }
       ],
       "preferences": {
