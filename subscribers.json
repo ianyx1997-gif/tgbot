@@ -7288,6 +7288,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "782821015": {
+      "chatId": 782821015,
+      "firstName": "Сергей",
+      "lastName": "Лобачев",
+      "username": "liss2018",
+      "joinedAt": "2026-04-24T13:20:11.250Z",
+      "lastActive": "2026-04-24T13:20:11.250Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "786089410": {
       "chatId": 786089410,
       "firstName": "Надинка",
