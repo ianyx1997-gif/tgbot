@@ -17380,6 +17380,20 @@
           "food": "ob",
           "stars": "",
           "timestamp": "2026-04-24T18:43:52.487Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-08",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            13,
+            15
+          ],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-24T18:44:15.724Z"
         }
       ],
       "messages": [
@@ -17420,7 +17434,7 @@
         "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "5221528981": {
       "chatId": 5221528981,
@@ -28895,6 +28909,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 435
+    "totalSearches": 436
   }
 }
