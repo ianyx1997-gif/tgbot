@@ -2342,20 +2342,37 @@
       "username": "",
       "joinedAt": "2026-04-24T12:43:19.531Z",
       "lastActive": "2026-04-24T12:43:19.531Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-06-08",
+          "nights": 7,
+          "adults": 3,
+          "children": [],
+          "food": "hb",
+          "stars": "4",
+          "timestamp": "2026-04-24T12:44:44.883Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "hb",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "479370752": {
       "chatId": 479370752,
@@ -28666,6 +28683,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 426
+    "totalSearches": 427
   }
 }
