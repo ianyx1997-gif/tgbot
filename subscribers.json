@@ -17515,7 +17515,7 @@
       "lastName": "Alx",
       "username": "Alexrtfmm",
       "joinedAt": "2026-04-13T11:11:58.114Z",
-      "lastActive": "2026-04-24T16:49:14.124Z",
+      "lastActive": "2026-04-24T16:49:16.523Z",
       "searches": [
         {
           "country": "Egipt",
@@ -17527,6 +17527,17 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-04-13T11:12:32.362Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-04-27",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-24T16:49:39.094Z"
         }
       ],
       "messages": [
@@ -17560,11 +17571,10 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:egipt",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "5893983088": {
       "chatId": 5893983088,
@@ -28862,6 +28872,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 432
+    "totalSearches": 433
   }
 }
