@@ -890,8 +890,20 @@
       "lastName": "Svetlana",
       "username": "",
       "joinedAt": "2026-04-22T14:46:59.047Z",
-      "lastActive": "2026-04-22T14:46:59.047Z",
-      "searches": [],
+      "lastActive": "2026-04-24T10:24:03.177Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-02",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-24T10:24:32.181Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -903,17 +915,22 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "350365670": {
       "chatId": 350365670,
@@ -28489,6 +28506,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 420
+    "totalSearches": 421
   }
 }
