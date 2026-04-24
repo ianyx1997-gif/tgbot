@@ -28523,12 +28523,26 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-04-24T11:30:15.858Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-09-15",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-24T11:31:13.390Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Bulgaria"
+          "Bulgaria",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -28543,14 +28557,14 @@
         "family",
         "all-inclusive",
         "dest:bulgaria",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 422
+    "totalSearches": 423
   }
 }
