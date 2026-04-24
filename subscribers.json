@@ -28771,6 +28771,17 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-24T14:33:56.897Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-24T14:35:33.702Z"
         }
       ],
       "messages": [],
@@ -28788,15 +28799,14 @@
       "tags": [
         "all-inclusive",
         "budget",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 430
+    "totalSearches": 431
   }
 }
