@@ -28096,8 +28096,20 @@
       "lastName": "Savencov",
       "username": "",
       "joinedAt": "2026-04-22T08:38:24.243Z",
-      "lastActive": "2026-04-22T08:38:36.037Z",
-      "searches": [],
+      "lastActive": "2026-04-24T11:40:41.399Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-17",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-24T11:41:27.943Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -28109,17 +28121,23 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7889957442": {
       "chatId": 7889957442,
@@ -28577,6 +28595,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 424
+    "totalSearches": 425
   }
 }
