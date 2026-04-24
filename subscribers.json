@@ -18805,8 +18805,22 @@
       "lastName": "Гумен......",
       "username": "TVDDD1979",
       "joinedAt": "2026-04-13T14:43:36.166Z",
-      "lastActive": "2026-04-15T08:35:32.142Z",
-      "searches": [],
+      "lastActive": "2026-04-24T10:11:44.139Z",
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-08-10",
+          "nights": 7,
+          "adults": 1,
+          "children": [
+            11
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-24T10:12:33.646Z"
+        }
+      ],
       "messages": [
         {
           "direction": "out",
@@ -18826,17 +18840,26 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "7379533122": {
       "chatId": 7379533122,
@@ -28444,6 +28467,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 419
+    "totalSearches": 420
   }
 }
