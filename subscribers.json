@@ -28509,25 +28509,48 @@
       "lastName": "Bogdan",
       "username": "",
       "joinedAt": "2026-04-24T11:25:56.767Z",
-      "lastActive": "2026-04-24T11:25:56.767Z",
-      "searches": [],
+      "lastActive": "2026-04-24T11:29:12.967Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-09-15",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-24T11:30:15.858Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 421
+    "totalSearches": 422
   }
 }
