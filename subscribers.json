@@ -16492,6 +16492,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1932502624": {
+      "chatId": 1932502624,
+      "firstName": "Moldovanu",
+      "lastName": "Nicoleta",
+      "username": "",
+      "joinedAt": "2026-04-25T09:35:30.716Z",
+      "lastActive": "2026-04-25T09:35:30.716Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1942107924": {
       "chatId": 1942107924,
       "firstName": "Rotaru",
