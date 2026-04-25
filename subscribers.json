@@ -8450,6 +8450,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "872875169": {
+      "chatId": 872875169,
+      "firstName": "Татьяна",
+      "lastName": "Григорьевна",
+      "username": "",
+      "joinedAt": "2026-04-25T05:47:17.151Z",
+      "lastActive": "2026-04-25T05:47:17.151Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "878563214": {
       "chatId": 878563214,
       "firstName": "Daniela",
