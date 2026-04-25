@@ -29203,6 +29203,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "6473114788": {
+      "chatId": 6473114788,
+      "firstName": "Valerii",
+      "lastName": "Cebotari",
+      "username": "valerii_cebotari",
+      "joinedAt": "2026-04-25T10:21:08.126Z",
+      "lastActive": "2026-04-25T10:21:08.126Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
