@@ -28863,7 +28863,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-24T14:31:58.555Z",
-      "lastActive": "2026-04-24T14:36:13.583Z",
+      "lastActive": "2026-04-25T05:34:23.857Z",
       "searches": [
         {
           "country": "Turcia",
@@ -28897,12 +28897,24 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-24T14:36:33.899Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "hb",
+          "stars": "3",
+          "timestamp": "2026-04-25T05:34:57.439Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -28914,10 +28926,11 @@
       "tags": [
         "all-inclusive",
         "budget",
-        "dest:turcia"
+        "dest:turcia",
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "6334004962": {
       "chatId": 6334004962,
@@ -29064,6 +29077,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 439
+    "totalSearches": 440
   }
 }
