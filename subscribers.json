@@ -10305,6 +10305,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1008932905": {
+      "chatId": 1008932905,
+      "firstName": "Ines",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-25T06:22:35.976Z",
+      "lastActive": "2026-04-25T06:22:35.976Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1012554408": {
       "chatId": 1012554408,
       "firstName": "BV9500 Pro",
