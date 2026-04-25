@@ -11632,6 +11632,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1136070111": {
+      "chatId": 1136070111,
+      "firstName": "Oleksandr",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-25T18:06:51.355Z",
+      "lastActive": "2026-04-25T18:06:51.355Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1138662250": {
       "chatId": 1138662250,
       "firstName": "Валерия",
