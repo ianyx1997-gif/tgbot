@@ -28919,6 +28919,17 @@
           "food": "fb",
           "stars": "3",
           "timestamp": "2026-04-25T05:36:26.297Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-04",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "fb",
+          "stars": "",
+          "timestamp": "2026-04-25T05:37:51.460Z"
         }
       ],
       "messages": [],
@@ -28942,7 +28953,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     },
     "6334004962": {
       "chatId": 6334004962,
@@ -29089,6 +29100,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 441
+    "totalSearches": 442
   }
 }
