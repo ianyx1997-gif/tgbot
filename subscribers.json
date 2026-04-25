@@ -29009,25 +29009,49 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-25T05:26:06.927Z",
-      "lastActive": "2026-04-25T05:26:06.927Z",
-      "searches": [],
+      "lastActive": "2026-04-25T05:27:58.368Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-22",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            11
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-25T05:28:53.515Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          11
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 437
+    "totalSearches": 438
   }
 }
