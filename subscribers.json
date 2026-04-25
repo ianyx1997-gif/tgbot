@@ -9035,7 +9035,7 @@
       "lastName": "Zeru",
       "username": "",
       "joinedAt": "2026-04-13T15:42:37.238Z",
-      "lastActive": "2026-04-25T16:27:41.170Z",
+      "lastActive": "2026-04-25T16:28:01.727Z",
       "searches": [],
       "messages": [
         {
@@ -9043,6 +9043,12 @@
           "text": "Caută",
           "extra": null,
           "timestamp": "2026-04-13T15:44:20.199Z"
+        },
+        {
+          "direction": "in",
+          "text": "Succese mari",
+          "extra": null,
+          "timestamp": "2026-04-25T16:28:01.727Z"
         }
       ],
       "preferences": {
