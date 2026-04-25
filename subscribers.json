@@ -29002,6 +29002,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6870881437": {
+      "chatId": 6870881437,
+      "firstName": "Екатерина",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-25T05:26:06.927Z",
+      "lastActive": "2026-04-25T05:26:06.927Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
