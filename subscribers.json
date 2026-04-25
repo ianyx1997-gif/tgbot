@@ -8478,7 +8478,7 @@
       "lastName": "",
       "username": "dannapewpew",
       "joinedAt": "2026-04-13T14:53:13.770Z",
-      "lastActive": "2026-04-13T14:53:20.093Z",
+      "lastActive": "2026-04-25T19:53:48.838Z",
       "searches": [
         {
           "country": "Turcia",
@@ -8501,6 +8501,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-13T14:59:25.529Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-07-26",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-04-25T19:54:18.011Z"
         }
       ],
       "messages": [
@@ -8524,12 +8535,13 @@
       "preferences": {
         "topCountries": [
           "Turcia",
-          "Grecia"
+          "Grecia",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "uai",
+        "preferredFood": "ai",
         "preferredStars": "5",
         "preferredNights": "7"
       },
@@ -8537,10 +8549,11 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "888839863": {
       "chatId": 888839863,
@@ -29257,6 +29270,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 445
+    "totalSearches": 446
   }
 }
