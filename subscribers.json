@@ -8478,7 +8478,7 @@
       "lastName": "",
       "username": "dannapewpew",
       "joinedAt": "2026-04-13T14:53:13.770Z",
-      "lastActive": "2026-04-25T19:53:48.838Z",
+      "lastActive": "2026-04-25T20:11:53.923Z",
       "searches": [
         {
           "country": "Turcia",
@@ -8512,6 +8512,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-25T19:54:18.011Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-25T20:12:22.988Z"
         }
       ],
       "messages": [
@@ -8553,7 +8564,7 @@
         "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "888839863": {
       "chatId": 888839863,
@@ -29270,6 +29281,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 446
+    "totalSearches": 447
   }
 }
