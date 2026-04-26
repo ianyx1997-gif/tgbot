@@ -9163,7 +9163,7 @@
       "lastName": "Zeru",
       "username": "",
       "joinedAt": "2026-04-13T15:42:37.238Z",
-      "lastActive": "2026-04-25T16:28:01.727Z",
+      "lastActive": "2026-04-26T15:41:00.149Z",
       "searches": [],
       "messages": [
         {
@@ -9177,6 +9177,12 @@
           "text": "Succese mari",
           "extra": null,
           "timestamp": "2026-04-25T16:28:01.727Z"
+        },
+        {
+          "direction": "in",
+          "text": "Buna ziua \nO să aveti și oferte aici",
+          "extra": null,
+          "timestamp": "2026-04-26T15:41:00.149Z"
         }
       ],
       "preferences": {
