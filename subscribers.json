@@ -8588,6 +8588,28 @@
       "blocked": false,
       "totalSearches": 4
     },
+    "888655525": {
+      "chatId": 888655525,
+      "firstName": "Lena",
+      "lastName": "Nichita",
+      "username": "",
+      "joinedAt": "2026-04-26T08:37:01.130Z",
+      "lastActive": "2026-04-26T08:37:01.130Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "888839863": {
       "chatId": 888839863,
       "firstName": "I N",
