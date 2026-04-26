@@ -14891,8 +14891,24 @@
       "lastName": "",
       "username": "chitanumariana",
       "joinedAt": "2026-04-14T06:34:42.354Z",
-      "lastActive": "2026-04-14T06:36:26.865Z",
-      "searches": [],
+      "lastActive": "2026-04-26T19:23:03.517Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-28",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            4,
+            10,
+            12
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-26T19:24:21.133Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -14918,17 +14934,28 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          4,
+          10,
+          12
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1651364982": {
       "chatId": 1651364982,
@@ -29710,6 +29737,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 458
+    "totalSearches": 459
   }
 }
