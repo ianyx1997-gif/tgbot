@@ -12051,6 +12051,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1184012201": {
+      "chatId": 1184012201,
+      "firstName": "Anastasia",
+      "lastName": "",
+      "username": "vadimovna_23",
+      "joinedAt": "2026-04-26T08:47:56.372Z",
+      "lastActive": "2026-04-26T08:47:56.372Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1193649309": {
       "chatId": 1193649309,
       "firstName": "Anatol",
