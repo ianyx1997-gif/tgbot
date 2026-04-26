@@ -15240,6 +15240,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1703258620": {
+      "chatId": 1703258620,
+      "firstName": "Gogu",
+      "lastName": "Ilie",
+      "username": "Ilie_Gogu",
+      "joinedAt": "2026-04-26T17:26:35.758Z",
+      "lastActive": "2026-04-26T17:26:35.758Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1707944382": {
       "chatId": 1707944382,
       "firstName": "Татьяна",
