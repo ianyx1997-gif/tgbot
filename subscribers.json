@@ -6936,7 +6936,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T14:54:50.845Z",
-      "lastActive": "2026-04-13T15:02:10.107Z",
+      "lastActive": "2026-04-26T12:52:07.173Z",
       "searches": [
         {
           "country": "Bulgaria",
@@ -6975,6 +6975,12 @@
             "broadcast": true
           },
           "timestamp": "2026-04-24T10:01:14.218Z"
+        },
+        {
+          "direction": "in",
+          "text": "Start",
+          "extra": null,
+          "timestamp": "2026-04-26T12:52:07.173Z"
         }
       ],
       "preferences": {
