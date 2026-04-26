@@ -16259,6 +16259,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1876537124": {
+      "chatId": 1876537124,
+      "firstName": "Natali",
+      "lastName": "Naty",
+      "username": "",
+      "joinedAt": "2026-04-26T07:17:58.690Z",
+      "lastActive": "2026-04-26T07:17:58.690Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1878098409": {
       "chatId": 1878098409,
       "firstName": "Waldemar",
