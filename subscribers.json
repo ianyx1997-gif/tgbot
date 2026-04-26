@@ -14556,7 +14556,7 @@
       "lastName": "Ecaterina",
       "username": "",
       "joinedAt": "2026-04-13T12:16:52.031Z",
-      "lastActive": "2026-04-14T15:41:40.790Z",
+      "lastActive": "2026-04-26T13:54:39.507Z",
       "searches": [
         {
           "country": "Turcia",
@@ -14601,6 +14601,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-14T15:48:12.483Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-14",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-26T13:55:03.217Z"
         }
       ],
       "messages": [
@@ -14636,10 +14647,11 @@
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "dest:grecia"
+        "dest:grecia",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     },
     "1608588623": {
       "chatId": 1608588623,
@@ -29605,6 +29617,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 455
+    "totalSearches": 456
   }
 }
