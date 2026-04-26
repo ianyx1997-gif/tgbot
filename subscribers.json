@@ -15247,7 +15247,19 @@
       "username": "Ilie_Gogu",
       "joinedAt": "2026-04-26T17:26:35.758Z",
       "lastActive": "2026-04-26T17:26:49.528Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-05",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "",
+          "timestamp": "2026-04-26T17:27:50.178Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -15257,17 +15269,22 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1707944382": {
       "chatId": 1707944382,
@@ -29693,6 +29710,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 457
+    "totalSearches": 458
   }
 }
