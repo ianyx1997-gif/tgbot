@@ -15246,9 +15246,16 @@
       "lastName": "Ilie",
       "username": "Ilie_Gogu",
       "joinedAt": "2026-04-26T17:26:35.758Z",
-      "lastActive": "2026-04-26T17:26:35.758Z",
+      "lastActive": "2026-04-26T17:26:49.528Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "5-8 mai",
+          "extra": null,
+          "timestamp": "2026-04-26T17:26:49.528Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
