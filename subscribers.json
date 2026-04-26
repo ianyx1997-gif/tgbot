@@ -29579,6 +29579,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6389978134": {
+      "chatId": 6389978134,
+      "firstName": "Svetlana",
+      "lastName": "Iudina",
+      "username": "",
+      "joinedAt": "2026-04-26T13:07:45.095Z",
+      "lastActive": "2026-04-26T13:07:45.095Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
