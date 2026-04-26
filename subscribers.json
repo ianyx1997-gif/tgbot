@@ -29638,6 +29638,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7691007071": {
+      "chatId": 7691007071,
+      "firstName": "Svetlana",
+      "lastName": "Rusu",
+      "username": "",
+      "joinedAt": "2026-04-26T16:57:55.187Z",
+      "lastActive": "2026-04-26T16:57:55.187Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
