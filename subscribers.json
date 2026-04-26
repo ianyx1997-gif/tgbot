@@ -13975,6 +13975,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1459291667": {
+      "chatId": 1459291667,
+      "firstName": "Ирина",
+      "lastName": "",
+      "username": "dririnavasilievadoctor",
+      "joinedAt": "2026-04-26T07:38:52.607Z",
+      "lastActive": "2026-04-26T07:38:52.607Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1468212400": {
       "chatId": 1468212400,
       "firstName": "Nadia",
