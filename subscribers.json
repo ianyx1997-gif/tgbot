@@ -29496,6 +29496,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5017792892": {
+      "chatId": 5017792892,
+      "firstName": "Denis",
+      "lastName": "Postovan",
+      "username": "Denis_Postovan_ThinkIT",
+      "joinedAt": "2026-04-26T12:13:10.402Z",
+      "lastActive": "2026-04-26T12:13:10.402Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
