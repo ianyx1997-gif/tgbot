@@ -14029,7 +14029,7 @@
       "lastName": "",
       "username": "vicusiaa",
       "joinedAt": "2026-04-26T12:01:53.490Z",
-      "lastActive": "2026-04-26T12:32:40.641Z",
+      "lastActive": "2026-04-26T12:33:56.407Z",
       "searches": [
         {
           "country": "Turcia",
@@ -14063,28 +14063,41 @@
           "food": "uai",
           "stars": "4",
           "timestamp": "2026-04-26T12:32:55.527Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-06-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-26T12:34:11.349Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
           "Turcia",
-          "Bulgaria"
+          "Bulgaria",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "uai",
+        "preferredFood": "ai",
         "preferredStars": "4",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "dest:bulgaria"
+        "dest:bulgaria",
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "1456093725": {
       "chatId": 1456093725,
@@ -29545,6 +29558,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 453
+    "totalSearches": 454
   }
 }
