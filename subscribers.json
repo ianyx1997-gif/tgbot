@@ -1107,9 +1107,16 @@
       "lastName": "Вахнина",
       "username": "Liliya_Vakhnina",
       "joinedAt": "2026-04-27T07:45:38.196Z",
-      "lastActive": "2026-04-27T07:45:38.196Z",
+      "lastActive": "2026-04-27T07:46:35.549Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-04-27T07:46:35.549Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
