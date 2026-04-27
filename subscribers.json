@@ -11850,20 +11850,38 @@
       "username": "JuliaVitali",
       "joinedAt": "2026-04-27T06:25:37.761Z",
       "lastActive": "2026-04-27T06:26:30.249Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-15",
+          "nights": 5,
+          "adults": 1,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-27T06:27:45.795Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1136070111": {
       "chatId": 1136070111,
@@ -29965,6 +29983,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 465
+    "totalSearches": 466
   }
 }
