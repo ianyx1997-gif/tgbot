@@ -30078,6 +30078,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6074085152": {
+      "chatId": 6074085152,
+      "firstName": "...",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-27T14:26:30.329Z",
+      "lastActive": "2026-04-27T14:26:30.329Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
