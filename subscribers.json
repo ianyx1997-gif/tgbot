@@ -12655,21 +12655,39 @@
       "lastName": "✨",
       "username": "ayled_gd",
       "joinedAt": "2026-04-27T05:48:16.669Z",
-      "lastActive": "2026-04-27T05:48:16.669Z",
-      "searches": [],
+      "lastActive": "2026-04-27T05:48:21.730Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-06",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-27T05:48:42.443Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1251226903": {
       "chatId": 1251226903,
@@ -29903,6 +29921,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 464
+    "totalSearches": 465
   }
 }
