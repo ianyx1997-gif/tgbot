@@ -1136,21 +1136,38 @@
       "lastName": "",
       "username": "vitas2022",
       "joinedAt": "2026-04-27T19:26:38.410Z",
-      "lastActive": "2026-04-27T19:26:38.410Z",
-      "searches": [],
+      "lastActive": "2026-04-27T19:27:55.993Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-06-08",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "hb",
+          "stars": "",
+          "timestamp": "2026-04-27T19:28:16.164Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "hb",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "367507035": {
       "chatId": 367507035,
@@ -30190,6 +30207,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 470
+    "totalSearches": 471
   }
 }
