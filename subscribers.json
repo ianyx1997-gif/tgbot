@@ -29740,7 +29740,7 @@
       "lastName": "S",
       "username": "solonari_m",
       "joinedAt": "2026-04-27T01:03:33.162Z",
-      "lastActive": "2026-04-27T01:03:37.134Z",
+      "lastActive": "2026-04-27T01:04:54.681Z",
       "searches": [
         {
           "country": "Spania",
@@ -29752,32 +29752,44 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-27T01:04:00.277Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-08-10",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-27T01:05:15.232Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Cipru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "uai",
         "preferredStars": "5",
-        "preferredNights": "14"
+        "preferredNights": "10"
       },
       "tags": [
         "all-inclusive",
         "luxury",
         "dest:spania",
-        "new"
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 460
+    "totalSearches": 461
   }
 }
