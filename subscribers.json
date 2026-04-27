@@ -30034,6 +30034,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6506887481": {
+      "chatId": 6506887481,
+      "firstName": "Дед",
+      "lastName": "",
+      "username": "hoh14888",
+      "joinedAt": "2026-04-27T10:54:16.671Z",
+      "lastActive": "2026-04-27T10:54:16.671Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
