@@ -29786,6 +29786,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5676426363": {
+      "chatId": 5676426363,
+      "firstName": "Johann",
+      "lastName": "",
+      "username": "John_Doe_2025",
+      "joinedAt": "2026-04-27T01:06:44.050Z",
+      "lastActive": "2026-04-27T01:06:44.050Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
