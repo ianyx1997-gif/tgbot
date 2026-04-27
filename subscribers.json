@@ -1130,6 +1130,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "363595657": {
+      "chatId": 363595657,
+      "firstName": "Alexandra",
+      "lastName": "",
+      "username": "cotiqueee",
+      "joinedAt": "2026-04-27T21:04:35.941Z",
+      "lastActive": "2026-04-27T21:04:35.941Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "367292671": {
       "chatId": 367292671,
       "firstName": "Vitas 💶 💵",
