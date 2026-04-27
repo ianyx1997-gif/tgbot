@@ -1101,6 +1101,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "359958126": {
+      "chatId": 359958126,
+      "firstName": "Лилия",
+      "lastName": "Вахнина",
+      "username": "Liliya_Vakhnina",
+      "joinedAt": "2026-04-27T07:45:38.196Z",
+      "lastActive": "2026-04-27T07:45:38.196Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "367507035": {
       "chatId": 367507035,
       "firstName": "Serghei",
