@@ -1567,6 +1567,28 @@
       "blocked": true,
       "totalSearches": 1
     },
+    "410857926": {
+      "chatId": 410857926,
+      "firstName": "GSE",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-27T05:19:58.078Z",
+      "lastActive": "2026-04-27T05:19:58.078Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "411770945": {
       "chatId": 411770945,
       "firstName": "Алёнушка",
