@@ -11843,6 +11843,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1120604483": {
+      "chatId": 1120604483,
+      "firstName": "Julia",
+      "lastName": "Vitali",
+      "username": "JuliaVitali",
+      "joinedAt": "2026-04-27T06:25:37.761Z",
+      "lastActive": "2026-04-27T06:25:37.761Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1136070111": {
       "chatId": 1136070111,
       "firstName": "Oleksandr",
