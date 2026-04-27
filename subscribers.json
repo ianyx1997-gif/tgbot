@@ -29733,6 +29733,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5361363818": {
+      "chatId": 5361363818,
+      "firstName": "M",
+      "lastName": "S",
+      "username": "solonari_m",
+      "joinedAt": "2026-04-27T01:03:33.162Z",
+      "lastActive": "2026-04-27T01:03:33.162Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
