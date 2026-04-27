@@ -30064,20 +30064,38 @@
       "username": "",
       "joinedAt": "2026-04-27T11:54:15.341Z",
       "lastActive": "2026-04-27T11:54:59.253Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-05",
+          "nights": 10,
+          "adults": 1,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-27T15:10:42.852Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Egipt"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:egipt",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "6074085152": {
       "chatId": 6074085152,
@@ -30150,6 +30168,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 469
+    "totalSearches": 470
   }
 }
