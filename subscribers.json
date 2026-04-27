@@ -30114,25 +30114,42 @@
       "lastName": "Cernei",
       "username": "iceluty",
       "joinedAt": "2026-04-27T14:34:33.948Z",
-      "lastActive": "2026-04-27T14:34:33.948Z",
-      "searches": [],
+      "lastActive": "2026-04-27T14:34:37.814Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-15",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-04-27T14:35:04.885Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 468
+    "totalSearches": 469
   }
 }
