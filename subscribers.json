@@ -12649,6 +12649,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1240616873": {
+      "chatId": 1240616873,
+      "firstName": "Delia",
+      "lastName": "✨",
+      "username": "ayled_gd",
+      "joinedAt": "2026-04-27T05:48:16.669Z",
+      "lastActive": "2026-04-27T05:48:16.669Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1251226903": {
       "chatId": 1251226903,
       "firstName": "Виталий",
