@@ -1573,7 +1573,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-27T05:19:58.078Z",
-      "lastActive": "2026-04-27T05:20:53.310Z",
+      "lastActive": "2026-04-27T05:24:04.656Z",
       "searches": [
         {
           "country": "Turcia",
@@ -1587,6 +1587,19 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-27T05:21:26.151Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-01",
+          "nights": 14,
+          "adults": 2,
+          "children": [
+            9
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-27T05:24:22.877Z"
         }
       ],
       "messages": [],
@@ -1607,11 +1620,10 @@
         "family",
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "411770945": {
       "chatId": 411770945,
@@ -29869,6 +29881,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 463
+    "totalSearches": 464
   }
 }
