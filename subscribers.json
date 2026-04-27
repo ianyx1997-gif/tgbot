@@ -29740,25 +29740,44 @@
       "lastName": "S",
       "username": "solonari_m",
       "joinedAt": "2026-04-27T01:03:33.162Z",
-      "lastActive": "2026-04-27T01:03:33.162Z",
-      "searches": [],
+      "lastActive": "2026-04-27T01:03:37.134Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-10",
+          "nights": 14,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-27T01:04:00.277Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "14"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 459
+    "totalSearches": 460
   }
 }
