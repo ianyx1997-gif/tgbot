@@ -30056,6 +30056,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5886378142": {
+      "chatId": 5886378142,
+      "firstName": "50114",
+      "lastName": "Gheorghii",
+      "username": "",
+      "joinedAt": "2026-04-27T11:54:15.341Z",
+      "lastActive": "2026-04-27T11:54:15.341Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
