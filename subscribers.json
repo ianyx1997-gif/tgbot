@@ -11849,7 +11849,7 @@
       "lastName": "Vitali",
       "username": "JuliaVitali",
       "joinedAt": "2026-04-27T06:25:37.761Z",
-      "lastActive": "2026-04-27T06:25:37.761Z",
+      "lastActive": "2026-04-27T06:26:30.249Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -29925,6 +29925,28 @@
       "username": "John_Doe_2025",
       "joinedAt": "2026-04-27T01:06:44.050Z",
       "lastActive": "2026-04-27T01:07:36.079Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
+    "5413786909": {
+      "chatId": 5413786909,
+      "firstName": "Natalia",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-04-27T06:27:40.300Z",
+      "lastActive": "2026-04-27T06:27:40.300Z",
       "searches": [],
       "messages": [],
       "preferences": {
