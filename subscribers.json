@@ -5716,6 +5716,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "646115410": {
+      "chatId": 646115410,
+      "firstName": ".",
+      "lastName": "",
+      "username": "podarokzasotku",
+      "joinedAt": "2026-04-28T13:08:50.461Z",
+      "lastActive": "2026-04-28T13:08:50.461Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "651878158": {
       "chatId": 651878158,
       "firstName": "Марина Петровская",
