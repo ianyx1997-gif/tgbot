@@ -7268,6 +7268,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "771608146": {
+      "chatId": 771608146,
+      "firstName": "Daniela",
+      "lastName": "Bc 🌸",
+      "username": "DanielleBc",
+      "joinedAt": "2026-04-28T07:29:58.311Z",
+      "lastActive": "2026-04-28T07:29:58.311Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "778604956": {
       "chatId": 778604956,
       "firstName": "Таня",
