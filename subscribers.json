@@ -30467,6 +30467,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5254245001": {
+      "chatId": 5254245001,
+      "firstName": "Nata",
+      "lastName": "Eni",
+      "username": "Eninatalia",
+      "joinedAt": "2026-04-28T12:16:28.517Z",
+      "lastActive": "2026-04-28T12:16:28.517Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
