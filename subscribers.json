@@ -6684,8 +6684,8 @@
       "firstName": "Nikoleta",
       "lastName": "",
       "username": "Nika3557",
-      "joinedAt": "2026-04-28T13:29:02.306Z",
-      "lastActive": "2026-04-28T13:29:02.306Z",
+      "joinedAt": "2026-04-28T13:29:08.060Z",
+      "lastActive": "2026-04-28T13:29:08.060Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -30592,25 +30592,51 @@
       "lastName": "Ghilan",
       "username": "",
       "joinedAt": "2026-04-28T13:28:31.171Z",
-      "lastActive": "2026-04-28T13:28:37.768Z",
-      "searches": [],
+      "lastActive": "2026-04-28T13:29:28.383Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-27",
+          "nights": 10,
+          "adults": 2,
+          "children": [
+            3,
+            5
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-04-28T13:30:01.541Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          3,
+          5
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 487
+    "totalSearches": 488
   }
 }
