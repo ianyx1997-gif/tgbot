@@ -18116,6 +18116,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "2057730012": {
+      "chatId": 2057730012,
+      "firstName": "Anna",
+      "lastName": "Prilutcaia",
+      "username": "anna_prilutcaia",
+      "joinedAt": "2026-04-28T08:17:04.810Z",
+      "lastActive": "2026-04-28T08:17:04.810Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2096442373": {
       "chatId": 2096442373,
       "firstName": "Марина",
