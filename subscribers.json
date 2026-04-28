@@ -22407,7 +22407,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-13T18:07:05.511Z",
-      "lastActive": "2026-04-15T17:46:17.476Z",
+      "lastActive": "2026-04-28T07:27:15.311Z",
       "searches": [
         {
           "country": "Grecia",
@@ -22679,6 +22679,12 @@
             "broadcast": true
           },
           "timestamp": "2026-04-24T10:02:01.148Z"
+        },
+        {
+          "direction": "in",
+          "text": "Trimiteti va rog ofertele pe numarul dat +37368010949",
+          "extra": null,
+          "timestamp": "2026-04-28T07:27:15.311Z"
         }
       ],
       "preferences": {
