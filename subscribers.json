@@ -12560,7 +12560,7 @@
       "lastName": "",
       "username": "Bacal_Delia",
       "joinedAt": "2026-04-13T12:56:59.875Z",
-      "lastActive": "2026-04-28T07:46:57.607Z",
+      "lastActive": "2026-04-28T07:48:39.139Z",
       "searches": [
         {
           "country": "Turcia",
@@ -12605,6 +12605,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-28T07:47:15.377Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-08-12",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-28T07:48:52.190Z"
         }
       ],
       "messages": [
@@ -12627,22 +12638,24 @@
       ],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "ai",
-        "preferredStars": "3",
+        "preferredStars": "4",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
-        "budget",
-        "dest:turcia"
+        "dest:turcia",
+        "dest:egipt",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     },
     "1230837881": {
       "chatId": 1230837881,
@@ -30322,6 +30335,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 476
+    "totalSearches": 477
   }
 }
