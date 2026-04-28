@@ -18122,21 +18122,44 @@
       "lastName": "Prilutcaia",
       "username": "anna_prilutcaia",
       "joinedAt": "2026-04-28T08:17:04.810Z",
-      "lastActive": "2026-04-28T08:17:04.810Z",
-      "searches": [],
+      "lastActive": "2026-04-28T08:18:04.575Z",
+      "searches": [
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-08-21",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            7
+          ],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-04-28T08:18:41.029Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Muntenegru"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          7
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:muntenegru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "2096442373": {
       "chatId": 2096442373,
@@ -30426,6 +30449,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 483
+    "totalSearches": 484
   }
 }
