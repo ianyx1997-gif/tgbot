@@ -12560,7 +12560,7 @@
       "lastName": "",
       "username": "Bacal_Delia",
       "joinedAt": "2026-04-13T12:56:59.875Z",
-      "lastActive": "2026-04-28T07:41:03.074Z",
+      "lastActive": "2026-04-28T07:46:57.607Z",
       "searches": [
         {
           "country": "Turcia",
@@ -12594,6 +12594,17 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-28T07:41:29.474Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-13",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-28T07:47:15.377Z"
         }
       ],
       "messages": [
@@ -12631,7 +12642,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "1230837881": {
       "chatId": 1230837881,
@@ -30311,6 +30322,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 475
+    "totalSearches": 476
   }
 }
