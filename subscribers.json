@@ -30563,6 +30563,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6462772767": {
+      "chatId": 6462772767,
+      "firstName": "Rodica",
+      "lastName": "Ghilan",
+      "username": "",
+      "joinedAt": "2026-04-28T13:28:31.171Z",
+      "lastActive": "2026-04-28T13:28:31.171Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
