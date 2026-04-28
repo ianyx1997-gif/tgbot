@@ -12671,6 +12671,17 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-04-28T08:06:38.747Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-08-13",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-28T08:07:25.550Z"
         }
       ],
       "messages": [
@@ -12713,7 +12724,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 10
+      "totalSearches": 11
     },
     "1230837881": {
       "chatId": 1230837881,
@@ -30393,6 +30404,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 482
+    "totalSearches": 483
   }
 }
