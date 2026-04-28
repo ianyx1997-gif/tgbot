@@ -30474,25 +30474,47 @@
       "lastName": "Eni",
       "username": "Eninatalia",
       "joinedAt": "2026-04-28T12:16:28.517Z",
-      "lastActive": "2026-04-28T12:16:28.517Z",
-      "searches": [],
+      "lastActive": "2026-04-28T12:17:21.303Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-02",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            15
+          ],
+          "food": "ob",
+          "stars": "4",
+          "timestamp": "2026-04-28T12:18:28.984Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          15
+        ],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 484
+    "totalSearches": 485
   }
 }
