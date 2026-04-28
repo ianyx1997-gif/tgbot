@@ -7274,7 +7274,7 @@
       "lastName": "Bc 🌸",
       "username": "DanielleBc",
       "joinedAt": "2026-04-28T07:29:58.311Z",
-      "lastActive": "2026-04-28T07:30:44.325Z",
+      "lastActive": "2026-04-28T07:32:00.214Z",
       "searches": [
         {
           "country": "Grecia",
@@ -12560,7 +12560,7 @@
       "lastName": "",
       "username": "Bacal_Delia",
       "joinedAt": "2026-04-13T12:56:59.875Z",
-      "lastActive": "2026-04-13T12:57:28.227Z",
+      "lastActive": "2026-04-28T07:39:10.012Z",
       "searches": [
         {
           "country": "Turcia",
@@ -12572,6 +12572,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T12:58:14.920Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-13",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-04-28T07:39:46.332Z"
         }
       ],
       "messages": [
@@ -12600,16 +12611,16 @@
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "ai",
-        "preferredStars": "4",
+        "preferredStars": "3",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
-        "dest:turcia",
-        "new"
+        "budget",
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1230837881": {
       "chatId": 1230837881,
@@ -30289,6 +30300,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 473
+    "totalSearches": 474
   }
 }
