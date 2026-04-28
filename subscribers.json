@@ -6679,6 +6679,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "737843797": {
+      "chatId": 737843797,
+      "firstName": "Nikoleta",
+      "lastName": "",
+      "username": "Nika3557",
+      "joinedAt": "2026-04-28T13:29:02.306Z",
+      "lastActive": "2026-04-28T13:29:02.306Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "738797034": {
       "chatId": 738797034,
       "firstName": "Panda",
@@ -30570,7 +30592,7 @@
       "lastName": "Ghilan",
       "username": "",
       "joinedAt": "2026-04-28T13:28:31.171Z",
-      "lastActive": "2026-04-28T13:28:31.171Z",
+      "lastActive": "2026-04-28T13:28:37.768Z",
       "searches": [],
       "messages": [],
       "preferences": {
