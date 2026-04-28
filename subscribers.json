@@ -17745,6 +17745,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1980909840": {
+      "chatId": 1980909840,
+      "firstName": "Rotaru",
+      "lastName": "Vadim",
+      "username": "VadimRotaru",
+      "joinedAt": "2026-04-28T13:56:54.565Z",
+      "lastActive": "2026-04-28T13:56:54.565Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1986520665": {
       "chatId": 1986520665,
       "firstName": "Adriana",
