@@ -30398,7 +30398,7 @@
       "lastName": "S",
       "username": "solonari_m",
       "joinedAt": "2026-04-27T01:03:33.162Z",
-      "lastActive": "2026-04-27T01:07:34.670Z",
+      "lastActive": "2026-04-29T18:59:36.017Z",
       "searches": [
         {
           "country": "Spania",
@@ -30434,7 +30434,14 @@
           "timestamp": "2026-04-27T01:07:46.538Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "30",
+          "extra": null,
+          "timestamp": "2026-04-29T18:59:36.017Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Spania",
