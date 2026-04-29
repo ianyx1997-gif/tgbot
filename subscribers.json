@@ -30695,6 +30695,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6220138053": {
+      "chatId": 6220138053,
+      "firstName": "Mario",
+      "lastName": "",
+      "username": "Mariio46",
+      "joinedAt": "2026-04-29T12:22:44.829Z",
+      "lastActive": "2026-04-29T12:22:44.829Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
