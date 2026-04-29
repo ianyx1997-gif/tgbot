@@ -30702,25 +30702,43 @@
       "lastName": "",
       "username": "Mariio46",
       "joinedAt": "2026-04-29T12:22:44.829Z",
-      "lastActive": "2026-04-29T12:22:44.829Z",
-      "searches": [],
+      "lastActive": "2026-04-29T12:22:48.690Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-06-18",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-04-29T12:23:23.478Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 489
+    "totalSearches": 490
   }
 }
