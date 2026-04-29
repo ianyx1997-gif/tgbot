@@ -1807,6 +1807,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "414434502": {
+      "chatId": 414434502,
+      "firstName": "M",
+      "lastName": "S",
+      "username": "",
+      "joinedAt": "2026-04-29T20:13:11.538Z",
+      "lastActive": "2026-04-29T20:13:11.538Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "417297545": {
       "chatId": 417297545,
       "firstName": "Оля",
