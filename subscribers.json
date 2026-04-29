@@ -12437,6 +12437,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1181371027": {
+      "chatId": 1181371027,
+      "firstName": "Staver",
+      "lastName": "Maria",
+      "username": "",
+      "joinedAt": "2026-04-29T18:54:32.694Z",
+      "lastActive": "2026-04-29T18:54:32.694Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1184012201": {
       "chatId": 1184012201,
       "firstName": "Anastasia",
@@ -27936,7 +27958,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-18T06:18:32.069Z",
-      "lastActive": "2026-04-28T06:42:41.176Z",
+      "lastActive": "2026-04-29T18:53:54.260Z",
       "searches": [
         {
           "country": "Grecia",
