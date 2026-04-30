@@ -30411,21 +30411,44 @@
       "lastName": "Rusu",
       "username": "",
       "joinedAt": "2026-04-26T16:57:55.187Z",
-      "lastActive": "2026-04-26T16:57:55.187Z",
-      "searches": [],
+      "lastActive": "2026-04-30T10:49:01.537Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-27",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            1
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-04-30T10:50:25.316Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          1
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "5361363818": {
       "chatId": 5361363818,
@@ -30880,6 +30903,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 495
+    "totalSearches": 496
   }
 }
