@@ -30854,6 +30854,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5887949706": {
+      "chatId": 5887949706,
+      "firstName": "Sofiii",
+      "lastName": "",
+      "username": "Sadlovschii",
+      "joinedAt": "2026-04-30T10:00:45.579Z",
+      "lastActive": "2026-04-30T10:00:45.579Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
