@@ -11769,6 +11769,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1084878747": {
+      "chatId": 1084878747,
+      "firstName": "Ana Guțanu",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-01T15:44:24.278Z",
+      "lastActive": "2026-05-01T15:44:24.278Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1086284061": {
       "chatId": 1086284061,
       "firstName": "Нати",
