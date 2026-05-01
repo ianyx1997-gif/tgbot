@@ -7891,6 +7891,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "790685303": {
+      "chatId": 790685303,
+      "firstName": "Puiu",
+      "lastName": "Ion",
+      "username": "",
+      "joinedAt": "2026-05-01T16:26:44.592Z",
+      "lastActive": "2026-05-01T16:26:44.592Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "798369066": {
       "chatId": 798369066,
       "firstName": "Calestru",
