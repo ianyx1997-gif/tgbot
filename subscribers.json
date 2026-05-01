@@ -14684,6 +14684,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1434144305": {
+      "chatId": 1434144305,
+      "firstName": "maryanaabalan",
+      "lastName": "",
+      "username": "marianaabalan",
+      "joinedAt": "2026-05-01T18:25:45.627Z",
+      "lastActive": "2026-05-01T18:25:45.627Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1443597481": {
       "chatId": 1443597481,
       "firstName": "max",
