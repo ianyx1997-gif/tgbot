@@ -30906,9 +30906,16 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-01T01:05:46.576Z",
-      "lastActive": "2026-05-01T01:05:46.576Z",
+      "lastActive": "2026-05-01T01:06:13.155Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Barselona",
+          "extra": null,
+          "timestamp": "2026-05-01T01:06:13.155Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
