@@ -12138,21 +12138,39 @@
       "lastName": "",
       "username": "citeru",
       "joinedAt": "2026-05-01T15:00:23.495Z",
-      "lastActive": "2026-05-01T15:00:23.495Z",
-      "searches": [],
+      "lastActive": "2026-05-01T15:00:26.095Z",
+      "searches": [
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-06-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-01T15:00:55.410Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Tunisia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:tunisia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1136070111": {
       "chatId": 1136070111,
@@ -30987,6 +31005,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 497
+    "totalSearches": 498
   }
 }
