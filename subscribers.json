@@ -30899,6 +30899,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5148084402": {
+      "chatId": 5148084402,
+      "firstName": "Ольга",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-01T01:05:46.576Z",
+      "lastActive": "2026-05-01T01:05:46.576Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
