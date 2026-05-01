@@ -7897,9 +7897,16 @@
       "lastName": "Ion",
       "username": "",
       "joinedAt": "2026-05-01T16:26:44.592Z",
-      "lastActive": "2026-05-01T16:26:44.592Z",
+      "lastActive": "2026-05-01T16:28:31.401Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "0",
+          "extra": null,
+          "timestamp": "2026-05-01T16:28:31.401Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
