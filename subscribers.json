@@ -31110,25 +31110,43 @@
       "lastName": "M",
       "username": "ZEMERMOI",
       "joinedAt": "2026-05-01T18:19:54.527Z",
-      "lastActive": "2026-05-01T18:19:54.527Z",
-      "searches": [],
+      "lastActive": "2026-05-01T18:20:39.912Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "fb",
+          "stars": "3",
+          "timestamp": "2026-05-01T18:21:13.084Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "fb",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 500
+    "totalSearches": 501
   }
 }
