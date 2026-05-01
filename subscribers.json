@@ -31110,7 +31110,7 @@
       "lastName": "M",
       "username": "ZEMERMOI",
       "joinedAt": "2026-05-01T18:19:54.527Z",
-      "lastActive": "2026-05-01T18:20:39.912Z",
+      "lastActive": "2026-05-01T18:24:43.469Z",
       "searches": [
         {
           "country": "Turcia",
@@ -31135,7 +31135,14 @@
           "timestamp": "2026-05-01T18:23:40.443Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Turcia",
+          "extra": null,
+          "timestamp": "2026-05-01T18:24:43.469Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Turcia",
