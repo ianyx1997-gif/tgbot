@@ -15123,7 +15123,7 @@
       "lastName": "Ecaterina",
       "username": "",
       "joinedAt": "2026-04-13T12:16:52.031Z",
-      "lastActive": "2026-04-26T13:54:39.507Z",
+      "lastActive": "2026-05-01T06:29:21.168Z",
       "searches": [
         {
           "country": "Turcia",
@@ -15179,6 +15179,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-26T13:55:03.217Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-04",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-01T06:29:38.881Z"
         }
       ],
       "messages": [
@@ -15209,7 +15220,7 @@
         "avgChildAges": [],
         "preferredFood": "ai",
         "preferredStars": "4",
-        "preferredNights": "7"
+        "preferredNights": "5"
       },
       "tags": [
         "all-inclusive",
@@ -15218,7 +15229,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     },
     "1608588623": {
       "chatId": 1608588623,
@@ -30932,6 +30943,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 496
+    "totalSearches": 497
   }
 }
