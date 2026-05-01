@@ -31122,12 +31122,24 @@
           "food": "fb",
           "stars": "3",
           "timestamp": "2026-05-01T18:21:13.084Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-05-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-05-01T18:23:40.443Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -31139,14 +31151,14 @@
       "tags": [
         "budget",
         "dest:turcia",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 501
+    "totalSearches": 502
   }
 }
