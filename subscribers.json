@@ -18538,6 +18538,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "2060023373": {
+      "chatId": 2060023373,
+      "firstName": "Anastasia",
+      "lastName": "Volc",
+      "username": "nastea_v12",
+      "joinedAt": "2026-05-02T14:43:42.089Z",
+      "lastActive": "2026-05-02T14:43:42.089Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2073165419": {
       "chatId": 2073165419,
       "firstName": "Nat",
