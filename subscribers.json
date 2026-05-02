@@ -31184,6 +31184,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5523452702": {
+      "chatId": 5523452702,
+      "firstName": "WW",
+      "lastName": "James",
+      "username": "",
+      "joinedAt": "2026-05-02T06:42:21.470Z",
+      "lastActive": "2026-05-02T06:42:21.470Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
