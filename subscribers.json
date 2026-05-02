@@ -18538,6 +18538,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "2073165419": {
+      "chatId": 2073165419,
+      "firstName": "Nat",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-02T08:56:07.694Z",
+      "lastActive": "2026-05-02T08:56:07.694Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2096442373": {
       "chatId": 2096442373,
       "firstName": "Марина",
