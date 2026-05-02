@@ -18600,6 +18600,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-05-02T23:26:06.773Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-02",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-02T23:26:14.355Z"
         }
       ],
       "messages": [],
@@ -18611,7 +18622,7 @@
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
+        "preferredFood": "uai",
         "preferredStars": "5",
         "preferredNights": "7"
       },
@@ -18623,7 +18634,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 5
+      "totalSearches": 6
     },
     "2073165419": {
       "chatId": 2073165419,
@@ -31319,6 +31330,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 507
+    "totalSearches": 508
   }
 }
