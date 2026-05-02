@@ -18544,7 +18544,7 @@
       "lastName": "Volc",
       "username": "nastea_v12",
       "joinedAt": "2026-05-02T14:43:42.089Z",
-      "lastActive": "2026-05-02T14:43:47.244Z",
+      "lastActive": "2026-05-02T14:49:05.429Z",
       "searches": [
         {
           "country": "Turcia",
@@ -18556,12 +18556,24 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-05-02T14:44:08.034Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-02T14:49:26.944Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -18574,10 +18586,10 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "new"
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "2073165419": {
       "chatId": 2073165419,
@@ -31273,6 +31285,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 503
+    "totalSearches": 504
   }
 }
