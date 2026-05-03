@@ -31436,25 +31436,51 @@
       "lastName": "Vallerevna",
       "username": "",
       "joinedAt": "2026-05-03T06:51:10.264Z",
-      "lastActive": "2026-05-03T06:51:10.264Z",
-      "searches": [],
+      "lastActive": "2026-05-03T06:52:07.296Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-10-01",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            5,
+            1
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-03T06:53:04.559Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          5,
+          1
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 510
+    "totalSearches": 511
   }
 }
