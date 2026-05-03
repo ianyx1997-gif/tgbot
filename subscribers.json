@@ -31557,6 +31557,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "8595085103": {
+      "chatId": 8595085103,
+      "firstName": "Mariana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-03T20:45:05.762Z",
+      "lastActive": "2026-05-03T20:45:05.762Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
