@@ -17579,6 +17579,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "1919908930": {
+      "chatId": 1919908930,
+      "firstName": "Chiril",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-03T05:20:22.244Z",
+      "lastActive": "2026-05-03T05:20:22.244Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1922239918": {
       "chatId": 1922239918,
       "firstName": "M M",
