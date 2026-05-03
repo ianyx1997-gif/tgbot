@@ -1905,6 +1905,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "428810845": {
+      "chatId": 428810845,
+      "firstName": "Арина",
+      "lastName": "",
+      "username": "arinanarni",
+      "joinedAt": "2026-05-03T09:16:27.765Z",
+      "lastActive": "2026-05-03T09:16:27.765Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "433124293": {
       "chatId": 433124293,
       "firstName": "Vasili",
