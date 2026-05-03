@@ -12509,6 +12509,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1143076274": {
+      "chatId": 1143076274,
+      "firstName": "Vio",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-03T11:33:50.728Z",
+      "lastActive": "2026-05-03T11:33:50.728Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1158869613": {
       "chatId": 1158869613,
       "firstName": "Ирина",
