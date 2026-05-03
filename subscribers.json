@@ -31337,6 +31337,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "6328923052": {
+      "chatId": 6328923052,
+      "firstName": "Elena",
+      "lastName": ".",
+      "username": "",
+      "joinedAt": "2026-05-03T04:37:12.787Z",
+      "lastActive": "2026-05-03T04:37:12.787Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
