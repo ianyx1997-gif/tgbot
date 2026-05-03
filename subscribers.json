@@ -31407,9 +31407,16 @@
       "lastName": "Andronic",
       "username": "",
       "joinedAt": "2026-05-03T05:54:43.403Z",
-      "lastActive": "2026-05-03T05:54:43.403Z",
+      "lastActive": "2026-05-03T05:56:39.352Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "15/22",
+          "extra": null,
+          "timestamp": "2026-05-03T05:56:39.352Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
