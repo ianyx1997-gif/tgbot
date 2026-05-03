@@ -1911,21 +1911,44 @@
       "lastName": "",
       "username": "arinanarni",
       "joinedAt": "2026-05-03T09:16:27.765Z",
-      "lastActive": "2026-05-03T09:16:27.765Z",
-      "searches": [],
+      "lastActive": "2026-05-03T10:06:33.445Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-03T10:08:09.964Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "433124293": {
       "chatId": 433124293,
@@ -31503,6 +31526,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 511
+    "totalSearches": 512
   }
 }
