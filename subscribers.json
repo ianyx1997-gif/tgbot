@@ -31400,6 +31400,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7332280932": {
+      "chatId": 7332280932,
+      "firstName": "Olga",
+      "lastName": "Andronic",
+      "username": "",
+      "joinedAt": "2026-05-03T05:54:43.403Z",
+      "lastActive": "2026-05-03T05:54:43.403Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
