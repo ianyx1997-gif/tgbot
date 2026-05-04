@@ -31861,25 +31861,48 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-04T18:05:47.050Z",
-      "lastActive": "2026-05-04T18:05:47.050Z",
-      "searches": [],
+      "lastActive": "2026-05-04T18:05:57.557Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-05-13",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            0
+          ],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-05-04T18:06:25.970Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          0
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "luxury",
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 520
+    "totalSearches": 521
   }
 }
