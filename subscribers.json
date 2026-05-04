@@ -9568,21 +9568,44 @@
       "lastName": "Ciumertov",
       "username": "Diana_Rdc",
       "joinedAt": "2026-05-04T08:21:42.321Z",
-      "lastActive": "2026-05-04T08:21:42.321Z",
-      "searches": [],
+      "lastActive": "2026-05-04T08:22:52.466Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-31",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            4
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-04T08:23:15.536Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          4
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "926146282": {
       "chatId": 926146282,
@@ -31734,6 +31757,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 517
+    "totalSearches": 518
   }
 }
