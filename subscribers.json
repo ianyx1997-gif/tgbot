@@ -31854,6 +31854,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5544247969": {
+      "chatId": 5544247969,
+      "firstName": "X X",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-04T18:05:47.050Z",
+      "lastActive": "2026-05-04T18:05:47.050Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
