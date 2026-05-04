@@ -3682,6 +3682,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "509514065": {
+      "chatId": 509514065,
+      "firstName": "Надежда",
+      "lastName": "Горбачева",
+      "username": "",
+      "joinedAt": "2026-05-04T09:34:00.020Z",
+      "lastActive": "2026-05-04T09:34:00.020Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "509574713": {
       "chatId": 509574713,
       "firstName": "Оксана",
