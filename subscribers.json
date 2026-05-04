@@ -15383,7 +15383,7 @@
       "lastName": "Ecaterina",
       "username": "",
       "joinedAt": "2026-04-13T12:16:52.031Z",
-      "lastActive": "2026-05-01T06:29:21.168Z",
+      "lastActive": "2026-05-04T06:28:18.377Z",
       "searches": [
         {
           "country": "Turcia",
@@ -15450,6 +15450,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-01T06:29:38.881Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-05",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-04T06:28:32.018Z"
         }
       ],
       "messages": [
@@ -15489,7 +15500,7 @@
         "active"
       ],
       "blocked": false,
-      "totalSearches": 6
+      "totalSearches": 7
     },
     "1608588623": {
       "chatId": 1608588623,
@@ -31583,6 +31594,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 512
+    "totalSearches": 513
   }
 }
