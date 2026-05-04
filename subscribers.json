@@ -31637,7 +31637,7 @@
       "lastName": "Ludmila",
       "username": "",
       "joinedAt": "2026-05-04T07:11:45.138Z",
-      "lastActive": "2026-05-04T07:23:43.237Z",
+      "lastActive": "2026-05-04T07:28:05.302Z",
       "searches": [
         {
           "country": "Turcia",
@@ -31668,6 +31668,21 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-04T07:24:16.223Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-26",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11,
+            5,
+            0
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-04T07:28:38.679Z"
         }
       ],
       "messages": [],
@@ -31684,7 +31699,7 @@
         ],
         "preferredFood": "ai",
         "preferredStars": "4",
-        "preferredNights": "5"
+        "preferredNights": "7"
       },
       "tags": [
         "family",
@@ -31692,11 +31707,11 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 516
+    "totalSearches": 517
   }
 }
