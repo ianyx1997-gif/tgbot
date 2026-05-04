@@ -31753,6 +31753,28 @@
       ],
       "blocked": false,
       "totalSearches": 3
+    },
+    "7897891360": {
+      "chatId": 7897891360,
+      "firstName": "Ionela",
+      "lastName": "Malai",
+      "username": "",
+      "joinedAt": "2026-05-04T08:40:54.529Z",
+      "lastActive": "2026-05-04T08:40:54.529Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
