@@ -10362,7 +10362,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-04-15T08:35:37.903Z",
-      "lastActive": "2026-04-15T08:36:17.627Z",
+      "lastActive": "2026-05-04T10:18:20.771Z",
       "searches": [
         {
           "country": "Turcia",
@@ -10374,6 +10374,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-04-15T08:36:39.931Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-05-24",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-04T10:18:49.119Z"
         }
       ],
       "messages": [
@@ -10388,23 +10399,23 @@
       ],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Grecia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "uai",
-        "preferredStars": "5",
-        "preferredNights": "7"
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
       "tags": [
         "all-inclusive",
-        "luxury",
         "dest:turcia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "982486086": {
       "chatId": 982486086,
@@ -31830,6 +31841,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 518
+    "totalSearches": 519
   }
 }
