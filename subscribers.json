@@ -31637,7 +31637,7 @@
       "lastName": "Ludmila",
       "username": "",
       "joinedAt": "2026-05-04T07:11:45.138Z",
-      "lastActive": "2026-05-04T07:13:12.634Z",
+      "lastActive": "2026-05-04T07:23:43.237Z",
       "searches": [
         {
           "country": "Turcia",
@@ -31653,6 +31653,21 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-04T07:15:09.768Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-26",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            11,
+            5,
+            0
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-04T07:24:16.223Z"
         }
       ],
       "messages": [],
@@ -31674,15 +31689,14 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 515
+    "totalSearches": 516
   }
 }
