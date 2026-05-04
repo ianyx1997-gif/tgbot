@@ -25207,7 +25207,7 @@
       "lastName": "Pugacevschi",
       "username": "",
       "joinedAt": "2026-04-14T07:25:22.311Z",
-      "lastActive": "2026-04-14T07:26:06.836Z",
+      "lastActive": "2026-05-04T17:13:41.294Z",
       "searches": [
         {
           "country": "Grecia",
@@ -25239,6 +25239,12 @@
             "broadcast": true
           },
           "timestamp": "2026-04-24T10:02:05.095Z"
+        },
+        {
+          "direction": "in",
+          "text": "Buna ziua. As vrea un hotel in grecia sau turcia pentru sfirsit de iulie",
+          "extra": null,
+          "timestamp": "2026-05-04T17:13:41.294Z"
         }
       ],
       "preferences": {
