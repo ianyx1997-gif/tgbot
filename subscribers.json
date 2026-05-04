@@ -31630,6 +31630,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "7440715385": {
+      "chatId": 7440715385,
+      "firstName": "Ludmila",
+      "lastName": "Ludmila",
+      "username": "",
+      "joinedAt": "2026-05-04T07:11:45.138Z",
+      "lastActive": "2026-05-04T07:11:45.138Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
