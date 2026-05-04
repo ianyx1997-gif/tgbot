@@ -18627,9 +18627,16 @@
       "lastName": "Storceac",
       "username": "",
       "joinedAt": "2026-05-04T10:15:52.660Z",
-      "lastActive": "2026-05-04T10:16:02.958Z",
+      "lastActive": "2026-05-04T10:17:16.077Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "2",
+          "extra": null,
+          "timestamp": "2026-05-04T10:17:16.077Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
