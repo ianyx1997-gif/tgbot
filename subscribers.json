@@ -31989,25 +31989,48 @@
       "lastName": "Ely",
       "username": "",
       "joinedAt": "2026-05-05T17:41:00.536Z",
-      "lastActive": "2026-05-05T17:41:00.536Z",
-      "searches": [],
+      "lastActive": "2026-05-05T17:42:42.222Z",
+      "searches": [
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-06-08",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            15
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-05T17:43:53.584Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Albania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          15
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:albania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 525
+    "totalSearches": 526
   }
 }
