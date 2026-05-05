@@ -16252,7 +16252,7 @@
       "lastName": "",
       "username": "danielabalasoi",
       "joinedAt": "2026-04-14T06:31:54.721Z",
-      "lastActive": "2026-05-05T09:31:20.908Z",
+      "lastActive": "2026-05-05T09:32:36.777Z",
       "searches": [
         {
           "country": "Turcia",
@@ -16297,6 +16297,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-05-05T09:31:47.619Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-06-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "4",
+          "timestamp": "2026-05-05T09:33:01.495Z"
         }
       ],
       "messages": [
@@ -16333,10 +16344,11 @@
         "all-inclusive",
         "luxury",
         "dest:turcia",
-        "dest:bulgaria"
+        "dest:bulgaria",
+        "active"
       ],
       "blocked": false,
-      "totalSearches": 4
+      "totalSearches": 5
     },
     "1715564269": {
       "chatId": 1715564269,
@@ -31916,6 +31928,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 522
+    "totalSearches": 523
   }
 }
