@@ -31942,9 +31942,16 @@
       "lastName": "Margareta",
       "username": "",
       "joinedAt": "2026-05-05T14:55:01.251Z",
-      "lastActive": "2026-05-05T14:55:01.251Z",
+      "lastActive": "2026-05-05T14:55:17.253Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Grecia in iunie",
+          "extra": null,
+          "timestamp": "2026-05-05T14:55:17.253Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
