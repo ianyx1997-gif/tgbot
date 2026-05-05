@@ -32003,6 +32003,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-05T17:43:53.584Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-06-08",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            15
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-05T17:44:28.374Z"
         }
       ],
       "messages": [],
@@ -32022,15 +32035,14 @@
       "tags": [
         "family",
         "all-inclusive",
-        "dest:albania",
-        "new"
+        "dest:albania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 526
+    "totalSearches": 527
   }
 }
