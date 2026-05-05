@@ -31935,6 +31935,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5020651181": {
+      "chatId": 5020651181,
+      "firstName": "Solomon",
+      "lastName": "Margareta",
+      "username": "",
+      "joinedAt": "2026-05-05T14:55:01.251Z",
+      "lastActive": "2026-05-05T14:55:01.251Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
