@@ -31942,8 +31942,20 @@
       "lastName": "Margareta",
       "username": "",
       "joinedAt": "2026-05-05T14:55:01.251Z",
-      "lastActive": "2026-05-05T14:55:17.253Z",
-      "searches": [],
+      "lastActive": "2026-05-05T14:56:20.388Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-08-01",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-05T14:57:00.299Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -31953,21 +31965,27 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 524
+    "totalSearches": 525
   }
 }
