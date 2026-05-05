@@ -31982,6 +31982,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5620527653": {
+      "chatId": 5620527653,
+      "firstName": "Ely",
+      "lastName": "Ely",
+      "username": "",
+      "joinedAt": "2026-05-05T17:41:00.536Z",
+      "lastActive": "2026-05-05T17:41:00.536Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
