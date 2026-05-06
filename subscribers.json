@@ -5956,8 +5956,20 @@
       "lastName": "Bolgari",
       "username": "dmitriibolgari",
       "joinedAt": "2026-05-06T09:11:30.207Z",
-      "lastActive": "2026-05-06T09:11:54.944Z",
-      "searches": [],
+      "lastActive": "2026-05-06T09:12:38.374Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-25",
+          "nights": 12,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-06T09:13:07.674Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -5967,17 +5979,24 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "12"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "663771910": {
       "chatId": 663771910,
@@ -32094,6 +32113,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 527
+    "totalSearches": 528
   }
 }
