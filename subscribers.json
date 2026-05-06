@@ -13200,6 +13200,28 @@
       "blocked": false,
       "totalSearches": 11
     },
+    "1211534258": {
+      "chatId": 1211534258,
+      "firstName": "Vitali",
+      "lastName": "",
+      "username": "Vitalicvn",
+      "joinedAt": "2026-05-06T08:08:45.468Z",
+      "lastActive": "2026-05-06T08:08:45.468Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1230837881": {
       "chatId": 1230837881,
       "firstName": "Алла",
