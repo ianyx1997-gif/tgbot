@@ -32180,7 +32180,7 @@
       "lastName": "Alex",
       "username": "",
       "joinedAt": "2026-05-06T13:00:50.175Z",
-      "lastActive": "2026-05-06T13:00:57.492Z",
+      "lastActive": "2026-05-06T13:03:36.474Z",
       "searches": [
         {
           "country": "Turcia",
@@ -32196,7 +32196,14 @@
           "timestamp": "2026-05-06T13:01:51.834Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Victory Volare 2+1(16 ani) pe 6 nopti 7 zile din 04 iunie ce preț",
+          "extra": null,
+          "timestamp": "2026-05-06T13:03:36.474Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Turcia"
