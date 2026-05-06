@@ -9867,7 +9867,7 @@
       "lastName": "",
       "username": "marilenaa",
       "joinedAt": "2026-05-06T16:10:24.225Z",
-      "lastActive": "2026-05-06T16:13:28.489Z",
+      "lastActive": "2026-05-06T16:13:42.324Z",
       "searches": [
         {
           "country": "Grecia",
@@ -9879,6 +9879,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-06T16:10:49.734Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-22",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-06T16:13:58.483Z"
         }
       ],
       "messages": [
@@ -9908,11 +9919,10 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:grecia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "939523083": {
       "chatId": 939523083,
@@ -32306,6 +32316,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 533
+    "totalSearches": 534
   }
 }
