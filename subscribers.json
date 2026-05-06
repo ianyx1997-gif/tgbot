@@ -32109,6 +32109,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "8152120809": {
+      "chatId": 8152120809,
+      "firstName": "Elizaveta",
+      "lastName": "Teacă",
+      "username": "",
+      "joinedAt": "2026-05-06T12:41:17.058Z",
+      "lastActive": "2026-05-06T12:41:17.058Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
