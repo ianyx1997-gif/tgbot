@@ -32116,7 +32116,7 @@
       "lastName": "Teacă",
       "username": "",
       "joinedAt": "2026-05-06T12:41:17.058Z",
-      "lastActive": "2026-05-06T12:42:31.294Z",
+      "lastActive": "2026-05-06T12:43:55.781Z",
       "searches": [
         {
           "country": "Turcia",
@@ -32132,6 +32132,21 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-06T12:43:02.084Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-07",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            4,
+            9,
+            11
+          ],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-05-06T12:47:40.737Z"
         }
       ],
       "messages": [],
@@ -32147,21 +32162,21 @@
           11
         ],
         "preferredFood": "ai",
-        "preferredStars": "4",
+        "preferredStars": "3",
         "preferredNights": "7"
       },
       "tags": [
         "family",
         "all-inclusive",
-        "dest:turcia",
-        "new"
+        "budget",
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 529
+    "totalSearches": 530
   }
 }
