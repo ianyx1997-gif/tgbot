@@ -9861,6 +9861,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "934198544": {
+      "chatId": 934198544,
+      "firstName": "Marilena",
+      "lastName": "",
+      "username": "marilenaa",
+      "joinedAt": "2026-05-06T16:10:24.225Z",
+      "lastActive": "2026-05-06T16:10:24.225Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "939523083": {
       "chatId": 939523083,
       "firstName": "Daniela",
