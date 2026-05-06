@@ -5950,6 +5950,28 @@
       "blocked": true,
       "totalSearches": 1
     },
+    "656795072": {
+      "chatId": 656795072,
+      "firstName": "Dumitru",
+      "lastName": "Bolgari",
+      "username": "dmitriibolgari",
+      "joinedAt": "2026-05-06T09:11:30.207Z",
+      "lastActive": "2026-05-06T09:11:30.208Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "663771910": {
       "chatId": 663771910,
       "firstName": "LACRAMIOARE",
