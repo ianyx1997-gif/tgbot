@@ -9867,7 +9867,7 @@
       "lastName": "",
       "username": "marilenaa",
       "joinedAt": "2026-05-06T16:10:24.225Z",
-      "lastActive": "2026-05-06T16:10:26.319Z",
+      "lastActive": "2026-05-06T16:13:21.245Z",
       "searches": [
         {
           "country": "Grecia",
@@ -9881,7 +9881,14 @@
           "timestamp": "2026-05-06T16:10:49.734Z"
         }
       ],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Aș putea primi oferta la hotelul Seaside Lifestyle Resort, Creta?",
+          "extra": null,
+          "timestamp": "2026-05-06T16:13:21.245Z"
+        }
+      ],
       "preferences": {
         "topCountries": [
           "Grecia"
