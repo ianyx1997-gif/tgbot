@@ -5956,9 +5956,16 @@
       "lastName": "Bolgari",
       "username": "dmitriibolgari",
       "joinedAt": "2026-05-06T09:11:30.207Z",
-      "lastActive": "2026-05-06T09:11:30.208Z",
+      "lastActive": "2026-05-06T09:11:54.944Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Mai",
+          "extra": null,
+          "timestamp": "2026-05-06T09:11:54.944Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
