@@ -32173,6 +32173,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "7650573073": {
+      "chatId": 7650573073,
+      "firstName": "Alex",
+      "lastName": "Alex",
+      "username": "",
+      "joinedAt": "2026-05-06T13:00:50.175Z",
+      "lastActive": "2026-05-06T13:00:50.175Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
