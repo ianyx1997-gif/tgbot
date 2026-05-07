@@ -32493,6 +32493,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5995034192": {
+      "chatId": 5995034192,
+      "firstName": "mădălina",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-07T09:51:38.294Z",
+      "lastActive": "2026-05-07T09:51:38.294Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
