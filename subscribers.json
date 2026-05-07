@@ -7552,7 +7552,7 @@
       "lastName": "Bc 🌸",
       "username": "DanielleBc",
       "joinedAt": "2026-04-28T07:29:58.311Z",
-      "lastActive": "2026-05-07T13:11:09.036Z",
+      "lastActive": "2026-05-07T13:12:38.589Z",
       "searches": [
         {
           "country": "Grecia",
@@ -7575,27 +7575,40 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-05-07T13:11:40.644Z"
+        },
+        {
+          "country": "Muntenegru",
+          "countryId": 135,
+          "dateFrom": "2026-10-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "4",
+          "timestamp": "2026-05-07T13:12:55.415Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Muntenegru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": "ai",
+        "preferredFood": "uai",
         "preferredStars": "5",
         "preferredNights": "7"
       },
       "tags": [
         "all-inclusive",
         "luxury",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:muntenegru"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "778604956": {
       "chatId": 778604956,
@@ -32551,6 +32564,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 538
+    "totalSearches": 539
   }
 }
