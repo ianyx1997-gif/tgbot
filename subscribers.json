@@ -32374,6 +32374,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6895460789": {
+      "chatId": 6895460789,
+      "firstName": "Anghel",
+      "lastName": "Vera",
+      "username": "",
+      "joinedAt": "2026-05-07T08:25:50.357Z",
+      "lastActive": "2026-05-07T08:25:50.357Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
