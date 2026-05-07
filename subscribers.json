@@ -7564,6 +7564,17 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-04-28T07:31:02.851Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-15",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-07T13:11:40.644Z"
         }
       ],
       "messages": [],
@@ -7581,11 +7592,10 @@
       "tags": [
         "all-inclusive",
         "luxury",
-        "dest:grecia",
-        "new"
+        "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "778604956": {
       "chatId": 778604956,
@@ -32541,6 +32551,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 537
+    "totalSearches": 538
   }
 }
