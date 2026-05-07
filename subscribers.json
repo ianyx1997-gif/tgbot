@@ -6084,6 +6084,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "667694327": {
+      "chatId": 667694327,
+      "firstName": "Fetescu",
+      "lastName": "Raisa",
+      "username": "raisfe",
+      "joinedAt": "2026-05-07T08:23:18.134Z",
+      "lastActive": "2026-05-07T08:23:18.134Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "684203134": {
       "chatId": 684203134,
       "firstName": "Джоникей",
