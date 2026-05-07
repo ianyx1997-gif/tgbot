@@ -32515,6 +32515,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "7128639499": {
+      "chatId": 7128639499,
+      "firstName": "Чё там?",
+      "lastName": "Чё там?",
+      "username": "Telogd",
+      "joinedAt": "2026-05-07T10:03:35.951Z",
+      "lastActive": "2026-05-07T10:03:35.951Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
