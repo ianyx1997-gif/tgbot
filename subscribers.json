@@ -15860,6 +15860,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1609229700": {
+      "chatId": 1609229700,
+      "firstName": "Roșca",
+      "lastName": "Veaceslav",
+      "username": "",
+      "joinedAt": "2026-05-07T08:49:19.369Z",
+      "lastActive": "2026-05-07T08:49:19.369Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1613784540": {
       "chatId": 1613784540,
       "firstName": "Pavel",
