@@ -32403,8 +32403,22 @@
       "lastName": "Sirbu",
       "username": "ISirbu93",
       "joinedAt": "2026-05-07T08:27:54.483Z",
-      "lastActive": "2026-05-07T08:28:32.581Z",
-      "searches": [],
+      "lastActive": "2026-05-07T08:29:43.432Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-20",
+          "nights": 5,
+          "adults": 1,
+          "children": [
+            9
+          ],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-07T08:30:10.960Z"
+        }
+      ],
       "messages": [
         {
           "direction": "in",
@@ -32414,21 +32428,30 @@
         }
       ],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "1",
+        "hasChildren": true,
+        "avgChildAges": [
+          9
+        ],
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 535
+    "totalSearches": 536
   }
 }
