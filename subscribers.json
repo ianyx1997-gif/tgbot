@@ -6090,21 +6090,44 @@
       "lastName": "Raisa",
       "username": "raisfe",
       "joinedAt": "2026-05-07T08:23:18.134Z",
-      "lastActive": "2026-05-07T08:23:18.134Z",
-      "searches": [],
+      "lastActive": "2026-05-07T08:36:13.499Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-02",
+          "nights": 7,
+          "adults": 3,
+          "children": [
+            3
+          ],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-07T08:37:24.432Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": true,
+        "avgChildAges": [
+          3
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "684203134": {
       "chatId": 684203134,
@@ -32452,6 +32475,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 536
+    "totalSearches": 537
   }
 }
