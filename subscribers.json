@@ -5313,21 +5313,49 @@
       "lastName": "",
       "username": "antonposmac1",
       "joinedAt": "2026-05-08T10:39:30.848Z",
-      "lastActive": "2026-05-08T10:39:30.848Z",
-      "searches": [],
+      "lastActive": "2026-05-08T10:39:35.562Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-12",
+          "nights": 7,
+          "adults": 4,
+          "children": [
+            2,
+            3,
+            3
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-08T10:39:59.562Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "4",
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          3,
+          3
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "632473549": {
       "chatId": 632473549,
@@ -32631,6 +32659,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 540
+    "totalSearches": 541
   }
 }
