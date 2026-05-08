@@ -5307,6 +5307,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "624851286": {
+      "chatId": 624851286,
+      "firstName": "А.",
+      "lastName": "",
+      "username": "antonposmac1",
+      "joinedAt": "2026-05-08T10:39:30.848Z",
+      "lastActive": "2026-05-08T10:39:30.848Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "632473549": {
       "chatId": 632473549,
       "firstName": "Лидия",
