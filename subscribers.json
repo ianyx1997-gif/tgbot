@@ -22424,7 +22424,7 @@
       "lastName": "100322",
       "username": "",
       "joinedAt": "2026-04-13T16:06:09.455Z",
-      "lastActive": "2026-05-09T10:04:34.599Z",
+      "lastActive": "2026-05-09T10:06:29.104Z",
       "searches": [
         {
           "country": "Turcia",
@@ -22460,6 +22460,19 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-09T10:05:14.832Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-29",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            4
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-09T10:06:58.051Z"
         }
       ],
       "messages": [
@@ -22499,7 +22512,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "5277057541": {
       "chatId": 5277057541,
@@ -32685,6 +32698,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 543
+    "totalSearches": 544
   }
 }
