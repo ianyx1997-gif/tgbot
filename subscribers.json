@@ -22424,7 +22424,7 @@
       "lastName": "100322",
       "username": "",
       "joinedAt": "2026-04-13T16:06:09.455Z",
-      "lastActive": "2026-04-13T16:06:57.227Z",
+      "lastActive": "2026-05-09T10:01:37.578Z",
       "searches": [
         {
           "country": "Turcia",
@@ -22436,6 +22436,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-04-13T16:07:39.606Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-29",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-09T10:02:09.431Z"
         }
       ],
       "messages": [
@@ -22469,11 +22480,10 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "5277057541": {
       "chatId": 5277057541,
@@ -32659,6 +32669,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 541
+    "totalSearches": 542
   }
 }
