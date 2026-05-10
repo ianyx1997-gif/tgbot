@@ -17348,6 +17348,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1803993275": {
+      "chatId": 1803993275,
+      "firstName": "Светлана",
+      "lastName": "Светлана",
+      "username": "svet_lana3333",
+      "joinedAt": "2026-05-10T14:17:50.154Z",
+      "lastActive": "2026-05-10T14:17:50.154Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1812234212": {
       "chatId": 1812234212,
       "firstName": "Andry",
