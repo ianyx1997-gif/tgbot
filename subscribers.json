@@ -5976,7 +5976,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-10T15:21:33.425Z",
-      "lastActive": "2026-05-10T15:21:33.425Z",
+      "lastActive": "2026-05-10T15:24:08.036Z",
       "searches": [
         {
           "country": "Egipt",
@@ -5988,28 +5988,40 @@
           "food": "ai",
           "stars": "3",
           "timestamp": "2026-05-10T15:22:59.787Z"
+        },
+        {
+          "country": "Tunisia",
+          "countryId": 114,
+          "dateFrom": "2026-05-12",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-10T15:25:14.776Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Egipt"
+          "Egipt",
+          "Tunisia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "ai",
         "preferredStars": "3",
-        "preferredNights": "10"
+        "preferredNights": "5"
       },
       "tags": [
         "all-inclusive",
         "budget",
         "dest:egipt",
-        "new"
+        "dest:tunisia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "651878158": {
       "chatId": 651878158,
@@ -32893,6 +32905,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 549
+    "totalSearches": 550
   }
 }
