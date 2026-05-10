@@ -32954,6 +32954,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5223433625": {
+      "chatId": 5223433625,
+      "firstName": "Michaela",
+      "lastName": "Miha",
+      "username": "mihaciup",
+      "joinedAt": "2026-05-10T21:56:32.073Z",
+      "lastActive": "2026-05-10T21:56:32.073Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
