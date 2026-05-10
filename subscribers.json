@@ -19358,6 +19358,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "2123227423": {
+      "chatId": 2123227423,
+      "firstName": "I",
+      "lastName": "I",
+      "username": "",
+      "joinedAt": "2026-05-10T06:16:58.500Z",
+      "lastActive": "2026-05-10T06:16:58.500Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2141974629": {
       "chatId": 2141974629,
       "firstName": "Mihai",
