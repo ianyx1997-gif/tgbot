@@ -5970,6 +5970,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "647891380": {
+      "chatId": 647891380,
+      "firstName": "Lilia💖💖💖💗💗💗",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-10T15:21:33.425Z",
+      "lastActive": "2026-05-10T15:21:33.425Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "651878158": {
       "chatId": 651878158,
       "firstName": "Марина Петровская",
