@@ -4752,6 +4752,28 @@
       "blocked": false,
       "totalSearches": 2
     },
+    "588882401": {
+      "chatId": 588882401,
+      "firstName": "𝐷𝑖𝑎𝑛𝑎",
+      "lastName": "𝑆𝑒𝑙𝑒𝑣𝑒𝑠𝑡𝑟𝑢",
+      "username": "",
+      "joinedAt": "2026-05-10T14:52:22.116Z",
+      "lastActive": "2026-05-10T14:52:22.116Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "588915684": {
       "chatId": 588915684,
       "firstName": "Maria",
