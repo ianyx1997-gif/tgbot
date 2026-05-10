@@ -32961,25 +32961,43 @@
       "lastName": "Miha",
       "username": "mihaciup",
       "joinedAt": "2026-05-10T21:56:32.073Z",
-      "lastActive": "2026-05-10T21:56:32.073Z",
-      "searches": [],
+      "lastActive": "2026-05-10T21:57:26.723Z",
+      "searches": [
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-05-25",
+          "nights": 5,
+          "adults": 1,
+          "children": [],
+          "food": "bb",
+          "stars": "5",
+          "timestamp": "2026-05-10T21:57:58.240Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Cipru"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "bb",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "luxury",
+        "dest:cipru",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 552
+    "totalSearches": 553
   }
 }
