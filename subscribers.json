@@ -4758,21 +4758,40 @@
       "lastName": "𝑆𝑒𝑙𝑒𝑣𝑒𝑠𝑡𝑟𝑢",
       "username": "",
       "joinedAt": "2026-05-10T14:52:22.116Z",
-      "lastActive": "2026-05-10T14:53:36.937Z",
-      "searches": [],
+      "lastActive": "2026-05-10T14:53:49.416Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-08",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-10T14:54:10.772Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "588915684": {
       "chatId": 588915684,
@@ -32833,6 +32852,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 547
+    "totalSearches": 548
   }
 }
