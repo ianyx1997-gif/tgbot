@@ -32901,6 +32901,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5123298974": {
+      "chatId": 5123298974,
+      "firstName": "Victoria",
+      "lastName": "Gradinaru",
+      "username": "",
+      "joinedAt": "2026-05-10T18:46:42.001Z",
+      "lastActive": "2026-05-10T18:46:42.001Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
