@@ -32973,6 +32973,17 @@
           "food": "bb",
           "stars": "5",
           "timestamp": "2026-05-10T21:57:58.240Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-05-25",
+          "nights": 5,
+          "adults": 1,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-05-10T21:58:14.440Z"
         }
       ],
       "messages": [],
@@ -32984,20 +32995,18 @@
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "bb",
-        "preferredStars": "5",
+        "preferredStars": "4",
         "preferredNights": "5"
       },
       "tags": [
-        "luxury",
-        "dest:cipru",
-        "new"
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     }
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 553
+    "totalSearches": 554
   }
 }
