@@ -13943,6 +13943,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1232783576": {
+      "chatId": 1232783576,
+      "firstName": "Adriana",
+      "lastName": "Iacub",
+      "username": "Adriana19961",
+      "joinedAt": "2026-05-11T11:20:49.482Z",
+      "lastActive": "2026-05-11T11:20:49.482Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1233326146": {
       "chatId": 1233326146,
       "firstName": "Rodica",
