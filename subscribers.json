@@ -18436,6 +18436,28 @@
       "blocked": true,
       "totalSearches": 0
     },
+    "1898501192": {
+      "chatId": 1898501192,
+      "firstName": "Rodica Rascu Contabil",
+      "lastName": "",
+      "username": "Rodica_Rascu_Contabil_Moldova",
+      "joinedAt": "2026-05-11T10:19:44.880Z",
+      "lastActive": "2026-05-11T10:19:44.880Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1915719183": {
       "chatId": 1915719183,
       "firstName": "violin",
