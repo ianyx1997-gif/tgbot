@@ -537,7 +537,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-11T10:15:30.115Z",
-      "lastActive": "2026-05-11T10:15:30.115Z",
+      "lastActive": "2026-05-11T10:15:37.078Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -14007,6 +14007,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "1255675429": {
+      "chatId": 1255675429,
+      "firstName": "Marinela",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-11T10:16:03.403Z",
+      "lastActive": "2026-05-11T10:16:03.403Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     },
     "1263840191": {
       "chatId": 1263840191,
