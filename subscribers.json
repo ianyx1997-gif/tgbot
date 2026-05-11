@@ -153,6 +153,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6537703858": {
+      "chatId": 6537703858,
+      "firstName": "N",
+      "lastName": "C",
+      "username": "",
+      "joinedAt": "2026-05-11T13:12:02.810Z",
+      "lastActive": "2026-05-11T13:12:02.810Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
