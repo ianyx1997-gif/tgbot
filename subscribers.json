@@ -28,6 +28,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "2133218315": {
+      "chatId": 2133218315,
+      "firstName": "Sanda",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-11T11:38:54.234Z",
+      "lastActive": "2026-05-11T11:38:54.234Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
