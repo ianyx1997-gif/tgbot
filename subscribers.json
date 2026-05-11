@@ -531,6 +531,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "310980263": {
+      "chatId": 310980263,
+      "firstName": "Зотович Дмитрий",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-11T10:15:30.115Z",
+      "lastActive": "2026-05-11T10:15:30.115Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "320481478": {
       "chatId": 320481478,
       "firstName": "Alexandra",
