@@ -257,25 +257,44 @@
       "lastName": "Andriuta",
       "username": "Lemonbenjamin",
       "joinedAt": "2026-05-11T19:16:24.098Z",
-      "lastActive": "2026-05-11T19:16:24.098Z",
-      "searches": [],
+      "lastActive": "2026-05-11T19:16:28.583Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-08",
+          "nights": 5,
+          "adults": 3,
+          "children": [],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T19:16:56.879Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "3",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 4
+    "totalSearches": 5
   }
 }
