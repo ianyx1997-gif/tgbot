@@ -114,21 +114,39 @@
       "lastName": "",
       "username": "doinamuza",
       "joinedAt": "2026-05-11T14:19:06.695Z",
-      "lastActive": "2026-05-11T14:19:06.695Z",
-      "searches": [],
+      "lastActive": "2026-05-11T14:20:19.992Z",
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-05-20",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ob",
+          "stars": "3",
+          "timestamp": "2026-05-11T14:20:56.619Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredStars": "3",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "budget",
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "2133218315": {
       "chatId": 2133218315,
@@ -201,6 +219,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 3
+    "totalSearches": 4
   }
 }
