@@ -11140,21 +11140,39 @@
       "lastName": "Condorachi",
       "username": "AAC17",
       "joinedAt": "2026-05-11T10:48:29.080Z",
-      "lastActive": "2026-05-11T10:48:29.080Z",
-      "searches": [],
+      "lastActive": "2026-05-11T10:50:11.308Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-11T10:50:26.572Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:grecia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "987251434": {
       "chatId": 987251434,
@@ -33579,6 +33597,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 567
+    "totalSearches": 568
   }
 }
