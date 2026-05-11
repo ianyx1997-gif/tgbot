@@ -13949,9 +13949,16 @@
       "lastName": "Iacub",
       "username": "Adriana19961",
       "joinedAt": "2026-05-11T11:20:49.482Z",
-      "lastActive": "2026-05-11T11:20:49.482Z",
+      "lastActive": "2026-05-11T11:20:53.422Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Bună ziua",
+          "extra": null,
+          "timestamp": "2026-05-11T11:20:53.422Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
