@@ -19902,7 +19902,7 @@
       "lastName": "Credinta",
       "username": "",
       "joinedAt": "2026-04-13T11:39:33.826Z",
-      "lastActive": "2026-04-24T10:03:36.151Z",
+      "lastActive": "2026-05-11T10:40:25.861Z",
       "searches": [
         {
           "country": "Bulgaria",
@@ -19931,6 +19931,20 @@
           "food": "hb",
           "stars": "",
           "timestamp": "2026-04-13T11:47:17.334Z"
+        },
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-07-05",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            11,
+            16
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T10:41:13.056Z"
         }
       ],
       "messages": [
@@ -19965,7 +19979,7 @@
         "typicalAdults": "2",
         "hasChildren": true,
         "avgChildAges": [
-          12,
+          11,
           16
         ],
         "preferredFood": "ai",
@@ -19980,7 +19994,7 @@
         "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "2142528074": {
       "chatId": 2142528074,
@@ -33543,6 +33557,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 566
+    "totalSearches": 567
   }
 }
