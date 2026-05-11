@@ -6517,21 +6517,40 @@
       "lastName": "",
       "username": "stmecom",
       "joinedAt": "2026-05-11T10:16:24.556Z",
-      "lastActive": "2026-05-11T10:16:28.231Z",
-      "searches": [],
+      "lastActive": "2026-05-11T10:18:22.366Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-30",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-11T10:18:52.030Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "708457282": {
       "chatId": 708457282,
@@ -33321,6 +33340,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 561
+    "totalSearches": 562
   }
 }
