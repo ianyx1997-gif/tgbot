@@ -11134,6 +11134,28 @@
       "blocked": false,
       "totalSearches": 3
     },
+    "986613377": {
+      "chatId": 986613377,
+      "firstName": "Antonella",
+      "lastName": "Condorachi",
+      "username": "AAC17",
+      "joinedAt": "2026-05-11T10:48:29.080Z",
+      "lastActive": "2026-05-11T10:48:29.080Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "987251434": {
       "chatId": 987251434,
       "firstName": "Natalia",
