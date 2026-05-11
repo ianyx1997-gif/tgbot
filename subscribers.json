@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "132977688": {
+      "chatId": 132977688,
+      "firstName": "S S",
+      "lastName": "S",
+      "username": "",
+      "joinedAt": "2026-05-11T14:32:49.459Z",
+      "lastActive": "2026-05-11T14:32:49.459Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "692161244": {
       "chatId": 692161244,
       "firstName": "Sabina",
