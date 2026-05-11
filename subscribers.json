@@ -11140,7 +11140,7 @@
       "lastName": "Condorachi",
       "username": "AAC17",
       "joinedAt": "2026-05-11T10:48:29.080Z",
-      "lastActive": "2026-05-11T10:58:13.960Z",
+      "lastActive": "2026-05-11T11:03:22.693Z",
       "searches": [
         {
           "country": "Grecia",
@@ -11163,6 +11163,17 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-05-11T10:59:38.824Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-11T11:03:38.522Z"
         }
       ],
       "messages": [],
@@ -11182,7 +11193,7 @@
         "dest:grecia"
       ],
       "blocked": false,
-      "totalSearches": 2
+      "totalSearches": 3
     },
     "987251434": {
       "chatId": 987251434,
@@ -33667,6 +33678,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 571
+    "totalSearches": 572
   }
 }
