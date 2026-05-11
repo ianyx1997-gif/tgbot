@@ -1,5 +1,27 @@
 {
   "subscribers": {
+    "986613377": {
+      "chatId": 986613377,
+      "firstName": "Antonella",
+      "lastName": "Condorachi",
+      "username": "AAC17",
+      "joinedAt": "2026-05-11T11:40:09.030Z",
+      "lastActive": "2026-05-11T11:40:09.030Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1232783576": {
       "chatId": 1232783576,
       "firstName": "Adriana",
@@ -35,25 +57,49 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-11T11:38:54.234Z",
-      "lastActive": "2026-05-11T11:38:54.234Z",
-      "searches": [],
+      "lastActive": "2026-05-11T11:39:46.778Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-08-24",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            15
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T11:40:12.622Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          15
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 0
+    "totalSearches": 1
   }
 }
