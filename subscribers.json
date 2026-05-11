@@ -15841,6 +15841,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1473522622": {
+      "chatId": 1473522622,
+      "firstName": "Ecaterina",
+      "lastName": "Tabac",
+      "username": "Katherine_katiz",
+      "joinedAt": "2026-05-11T10:55:58.078Z",
+      "lastActive": "2026-05-11T10:55:58.078Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1473927201": {
       "chatId": 1473927201,
       "firstName": "Dumitru",
