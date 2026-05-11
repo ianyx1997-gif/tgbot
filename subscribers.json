@@ -471,6 +471,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "294000695": {
+      "chatId": 294000695,
+      "firstName": "Alina",
+      "lastName": "Lupanciuc",
+      "username": "LupanciucAlina",
+      "joinedAt": "2026-05-11T11:19:34.830Z",
+      "lastActive": "2026-05-11T11:19:34.830Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "302734897": {
       "chatId": 302734897,
       "firstName": "Iri",
