@@ -183,6 +183,47 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "2060023373": {
+      "chatId": 2060023373,
+      "firstName": "Anastasia",
+      "lastName": "Volc",
+      "username": "nastea_v12",
+      "joinedAt": "2026-05-11T19:29:28.651Z",
+      "lastActive": "2026-05-11T19:29:28.651Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-15",
+          "nights": 7,
+          "adults": 3,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-11T19:29:43.870Z"
+        }
+      ],
+      "messages": [],
+      "preferences": {
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "3",
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
+      },
+      "tags": [
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
+      "blocked": false,
+      "totalSearches": 1
+    },
     "2133218315": {
       "chatId": 2133218315,
       "firstName": "Sanda",
@@ -295,6 +336,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 5
+    "totalSearches": 6
   }
 }
