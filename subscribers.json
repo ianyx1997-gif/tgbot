@@ -18167,12 +18167,26 @@
           "food": "ai",
           "stars": "5",
           "timestamp": "2026-05-11T05:47:30.252Z"
+        },
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-08-23",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            6
+          ],
+          "food": "ob",
+          "stars": "5",
+          "timestamp": "2026-05-11T05:48:32.127Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Bulgaria"
+          "Bulgaria",
+          "Spania"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -18188,10 +18202,10 @@
         "all-inclusive",
         "luxury",
         "dest:bulgaria",
-        "new"
+        "dest:spania"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1882160394": {
       "chatId": 1882160394,
@@ -33053,6 +33067,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 555
+    "totalSearches": 556
   }
 }
