@@ -1,5 +1,44 @@
 {
   "subscribers": {
+    "692161244": {
+      "chatId": 692161244,
+      "firstName": "Sabina",
+      "lastName": "Irimca",
+      "username": "Sabina_Irimca",
+      "joinedAt": "2026-05-11T11:47:01.218Z",
+      "lastActive": "2026-05-11T11:47:01.218Z",
+      "searches": [
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-09-20",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "bb",
+          "stars": "4",
+          "timestamp": "2026-05-11T11:47:21.004Z"
+        }
+      ],
+      "messages": [],
+      "preferences": {
+        "topCountries": [
+          "Grecia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": "bb",
+        "preferredStars": "4",
+        "preferredNights": "7"
+      },
+      "tags": [
+        "dest:grecia",
+        "new"
+      ],
+      "blocked": false,
+      "totalSearches": 1
+    },
     "986613377": {
       "chatId": 986613377,
       "firstName": "Antonella",
@@ -118,6 +157,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 2
+    "totalSearches": 3
   }
 }
