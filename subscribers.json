@@ -15847,21 +15847,47 @@
       "lastName": "Tabac",
       "username": "Katherine_katiz",
       "joinedAt": "2026-05-11T10:55:58.078Z",
-      "lastActive": "2026-05-11T10:55:58.078Z",
-      "searches": [],
+      "lastActive": "2026-05-11T10:56:42.345Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            2,
+            7
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T10:57:09.839Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2,
+          7
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1473927201": {
       "chatId": 1473927201,
@@ -33619,6 +33645,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 568
+    "totalSearches": 569
   }
 }
