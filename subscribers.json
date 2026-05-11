@@ -6517,7 +6517,7 @@
       "lastName": "",
       "username": "stmecom",
       "joinedAt": "2026-05-11T10:16:24.556Z",
-      "lastActive": "2026-05-11T10:16:24.556Z",
+      "lastActive": "2026-05-11T10:16:28.231Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -33288,6 +33288,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5126578614": {
+      "chatId": 5126578614,
+      "firstName": "Oxana",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-11T10:16:28.709Z",
+      "lastActive": "2026-05-11T10:16:28.709Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
