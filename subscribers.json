@@ -11140,7 +11140,7 @@
       "lastName": "Condorachi",
       "username": "AAC17",
       "joinedAt": "2026-05-11T10:48:29.080Z",
-      "lastActive": "2026-05-11T11:03:22.693Z",
+      "lastActive": "2026-05-11T11:13:45.473Z",
       "searches": [
         {
           "country": "Grecia",
@@ -11174,12 +11174,24 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-05-11T11:03:38.522Z"
+        },
+        {
+          "country": "Cipru",
+          "countryId": 54,
+          "dateFrom": "2026-09-20",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-11T11:13:57.769Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Grecia"
+          "Grecia",
+          "Cipru"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -11190,10 +11202,11 @@
       },
       "tags": [
         "all-inclusive",
-        "dest:grecia"
+        "dest:grecia",
+        "dest:cipru"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "987251434": {
       "chatId": 987251434,
@@ -33725,6 +33738,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 573
+    "totalSearches": 574
   }
 }
