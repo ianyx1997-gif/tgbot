@@ -33674,6 +33674,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5641100986": {
+      "chatId": 5641100986,
+      "firstName": "X",
+      "lastName": "Y",
+      "username": "",
+      "joinedAt": "2026-05-11T11:05:12.467Z",
+      "lastActive": "2026-05-11T11:05:12.467Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
