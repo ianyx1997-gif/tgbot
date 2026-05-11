@@ -6,9 +6,16 @@
       "lastName": "S",
       "username": "",
       "joinedAt": "2026-05-11T14:32:49.459Z",
-      "lastActive": "2026-05-11T14:32:49.459Z",
+      "lastActive": "2026-05-11T14:58:07.863Z",
       "searches": [],
-      "messages": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Mauritus vacanta",
+          "extra": null,
+          "timestamp": "2026-05-11T14:58:07.863Z"
+        }
+      ],
       "preferences": {
         "topCountries": [],
         "typicalAdults": 2,
