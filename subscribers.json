@@ -168,7 +168,7 @@
       "lastName": "",
       "username": "helish88",
       "joinedAt": "2026-05-01T06:50:22.043Z",
-      "lastActive": "2026-05-01T06:50:26.095Z",
+      "lastActive": "2026-05-11T10:21:02.696Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -18483,20 +18483,44 @@
       "username": "Rodica_Rascu_Contabil_Moldova",
       "joinedAt": "2026-05-11T10:19:44.880Z",
       "lastActive": "2026-05-11T10:19:57.350Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-27",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            17
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-11T10:21:19.501Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          17
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1915719183": {
       "chatId": 1915719183,
@@ -33402,6 +33426,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 563
+    "totalSearches": 564
   }
 }
