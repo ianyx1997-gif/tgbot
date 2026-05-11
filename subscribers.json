@@ -1521,6 +1521,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "396373906": {
+      "chatId": 396373906,
+      "firstName": "MD Kishinev Denis",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-11T10:33:52.837Z",
+      "lastActive": "2026-05-11T10:33:52.837Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "397766560": {
       "chatId": 397766560,
       "firstName": "Radu",
@@ -33476,7 +33498,7 @@
       "lastName": "Terna",
       "username": "",
       "joinedAt": "2026-05-11T10:32:50.993Z",
-      "lastActive": "2026-05-11T10:32:50.994Z",
+      "lastActive": "2026-05-11T10:33:38.941Z",
       "searches": [],
       "messages": [],
       "preferences": {
