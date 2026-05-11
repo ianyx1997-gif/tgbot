@@ -250,6 +250,28 @@
       "tags": [],
       "blocked": false,
       "totalSearches": 0
+    },
+    "5656160926": {
+      "chatId": 5656160926,
+      "firstName": "Ana",
+      "lastName": "Andriuta",
+      "username": "Lemonbenjamin",
+      "joinedAt": "2026-05-11T19:16:24.098Z",
+      "lastActive": "2026-05-11T19:16:24.098Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
