@@ -108,6 +108,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1380036003": {
+      "chatId": 1380036003,
+      "firstName": "Марианна",
+      "lastName": "",
+      "username": "doinamuza",
+      "joinedAt": "2026-05-11T14:19:06.695Z",
+      "lastActive": "2026-05-11T14:19:06.695Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "2133218315": {
       "chatId": 2133218315,
       "firstName": "Sanda",
