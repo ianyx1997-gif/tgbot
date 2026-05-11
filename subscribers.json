@@ -18153,21 +18153,45 @@
       "lastName": "",
       "username": "Ika2323",
       "joinedAt": "2026-05-11T05:45:56.876Z",
-      "lastActive": "2026-05-11T05:45:56.876Z",
-      "searches": [],
+      "lastActive": "2026-05-11T05:46:55.487Z",
+      "searches": [
+        {
+          "country": "Bulgaria",
+          "countryId": 13,
+          "dateFrom": "2026-08-23",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            6
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T05:47:30.252Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Bulgaria"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          6
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:bulgaria",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "1882160394": {
       "chatId": 1882160394,
@@ -33029,6 +33053,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 554
+    "totalSearches": 555
   }
 }
