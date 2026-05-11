@@ -477,21 +477,45 @@
       "lastName": "Lupanciuc",
       "username": "LupanciucAlina",
       "joinedAt": "2026-05-11T11:19:34.830Z",
-      "lastActive": "2026-05-11T11:19:34.830Z",
-      "searches": [],
+      "lastActive": "2026-05-11T11:19:40.968Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-25",
+          "nights": 7,
+          "adults": 2,
+          "children": [
+            2
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-11T11:20:04.253Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          2
+        ],
+        "preferredFood": "ai",
+        "preferredStars": "5",
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "302734897": {
       "chatId": 302734897,
@@ -33760,6 +33784,6 @@
   },
   "meta": {
     "createdAt": "2026-04-13T09:45:18.910Z",
-    "totalSearches": 574
+    "totalSearches": 575
   }
 }
