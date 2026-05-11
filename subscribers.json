@@ -33128,6 +33128,28 @@
       ],
       "blocked": false,
       "totalSearches": 2
+    },
+    "5844172480": {
+      "chatId": 5844172480,
+      "firstName": "Marian",
+      "lastName": "Motrescu",
+      "username": "",
+      "joinedAt": "2026-05-11T10:10:04.904Z",
+      "lastActive": "2026-05-11T10:10:04.904Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
