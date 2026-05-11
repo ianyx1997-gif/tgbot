@@ -18147,6 +18147,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "1882066269": {
+      "chatId": 1882066269,
+      "firstName": "Irina",
+      "lastName": "",
+      "username": "Ika2323",
+      "joinedAt": "2026-05-11T05:45:56.876Z",
+      "lastActive": "2026-05-11T05:45:56.876Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1882160394": {
       "chatId": 1882160394,
       "firstName": "Александр",
