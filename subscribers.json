@@ -49,7 +49,7 @@
       "lastName": "",
       "username": "nakkier",
       "joinedAt": "2026-05-12T06:06:00.173Z",
-      "lastActive": "2026-05-12T21:38:06.203Z",
+      "lastActive": "2026-05-12T21:40:09.380Z",
       "searches": [
         {
           "country": "Turcia",
@@ -83,6 +83,17 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-12T21:38:25.874Z"
+        },
+        {
+          "country": "Grecia",
+          "countryId": 34,
+          "dateFrom": "2026-07-23",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-12T21:40:26.188Z"
         }
       ],
       "messages": [
@@ -115,7 +126,7 @@
         "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "585848680": {
       "chatId": 585848680,
@@ -1023,6 +1034,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 20
+    "totalSearches": 21
   }
 }
