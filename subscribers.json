@@ -75,6 +75,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "585848680": {
+      "chatId": 585848680,
+      "firstName": "Cotelea",
+      "lastName": "Vlada",
+      "username": "Vladilena_Cotelea",
+      "joinedAt": "2026-05-12T07:41:21.183Z",
+      "lastActive": "2026-05-12T07:41:21.183Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "595017292": {
       "chatId": 595017292,
       "firstName": "Neculcea",
