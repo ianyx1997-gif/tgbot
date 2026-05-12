@@ -160,7 +160,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-12T05:38:42.786Z",
-      "lastActive": "2026-05-12T05:40:31.029Z",
+      "lastActive": "2026-05-12T05:45:33.236Z",
       "searches": [
         {
           "country": "Cipru",
@@ -172,27 +172,40 @@
           "food": "ai",
           "stars": "",
           "timestamp": "2026-05-12T05:41:20.974Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-26",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "3",
+          "timestamp": "2026-05-12T05:45:58.552Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Cipru"
+          "Cipru",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "ai",
-        "preferredStars": null,
+        "preferredStars": "3",
         "preferredNights": "5"
       },
       "tags": [
         "all-inclusive",
+        "budget",
         "dest:cipru",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "1232783576": {
       "chatId": 1232783576,
@@ -426,6 +439,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 9
+    "totalSearches": 10
   }
 }
