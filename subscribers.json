@@ -830,6 +830,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6455802586": {
+      "chatId": 6455802586,
+      "firstName": "Marian",
+      "lastName": "",
+      "username": "hmarian1991",
+      "joinedAt": "2026-05-12T16:39:40.443Z",
+      "lastActive": "2026-05-12T16:39:40.443Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
