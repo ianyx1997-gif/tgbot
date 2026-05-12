@@ -154,6 +154,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "1125439010": {
+      "chatId": 1125439010,
+      "firstName": "Mihaila Andrian",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-12T05:38:42.786Z",
+      "lastActive": "2026-05-12T05:38:42.787Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "1232783576": {
       "chatId": 1232783576,
       "firstName": "Adriana",
