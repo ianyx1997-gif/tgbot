@@ -924,6 +924,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6537675971": {
+      "chatId": 6537675971,
+      "firstName": "Olesea",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-12T17:52:33.867Z",
+      "lastActive": "2026-05-12T17:52:33.867Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
