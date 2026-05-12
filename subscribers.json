@@ -81,21 +81,44 @@
       "lastName": "Vlada",
       "username": "Vladilena_Cotelea",
       "joinedAt": "2026-05-12T07:41:21.183Z",
-      "lastActive": "2026-05-12T07:41:21.183Z",
-      "searches": [],
+      "lastActive": "2026-05-12T07:42:57.161Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-05-28",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "bb",
+          "stars": "3",
+          "timestamp": "2026-05-12T07:43:32.930Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          12
+        ],
+        "preferredFood": "bb",
+        "preferredStars": "3",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "budget",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "595017292": {
       "chatId": 595017292,
@@ -523,6 +546,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 11
+    "totalSearches": 12
   }
 }
