@@ -199,6 +199,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "754396068": {
+      "chatId": 754396068,
+      "firstName": "Lina Oglindă",
+      "lastName": "",
+      "username": "",
+      "joinedAt": "2026-05-12T07:44:54.759Z",
+      "lastActive": "2026-05-12T07:44:54.759Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "755561301": {
       "chatId": 755561301,
       "firstName": "Valentina",
