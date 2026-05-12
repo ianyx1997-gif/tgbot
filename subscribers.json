@@ -350,6 +350,35 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "919459400": {
+      "chatId": 919459400,
+      "firstName": "Alexandra",
+      "lastName": "",
+      "username": "alexandra_darii",
+      "joinedAt": "2026-05-12T19:40:11.590Z",
+      "lastActive": "2026-05-12T19:40:11.590Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Bali",
+          "extra": null,
+          "timestamp": "2026-05-12T19:40:11.590Z"
+        }
+      ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "986613377": {
       "chatId": 986613377,
       "firstName": "Antonella",
