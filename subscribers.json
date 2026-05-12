@@ -35,6 +35,28 @@
       "blocked": false,
       "totalSearches": 0
     },
+    "498675444": {
+      "chatId": 498675444,
+      "firstName": "Den",
+      "lastName": "",
+      "username": "nakkier",
+      "joinedAt": "2026-05-12T06:06:00.173Z",
+      "lastActive": "2026-05-12T06:06:00.173Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "595017292": {
       "chatId": 595017292,
       "firstName": "Neculcea",
