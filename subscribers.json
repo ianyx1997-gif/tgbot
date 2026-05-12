@@ -81,7 +81,7 @@
       "lastName": "Vlada",
       "username": "Vladilena_Cotelea",
       "joinedAt": "2026-05-12T07:41:21.183Z",
-      "lastActive": "2026-05-12T07:42:57.161Z",
+      "lastActive": "2026-05-12T07:46:20.769Z",
       "searches": [
         {
           "country": "Spania",
@@ -95,12 +95,26 @@
           "food": "bb",
           "stars": "3",
           "timestamp": "2026-05-12T07:43:32.930Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-05-28",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            12
+          ],
+          "food": "ai",
+          "stars": "5",
+          "timestamp": "2026-05-12T07:46:46.933Z"
         }
       ],
       "messages": [],
       "preferences": {
         "topCountries": [
-          "Spania"
+          "Spania",
+          "Turcia"
         ],
         "typicalAdults": "2",
         "hasChildren": true,
@@ -115,10 +129,10 @@
         "family",
         "budget",
         "dest:spania",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "595017292": {
       "chatId": 595017292,
@@ -205,7 +219,7 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-12T07:44:54.759Z",
-      "lastActive": "2026-05-12T07:44:54.759Z",
+      "lastActive": "2026-05-12T07:46:35.771Z",
       "searches": [],
       "messages": [],
       "preferences": {
@@ -568,6 +582,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 12
+    "totalSearches": 13
   }
 }
