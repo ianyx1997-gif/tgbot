@@ -425,21 +425,39 @@
       "lastName": "",
       "username": "",
       "joinedAt": "2026-05-12T10:34:06.789Z",
-      "lastActive": "2026-05-12T10:34:06.789Z",
-      "searches": [],
+      "lastActive": "2026-05-12T10:34:10.419Z",
+      "searches": [
+        {
+          "country": "Spania",
+          "countryId": 49,
+          "dateFrom": "2026-07-17",
+          "nights": 5,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-12T10:34:31.111Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Spania"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:spania",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "2060023373": {
       "chatId": 2060023373,
@@ -604,6 +622,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 13
+    "totalSearches": 14
   }
 }
