@@ -41,21 +41,39 @@
       "lastName": "Ecaterina (MD-656570)",
       "username": "EcaterinaNeculcea",
       "joinedAt": "2026-05-12T03:04:45.900Z",
-      "lastActive": "2026-05-12T03:04:45.900Z",
-      "searches": [],
+      "lastActive": "2026-05-12T03:05:47.785Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-06-17",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "",
+          "timestamp": "2026-05-12T03:06:23.618Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
+        "preferredFood": "ai",
         "preferredStars": null,
-        "preferredNights": null
+        "preferredNights": "7"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "692161244": {
       "chatId": 692161244,
@@ -368,6 +386,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 7
+    "totalSearches": 8
   }
 }
