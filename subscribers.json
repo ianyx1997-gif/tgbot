@@ -837,25 +837,51 @@
       "lastName": "",
       "username": "hmarian1991",
       "joinedAt": "2026-05-12T16:39:40.443Z",
-      "lastActive": "2026-05-12T16:39:40.443Z",
-      "searches": [],
+      "lastActive": "2026-05-12T16:40:45.911Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-09-01",
+          "nights": 5,
+          "adults": 2,
+          "children": [
+            1,
+            5
+          ],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-12T16:41:06.214Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
-        "hasChildren": false,
-        "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
+        "hasChildren": true,
+        "avgChildAges": [
+          1,
+          5
+        ],
+        "preferredFood": "uai",
+        "preferredStars": "5",
+        "preferredNights": "5"
       },
-      "tags": [],
+      "tags": [
+        "family",
+        "all-inclusive",
+        "luxury",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 15
+    "totalSearches": 16
   }
 }
