@@ -791,6 +791,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "6020236637": {
+      "chatId": 6020236637,
+      "firstName": "E",
+      "lastName": "E",
+      "username": "Florincs_elena",
+      "joinedAt": "2026-05-12T14:50:19.143Z",
+      "lastActive": "2026-05-12T14:50:19.143Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
