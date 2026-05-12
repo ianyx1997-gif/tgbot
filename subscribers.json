@@ -799,24 +799,41 @@
       "username": "Florincs_elena",
       "joinedAt": "2026-05-12T14:50:19.143Z",
       "lastActive": "2026-05-12T14:50:19.143Z",
-      "searches": [],
+      "searches": [
+        {
+          "country": "Vietnam",
+          "countryId": 29,
+          "dateFrom": "2026-10-20",
+          "nights": 14,
+          "adults": 1,
+          "children": [],
+          "food": "hb",
+          "stars": "4",
+          "timestamp": "2026-05-12T14:51:40.720Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Vietnam"
+        ],
+        "typicalAdults": "1",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "hb",
+        "preferredStars": "4",
+        "preferredNights": "14"
       },
-      "tags": [],
+      "tags": [
+        "dest:vietnam",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     }
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 14
+    "totalSearches": 15
   }
 }
