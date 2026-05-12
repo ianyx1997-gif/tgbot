@@ -41,21 +41,39 @@
       "lastName": "",
       "username": "nakkier",
       "joinedAt": "2026-05-12T06:06:00.173Z",
-      "lastActive": "2026-05-12T06:06:00.173Z",
-      "searches": [],
+      "lastActive": "2026-05-12T06:06:02.875Z",
+      "searches": [
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-20",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-12T06:06:30.257Z"
+        }
+      ],
       "messages": [],
       "preferences": {
-        "topCountries": [],
-        "typicalAdults": 2,
+        "topCountries": [
+          "Turcia"
+        ],
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
-        "preferredFood": null,
-        "preferredStars": null,
-        "preferredNights": null
+        "preferredFood": "ai",
+        "preferredStars": "4",
+        "preferredNights": "10"
       },
-      "tags": [],
+      "tags": [
+        "all-inclusive",
+        "dest:turcia",
+        "new"
+      ],
       "blocked": false,
-      "totalSearches": 0
+      "totalSearches": 1
     },
     "595017292": {
       "chatId": 595017292,
@@ -483,6 +501,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 10
+    "totalSearches": 11
   }
 }
