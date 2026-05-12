@@ -201,6 +201,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-05-11T19:29:43.870Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-10",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-12T00:37:23.607Z"
         }
       ],
       "messages": [],
@@ -208,7 +219,7 @@
         "topCountries": [
           "Turcia"
         ],
-        "typicalAdults": "3",
+        "typicalAdults": "2",
         "hasChildren": false,
         "avgChildAges": [],
         "preferredFood": "uai",
@@ -218,11 +229,10 @@
       "tags": [
         "all-inclusive",
         "luxury",
-        "dest:turcia",
-        "new"
+        "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 2
     },
     "2133218315": {
       "chatId": 2133218315,
@@ -336,6 +346,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 6
+    "totalSearches": 7
   }
 }
