@@ -114,6 +114,28 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "755561301": {
+      "chatId": 755561301,
+      "firstName": "Valentina",
+      "lastName": "",
+      "username": "valentinaschiopu",
+      "joinedAt": "2026-05-12T06:03:26.238Z",
+      "lastActive": "2026-05-12T06:03:26.238Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "986613377": {
       "chatId": 986613377,
       "firstName": "Antonella",
