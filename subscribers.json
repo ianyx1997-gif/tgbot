@@ -49,7 +49,7 @@
       "lastName": "",
       "username": "nakkier",
       "joinedAt": "2026-05-12T06:06:00.173Z",
-      "lastActive": "2026-05-12T21:37:31.735Z",
+      "lastActive": "2026-05-12T21:38:06.203Z",
       "searches": [
         {
           "country": "Turcia",
@@ -61,6 +61,28 @@
           "food": "ai",
           "stars": "4",
           "timestamp": "2026-05-12T06:06:30.257Z"
+        },
+        {
+          "country": "Albania",
+          "countryId": 10,
+          "dateFrom": "2026-07-20",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-12T21:37:54.356Z"
+        },
+        {
+          "country": "Egipt",
+          "countryId": 43,
+          "dateFrom": "2026-07-20",
+          "nights": 10,
+          "adults": 2,
+          "children": [],
+          "food": "ai",
+          "stars": "4",
+          "timestamp": "2026-05-12T21:38:25.874Z"
         }
       ],
       "messages": [
@@ -75,7 +97,9 @@
       ],
       "preferences": {
         "topCountries": [
-          "Turcia"
+          "Turcia",
+          "Albania",
+          "Egipt"
         ],
         "typicalAdults": "2",
         "hasChildren": false,
@@ -87,10 +111,11 @@
       "tags": [
         "all-inclusive",
         "dest:turcia",
-        "new"
+        "dest:albania",
+        "dest:egipt"
       ],
       "blocked": false,
-      "totalSearches": 1
+      "totalSearches": 3
     },
     "585848680": {
       "chatId": 585848680,
@@ -998,6 +1023,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 18
+    "totalSearches": 20
   }
 }
