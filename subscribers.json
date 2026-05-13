@@ -1092,6 +1092,28 @@
       ],
       "blocked": false,
       "totalSearches": 1
+    },
+    "5204627276": {
+      "chatId": 5204627276,
+      "firstName": "Natalia",
+      "lastName": "Balan",
+      "username": "",
+      "joinedAt": "2026-05-13T08:03:51.004Z",
+      "lastActive": "2026-05-13T08:03:51.004Z",
+      "searches": [],
+      "messages": [],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
     }
   },
   "meta": {
