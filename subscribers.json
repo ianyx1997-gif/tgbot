@@ -667,7 +667,7 @@
       "lastName": "Volc",
       "username": "nastea_v12",
       "joinedAt": "2026-05-11T19:29:28.651Z",
-      "lastActive": "2026-05-13T06:50:45.473Z",
+      "lastActive": "2026-05-13T06:51:17.951Z",
       "searches": [
         {
           "country": "Turcia",
@@ -701,6 +701,17 @@
           "food": "uai",
           "stars": "5",
           "timestamp": "2026-05-13T06:50:57.458Z"
+        },
+        {
+          "country": "Turcia",
+          "countryId": 115,
+          "dateFrom": "2026-07-15",
+          "nights": 7,
+          "adults": 2,
+          "children": [],
+          "food": "uai",
+          "stars": "5",
+          "timestamp": "2026-05-13T06:51:30.562Z"
         }
       ],
       "messages": [
@@ -730,7 +741,7 @@
         "dest:turcia"
       ],
       "blocked": false,
-      "totalSearches": 3
+      "totalSearches": 4
     },
     "2112624172": {
       "chatId": 2112624172,
@@ -1085,6 +1096,6 @@
   },
   "meta": {
     "createdAt": "2026-05-11T11:21:19.699Z",
-    "totalSearches": 23
+    "totalSearches": 24
   }
 }
