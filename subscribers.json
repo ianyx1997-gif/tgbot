@@ -245,6 +245,35 @@
       "blocked": false,
       "totalSearches": 1
     },
+    "597324307": {
+      "chatId": 597324307,
+      "firstName": "Gradinaru",
+      "lastName": "Anatolie",
+      "username": "",
+      "joinedAt": "2026-05-13T08:55:53.699Z",
+      "lastActive": "2026-05-13T08:55:53.699Z",
+      "searches": [],
+      "messages": [
+        {
+          "direction": "in",
+          "text": "Buna ziua\nTurcia 13.06 \n6 nopti\n3 maturi\n1 copil 6 ani\nOferte fierbinti",
+          "extra": null,
+          "timestamp": "2026-05-13T08:55:53.699Z"
+        }
+      ],
+      "preferences": {
+        "topCountries": [],
+        "typicalAdults": 2,
+        "hasChildren": false,
+        "avgChildAges": [],
+        "preferredFood": null,
+        "preferredStars": null,
+        "preferredNights": null
+      },
+      "tags": [],
+      "blocked": false,
+      "totalSearches": 0
+    },
     "692161244": {
       "chatId": 692161244,
       "firstName": "Sabina",
