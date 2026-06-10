@@ -12,8 +12,12 @@ const INTERNAL_KEY = process.env.INTERNAL_KEY || '';
 
 async function runTurn({ message, sessionId, hooks = {} }) {
   const ctl = new AbortController();
-  const watchdogMs = 120000; // o tură cu căutare poate dura ~60-90s
-  const timer = setTimeout(() => ctl.abort(), watchdogMs);
+  // watchdog pe INACTIVITATE (heartbeat-ul SSE vine la 15s → 90s fără nimic = mort),
+  // plus un plafon total generos — turele cu retry otpusk pot dura ~2-3 min legitim
+  let idleTimer = null;
+  const resetIdle = () => { clearTimeout(idleTimer); idleTimer = setTimeout(() => ctl.abort(), 90000); };
+  resetIdle();
+  const totalTimer = setTimeout(() => ctl.abort(), 300000);
 
   let newSessionId = sessionId || null;
   let text = '';
@@ -57,6 +61,7 @@ async function runTurn({ message, sessionId, hooks = {} }) {
     let pending = Promise.resolve();
     for (;;) {
       const r = await reader.read();
+      resetIdle();
       if (r.done) break;
       buf += dec.decode(r.value, { stream: true });
       let i;
@@ -77,8 +82,13 @@ async function runTurn({ message, sessionId, hooks = {} }) {
     }
     if (text.trim() && hooks.onText) await hooks.onText(text.trim());
     return { sessionId: newSessionId };
+  } catch (e) {
+    // nu pierde textul deja generat (ack-ul agentului) când tura moare la mijloc
+    if (text.trim() && hooks.onText) { try { await hooks.onText(text.trim()); } catch {} }
+    throw e;
   } finally {
-    clearTimeout(timer);
+    clearTimeout(idleTimer);
+    clearTimeout(totalTimer);
   }
 }
 
