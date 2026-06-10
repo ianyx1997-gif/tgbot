@@ -411,7 +411,10 @@ async function showDetails(chatId, st) {
   parts.push(`\n💶 <b>${fmtP(o.price)} €</b> ${o.confirmed ? L.conf : L.from} · ${esc(o.board || '')} · ${fmtD(o.departDate, L)} · ${o.nights} ${L.nights}`);
   await bot.sendMessage(chatId, cut(parts.join('\n'), 4000), {
     parse_mode: 'HTML',
-    reply_markup: { inline_keyboard: [[{ text: `${L.book} · ${fmtP(o.price)} €`, callback_data: 'book_' + o.hotelId }]] },
+    reply_markup: { inline_keyboard: [
+      [{ text: `${L.book} · ${fmtP(o.price)} €`, callback_data: 'book_' + o.hotelId }],
+      [{ text: L.newSearch, callback_data: 'qnew' }],
+    ] },
   });
 }
 
@@ -679,15 +682,6 @@ bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   updateSubInfo(chatId, msg.from); markDirty(); backupToGitHub().catch(() => {});
   await bot.sendMessage(chatId, WELCOME, { parse_mode: 'HTML' }).catch(() => {});
-  // utilizator cu istoric → scurtătură „repetă căutarea"
-  const sub = getSub(chatId);
-  const last = sub.searches[sub.searches.length - 1];
-  if (last && last.country) {
-    await bot.sendMessage(chatId, `🔁 Ultima ta căutare: <b>${esc(last.country)}</b>, ${last.nights}n, ${last.adults} ad.${(last.children||[]).length ? ' + copii' : ''}`, {
-      parse_mode: 'HTML',
-      reply_markup: { inline_keyboard: [[{ text: '🔁 Caut-o din nou', callback_data: 'rlast' }, { text: '🆕 Căutare nouă', callback_data: 'qnew' }]] },
-    }).catch(() => {});
-  }
   await qStart(chatId);
   await bot.sendMessage(chatId, '💡 Butonul de mai jos pornește oricând o căutare nouă.', {
     reply_markup: { keyboard: [[{ text: '🔍 Caută o vacanță' }]], resize_keyboard: true, one_time_keyboard: false },
@@ -809,14 +803,6 @@ bot.on('callback_query', async (query) => {
       await bot.sendMessage(chatId,
         '✍️ Scrie-mi liber, ca unui consultant: destinația, perioada, câte persoane și bugetul.\n<i>Ex: „Unde plec cu 1500€ în septembrie, 2 adulți?"</i>',
         { parse_mode: 'HTML' }).catch(() => {});
-      return;
-    }
-    if (data === 'rlast') {
-      const sub = getSub(chatId);
-      const last = sub.searches[sub.searches.length - 1];
-      if (!last) return qStart(chatId);
-      const kidsTxt = (last.children || []).length ? `, ${last.children.length} ${last.children.length === 1 ? 'copil' : 'copii'} (${last.children.join(', ')} ani)` : '';
-      await handleUserText(chatId, `${last.country}, cât mai curând, ${last.nights || 7} nopți, ${last.adults || 2} adulți${kidsTxt}`, query.from, { auto: true });
       return;
     }
     if (data === 'hot') {
