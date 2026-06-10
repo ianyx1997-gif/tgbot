@@ -229,19 +229,29 @@ function updateTags(sub) {
 function mode(a) { const f={}; a.forEach(v=>f[v]=(f[v]||0)+1); return Object.entries(f).sort((a,b)=>b[1]-a[1])[0]?.[0]; }
 
 // ================================================================
-//  ZEBRA AI — strat de conversație Telegram (v3)
+//  ZEBRA AI — strat de conversație Telegram (v3.1: flux ghidat)
+//  Destinația + parametrii se strâng prin BUTOANE (zero tokeni),
+//  apoi se face O singură căutare AI precisă. Text liber = direct la agent.
 // ================================================================
 const DESTS = [
   '🇹🇷 Turcia', '🇬🇷 Grecia', '🇪🇬 Egipt', '🇧🇬 Bulgaria', '🇲🇪 Muntenegru',
   '🇪🇸 Spania', '🇹🇳 Tunisia', '🇦🇱 Albania', '🇨🇾 Cipru',
 ];
+const MONTH_FULL = ['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
+const NIGHTS_OPTS = [5, 6, 7, 10, 14];
+const BUDGET_OPTS = [
+  { v: 1000, t: '≤1000€' }, { v: 1500, t: '≤1500€' }, { v: 2000, t: '≤2000€' },
+  { v: 3000, t: '≤3000€' }, { v: 4500, t: '≤4500€' }, { v: 6000, t: '≤6000€' },
+  { v: 'plus', t: '💎 6000€+' }, { v: 'any', t: '🤷 Orice buget' },
+];
 
 const agentSessions = new Map();   // chatId -> sessionId zebra-chat
 const busyChats = new Set();       // chat-uri cu o tură în lucru
-const CARDS = new Map();           // `${chatId}:${msgId}` -> { offers, lang, idx, query }
+const OFFERS = new Map();          // `${chatId}:${msgId}` -> { offer, lang } (card individual)
+const MORE = new Map();            // chatId -> { rest, lang, query } (restul ofertelor, la cerere)
 const CHIPS = new Map();           // `${chatId}:${msgId}` -> [chips]
-const lastCardsByChat = new Map(); // chatId -> ultima stare carusel (pt. book_ de pe alte mesaje)
 const pendingRemoveKb = new Set(); // chat-uri cărora le scoatem reply-keyboard-ul la următorul mesaj
+const QFLOW = new Map();           // chatId -> starea fluxului ghidat (wizard fără tokeni)
 
 function capMap(m, max) { if (m.size > max) m.delete(m.keys().next().value); }
 
@@ -253,6 +263,8 @@ const TL = {
         bookTpl: (n, p, d) => `Vreau să rezerv ${n} — ${p}€, plecare ${d}. Cum procedăm?`,
         share: 'Poți trimite numărul de telefon cu un singur tap 👇 (sau scrie-l în chat)',
         shareBtn: '📞 Trimite numărul meu', cancel: 'Anulează',
+        moreMsg: (n) => `👆 Acestea sunt primele oferte. Mai am <b>încă ${n}</b> la fel de bune.`,
+        moreBtn: (n) => `➕ Arată-le pe celelalte ${n}`,
         months: ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','noi','dec'] },
   ru: { nights: 'ноч.', det: '📋 Детали', book: '📞 Бронировать', from: 'от', conf: '✓ цена ок',
         adults: 'взр.', kids: 'дет.', pick: '🏆 Выбор Зебры', rev: 'отзывов',
@@ -260,6 +272,8 @@ const TL = {
         bookTpl: (n, p, d) => `Хочу забронировать ${n} — ${p}€, вылет ${d}. Как оформить?`,
         share: 'Можно отправить номер одним нажатием 👇 (или напишите его в чат)',
         shareBtn: '📞 Отправить мой номер', cancel: 'Отмена',
+        moreMsg: (n) => `👆 Это первые варианты. Есть <b>ещё ${n}</b> не хуже.`,
+        moreBtn: (n) => `➕ Показать остальные ${n}`,
         months: ['янв','фев','мар','апр','мая','июн','июл','авг','сен','окт','ноя','дек'] },
   en: { nights: 'nights', det: '📋 Details', book: '📞 Book', from: 'from', conf: '✓ confirmed',
         adults: 'ad.', kids: 'kids', pick: '🏆 Zebra’s pick', rev: 'reviews',
@@ -267,6 +281,8 @@ const TL = {
         bookTpl: (n, p, d) => `I want to book ${n} — ${p}€, departure ${d}. How do we proceed?`,
         share: 'Share your phone number with one tap 👇 (or type it)',
         shareBtn: '📞 Share my number', cancel: 'Cancel',
+        moreMsg: (n) => `👆 These are the first picks. I have <b>${n} more</b> just as good.`,
+        moreBtn: (n) => `➕ Show the other ${n}`,
         months: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'] },
 };
 const lang3 = (l) => TL[l] ? l : 'ro';
@@ -284,8 +300,7 @@ function revCount(o) {
 function offerCaption(o, idx, total, query, L) {
   const occ = `${query.adults || 2} ${L.adults}` + ((query.childrenAges || []).length ? ` + ${query.childrenAges.length} ${L.kids}` : '');
   const lines = [];
-  if (o.rank === 1) lines.push(`${L.pick}`);
-  lines.push(`<b>${esc(o.name)}</b>`);
+  lines.push(`${o.rank === 1 ? '🏆 ' : ''}<b>${idx + 1}/${total} · ${esc(o.name)}</b>`);
   const stars = o.stars ? '★'.repeat(Math.min(o.stars, 5)) : '';
   lines.push(`${stars}${stars ? ' · ' : ''}📍 ${esc([o.city, o.country].filter(Boolean).join(', '))}`);
   if (o.rating) lines.push(`⭐ ${o.rating}/10${revCount(o) ? ` · ${revCount(o)} ${L.rev}` : ''}`);
@@ -301,59 +316,50 @@ function offerCaption(o, idx, total, query, L) {
   return lines.join('\n');
 }
 
-function offerKb(idx, total, L) {
-  return { inline_keyboard: [
-    [{ text: '◀️', callback_data: 'cprev' }, { text: `${idx + 1}/${total}`, callback_data: 'noop' }, { text: '▶️', callback_data: 'cnext' }],
-    [{ text: L.det, callback_data: 'cdet' }, { text: L.book, callback_data: 'cbook' }],
-  ] };
-}
+const cardKb = (L) => ({ inline_keyboard: [[{ text: L.det, callback_data: 'cdet' }, { text: L.book, callback_data: 'cbook' }]] });
 
-async function sendCarousel(chatId, payload) {
+// fiecare ofertă = MESAJ SEPARAT cu poză + butoane (clar că-s mai multe; fără carusel ascuns)
+const FIRST_BATCH = 5;
+async function sendOfferCards(chatId, payload) {
   const lang = lang3(payload.lang);
   const L = TL[lang];
   const offers = payload.offers || [];
   if (!offers.length) return;
   const query = payload.query || {};
-  const o = offers[0];
-  const caption = offerCaption(o, 0, offers.length, query, L);
-  const kb = offerKb(0, offers.length, L);
-  let sent = null;
-  try {
-    sent = await bot.sendPhoto(chatId, o.photoLarge || o.photo, { caption, parse_mode: 'HTML', reply_markup: kb });
-  } catch (e) {
-    // poză indisponibilă → card text
-    sent = await bot.sendMessage(chatId, caption, { parse_mode: 'HTML', reply_markup: kb });
+  const first = offers.slice(0, FIRST_BATCH);
+  const rest = offers.slice(FIRST_BATCH);
+  await sendCardBatch(chatId, first, 0, offers.length, query, lang);
+  if (rest.length) {
+    MORE.set(chatId, { rest, lang, query, total: offers.length }); capMap(MORE, 2000);
+    await bot.sendMessage(chatId, L.moreMsg(rest.length), {
+      parse_mode: 'HTML',
+      reply_markup: { inline_keyboard: [[{ text: L.moreBtn(rest.length), callback_data: 'more' }]] },
+    }).catch(() => {});
   }
-  const st = { offers, lang, idx: 0, query };
-  CARDS.set(`${chatId}:${sent.message_id}`, st); capMap(CARDS, 400);
-  lastCardsByChat.set(chatId, st); capMap(lastCardsByChat, 2000);
-  storeMessage(chatId, 'out', `[${offers.length} oferte: ${query.destination || ''}]`, { carousel: true });
+  storeMessage(chatId, 'out', `[${offers.length} oferte: ${query.destination || ''}]`, { cards: true });
   recordSearch(chatId, { ...query });
 }
 
-async function navCarousel(chatId, msgId, delta) {
-  const st = CARDS.get(`${chatId}:${msgId}`);
-  if (!st) return false;
-  const total = st.offers.length;
-  st.idx = Math.max(0, Math.min(total - 1, st.idx + delta));
-  const o = st.offers[st.idx];
-  const L = TL[st.lang];
-  const caption = offerCaption(o, st.idx, total, st.query, L);
-  try {
-    await bot.editMessageMedia(
-      { type: 'photo', media: o.photoLarge || o.photo, caption, parse_mode: 'HTML' },
-      { chat_id: chatId, message_id: msgId, reply_markup: offerKb(st.idx, total, L) }
-    );
-  } catch (e) {
-    if (!/not modified/i.test(e.message)) console.error('[nav]', e.message);
+async function sendCardBatch(chatId, batch, startIdx, total, query, lang) {
+  const L = TL[lang];
+  for (let i = 0; i < batch.length; i++) {
+    const o = batch[i];
+    const caption = offerCaption(o, startIdx + i, total, query, L);
+    let sent = null;
+    try {
+      sent = await bot.sendPhoto(chatId, o.photoLarge || o.photo, { caption, parse_mode: 'HTML', reply_markup: cardKb(L) });
+    } catch (e) {
+      try { sent = await bot.sendMessage(chatId, caption, { parse_mode: 'HTML', reply_markup: cardKb(L) }); } catch {}
+    }
+    if (sent) { OFFERS.set(`${chatId}:${sent.message_id}`, { offer: o, lang }); capMap(OFFERS, 2000); }
+    await new Promise((r) => setTimeout(r, 350)); // ordinea mesajelor + rate-limit Telegram
   }
-  return true;
 }
 
 const cut = (s, n) => (s && s.length > n ? s.slice(0, n - 1) + '…' : s);
 
 async function showDetails(chatId, st) {
-  const o = st.offers[st.idx];
+  const o = st.offer;
   const L = TL[st.lang];
   await bot.sendChatAction(chatId, 'upload_photo').catch(() => {});
   let d = null;
@@ -434,7 +440,7 @@ async function handleUserText(chatId, text, from) {
     },
     onOffers: async (payload) => {
       gotAnything = true;
-      await sendCarousel(chatId, payload);
+      await sendOfferCards(chatId, payload);
     },
     onChips: async (chips) => {
       if (!chips.length || !lastTextMsgId) return;
@@ -461,32 +467,134 @@ async function handleUserText(chatId, text, from) {
 }
 
 // ================================================================
-//  COMENZI & HANDLERE
+//  FLUX GHIDAT (wizard cu butoane — ZERO tokeni până la căutare)
+//  destinație → luna → perioada din lună → nopți → adulți → copii
+//  (+vârste) → buget → compune cererea și o dă agentului AI
 // ================================================================
-function destKeyboard() {
-  const kb = [];
-  for (let i = 0; i < DESTS.length; i += 3) kb.push(DESTS.slice(i, i + 3).map((d, j) => ({ text: d, callback_data: 'dest_' + (i + j) })));
-  kb.push([{ text: '🔥 Oferte fierbinți', callback_data: 'hot' }]);
-  return { inline_keyboard: kb };
+function qSummary(q) {
+  const bits = [];
+  if (q.dest) bits.push(q.dest);
+  if (q.month != null) bits.push(MONTH_FULL[q.month] + (q.part && q.part !== 'whole' ? ` (${{ start: 'început', mid: 'mijloc', end: 'sfârșit' }[q.part]})` : ''));
+  if (q.nights) bits.push(`🌙 ${q.nights}n`);
+  if (q.adults) bits.push(`👥 ${q.adults}${q.kids && q.kids.length ? '+' + q.kids.length : ''}`);
+  if (q.budget) bits.push(q.budget === 'any' ? '💶 orice' : q.budget === 'plus' ? '💎 6000€+' : `💶 ≤${q.budget}€`);
+  return bits.join(' | ');
 }
 
+async function qRender(chatId, title, kbRows) {
+  const q = QFLOW.get(chatId);
+  const text = (qSummary(q) ? `<i>${esc(qSummary(q))}</i>\n\n` : '') + title;
+  const opts = { parse_mode: 'HTML', reply_markup: { inline_keyboard: kbRows } };
+  try {
+    if (q && q.msgId) await bot.editMessageText(text, { chat_id: chatId, message_id: q.msgId, ...opts });
+    else { const m = await bot.sendMessage(chatId, text, opts); q.msgId = m.message_id; }
+  } catch (e) {
+    if (!/not modified/i.test(e.message)) { try { const m = await bot.sendMessage(chatId, text, opts); q.msgId = m.message_id; } catch {} }
+  }
+}
+
+function qStart(chatId) {
+  QFLOW.set(chatId, { step: 'dest', dest: null, month: null, part: null, nights: 7, adults: 2, kids: [], kidsLeft: 0, budget: null, msgId: null });
+  capMap(QFLOW, 3000);
+  const kb = [];
+  for (let i = 0; i < DESTS.length; i += 3) kb.push(DESTS.slice(i, i + 3).map((d, j) => ({ text: d, callback_data: 'qd_' + (i + j) })));
+  kb.push([{ text: '🏨 Caut un hotel anume', callback_data: 'qhotel' }, { text: '🔥 Oferte fierbinți', callback_data: 'hot' }]);
+  kb.push([{ text: '✍️ Prefer să scriu liber', callback_data: 'qfree' }]);
+  return qRender(chatId, '🌍 <b>Unde zburăm în vacanță?</b>', kb);
+}
+
+function qMonths(chatId) {
+  const now = new Date(), kb = [];
+  const ms = [];
+  for (let i = 0; i < 9; i++) {
+    const d = new Date(now.getFullYear(), now.getMonth() + 1 + i, 1);
+    ms.push({ y: d.getFullYear(), m: d.getMonth(), t: MONTH_FULL[d.getMonth()].slice(0, 3) + (d.getFullYear() !== now.getFullYear() ? ` '${String(d.getFullYear()).slice(2)}` : '') });
+  }
+  for (let i = 0; i < ms.length; i += 3) kb.push(ms.slice(i, i + 3).map((x) => ({ text: `📅 ${x.t}`, callback_data: `qm_${x.y}_${x.m}` })));
+  return qRender(chatId, '📅 <b>În ce lună plecați?</b>', kb);
+}
+
+const qParts = (chatId) => qRender(chatId, '📆 <b>Când în lună?</b>', [
+  [{ text: '🗓 Oricând în lună (cele mai bune prețuri)', callback_data: 'qp_whole' }],
+  [{ text: 'Început', callback_data: 'qp_start' }, { text: 'Mijloc', callback_data: 'qp_mid' }, { text: 'Sfârșit', callback_data: 'qp_end' }],
+]);
+
+const qNights = (chatId) => qRender(chatId, '🌙 <b>Câte nopți?</b>', [
+  NIGHTS_OPTS.map((n) => ({ text: n === 7 ? '⭐ 7' : String(n), callback_data: 'qn_' + n })),
+]);
+
+const qAdults = (chatId) => qRender(chatId, '👤 <b>Câți adulți?</b>', [
+  [1, 2, 3, 4].map((n) => ({ text: n === 2 ? '⭐ 2' : String(n), callback_data: 'qa_' + n })),
+]);
+
+const qKids = (chatId) => qRender(chatId, '👶 <b>Copii?</b>', [
+  [{ text: '❌ Fără copii', callback_data: 'qk_0' }],
+  [1, 2, 3].map((n) => ({ text: `${n} ${n === 1 ? 'copil' : 'copii'}`, callback_data: 'qk_' + n })),
+]);
+
+function qKidAge(chatId) {
+  const q = QFLOW.get(chatId);
+  const nr = q.kids.length + 1, tot = q.kids.length + q.kidsLeft;
+  const kb = [];
+  for (let a = 1; a <= 15; a += 5) kb.push(Array.from({ length: Math.min(5, 16 - a) }, (_, j) => ({ text: String(a + j), callback_data: 'qg_' + (a + j) })));
+  return qRender(chatId, `👶 <b>Vârsta copilului ${nr} din ${tot}:</b>`, kb);
+}
+
+const qBudget = (chatId) => qRender(chatId, '💶 <b>Ce buget aveți (total, pe toți)?</b>', [
+  BUDGET_OPTS.slice(0, 3).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
+  BUDGET_OPTS.slice(3, 6).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
+  BUDGET_OPTS.slice(6).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
+]);
+
+async function qFinish(chatId, from) {
+  const q = QFLOW.get(chatId);
+  QFLOW.delete(chatId);
+  if (!q || !q.dest) return;
+  const now = new Date();
+  const year = q.month != null ? (q.month >= now.getMonth() ? now.getFullYear() : now.getFullYear() + 1) : null;
+  const period = q.month == null ? 'cât mai curând'
+    : q.part === 'start' ? `la începutul lui ${MONTH_FULL[q.month]} ${q.year || year}`
+    : q.part === 'mid' ? `la mijlocul lui ${MONTH_FULL[q.month]} ${q.year || year}`
+    : q.part === 'end' ? `la sfârșitul lui ${MONTH_FULL[q.month]} ${q.year || year}`
+    : `în ${MONTH_FULL[q.month]} ${q.year || year}`;
+  const parts = [q.dest, period, `${q.nights} nopți`, `${q.adults} ${q.adults === 1 ? 'adult' : 'adulți'}`];
+  if (q.kids.length) parts.push(`${q.kids.length} ${q.kids.length === 1 ? 'copil' : 'copii'} (${q.kids.join(', ')} ani)`);
+  if (q.budget && q.budget !== 'any') parts.push(q.budget === 'plus' ? 'buget peste 6000€ (premium)' : `buget ${q.budget}€`);
+  const text = parts.join(', ');
+  if (q.msgId) bot.editMessageText(`✅ <i>${esc(qSummary(q))}</i>`, { chat_id: chatId, message_id: q.msgId, parse_mode: 'HTML' }).catch(() => {});
+  await handleUserText(chatId, text, from);
+}
+
+// ================================================================
+//  COMENZI & HANDLERE
+// ================================================================
 const WELCOME = '👋 <b>Bun venit la Zebra Tur!</b>\n\n' +
-  'Sunt <b>Zebra AI</b> — consultantul tău de vacanțe. Scrie-mi liber unde, când și cu ce buget vrei să pleci ' +
-  '(ex: <i>„Turcia în august, 2 adulți și un copil de 6 ani, buget 2000€"</i>) sau alege o destinație:\n\n' +
-  '<i>Можно писать и на русском.</i> 🦓';
+  'Sunt <b>Zebra AI</b> — consultantul tău de vacanțe: alegi destinația și răspunzi la câteva întrebări rapide, ' +
+  'iar eu îți găsesc cele mai bune oferte REALE cu zbor din Chișinău — cu poze, prețuri confirmate și rezervare prin telefon.\n\n' +
+  '<i>Poți și să-mi scrii liber, ca unui consultant: „Turcia în august, 2 adulți, buget 2000". Можно и на русском.</i> 🦓';
 
 bot.onText(/\/start/, async (msg) => {
   const chatId = msg.chat.id;
   updateSubInfo(chatId, msg.from); saveDB(); backupToGitHub().catch(() => {});
-  await bot.sendMessage(chatId, WELCOME, { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
-  await bot.sendMessage(chatId, '💡 Scrie oricând în chat sau folosește butonul de mai jos.', {
+  await bot.sendMessage(chatId, WELCOME, { parse_mode: 'HTML' }).catch(() => {});
+  // utilizator cu istoric → scurtătură „repetă căutarea"
+  const sub = getSub(chatId);
+  const last = sub.searches[sub.searches.length - 1];
+  if (last && last.country) {
+    await bot.sendMessage(chatId, `🔁 Ultima ta căutare: <b>${esc(last.country)}</b>, ${last.nights}n, ${last.adults} ad.${(last.children||[]).length ? ' + copii' : ''}`, {
+      parse_mode: 'HTML',
+      reply_markup: { inline_keyboard: [[{ text: '🔁 Caut-o din nou', callback_data: 'rlast' }, { text: '🆕 Căutare nouă', callback_data: 'qnew' }]] },
+    }).catch(() => {});
+  }
+  await qStart(chatId);
+  await bot.sendMessage(chatId, '💡 Butonul de mai jos pornește oricând o căutare nouă.', {
     reply_markup: { keyboard: [[{ text: '🔍 Caută o vacanță' }]], resize_keyboard: true, one_time_keyboard: false },
   }).catch(() => {});
 });
 
 bot.onText(/\/cauta/, async (msg) => {
   updateSubInfo(msg.chat.id, msg.from);
-  await bot.sendMessage(msg.chat.id, '🌍 <b>Unde zburăm în vacanță?</b>\nAlege sau scrie liber:', { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
+  await qStart(msg.chat.id);
 });
 
 bot.onText(/\/help/, async (msg) => {
@@ -513,7 +621,7 @@ bot.on('message', async (msg) => {
   if (msg.text.startsWith('/')) return; // comenzile au handlerele lor
   if (msg.text === '🔍 Caută o vacanță' || msg.text === '🔍 Caută un tur') {
     updateSubInfo(chatId, msg.from);
-    await bot.sendMessage(chatId, '🌍 <b>Unde zburăm în vacanță?</b>\nAlege sau scrie liber:', { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
+    await qStart(chatId);
     return;
   }
   if (/^✖️/.test(msg.text)) { // anulează partajarea numărului
@@ -527,34 +635,99 @@ bot.on('message', async (msg) => {
 bot.on('callback_query', async (query) => {
   const chatId = query.message.chat.id, msgId = query.message.message_id, data = query.data;
   await bot.answerCallbackQuery(query.id).catch(() => {});
+  const q = QFLOW.get(chatId);
   try {
     if (data === 'noop') return;
-    if (data.startsWith('dest_')) {
-      const d = DESTS[+data.slice(5)];
-      if (d) await handleUserText(chatId, d.replace(/^\S+\s/, ''), query.from); // fără emoji-ul de steag
+
+    // ---- fluxul ghidat (zero tokeni) ----
+    if (data === 'qnew') { await qStart(chatId); return; }
+    if (data.startsWith('qd_')) {
+      if (!q) return qStart(chatId);
+      q.dest = (DESTS[+data.slice(3)] || '').replace(/^\S+\s/, ''); // fără steag
+      if (!q.dest) return;
+      await qMonths(chatId); return;
+    }
+    if (data.startsWith('qm_')) {
+      if (!q || !q.dest) return qStart(chatId);
+      const [, y, m] = data.split('_');
+      q.year = +y; q.month = +m;
+      await qParts(chatId); return;
+    }
+    if (data.startsWith('qp_')) { if (!q) return qStart(chatId); q.part = data.slice(3); await qNights(chatId); return; }
+    if (data.startsWith('qn_')) { if (!q) return qStart(chatId); q.nights = +data.slice(3); await qAdults(chatId); return; }
+    if (data.startsWith('qa_')) { if (!q) return qStart(chatId); q.adults = +data.slice(3); await qKids(chatId); return; }
+    if (data.startsWith('qk_')) {
+      if (!q) return qStart(chatId);
+      q.kidsLeft = +data.slice(3); q.kids = [];
+      if (q.kidsLeft === 0) await qBudget(chatId); else await qKidAge(chatId);
+      return;
+    }
+    if (data.startsWith('qg_')) {
+      if (!q) return qStart(chatId);
+      q.kids.push(+data.slice(3)); q.kidsLeft--;
+      if (q.kidsLeft > 0) await qKidAge(chatId); else await qBudget(chatId);
+      return;
+    }
+    if (data.startsWith('qb_')) {
+      if (!q) return qStart(chatId);
+      const v = data.slice(3);
+      q.budget = (v === 'any' || v === 'plus') ? v : +v;
+      await qFinish(chatId, query.from);
+      return;
+    }
+    if (data === 'qhotel') {
+      QFLOW.delete(chatId);
+      await bot.sendMessage(chatId,
+        '🏨 <b>Scrie numele hotelului</b> + perioada și persoanele, iar eu îl caut exact.\n<i>Ex: „Rixos Premium Belek, august, 2 adulți" sau „Albatros Palace Hurghada în octombrie"</i>',
+        { parse_mode: 'HTML' }).catch(() => {});
+      return;
+    }
+    if (data === 'qfree') {
+      QFLOW.delete(chatId);
+      await bot.sendMessage(chatId,
+        '✍️ Scrie-mi liber, ca unui consultant: destinația, perioada, câte persoane și bugetul.\n<i>Ex: „Unde plec cu 1500€ în septembrie, 2 adulți?"</i>',
+        { parse_mode: 'HTML' }).catch(() => {});
+      return;
+    }
+    if (data === 'rlast') {
+      const sub = getSub(chatId);
+      const last = sub.searches[sub.searches.length - 1];
+      if (!last) return qStart(chatId);
+      const kidsTxt = (last.children || []).length ? `, ${last.children.length} ${last.children.length === 1 ? 'copil' : 'copii'} (${last.children.join(', ')} ani)` : '';
+      await handleUserText(chatId, `${last.country}, cât mai curând, ${last.nights || 7} nopți, ${last.adults || 2} adulți${kidsTxt}`, query.from);
       return;
     }
     if (data === 'hot') { await handleUserText(chatId, 'Ce oferte fierbinți ai acum? Recomandă-mi ceva bun.', query.from); return; }
-    if (data === 'cprev' || data === 'cnext') {
-      const ok = await navCarousel(chatId, msgId, data === 'cnext' ? 1 : -1);
-      if (!ok) bot.answerCallbackQuery(query.id, { text: 'Caruselul a expirat — fă o căutare nouă 🙂' }).catch(() => {});
+
+    // ---- restul ofertelor (lotul 2) ----
+    if (data === 'more') {
+      const m = MORE.get(chatId);
+      if (!m) { bot.answerCallbackQuery(query.id, { text: 'Au expirat — fă o căutare nouă 🙂' }).catch(() => {}); return; }
+      MORE.delete(chatId);
+      bot.editMessageReplyMarkup({ inline_keyboard: [] }, { chat_id: chatId, message_id: msgId }).catch(() => {});
+      await sendCardBatch(chatId, m.rest, m.total - m.rest.length, m.total, m.query, m.lang);
       return;
     }
+
+    // ---- carduri individuale ----
     if (data === 'cdet') {
-      const st = CARDS.get(`${chatId}:${msgId}`);
+      const st = OFFERS.get(`${chatId}:${msgId}`);
       if (st) await showDetails(chatId, st);
       return;
     }
     if (data === 'cbook') {
-      const st = CARDS.get(`${chatId}:${msgId}`);
-      if (st) await startBooking(chatId, st.offers[st.idx], st.lang);
+      const st = OFFERS.get(`${chatId}:${msgId}`);
+      if (st) await startBooking(chatId, st.offer, st.lang);
       return;
     }
     if (data.startsWith('book_')) {
       const hid = +data.slice(5);
-      const st = lastCardsByChat.get(chatId);
-      const o = st && st.offers.find((x) => x.hotelId === hid);
-      if (o) await startBooking(chatId, o, st.lang);
+      // caută oferta în cardurile trimise acestui chat
+      let found = null;
+      for (const [k, v] of OFFERS) {
+        if (k.startsWith(chatId + ':') && v.offer.hotelId === hid) found = v;
+      }
+      if (found) await startBooking(chatId, found.offer, found.lang);
       return;
     }
     if (data.startsWith('chip_')) {
