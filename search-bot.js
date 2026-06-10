@@ -539,12 +539,25 @@ async function handleUserText(chatId, text, from, opts = {}) {
 //  destinație → luna → perioada din lună → nopți → adulți → copii
 //  (+vârste) → buget → compune cererea și o dă agentului AI
 // ================================================================
+const FOOD_LBL = { any: '🍽 oricare', bb: '🥐 mic dejun+', hb: '🍲 demipensiune+', fb: '🍱 pensiune completă+', ai: '🏖 All Inclusive+', uai: '👑 Ultra AI' };
+const EXTRA_OPTS = [
+  { k: 'one_line_beach', t: '🏖 Prima linie' }, { k: 'sandy', t: '🏝 Plajă cu nisip' },
+  { k: 'aquapark', t: '🎢 Aquapark' }, { k: 'spa', t: '💆 SPA' }, { k: 'family', t: '👨‍👩‍👧 Pt. familii' },
+];
+
 function qSummary(q) {
   const bits = [];
   if (q.dest) bits.push(q.dest);
-  if (q.month != null) bits.push(MONTH_FULL[q.month] + (q.part && q.part !== 'whole' ? ` (${{ start: 'început', mid: 'mijloc', end: 'sfârșit' }[q.part]})` : ''));
+  if (q.day != null && q.month != null) {
+    const mm = MONTH_FULL[q.month].slice(0, 3);
+    bits.push(q.dayEnd != null ? `📆 ${q.day}–${q.dayEnd} ${mm}` : `📆 ${q.day} ${mm}${q.strict ? ' (fix)' : ' ±4z'}`);
+  } else if (q.month != null) {
+    bits.push(MONTH_FULL[q.month] + (q.part && q.part !== 'whole' ? ` (${{ start: 'început', mid: 'mijloc', end: 'sfârșit' }[q.part]})` : ''));
+  }
   if (q.nights) bits.push(`🌙 ${q.nights}n`);
   if (q.adults) bits.push(`👥 ${q.adults}${q.kids && q.kids.length ? '+' + q.kids.length : ''}`);
+  if (q.food) bits.push(FOOD_LBL[q.food] || q.food);
+  if (q.extras && q.extras.length) bits.push(q.extras.map((k) => (EXTRA_OPTS.find((e) => e.k === k) || {}).t).filter(Boolean).join(' '));
   if (q.budget) bits.push('💶 ' + q.budget.t.replace('🤷 ', '').replace('💎 ', ''));
   return bits.join(' | ');
 }
@@ -562,7 +575,7 @@ async function qRender(chatId, title, kbRows) {
 }
 
 function qStart(chatId) {
-  QFLOW.set(chatId, { step: 'dest', dest: null, month: null, part: null, nights: 7, adults: 2, kids: [], kidsLeft: 0, budget: null, msgId: null });
+  QFLOW.set(chatId, { step: 'dest', dest: null, month: null, part: null, day: null, dayEnd: null, dateMode: null, strict: false, nights: 7, adults: 2, kids: [], kidsLeft: 0, food: null, extras: [], budget: null, msgId: null });
   capMap(QFLOW, 3000);
   const kb = [];
   for (let i = 0; i < DESTS.length; i += 3) kb.push(DESTS.slice(i, i + 3).map((d, j) => ({ text: d, callback_data: 'qd_' + (i + j) })));
@@ -590,8 +603,53 @@ const qBack = [{ text: '↩️ De la început', callback_data: 'qnew' }];
 const qParts = (chatId) => qRender(chatId, '📆 <b>Când în lună?</b>', [
   [{ text: '🗓 Oricând în lună (cele mai bune prețuri)', callback_data: 'qp_whole' }],
   [{ text: 'Început', callback_data: 'qp_start' }, { text: 'Mijloc', callback_data: 'qp_mid' }, { text: 'Sfârșit', callback_data: 'qp_end' }],
+  [{ text: '📍 Aleg ziua exactă', callback_data: 'qdx' }, { text: '↔️ Interval de zile', callback_data: 'qdr' }],
   qBack,
 ]);
+
+// grilă de zile pentru luna aleasă (rows de 7); fromDay = pt. capătul intervalului
+function qDays(chatId, title, fromDay) {
+  const q = QFLOW.get(chatId);
+  if (!q || q.month == null) return;
+  const dim = new Date(q.year, q.month + 1, 0).getDate();
+  const start = fromDay || 1;
+  const kb = [];
+  let row = [];
+  for (let d = start; d <= dim; d++) {
+    row.push({ text: String(d), callback_data: 'qz_' + d });
+    if (row.length === 7) { kb.push(row); row = []; }
+  }
+  if (row.length) kb.push(row);
+  kb.push(qBack);
+  return qRender(chatId, title, kb);
+}
+
+const qStrict = (chatId) => qRender(chatId, '🎯 <b>Cât de fixă e data?</b>', [
+  [{ text: '± câteva zile e OK (prețuri mai bune)', callback_data: 'qfx_0' }],
+  [{ text: '🎯 Fix pe această zi', callback_data: 'qfx_1' }],
+  qBack,
+]);
+
+const qFood = (chatId) => qRender(chatId, '🍽 <b>Ce masă vrei?</b>\n<i>Nivelul ales include și tot ce e mai bun decât el.</i>', [
+  [{ text: '🏖 All Inclusive+ ⭐', callback_data: 'qf_ai' }, { text: '👑 Doar Ultra AI', callback_data: 'qf_uai' }],
+  [{ text: '🍲 Demipensiune+', callback_data: 'qf_hb' }, { text: '🍱 Pensiune completă+', callback_data: 'qf_fb' }],
+  [{ text: '🥐 Mic dejun+', callback_data: 'qf_bb' }, { text: '🍽 Oricare', callback_data: 'qf_any' }],
+  qBack,
+]);
+
+function qExtras(chatId) {
+  const q = QFLOW.get(chatId);
+  const kb = [];
+  for (let i = 0; i < EXTRA_OPTS.length; i += 2) {
+    kb.push(EXTRA_OPTS.slice(i, i + 2).map((e) => ({
+      text: (q.extras.includes(e.k) ? '✅ ' : '') + e.t,
+      callback_data: 'qe_' + e.k,
+    })));
+  }
+  kb.push([{ text: q.extras.length ? '➡️ Gata, mai departe' : '➡️ Fără preferințe, mai departe', callback_data: 'qe_done' }]);
+  kb.push(qBack);
+  return qRender(chatId, '✨ <b>Preferințe speciale?</b> <i>(poți bifa mai multe)</i>', kb);
+}
 
 const qNights = (chatId) => qRender(chatId, '🌙 <b>Câte nopți?</b>', [
   NIGHTS_OPTS.map((n) => ({ text: n === 7 ? '⭐ 7' : String(n), callback_data: 'qn_' + n })),
@@ -635,15 +693,23 @@ async function qFinish(chatId, from) {
   if (!q || !q.dest) return;
   const ru = isRu(chatId); // rusofonii primesc cererea compusă în rusă → agentul + cardurile răspund în rusă
   const yr = q.year || new Date().getFullYear();
+  const FOOD_RO = { any: 'orice masă', bb: 'masă mic dejun sau mai bună', hb: 'masă demipensiune sau mai bună', fb: 'masă pensiune completă sau mai bună', ai: 'All Inclusive', uai: 'doar Ultra All Inclusive' };
+  const FOOD_RU = { any: 'любое питание', bb: 'питание завтраки или лучше', hb: 'полупансион или лучше', fb: 'полный пансион или лучше', ai: 'всё включено', uai: 'только ультра всё включено' };
+  const EXTRA_RO = { one_line_beach: 'pe prima linie la mare', sandy: 'cu plajă cu nisip', aquapark: 'cu aquapark', spa: 'cu SPA', family: 'potrivit pentru familii' };
+  const EXTRA_RU = { one_line_beach: 'на первой линии у моря', sandy: 'с песчаным пляжем', aquapark: 'с аквапарком', spa: 'со SPA', family: 'подходит для семей' };
   let period, parts;
   if (ru) {
     period = q.month == null ? 'как можно скорее'
+      : q.dayEnd != null ? `вылет между ${q.day} и ${q.dayEnd} ${MONTH_RU_GEN[q.month]} ${yr}`
+      : q.day != null ? (q.strict ? `вылет СТРОГО ${q.day} ${MONTH_RU_GEN[q.month]} ${yr} (фиксированная дата)` : `вылет ${q.day} ${MONTH_RU_GEN[q.month]} ${yr} (±4 дня)`)
       : q.part === 'start' ? `в начале ${MONTH_RU_GEN[q.month]} ${yr}`
       : q.part === 'mid' ? `в середине ${MONTH_RU_GEN[q.month]} ${yr}`
       : q.part === 'end' ? `в конце ${MONTH_RU_GEN[q.month]} ${yr}`
       : `в ${MONTH_RU_PREP[q.month]} ${yr}`;
     parts = [DEST_RU[q.dest] || q.dest, period, `${q.nights} ночей`, `${q.adults} взросл${q.adults === 1 ? 'ый' : 'ых'}`];
     if (q.kids.length) parts.push(q.kids.length === 1 ? `1 ребёнок (${q.kids[0]} лет)` : `${q.kids.length} детей (${q.kids.join(', ')} лет)`);
+    if (q.food && q.food !== 'ai') parts.push(FOOD_RU[q.food]);
+    if (q.extras.length) parts.push(q.extras.map((k) => EXTRA_RU[k]).filter(Boolean).join(', '));
     const b = q.budget;
     if (b && b.v !== 'any') {
       if (b.v === 'plus') parts.push('бюджет свыше 6000€ (премиум)');
@@ -652,12 +718,16 @@ async function qFinish(chatId, from) {
     }
   } else {
     period = q.month == null ? 'cât mai curând'
+      : q.dayEnd != null ? `plecare între ${q.day} și ${q.dayEnd} ${MONTH_FULL[q.month]} ${yr}`
+      : q.day != null ? (q.strict ? `plecare STRICT pe ${q.day} ${MONTH_FULL[q.month]} ${yr} (dată fixă)` : `plecare pe ${q.day} ${MONTH_FULL[q.month]} ${yr} (±4 zile)`)
       : q.part === 'start' ? `la începutul lui ${MONTH_FULL[q.month]} ${yr}`
       : q.part === 'mid' ? `la mijlocul lui ${MONTH_FULL[q.month]} ${yr}`
       : q.part === 'end' ? `la sfârșitul lui ${MONTH_FULL[q.month]} ${yr}`
       : `în ${MONTH_FULL[q.month]} ${yr}`;
     parts = [q.dest, period, `${q.nights} nopți`, `${q.adults} ${q.adults === 1 ? 'adult' : 'adulți'}`];
     if (q.kids.length) parts.push(`${q.kids.length} ${q.kids.length === 1 ? 'copil' : 'copii'} (${q.kids.join(', ')} ani)`);
+    if (q.food && q.food !== 'ai') parts.push(FOOD_RO[q.food]);
+    if (q.extras.length) parts.push(q.extras.map((k) => EXTRA_RO[k]).filter(Boolean).join(', '));
     const b = q.budget;
     if (b && b.v !== 'any') {
       if (b.v === 'plus') parts.push('buget peste 6000€ (premium)');
@@ -761,20 +831,40 @@ bot.on('callback_query', async (query) => {
       q.year = +y; q.month = +m;
       await qParts(chatId); return;
     }
-    if (data.startsWith('qp_')) { if (!q) return qStart(chatId); q.part = data.slice(3); await qNights(chatId); return; }
+    if (data.startsWith('qp_')) { if (!q) return qStart(chatId); q.part = data.slice(3); q.day = null; q.dayEnd = null; q.dateMode = null; await qNights(chatId); return; }
+    if (data === 'qdx') { if (!q || q.month == null) return; q.dateMode = 'day'; q.part = null; await qDays(chatId, '📍 <b>Alege ziua plecării:</b>'); return; }
+    if (data === 'qdr') { if (!q || q.month == null) return; q.dateMode = 'range-start'; q.part = null; await qDays(chatId, '↔️ <b>De la ce zi?</b>'); return; }
+    if (data.startsWith('qz_')) {
+      if (!q || q.month == null) return;
+      const zd = +data.slice(3);
+      if (q.dateMode === 'day') { q.day = zd; await qStrict(chatId); return; }
+      if (q.dateMode === 'range-start') { q.day = zd; q.dateMode = 'range-end'; await qDays(chatId, `↔️ <b>Până la ce zi?</b> (plecare ${zd}–…)`, zd + 1); return; }
+      if (q.dateMode === 'range-end') { q.dayEnd = zd; await qNights(chatId); return; }
+      return;
+    }
+    if (data.startsWith('qfx_')) { if (!q) return; q.strict = data.slice(4) === '1'; await qNights(chatId); return; }
+    if (data.startsWith('qf_')) { if (!q) { if (!FINISHED.has(chatId)) await qStart(chatId); return; } q.food = data.slice(3); await qExtras(chatId); return; }
+    if (data === 'qe_done') { if (!q) { if (!FINISHED.has(chatId)) await qStart(chatId); return; } await qBudget(chatId); return; }
+    if (data.startsWith('qe_')) {
+      if (!q) return;
+      const k = data.slice(3);
+      const ix = q.extras.indexOf(k);
+      if (ix >= 0) q.extras.splice(ix, 1); else q.extras.push(k);
+      await qExtras(chatId); return;
+    }
     if (data.startsWith('qn_')) { if (!q) return qStart(chatId); q.nights = +data.slice(3); await qAdults(chatId); return; }
     if (data.startsWith('qa_')) { if (!q) return qStart(chatId); q.adults = +data.slice(3); await qKids(chatId); return; }
     if (data.startsWith('qk_')) {
       if (!q) return qStart(chatId);
       q.kidsLeft = +data.slice(3); q.kids = [];
-      if (q.kidsLeft === 0) await qBudget(chatId); else await qKidAge(chatId);
+      if (q.kidsLeft === 0) await qFood(chatId); else await qKidAge(chatId);
       return;
     }
     if (data.startsWith('qg_')) {
       if (!q) { if (!FINISHED.has(chatId)) await qStart(chatId); return; }
       if (q.kidsLeft <= 0) return; // dublu-tap pe vârstă: nu corupe lista de copii
       q.kids.push(+data.slice(3)); q.kidsLeft--;
-      if (q.kidsLeft > 0) await qKidAge(chatId); else await qBudget(chatId);
+      if (q.kidsLeft > 0) await qKidAge(chatId); else await qFood(chatId);
       return;
     }
     if (data.startsWith('qb_')) {
