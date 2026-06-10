@@ -249,10 +249,13 @@ const DESTS = [
 ];
 const MONTH_FULL = ['ianuarie','februarie','martie','aprilie','mai','iunie','iulie','august','septembrie','octombrie','noiembrie','decembrie'];
 const NIGHTS_OPTS = [5, 6, 7, 10, 14];
+// DIAPAZOANE de buget (nu plafoane!) — turistul cu 5000€ vrea oferte de ~5000€, nu de la 1000€
 const BUDGET_OPTS = [
-  { v: 1000, t: '≤1000€' }, { v: 1500, t: '≤1500€' }, { v: 2000, t: '≤2000€' },
-  { v: 3000, t: '≤3000€' }, { v: 4500, t: '≤4500€' }, { v: 6000, t: '≤6000€' },
-  { v: 'plus', t: '💎 6000€+' }, { v: 'any', t: '🤷 Orice buget' },
+  { t: 'sub 1000€', lo: 0, hi: 1000 },
+  { t: '1000–1500€', lo: 1000, hi: 1500 }, { t: '1500–2000€', lo: 1500, hi: 2000 },
+  { t: '2000–2500€', lo: 2000, hi: 2500 }, { t: '2500–3500€', lo: 2500, hi: 3500 },
+  { t: '3500–4500€', lo: 3500, hi: 4500 }, { t: '4500–6000€', lo: 4500, hi: 6000 },
+  { t: '💎 6000€+', v: 'plus' }, { t: '🤷 Orice buget', v: 'any' },
 ];
 
 const agentSessions = new Map();   // chatId -> sessionId zebra-chat
@@ -539,7 +542,7 @@ function qSummary(q) {
   if (q.month != null) bits.push(MONTH_FULL[q.month] + (q.part && q.part !== 'whole' ? ` (${{ start: 'început', mid: 'mijloc', end: 'sfârșit' }[q.part]})` : ''));
   if (q.nights) bits.push(`🌙 ${q.nights}n`);
   if (q.adults) bits.push(`👥 ${q.adults}${q.kids && q.kids.length ? '+' + q.kids.length : ''}`);
-  if (q.budget) bits.push(q.budget === 'any' ? '💶 orice' : q.budget === 'plus' ? '💎 6000€+' : `💶 ≤${q.budget}€`);
+  if (q.budget) bits.push('💶 ' + q.budget.t.replace('🤷 ', '').replace('💎 ', ''));
   return bits.join(' | ');
 }
 
@@ -611,10 +614,11 @@ function qKidAge(chatId) {
   return qRender(chatId, `👶 <b>Vârsta copilului ${nr} din ${tot}:</b>`, kb);
 }
 
-const qBudget = (chatId) => qRender(chatId, '💶 <b>Ce buget aveți (total, pe toți)?</b>', [
-  BUDGET_OPTS.slice(0, 3).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
-  BUDGET_OPTS.slice(3, 6).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
-  BUDGET_OPTS.slice(6).map((b) => ({ text: b.t, callback_data: 'qb_' + b.v })),
+const qBudget = (chatId) => qRender(chatId, '💶 <b>Ce buget aveți (total, pe toți)?</b>\n<i>Caut oferte exact în diapazonul ales.</i>', [
+  [BUDGET_OPTS[0], BUDGET_OPTS[1]].map((b, i) => ({ text: b.t, callback_data: 'qb_' + BUDGET_OPTS.indexOf(b) })),
+  BUDGET_OPTS.slice(2, 5).map((b) => ({ text: b.t, callback_data: 'qb_' + BUDGET_OPTS.indexOf(b) })),
+  BUDGET_OPTS.slice(5, 7).map((b) => ({ text: b.t, callback_data: 'qb_' + BUDGET_OPTS.indexOf(b) })),
+  BUDGET_OPTS.slice(7).map((b) => ({ text: b.t, callback_data: 'qb_' + BUDGET_OPTS.indexOf(b) })),
 ]);
 
 const MONTH_RU_PREP = ['январе','феврале','марте','апреле','мае','июне','июле','августе','сентябре','октябре','ноябре','декабре'];
@@ -637,7 +641,12 @@ async function qFinish(chatId, from) {
       : `в ${MONTH_RU_PREP[q.month]} ${yr}`;
     parts = [DEST_RU[q.dest] || q.dest, period, `${q.nights} ночей`, `${q.adults} взросл${q.adults === 1 ? 'ый' : 'ых'}`];
     if (q.kids.length) parts.push(q.kids.length === 1 ? `1 ребёнок (${q.kids[0]} лет)` : `${q.kids.length} детей (${q.kids.join(', ')} лет)`);
-    if (q.budget && q.budget !== 'any') parts.push(q.budget === 'plus' ? 'бюджет свыше 6000€ (премиум)' : `бюджет ${q.budget}€`);
+    const b = q.budget;
+    if (b && b.v !== 'any') {
+      if (b.v === 'plus') parts.push('бюджет свыше 6000€ (премиум)');
+      else if (b.lo === 0) parts.push(`бюджет до ${b.hi}€`);
+      else parts.push(`бюджет от ${b.lo} до ${b.hi}€`);
+    }
   } else {
     period = q.month == null ? 'cât mai curând'
       : q.part === 'start' ? `la începutul lui ${MONTH_FULL[q.month]} ${yr}`
@@ -646,7 +655,12 @@ async function qFinish(chatId, from) {
       : `în ${MONTH_FULL[q.month]} ${yr}`;
     parts = [q.dest, period, `${q.nights} nopți`, `${q.adults} ${q.adults === 1 ? 'adult' : 'adulți'}`];
     if (q.kids.length) parts.push(`${q.kids.length} ${q.kids.length === 1 ? 'copil' : 'copii'} (${q.kids.join(', ')} ani)`);
-    if (q.budget && q.budget !== 'any') parts.push(q.budget === 'plus' ? 'buget peste 6000€ (premium)' : `buget ${q.budget}€`);
+    const b = q.budget;
+    if (b && b.v !== 'any') {
+      if (b.v === 'plus') parts.push('buget peste 6000€ (premium)');
+      else if (b.lo === 0) parts.push(`buget până la ${b.hi}€`);
+      else parts.push(`buget între ${b.lo} și ${b.hi}€`);
+    }
   }
   const text = parts.join(', ');
   if (q.msgId) bot.editMessageText(`✅ <i>${esc(qSummary(q))}</i>`, { chat_id: chatId, message_id: q.msgId, parse_mode: 'HTML' }).catch(() => {});
@@ -775,8 +789,9 @@ bot.on('callback_query', async (query) => {
         bot.sendMessage(chatId, '⏳ Termin căutarea anterioară — apasă bugetul din nou în câteva secunde.').catch(() => {});
         return;
       }
-      const v = data.slice(3);
-      q.budget = (v === 'any' || v === 'plus') ? v : +v;
+      const opt = BUDGET_OPTS[+data.slice(3)];
+      if (!opt) return;
+      q.budget = opt;
       await qFinish(chatId, query.from);
       return;
     }
