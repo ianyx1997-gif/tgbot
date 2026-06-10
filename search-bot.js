@@ -748,7 +748,16 @@ const WELCOME = '👋 <b>Bun venit la Zebra Tur!</b>\n\n' +
   'iar eu îți găsesc cele mai bune oferte REALE cu zbor din Chișinău — cu poze, prețuri confirmate și rezervare prin telefon.\n\n' +
   '<i>Poți și să-mi scrii liber, ca unui consultant: „Turcia în august, 2 adulți, buget 2000". Можно и на русском.</i> 🦓';
 
+// /id — merge ORIUNDE (privat/grup/temă): afișează chat_id + message_thread_id pt. configurarea lead-urilor
+bot.onText(/^\/id(@\w+)?$/, async (msg) => {
+  const lines = [`🆔 chat_id: <code>${msg.chat.id}</code>`];
+  if (msg.message_thread_id) lines.push(`🧵 topic_id: <code>${msg.message_thread_id}</code>`);
+  lines.push(`tip: ${msg.chat.type}${msg.chat.title ? ' · ' + esc(msg.chat.title) : ''}`);
+  bot.sendMessage(msg.chat.id, lines.join('\n'), { parse_mode: 'HTML', ...(msg.message_thread_id ? { message_thread_id: msg.message_thread_id } : {}) }).catch(() => {});
+});
+
 bot.onText(/\/start/, async (msg) => {
+  if (msg.chat.type !== 'private') return; // agentul lucrează doar în privat
   const chatId = msg.chat.id;
   updateSubInfo(chatId, msg.from); markDirty(); backupToGitHub().catch(() => {});
   await bot.sendMessage(chatId, WELCOME, { parse_mode: 'HTML' }).catch(() => {});
@@ -759,6 +768,7 @@ bot.onText(/\/start/, async (msg) => {
 });
 
 bot.onText(/\/cauta/, async (msg) => {
+  if (msg.chat.type !== 'private') return;
   updateSubInfo(msg.chat.id, msg.from);
   await qStart(msg.chat.id);
 });
@@ -774,6 +784,8 @@ bot.onText(/\/help/, async (msg) => {
 });
 
 bot.on('message', async (msg) => {
+  // în GRUPURI botul tace complet (doar /id răspunde) — altfel ar conversa cu toată echipa și ar arde tokeni
+  if (msg.chat.type !== 'private') return;
   const chatId = msg.chat.id;
   if (msg.contact && msg.contact.phone_number) {
     // turistul a partajat numărul cu un tap → îl dăm agentului (care salvează lead-ul)

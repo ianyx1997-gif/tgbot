@@ -30,7 +30,7 @@ async function runTurn({ message, sessionId, hooks = {} }) {
         'content-type': 'application/json',
         ...(INTERNAL_KEY ? { 'x-internal-key': INTERNAL_KEY } : {}),
       },
-      body: JSON.stringify({ sessionId: sessionId || null, message }),
+      body: JSON.stringify({ sessionId: sessionId || null, message, channel: 'telegram-bot' }),
     });
     if (!res.ok || !res.body) {
       let err = 'HTTP ' + res.status;
