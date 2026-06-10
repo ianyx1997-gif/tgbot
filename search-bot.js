@@ -1,20 +1,19 @@
 /* ============================================================
-   ZEBRATUR – TELEGRAM SEARCH BOT + CRM + ADMIN PANEL
+   ZEBRATUR – TELEGRAM BOT v3: ZEBRA AI + CRM + ADMIN PANEL
 
-   Features:
-   - Interactive tour search via Telegram buttons
-   - Subscriber CRM with auto-preferences
-   - Web admin panel with chat, broadcast, composer
-   - GitHub backup for persistent storage
+   v3 (2026-06): wizard-ul cu butoane a fost înlocuit cu agentul
+   conversațional Zebra AI (Claude + otpusk, serviciul zebra-chat).
+   - turistul scrie liber (RO/RU) sau apasă o destinație
+   - ofertele apar drept CARDURI cu poză + navigare ◀ ▶ (editMessageMedia)
+   - „Detalii" = album foto + fișa reală a hotelului, „Rezervă" = lead
+     telefonic cu buton nativ „Trimite numărul meu"
+   PĂSTRATE 100%: baza de abonați (Postgres bot_data), CRM-ul
+   (preferințe/taguri/mesaje), panoul admin (admin.html + /api/*),
+   broadcast, backup GitHub.
 
-   ENV variables:
-   TELEGRAM_BOT_TOKEN  — (required) Bot token from BotFather
-   ADMIN_CHAT_ID       — (required) Your Telegram chat ID
-   ADMIN_PASSWORD      — (required) Password for web panel
-   DATABASE_URL        — (required) PostgreSQL connection string
-   GITHUB_TOKEN        — (optional) For secondary backup to GitHub
-   GITHUB_REPO         — (optional) "user/repo" for backup
-   PORT                — (optional, default 3000)
+   ENV: TELEGRAM_BOT_TOKEN, ADMIN_CHAT_ID, ADMIN_PASSWORD, DATABASE_URL,
+        ZEBRA_CHAT_API (creierul AI), INTERNAL_KEY (bypass rate-limit),
+        GITHUB_TOKEN/GITHUB_REPO (opțional), PORT
    ============================================================ */
 
 const TelegramBot = require('node-telegram-bot-api');
@@ -23,16 +22,17 @@ const fs = require('fs');
 const https = require('https');
 const path = require('path');
 const { Pool } = require('pg');
+const { runTurn, hotelDetail } = require('./agent-bridge');
 
 // ===== CONFIG =====
 const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
-const SITE_URL = process.env.SITE_URL || 'https://zebratur.md/tourbot';
 const ADMIN_CHAT_ID = process.env.ADMIN_CHAT_ID ? parseInt(process.env.ADMIN_CHAT_ID) : null;
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'zebratur2026';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 const GITHUB_REPO = process.env.GITHUB_REPO || '';
 const DATABASE_URL = process.env.DATABASE_URL || '';
 const PORT = process.env.PORT || 3000;
+const PHONE = '078 326 222';
 
 // ===== POSTGRESQL =====
 let pool = null;
@@ -49,62 +49,14 @@ const bot = new TelegramBot(BOT_TOKEN, { polling: true });
 const app = express();
 app.use(express.json({ limit: '10mb' }));
 
-// ===== TOUR DATA =====
-const COUNTRIES = [
-  { id: 115, name: 'Turcia', flag: '🇹🇷', transport: 'air' },
-  { id: 43,  name: 'Egipt', flag: '🇪🇬', transport: 'air' },
-  { id: 34,  name: 'Grecia', flag: '🇬🇷', transport: 'air' },
-  { id: 49,  name: 'Spania', flag: '🇪🇸', transport: 'air' },
-  { id: 135, name: 'Muntenegru', flag: '🇲🇪', transport: 'air' },
-  { id: 114, name: 'Tunisia', flag: '🇹🇳', transport: 'air' },
-  { id: 10,  name: 'Albania', flag: '🇦🇱', transport: 'air' },
-  { id: 54,  name: 'Cipru', flag: '🇨🇾', transport: 'air' },
-  { id: 13,  name: 'Bulgaria', flag: '🇧🇬', transport: 'bus' },
-  { id: 29,  name: 'Vietnam', flag: '🇻🇳', transport: 'air' },
-];
-
-const DEPARTURE_CITIES = [
-  { id: 1831, name: 'Chișinău', flag: '🇲🇩' },
-  { id: 1373, name: 'București', flag: '🇷🇴' },
-  { id: 4091, name: 'Iași', flag: '🇷🇴' },
-  { id: 4083, name: 'Cluj-Napoca', flag: '🇷🇴' },
-  { id: 3396, name: 'Timișoara', flag: '🇷🇴' },
-  { id: 2858, name: 'Bacău', flag: '🇷🇴' },
-  { id: 1727, name: 'Suceava', flag: '🇷🇴' },
-];
-
-const DURATIONS = [
-  { nights: 5, label: '5 nopți' }, { nights: 7, label: '7 nopți' },
-  { nights: 10, label: '10 nopți' }, { nights: 12, label: '12 nopți' },
-  { nights: 14, label: '14 nopți' },
-];
-
-const FOOD_OPTIONS = [
-  { code: 'ob', label: 'Orice masă', icon: '🍽️' },
-  { code: 'bb', label: 'Mic dejun+', icon: '🥐' },
-  { code: 'hb', label: 'Demipensiune+', icon: '🍲' },
-  { code: 'fb', label: 'Pensiune completă+', icon: '🍱' },
-  { code: 'ai', label: 'All Inclusive+', icon: '🏖️' },
-  { code: 'uai', label: 'Ultra AI', icon: '👑' },
-];
-const FOOD_HIERARCHY = ['ob', 'bb', 'hb', 'fb', 'ai', 'uai'];
-
-const STARS_OPTIONS = [
-  { stars: '', label: 'Orice stele' }, { stars: '3', label: '3★+' },
-  { stars: '4', label: '4★+' }, { stars: '5', label: '5★' },
-];
-const ADULTS_OPTIONS = [1, 2, 3, 4];
-const MONTH_NAMES = ['Ianuarie','Februarie','Martie','Aprilie','Mai','Iunie','Iulie','August','Septembrie','Octombrie','Noiembrie','Decembrie'];
-
 // ================================================================
-//  DATABASE (PostgreSQL primary, GitHub secondary backup)
+//  DATABASE (PostgreSQL primary, GitHub secondary backup) — NESCHIMBAT
 // ================================================================
 let db = {
   subscribers: {},
   meta: { createdAt: new Date().toISOString(), totalSearches: 0 }
 };
 
-// --- PostgreSQL functions ---
 async function initPostgres() {
   if (!pool) return;
   try {
@@ -145,7 +97,6 @@ async function saveDB() {
   } catch (e) { console.error('⚠️ PostgreSQL save error:', e.message); }
 }
 
-// --- HTTP helper for GitHub ---
 function httpReq(method, url, headers, body) {
   return new Promise((resolve, reject) => {
     const u = new URL(url);
@@ -159,7 +110,6 @@ function httpReq(method, url, headers, body) {
   });
 }
 
-// --- GitHub secondary backup (optional) ---
 async function backupToGitHub() {
   if (!GITHUB_TOKEN || !GITHUB_REPO) return;
   try {
@@ -173,7 +123,6 @@ async function backupToGitHub() {
   } catch (e) { console.error('⚠️ GitHub backup error:', e.message); }
 }
 
-// --- Migrate from GitHub if PostgreSQL is empty ---
 async function migrateFromGitHub() {
   if (!GITHUB_TOKEN || !GITHUB_REPO) return;
   if (Object.keys(db.subscribers).length > 0) { console.log('🐘 PostgreSQL are date — skip migrare'); return; }
@@ -186,14 +135,14 @@ async function migrateFromGitHub() {
       if (restored.subscribers && Object.keys(restored.subscribers).length > 0) {
         db = restored;
         await saveDB();
-        console.log(`✅ Migrat din GitHub → PostgreSQL: ${Object.keys(db.subscribers).length} abonați, ${db.meta.totalSearches||0} căutări`);
+        console.log(`✅ Migrat din GitHub → PostgreSQL: ${Object.keys(db.subscribers).length} abonați`);
       }
     }
   } catch (e) { console.error('⚠️ Migrare GitHub error:', e.message); }
 }
 
 // ================================================================
-//  SUBSCRIBER CRM
+//  SUBSCRIBER CRM — NESCHIMBAT (aceeași schemă ca v2)
 // ================================================================
 function getSub(chatId) {
   const id = String(chatId);
@@ -219,35 +168,31 @@ function updateSubInfo(chatId, from) {
 function storeMessage(chatId, direction, text, extra) {
   const sub = getSub(chatId);
   sub.messages.push({
-    direction, // 'in' = from user, 'out' = from admin/bot
-    text: text || '',
-    extra: extra || null, // { photo, buttons, caption }
+    direction, text: text || '', extra: extra || null,
     timestamp: new Date().toISOString(),
   });
-  // Keep last 200 messages per user
   if (sub.messages.length > 200) sub.messages = sub.messages.slice(-200);
 }
 
-function recordSearch(chatId, session) {
+// v3: căutările vin din agentul AI (query-ul real căutat) — aceeași schemă de înregistrare
+function recordSearch(chatId, q) {
   const sub = getSub(chatId);
   sub.searches.push({
-    country: session.country.name, countryId: session.country.id,
-    dateFrom: session.dateFrom, nights: session.nights,
-    adults: session.adults, children: [...session.children],
-    food: session.food, stars: session.stars, timestamp: new Date().toISOString(),
+    country: q.destination || '?', countryId: null,
+    dateFrom: q.checkIn || null, nights: q.nights || 7,
+    adults: q.adults || 2, children: [...(q.childrenAges || [])],
+    food: 'ai', stars: '', timestamp: new Date().toISOString(),
   });
   sub.totalSearches++;
   db.meta.totalSearches++;
   updatePreferences(sub);
   updateTags(sub);
   saveDB();
-  // Backup to GitHub after each search (non-blocking)
   backupToGitHub().catch(() => {});
-  // Notify admin
   if (ADMIN_CHAT_ID && chatId !== ADMIN_CHAT_ID) {
     const name = sub.firstName + (sub.lastName ? ' ' + sub.lastName : '');
     bot.sendMessage(ADMIN_CHAT_ID,
-      `🔔 <b>Căutare nouă</b>\n${name}${sub.username ? ' @' + sub.username : ''}\n${session.country.flag} ${session.country.name} | ${session.nights}n | ${session.adults}ad${session.children.length ? ' +' + session.children.length + ' copii' : ''}`,
+      `🔔 <b>Căutare nouă (AI)</b>\n${name}${sub.username ? ' @' + sub.username : ''}\n🌍 ${q.destination} | ${q.nights || 7}n | ${q.adults || 2}ad${(q.childrenAges||[]).length ? ' +' + q.childrenAges.length + ' copii' : ''}`,
       { parse_mode: 'HTML' }).catch(() => {});
   }
 }
@@ -284,216 +229,354 @@ function updateTags(sub) {
 function mode(a) { const f={}; a.forEach(v=>f[v]=(f[v]||0)+1); return Object.entries(f).sort((a,b)=>b[1]-a[1])[0]?.[0]; }
 
 // ================================================================
-//  SEARCH HELPERS
+//  ZEBRA AI — strat de conversație Telegram (v3)
 // ================================================================
-const sessions = new Map();
-function getSession(chatId) {
-  if (!sessions.has(chatId)) {
-    sessions.set(chatId, {
-      step:null, country:null, departCity:{id:1831,name:'Chișinău'},
-      dateFrom:null, dateTo:null, nights:7, adults:2, children:[],
-      food:'ob', stars:'', transport:'air',
-    });
+const DESTS = [
+  '🇹🇷 Turcia', '🇬🇷 Grecia', '🇪🇬 Egipt', '🇧🇬 Bulgaria', '🇲🇪 Muntenegru',
+  '🇪🇸 Spania', '🇹🇳 Tunisia', '🇦🇱 Albania', '🇨🇾 Cipru',
+];
+
+const agentSessions = new Map();   // chatId -> sessionId zebra-chat
+const busyChats = new Set();       // chat-uri cu o tură în lucru
+const CARDS = new Map();           // `${chatId}:${msgId}` -> { offers, lang, idx, query }
+const CHIPS = new Map();           // `${chatId}:${msgId}` -> [chips]
+const lastCardsByChat = new Map(); // chatId -> ultima stare carusel (pt. book_ de pe alte mesaje)
+const pendingRemoveKb = new Set(); // chat-uri cărora le scoatem reply-keyboard-ul la următorul mesaj
+
+function capMap(m, max) { if (m.size > max) m.delete(m.keys().next().value); }
+
+// i18n minimal pentru etichetele cardurilor
+const TL = {
+  ro: { nights: 'nopți', det: '📋 Detalii', book: '📞 Rezervă', from: 'de la', conf: '✓ confirmat',
+        adults: 'ad.', kids: 'copii', pick: '🏆 Alegerea Zebrei', rev: 'recenzii',
+        noFly: '🏨 Doar cazare (fără zbor)', bus: '🚌 Transport cu autocar',
+        bookTpl: (n, p, d) => `Vreau să rezerv ${n} — ${p}€, plecare ${d}. Cum procedăm?`,
+        share: 'Poți trimite numărul de telefon cu un singur tap 👇 (sau scrie-l în chat)',
+        shareBtn: '📞 Trimite numărul meu', cancel: 'Anulează',
+        months: ['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','noi','dec'] },
+  ru: { nights: 'ноч.', det: '📋 Детали', book: '📞 Бронировать', from: 'от', conf: '✓ цена ок',
+        adults: 'взр.', kids: 'дет.', pick: '🏆 Выбор Зебры', rev: 'отзывов',
+        noFly: '🏨 Только отель (без перелёта)', bus: '🚌 Автобусный тур',
+        bookTpl: (n, p, d) => `Хочу забронировать ${n} — ${p}€, вылет ${d}. Как оформить?`,
+        share: 'Можно отправить номер одним нажатием 👇 (или напишите его в чат)',
+        shareBtn: '📞 Отправить мой номер', cancel: 'Отмена',
+        months: ['янв','фев','мар','апр','мая','июн','июл','авг','сен','окт','ноя','дек'] },
+  en: { nights: 'nights', det: '📋 Details', book: '📞 Book', from: 'from', conf: '✓ confirmed',
+        adults: 'ad.', kids: 'kids', pick: '🏆 Zebra’s pick', rev: 'reviews',
+        noFly: '🏨 Hotel only (no flight)', bus: '🚌 Bus transfer',
+        bookTpl: (n, p, d) => `I want to book ${n} — ${p}€, departure ${d}. How do we proceed?`,
+        share: 'Share your phone number with one tap 👇 (or type it)',
+        shareBtn: '📞 Share my number', cancel: 'Cancel',
+        months: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'] },
+};
+const lang3 = (l) => TL[l] ? l : 'ro';
+
+const esc = (s) => String(s == null ? '' : s).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+const mdHtml = (s) => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+const fmtP = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+function fmtD(iso, L) { if (!iso) return ''; const p = String(iso).split('-'); return p.length === 3 ? (+p[2]) + ' ' + L.months[+p[1] - 1] : iso; }
+function revCount(o) {
+  const sum = (o.reviewSites || []).reduce((s, r) => s + (r.count || 0), 0);
+  const n = Math.max(sum, o.votes || 0);
+  return n ? (n > 999 ? (Math.round(n / 100) / 10) + 'k' : String(n)) : '';
+}
+
+function offerCaption(o, idx, total, query, L) {
+  const occ = `${query.adults || 2} ${L.adults}` + ((query.childrenAges || []).length ? ` + ${query.childrenAges.length} ${L.kids}` : '');
+  const lines = [];
+  if (o.rank === 1) lines.push(`${L.pick}`);
+  lines.push(`<b>${esc(o.name)}</b>`);
+  const stars = o.stars ? '★'.repeat(Math.min(o.stars, 5)) : '';
+  lines.push(`${stars}${stars ? ' · ' : ''}📍 ${esc([o.city, o.country].filter(Boolean).join(', '))}`);
+  if (o.rating) lines.push(`⭐ ${o.rating}/10${revCount(o) ? ` · ${revCount(o)} ${L.rev}` : ''}`);
+  lines.push(`💶 <b>${fmtP(o.price)} €</b> ${o.confirmed ? L.conf : L.from} · ${esc(o.board || '')}`);
+  lines.push(`📅 ${fmtD(o.departDate, L)} · ${o.nights} ${L.nights} · 👥 ${occ}`);
+  if (o.transport === 'no') lines.push(L.noFly);
+  else if (o.transport === 'bus') lines.push(L.bus);
+  else {
+    const f = o.flightOut, b = o.flightBack;
+    if (f) lines.push(`✈️ ${esc(f.from || 'RMO')} ${esc(f.departTime || '')} → ${esc(f.to || '')} ${esc(f.arriveTime || '')}${f.airline ? ' · ' + esc(f.airline) : ''}`);
+    if (b) lines.push(`↩️ ${esc(b.from || '')} ${esc(b.departTime || '')} → ${esc(b.to || 'RMO')} ${esc(b.arriveTime || '')}`);
   }
-  return sessions.get(chatId);
-}
-function resetSession(chatId) { sessions.delete(chatId); }
-
-function expandFood(c) { if(!c||c==='ob') return ''; const i=FOOD_HIERARCHY.indexOf(c); return i<0?c:FOOD_HIERARCHY.slice(i).join(','); }
-function addDays(d,n) { const x=new Date(d); x.setDate(x.getDate()+n); return x.toISOString().split('T')[0]; }
-function fmtDate(d) { const x=new Date(d); const m=['ian','feb','mar','apr','mai','iun','iul','aug','sep','oct','nov','dec']; return `${x.getDate()} ${m[x.getMonth()]}`; }
-function getAvailableMonths() {
-  const ms=[],now=new Date();
-  for(let m=0;m<8;m++){const d=new Date(now.getFullYear(),now.getMonth()+m,1);ms.push({month:d.getMonth(),year:d.getFullYear(),label:`${MONTH_NAMES[d.getMonth()]} ${d.getFullYear()}`});}
-  return ms;
-}
-function getDaysForMonth(month,year) {
-  const now=new Date(),dim=new Date(year,month+1,0).getDate(),days=[];
-  const start=(year===now.getFullYear()&&month===now.getMonth())?now.getDate()+2:1;
-  for(let d=start;d<=dim;d++) days.push({date:`${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`,label:`${d}`});
-  return days;
-}
-function buildPeople(a,c) { let p=String(a); c.forEach(age=>p+=String(age).padStart(2,'0')); return p; }
-function expandStars(s) { if(!s)return''; const n=parseInt(s),a=[]; for(let i=n;i<=5;i++)a.push(i); return a.join(','); }
-function buildSearchUrl(s) {
-  let u=`${SITE_URL}#!i=${s.country.id}&c=${s.dateFrom}&v=${s.dateTo||addDays(s.dateFrom,14)}&l=${s.nights}&p=${buildPeople(s.adults,s.children)}&tc=${s.children.join(',')}&g=1&d=${s.departCity.id}&o=${expandFood(s.food)}&st=${expandStars(s.stars)}&pf=100&pt=20000&rt=0,10&th=&e=&r=${s.transport}&ex=1&cu=eur&page=tour`;
-  return u;
-}
-function buildSummary(s) {
-  const fl=FOOD_OPTIONS.find(f=>f.code===s.food)?.label||'Orice';
-  const sl=s.stars?`${s.stars}★+`:'Orice';
-  const ct=s.children.length?`\n👶 Copii: ${s.children.length} (${s.children.map(a=>a+' ani').join(', ')})`:'';
-  return `${s.country.flag} <b>${s.country.name}</b>\n✈️ Din: ${s.departCity.name}\n📅 De la: ${fmtDate(s.dateFrom)}\n🌙 ${s.nights} nopți\n👥 ${s.adults} adulți${ct}\n🍽️ ${fl}\n⭐ ${sl}`;
+  return lines.join('\n');
 }
 
-// ================================================================
-//  SEARCH FLOW STEPS
-// ================================================================
-async function stepCountry(chatId, mid) {
-  const s=getSession(chatId); s.step='country';
-  const kb=[]; for(let i=0;i<COUNTRIES.length;i+=2) kb.push(COUNTRIES.slice(i,i+2).map(c=>({text:`${c.flag} ${c.name}`,callback_data:`country_${c.id}`})));
-  const t='🌍 <b>Alege destinația:</b>';
-  if(mid) await bot.editMessageText(t,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
-  else await bot.sendMessage(chatId,t,{parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
+function offerKb(idx, total, L) {
+  return { inline_keyboard: [
+    [{ text: '◀️', callback_data: 'cprev' }, { text: `${idx + 1}/${total}`, callback_data: 'noop' }, { text: '▶️', callback_data: 'cnext' }],
+    [{ text: L.det, callback_data: 'cdet' }, { text: L.book, callback_data: 'cbook' }],
+  ] };
 }
-async function stepMonth(chatId,mid) {
-  const s=getSession(chatId); s.step='month';
-  const ms=getAvailableMonths(),kb=[];
-  for(let i=0;i<ms.length;i+=2) kb.push(ms.slice(i,i+2).map(m=>({text:`📅 ${m.label}`,callback_data:`month_${m.month}_${m.year}`})));
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b>\n\n📅 <b>În ce lună vrei să pleci?</b>`,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
+
+async function sendCarousel(chatId, payload) {
+  const lang = lang3(payload.lang);
+  const L = TL[lang];
+  const offers = payload.offers || [];
+  if (!offers.length) return;
+  const query = payload.query || {};
+  const o = offers[0];
+  const caption = offerCaption(o, 0, offers.length, query, L);
+  const kb = offerKb(0, offers.length, L);
+  let sent = null;
+  try {
+    sent = await bot.sendPhoto(chatId, o.photoLarge || o.photo, { caption, parse_mode: 'HTML', reply_markup: kb });
+  } catch (e) {
+    // poză indisponibilă → card text
+    sent = await bot.sendMessage(chatId, caption, { parse_mode: 'HTML', reply_markup: kb });
+  }
+  const st = { offers, lang, idx: 0, query };
+  CARDS.set(`${chatId}:${sent.message_id}`, st); capMap(CARDS, 400);
+  lastCardsByChat.set(chatId, st); capMap(lastCardsByChat, 2000);
+  storeMessage(chatId, 'out', `[${offers.length} oferte: ${query.destination || ''}]`, { carousel: true });
+  recordSearch(chatId, { ...query });
 }
-async function stepDay(chatId,mid) {
-  const s=getSession(chatId); s.step='day';
-  const days=getDaysForMonth(s._selMonth,s._selYear),kb=[];
-  for(let i=0;i<days.length;i+=7) kb.push(days.slice(i,i+7).map(d=>({text:d.label,callback_data:`day_${d.date}`})));
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b>\n\n📅 <b>${MONTH_NAMES[s._selMonth]} ${s._selYear}</b> — alege ziua:`,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
+
+async function navCarousel(chatId, msgId, delta) {
+  const st = CARDS.get(`${chatId}:${msgId}`);
+  if (!st) return false;
+  const total = st.offers.length;
+  st.idx = Math.max(0, Math.min(total - 1, st.idx + delta));
+  const o = st.offers[st.idx];
+  const L = TL[st.lang];
+  const caption = offerCaption(o, st.idx, total, st.query, L);
+  try {
+    await bot.editMessageMedia(
+      { type: 'photo', media: o.photoLarge || o.photo, caption, parse_mode: 'HTML' },
+      { chat_id: chatId, message_id: msgId, reply_markup: offerKb(st.idx, total, L) }
+    );
+  } catch (e) {
+    if (!/not modified/i.test(e.message)) console.error('[nav]', e.message);
+  }
+  return true;
 }
-async function stepDuration(chatId,mid) {
-  const s=getSession(chatId); s.step='duration';
-  const kb=[DURATIONS.slice(0,3).map(d=>({text:`🌙 ${d.label}`,callback_data:`dur_${d.nights}`})),DURATIONS.slice(3).map(d=>({text:`🌙 ${d.label}`,callback_data:`dur_${d.nights}`}))];
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)}\n\n🌙 <b>Câte nopți?</b>`,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
+
+const cut = (s, n) => (s && s.length > n ? s.slice(0, n - 1) + '…' : s);
+
+async function showDetails(chatId, st) {
+  const o = st.offers[st.idx];
+  const L = TL[st.lang];
+  await bot.sendChatAction(chatId, 'upload_photo').catch(() => {});
+  let d = null;
+  try { d = await hotelDetail(o.hotelId, st.lang); } catch {}
+  // album cu poze (slideshow nativ Telegram cu zoom)
+  const photos = (d && d.ok && d.photos && d.photos.length ? d.photos : [o.photoLarge || o.photo]).filter(Boolean).slice(0, 6);
+  if (photos.length > 1) {
+    try { await bot.sendMediaGroup(chatId, photos.map((p) => ({ type: 'photo', media: p }))); } catch (e) { console.error('[album]', e.message); }
+  }
+  const secs = { ro: { general: 'Despre hotel', beach: '🏖 Plaja', children: '👶 Pentru copii', food: '🍽 Masa' },
+                 ru: { general: 'Об отеле', beach: '🏖 Пляж', children: '👶 Для детей', food: '🍽 Питание' },
+                 en: { general: 'About', beach: '🏖 Beach', children: '👶 For kids', food: '🍽 Dining' } }[st.lang];
+  const parts = [`<b>${esc(d && d.name || o.name)}</b>`];
+  const stars = (d && d.stars) || o.stars;
+  const rate = (d && d.rating) || o.rating;
+  parts.push(`${stars ? '★'.repeat(Math.min(stars, 5)) + ' · ' : ''}${rate ? `⭐ ${rate}/10 · ` : ''}📍 ${esc([o.city, o.country].filter(Boolean).join(', '))}`);
+  if (d && d.ok && d.description) {
+    for (const [k, label] of Object.entries(secs)) {
+      const v = d.description[k];
+      if (v) parts.push(`\n<b>${label}</b>\n${esc(cut(v, 550))}`);
+    }
+    if (d.amenities && d.amenities.length) parts.push(`\n✨ ${esc(d.amenities.slice(0, 10).join(' · '))}`);
+  }
+  parts.push(`\n💶 <b>${fmtP(o.price)} €</b> ${o.confirmed ? L.conf : L.from} · ${esc(o.board || '')} · ${fmtD(o.departDate, L)} · ${o.nights} ${L.nights}`);
+  await bot.sendMessage(chatId, cut(parts.join('\n'), 4000), {
+    parse_mode: 'HTML',
+    reply_markup: { inline_keyboard: [[{ text: `${L.book} · ${fmtP(o.price)} €`, callback_data: 'book_' + o.hotelId }]] },
+  });
 }
-async function stepAdults(chatId,mid) {
-  const s=getSession(chatId); s.step='adults';
-  const kb=[ADULTS_OPTIONS.map(n=>({text:n===s.adults?`✅ ${n}`:`${n}`,callback_data:`adults_${n}`}))];
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n\n\n👥 <b>Câți adulți?</b>`,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
+
+async function startBooking(chatId, o, lang) {
+  const L = TL[lang3(lang)];
+  // tastatura cu partajare de contact — un singur tap pt. numărul de telefon
+  await bot.sendMessage(chatId, L.share, {
+    reply_markup: { keyboard: [[{ text: L.shareBtn, request_contact: true }], [{ text: '✖️ ' + L.cancel }]], resize_keyboard: true, one_time_keyboard: true },
+  }).catch(() => {});
+  await handleUserText(chatId, L.bookTpl(o.name, fmtP(o.price), fmtD(o.departDate, L)), null);
 }
-async function stepHasChildren(chatId,mid) {
-  const s=getSession(chatId); s.step='has_children';
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n | 👥 ${s.adults}ad\n\n👶 <b>Călătoriți cu copii?</b>`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:[[{text:'👶 Da',callback_data:'has_children_yes'},{text:'❌ Nu',callback_data:'has_children_no'}]]}});
-}
-async function stepChildrenCount(chatId,mid) {
-  const s=getSession(chatId); s.step='children_count';
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 👥 ${s.adults}ad\n\n👶 <b>Câți copii?</b>`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:[[1,2,3].map(n=>({text:`${n}`,callback_data:`childcount_${n}`}))]}});
-}
-async function stepChildAge(chatId,mid) {
-  const s=getSession(chatId); s.step='child_age';
-  const cn=s.children.length+1,tot=s._childrenTotal||1,kb=[];
-  for(let i=0;i<18;i+=6){const r=[];for(let a=i;a<Math.min(i+6,18);a++)r.push({text:`${a}`,callback_data:`childage_${a}`});kb.push(r);}
-  await bot.editMessageText(`👶 <b>Vârsta copilului ${cn} din ${tot}:</b>`,{chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
-}
-async function stepFood(chatId,mid) {
-  const s=getSession(chatId); s.step='food'; const kb=[];
-  for(let i=0;i<FOOD_OPTIONS.length;i+=2) kb.push(FOOD_OPTIONS.slice(i,i+2).map(f=>({text:`${f.icon} ${f.label}`,callback_data:`food_${f.code}`})));
-  const ct=s.children.length?` + ${s.children.length} copii`:'';
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n | 👥 ${s.adults}ad${ct}\n\n🍽️ <b>Ce masă preferi?</b>\n<i>"+" înseamnă acest tip și mai bun</i>`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:kb}});
-}
-async function stepStars(chatId,mid) {
-  const s=getSession(chatId); s.step='stars';
-  const fi=FOOD_OPTIONS.find(f=>f.code===s.food)?.icon||'';
-  await bot.editMessageText(`${s.country.flag} <b>${s.country.name}</b> | 📅 ${fmtDate(s.dateFrom)} | 🌙 ${s.nights}n | ${fi}\n\n⭐ <b>Câte stele?</b>`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',reply_markup:{inline_keyboard:[STARS_OPTIONS.map(st=>({text:st.label,callback_data:`stars_${st.stars||'any'}`}))]}});
-}
-async function stepConfirm(chatId,mid) {
-  const s=getSession(chatId); s.step='confirm';
-  recordSearch(chatId,s);
-  const url=buildSearchUrl(s),sum=buildSummary(s);
-  await bot.editMessageText(`✅ <b>Căutarea ta:</b>\n\n${sum}\n\n👇 Apasă pentru a vedea rezultatele:`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',disable_web_page_preview:true,
-     reply_markup:{inline_keyboard:[[{text:'🔍 CAUTĂ TURURI!',url}],[{text:'✏️ Modifică',callback_data:'edit_search'},{text:'🔄 Căutare nouă',callback_data:'new_search'}],[{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
-}
-async function stepEdit(chatId,mid) {
-  const s=getSession(chatId); s.step='edit';
-  const url=buildSearchUrl(s),sum=buildSummary(s);
-  await bot.editMessageText(`✏️ <b>Modifică căutarea:</b>\n\n${sum}\n\n<i>Alege ce vrei să schimbi:</i>`,
-    {chat_id:chatId,message_id:mid,parse_mode:'HTML',disable_web_page_preview:true,
-     reply_markup:{inline_keyboard:[
-      [{text:'🌍 Destinație',callback_data:'edit_country'},{text:'📅 Data',callback_data:'edit_date'}],
-      [{text:'🌙 Durata',callback_data:'edit_duration'},{text:'👥 Turiști',callback_data:'edit_adults'}],
-      [{text:'🍽️ Masă',callback_data:'edit_food'},{text:'⭐ Stele',callback_data:'edit_stars'}],
-      [{text:'🔍 CAUTĂ TURURI!',url}],
-      [{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
+
+// ---------- tura de conversație cu agentul ----------
+async function handleUserText(chatId, text, from) {
+  if (busyChats.has(chatId)) {
+    bot.sendMessage(chatId, '⏳ O clipă — încă lucrez la cererea anterioară…').catch(() => {});
+    return;
+  }
+  busyChats.add(chatId);
+  updateSubInfo(chatId, from);
+  storeMessage(chatId, 'in', text);
+  saveDB();
+  if (ADMIN_CHAT_ID && chatId !== ADMIN_CHAT_ID) {
+    const sub = getSub(chatId);
+    const name = sub.firstName + (sub.lastName ? ' ' + sub.lastName : '');
+    bot.sendMessage(ADMIN_CHAT_ID, `💬 <b>${esc(name)}</b>${sub.username ? ' @' + sub.username : ''}:\n${esc(text)}`, { parse_mode: 'HTML' }).catch(() => {});
+  }
+
+  // mesaj de status (search theater) — îl edităm pe parcurs și îl ștergem la final
+  let statusId = null;
+  const removeKb = pendingRemoveKb.delete(chatId);
+  try {
+    const m = await bot.sendMessage(chatId, '💭 Zebra AI…', removeKb ? { reply_markup: { remove_keyboard: true } } : {});
+    statusId = m.message_id;
+  } catch {}
+
+  let lastTextMsgId = null;
+  let gotAnything = false;
+
+  const hooks = {
+    onStatus: async (t) => {
+      if (!statusId) return;
+      await bot.editMessageText(t, { chat_id: chatId, message_id: statusId }).catch(() => {});
+      bot.sendChatAction(chatId, 'typing').catch(() => {});
+    },
+    onText: async (t) => {
+      gotAnything = true;
+      const m = await bot.sendMessage(chatId, mdHtml(t), { parse_mode: 'HTML' }).catch(() => null);
+      if (m) lastTextMsgId = m.message_id;
+      storeMessage(chatId, 'out', t);
+    },
+    onOffers: async (payload) => {
+      gotAnything = true;
+      await sendCarousel(chatId, payload);
+    },
+    onChips: async (chips) => {
+      if (!chips.length || !lastTextMsgId) return;
+      const rows = [];
+      for (let i = 0; i < chips.length; i += 2) rows.push(chips.slice(i, i + 2).map((c, j) => ({ text: c, callback_data: 'chip_' + (i + j) })));
+      CHIPS.set(`${chatId}:${lastTextMsgId}`, chips); capMap(CHIPS, 400);
+      await bot.editMessageReplyMarkup({ inline_keyboard: rows }, { chat_id: chatId, message_id: lastTextMsgId }).catch(() => {});
+    },
+  };
+
+  try {
+    const { sessionId } = await runTurn({ message: text, sessionId: agentSessions.get(chatId) || null, hooks });
+    if (sessionId) { agentSessions.set(chatId, sessionId); capMap(agentSessions, 5000); }
+  } catch (e) {
+    console.error('[agent]', e.message);
+    if (!gotAnything) {
+      bot.sendMessage(chatId, `😕 A apărut o problemă tehnică. Mai încearcă o dată sau sună-ne direct: ${PHONE}`).catch(() => {});
+    }
+  } finally {
+    busyChats.delete(chatId);
+    saveDB();
+    if (statusId) bot.deleteMessage(chatId, statusId).catch(() => {});
+  }
 }
 
 // ================================================================
-//  BOT COMMAND & CALLBACK HANDLERS
+//  COMENZI & HANDLERE
 // ================================================================
+function destKeyboard() {
+  const kb = [];
+  for (let i = 0; i < DESTS.length; i += 3) kb.push(DESTS.slice(i, i + 3).map((d, j) => ({ text: d, callback_data: 'dest_' + (i + j) })));
+  kb.push([{ text: '🔥 Oferte fierbinți', callback_data: 'hot' }]);
+  return { inline_keyboard: kb };
+}
+
+const WELCOME = '👋 <b>Bun venit la Zebra Tur!</b>\n\n' +
+  'Sunt <b>Zebra AI</b> — consultantul tău de vacanțe. Scrie-mi liber unde, când și cu ce buget vrei să pleci ' +
+  '(ex: <i>„Turcia în august, 2 adulți și un copil de 6 ani, buget 2000€"</i>) sau alege o destinație:\n\n' +
+  '<i>Можно писать и на русском.</i> 🦓';
+
 bot.onText(/\/start/, async (msg) => {
-  const chatId=msg.chat.id; resetSession(chatId); updateSubInfo(chatId,msg.from); saveDB(); backupToGitHub().catch(()=>{});
-  await bot.sendMessage(chatId,'👋 <b>Bun venit la ZebraTur!</b>\n\n🔍 Caută tururi în câteva secunde — alege destinația, datele și parametrii, iar eu îți generez link-ul direct.\n\nApasă butonul de mai jos! 👇',
-    {parse_mode:'HTML',reply_markup:{inline_keyboard:[[{text:'🔍 Caută un tur',callback_data:'start_search'}],[{text:'👨‍💼 Solicită ajutorul unui expert real',url:'https://t.me/zebraturbot'}]]}});
-  await bot.sendMessage(chatId,'💡 Poți folosi /cauta oricând.',{reply_markup:{keyboard:[[{text:'🔍 Caută un tur'}]],resize_keyboard:true,one_time_keyboard:false}});
+  const chatId = msg.chat.id;
+  updateSubInfo(chatId, msg.from); saveDB(); backupToGitHub().catch(() => {});
+  await bot.sendMessage(chatId, WELCOME, { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
+  await bot.sendMessage(chatId, '💡 Scrie oricând în chat sau folosește butonul de mai jos.', {
+    reply_markup: { keyboard: [[{ text: '🔍 Caută o vacanță' }]], resize_keyboard: true, one_time_keyboard: false },
+  }).catch(() => {});
 });
 
-bot.onText(/\/cauta/, async (msg) => { const c=msg.chat.id; resetSession(c); updateSubInfo(c,msg.from); await stepCountry(c,null); });
+bot.onText(/\/cauta/, async (msg) => {
+  updateSubInfo(msg.chat.id, msg.from);
+  await bot.sendMessage(msg.chat.id, '🌍 <b>Unde zburăm în vacanță?</b>\nAlege sau scrie liber:', { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
+});
+
 bot.onText(/\/help/, async (msg) => {
-  await bot.sendMessage(msg.chat.id,'📖 <b>Cum funcționează:</b>\n\n1️⃣ Apasă /cauta sau butonul 🔍\n2️⃣ Alege destinația, datele, durata\n3️⃣ Selectează masa și stelele\n4️⃣ Primești link-ul gata!\n\n/cauta — Căutare nouă\n/start — Resetează',{parse_mode:'HTML'});
+  await bot.sendMessage(msg.chat.id,
+    '📖 <b>Cum funcționează:</b>\n\n💬 Scrie liber: destinația, perioada, persoanele, bugetul — îți găsesc cele mai bune oferte reale cu zbor din Chișinău.\n' +
+    '🃏 Răsfoiește cardurile cu ◀️ ▶️, vezi 📋 Detalii cu poze, apasă 📞 Rezervă și un consultant te sună.\n\n' +
+    `/cauta — destinații rapide\n/start — de la început\n\n☎️ ${PHONE} · str. Ismail 86 / Shopping MallDova`,
+    { parse_mode: 'HTML' }).catch(() => {});
 });
 
-// Store incoming user messages (non-command)
 bot.on('message', async (msg) => {
   const chatId = msg.chat.id;
-  if (msg.text === '🔍 Caută un tur') {
-    resetSession(chatId); updateSubInfo(chatId, msg.from); await stepCountry(chatId, null); return;
+  if (msg.contact && msg.contact.phone_number) {
+    // turistul a partajat numărul cu un tap → îl dăm agentului (care salvează lead-ul)
+    pendingRemoveKb.add(chatId);
+    const nm = [msg.contact.first_name, msg.contact.last_name].filter(Boolean).join(' ');
+    await handleUserText(chatId, `Numărul meu de telefon: ${msg.contact.phone_number}${nm ? ' — ' + nm : ''}`, msg.from);
+    return;
   }
-  // Store non-command messages for chat history
-  if (msg.text && !msg.text.startsWith('/')) {
+  if (!msg.text) {
+    if (msg.photo) { updateSubInfo(chatId, msg.from); storeMessage(chatId, 'in', msg.caption || '[foto]', { photo: true }); saveDB(); }
+    return;
+  }
+  if (msg.text.startsWith('/')) return; // comenzile au handlerele lor
+  if (msg.text === '🔍 Caută o vacanță' || msg.text === '🔍 Caută un tur') {
     updateSubInfo(chatId, msg.from);
-    storeMessage(chatId, 'in', msg.text);
-    saveDB();
-    backupToGitHub().catch(() => {});
-    // Forward to admin if not admin themselves
-    if (ADMIN_CHAT_ID && chatId !== ADMIN_CHAT_ID) {
-      const sub = getSub(chatId);
-      const name = sub.firstName + (sub.lastName ? ' ' + sub.lastName : '');
-      bot.sendMessage(ADMIN_CHAT_ID,
-        `💬 <b>${name}</b>${sub.username?' @'+sub.username:''}:\n${msg.text}`,
-        { parse_mode: 'HTML' }).catch(() => {});
-    }
+    await bot.sendMessage(chatId, '🌍 <b>Unde zburăm în vacanță?</b>\nAlege sau scrie liber:', { parse_mode: 'HTML', reply_markup: destKeyboard() }).catch(() => {});
+    return;
   }
-  // Store photos
-  if (msg.photo) {
-    updateSubInfo(chatId, msg.from);
-    storeMessage(chatId, 'in', msg.caption || '[foto]', { photo: true });
-    saveDB();
+  if (/^✖️/.test(msg.text)) { // anulează partajarea numărului
+    pendingRemoveKb.delete(chatId);
+    await bot.sendMessage(chatId, 'OK 👍', { reply_markup: { remove_keyboard: true } }).catch(() => {});
+    return;
   }
+  await handleUserText(chatId, msg.text, msg.from);
 });
 
 bot.on('callback_query', async (query) => {
-  const chatId=query.message.chat.id, mid=query.message.message_id, data=query.data, s=getSession(chatId);
-  await bot.answerCallbackQuery(query.id);
+  const chatId = query.message.chat.id, msgId = query.message.message_id, data = query.data;
+  await bot.answerCallbackQuery(query.id).catch(() => {});
   try {
-    if(data==='start_search'||data==='new_search'){resetSession(chatId);updateSubInfo(chatId,query.from);await stepCountry(chatId,mid);return;}
-    if(data.startsWith('country_')){const c=COUNTRIES.find(x=>x.id===parseInt(data.split('_')[1]));if(c){s.country=c;s.transport=c.transport;await stepMonth(chatId,mid);}return;}
-    if(data.startsWith('depart_')){const c=DEPARTURE_CITIES.find(x=>x.id===parseInt(data.split('_')[1]));if(c){s.departCity=c;await stepMonth(chatId,mid);}return;}
-    if(data.startsWith('month_')){const p=data.split('_');s._selMonth=parseInt(p[1]);s._selYear=parseInt(p[2]);await stepDay(chatId,mid);return;}
-    if(data.startsWith('day_')){s.dateFrom=data.substring(4);s.dateTo=addDays(s.dateFrom,14);await stepDuration(chatId,mid);return;}
-    if(data.startsWith('dur_')){s.nights=parseInt(data.split('_')[1]);await stepAdults(chatId,mid);return;}
-    if(data.startsWith('adults_')){s.adults=parseInt(data.split('_')[1]);await stepHasChildren(chatId,mid);return;}
-    if(data==='has_children_no'){s.children=[];await stepFood(chatId,mid);return;}
-    if(data==='has_children_yes'){s.children=[];await stepChildrenCount(chatId,mid);return;}
-    if(data.startsWith('childcount_')){s._childrenTotal=parseInt(data.split('_')[1]);s.children=[];await stepChildAge(chatId,mid);return;}
-    if(data.startsWith('childage_')){s.children.push(parseInt(data.split('_')[1]));if(s.children.length<(s._childrenTotal||1))await stepChildAge(chatId,mid);else await stepFood(chatId,mid);return;}
-    if(data.startsWith('food_')){s.food=data.split('_')[1];await stepStars(chatId,mid);return;}
-    if(data.startsWith('stars_')){const v=data.split('_')[1];s.stars=v==='any'?'':v;await stepConfirm(chatId,mid);return;}
-    if(data==='edit_search'){await stepEdit(chatId,mid);return;}
-    if(data==='edit_country'){await stepCountry(chatId,mid);return;}
-    if(data==='edit_date'){await stepMonth(chatId,mid);return;}
-    if(data==='edit_duration'){await stepDuration(chatId,mid);return;}
-    if(data==='edit_adults'){s.children=[];s._childrenTotal=0;await stepAdults(chatId,mid);return;}
-    if(data==='edit_food'){await stepFood(chatId,mid);return;}
-    if(data==='edit_stars'){await stepStars(chatId,mid);return;}
-  } catch(err) {
-    console.error('[Bot Error]',err.message);
-    if(err.message.includes('not modified')||err.message.includes('not found')){resetSession(chatId);await stepCountry(chatId,null);}
+    if (data === 'noop') return;
+    if (data.startsWith('dest_')) {
+      const d = DESTS[+data.slice(5)];
+      if (d) await handleUserText(chatId, d.replace(/^\S+\s/, ''), query.from); // fără emoji-ul de steag
+      return;
+    }
+    if (data === 'hot') { await handleUserText(chatId, 'Ce oferte fierbinți ai acum? Recomandă-mi ceva bun.', query.from); return; }
+    if (data === 'cprev' || data === 'cnext') {
+      const ok = await navCarousel(chatId, msgId, data === 'cnext' ? 1 : -1);
+      if (!ok) bot.answerCallbackQuery(query.id, { text: 'Caruselul a expirat — fă o căutare nouă 🙂' }).catch(() => {});
+      return;
+    }
+    if (data === 'cdet') {
+      const st = CARDS.get(`${chatId}:${msgId}`);
+      if (st) await showDetails(chatId, st);
+      return;
+    }
+    if (data === 'cbook') {
+      const st = CARDS.get(`${chatId}:${msgId}`);
+      if (st) await startBooking(chatId, st.offers[st.idx], st.lang);
+      return;
+    }
+    if (data.startsWith('book_')) {
+      const hid = +data.slice(5);
+      const st = lastCardsByChat.get(chatId);
+      const o = st && st.offers.find((x) => x.hotelId === hid);
+      if (o) await startBooking(chatId, o, st.lang);
+      return;
+    }
+    if (data.startsWith('chip_')) {
+      const chips = CHIPS.get(`${chatId}:${msgId}`);
+      const c = chips && chips[+data.slice(5)];
+      if (c) await handleUserText(chatId, c, query.from);
+      return;
+    }
+  } catch (err) {
+    console.error('[Bot Error]', err.message);
   }
 });
 
 // ================================================================
-//  API ENDPOINTS (for Admin Panel)
+//  API ENDPOINTS (Admin Panel) — NESCHIMBATE
 // ================================================================
-
-// Auth middleware
 function authCheck(req, res, next) {
   const token = req.headers['x-auth-token'] || req.query.token;
   if (token !== ADMIN_PASSWORD) return res.status(401).json({ error: 'Unauthorized' });
   next();
 }
 
-// Dashboard stats
 app.get('/api/stats', authCheck, (req, res) => {
   const subs = Object.values(db.subscribers);
   const now = Date.now();
@@ -501,16 +584,13 @@ app.get('/api/stats', authCheck, (req, res) => {
   const active30d = subs.filter(s => (now - new Date(s.lastActive)) < 30*24*60*60*1000).length;
   const searches30d = subs.reduce((sum, s) => sum + s.searches.filter(sr => (now - new Date(sr.timestamp)) < 30*24*60*60*1000).length, 0);
 
-  // Country stats
   const cc = {};
   subs.forEach(s => s.searches.forEach(sr => cc[sr.country] = (cc[sr.country]||0)+1));
   const topCountries = Object.entries(cc).sort((a,b)=>b[1]-a[1]).slice(0,10);
 
-  // Tag stats
   const tc = {};
   subs.forEach(s => s.tags.forEach(t => { if(!t.startsWith('dest:')) tc[t]=(tc[t]||0)+1; }));
 
-  // New subs per day (last 30 days)
   const newPerDay = {};
   subs.forEach(s => { const d = s.joinedAt.split('T')[0]; newPerDay[d] = (newPerDay[d]||0)+1; });
 
@@ -522,7 +602,6 @@ app.get('/api/stats', authCheck, (req, res) => {
   });
 });
 
-// Subscribers list (with filters)
 app.get('/api/subscribers', authCheck, (req, res) => {
   let subs = Object.values(db.subscribers);
   const { tag, search, country, sort, hasMessages } = req.query;
@@ -535,12 +614,10 @@ app.get('/api/subscribers', authCheck, (req, res) => {
     subs = subs.filter(s => (s.firstName+' '+s.lastName).toLowerCase().includes(q) || (s.username||'').toLowerCase().includes(q));
   }
 
-  // Sort
   if (sort === 'searches') subs.sort((a,b) => b.totalSearches - a.totalSearches);
   else if (sort === 'name') subs.sort((a,b) => a.firstName.localeCompare(b.firstName));
-  else subs.sort((a,b) => new Date(b.lastActive) - new Date(a.lastActive)); // default: lastActive
+  else subs.sort((a,b) => new Date(b.lastActive) - new Date(a.lastActive));
 
-  // Return summary (not full messages/searches to save bandwidth)
   res.json(subs.map(s => ({
     chatId: s.chatId, firstName: s.firstName, lastName: s.lastName, username: s.username,
     joinedAt: s.joinedAt, lastActive: s.lastActive,
@@ -551,32 +628,25 @@ app.get('/api/subscribers', authCheck, (req, res) => {
   })));
 });
 
-// Single subscriber detail
 app.get('/api/subscriber/:chatId', authCheck, (req, res) => {
   const sub = db.subscribers[req.params.chatId];
   if (!sub) return res.status(404).json({ error: 'Not found' });
   res.json(sub);
 });
 
-// Chat messages for a subscriber
 app.get('/api/messages/:chatId', authCheck, (req, res) => {
   const sub = db.subscribers[req.params.chatId];
   if (!sub) return res.status(404).json({ error: 'Not found' });
   res.json(sub.messages);
 });
 
-// Send message to subscriber
 app.post('/api/send', authCheck, async (req, res) => {
   const { chatId, text, parseMode, buttons, photoUrl } = req.body;
   if (!chatId || (!text && !photoUrl)) return res.status(400).json({ error: 'chatId and text/photoUrl required' });
 
   try {
     const opts = { parse_mode: parseMode || 'HTML', disable_web_page_preview: true };
-
-    // Build inline keyboard if buttons provided
-    if (buttons && buttons.length > 0) {
-      opts.reply_markup = { inline_keyboard: buttons };
-    }
+    if (buttons && buttons.length > 0) opts.reply_markup = { inline_keyboard: buttons };
 
     let sent;
     if (photoUrl) {
@@ -590,7 +660,6 @@ app.post('/api/send', authCheck, async (req, res) => {
     saveDB();
     res.json({ ok: true, messageId: sent.message_id });
   } catch (e) {
-    // Mark as blocked if user blocked the bot
     if (e.message.includes('blocked') || e.message.includes('deactivated')) {
       const sub = getSub(chatId);
       sub.blocked = true;
@@ -600,7 +669,6 @@ app.post('/api/send', authCheck, async (req, res) => {
   }
 });
 
-// Broadcast to segment
 app.post('/api/broadcast', authCheck, async (req, res) => {
   const { text, parseMode, buttons, photoUrl, tag, countryFilter } = req.body;
   if (!text && !photoUrl) return res.status(400).json({ error: 'text or photoUrl required' });
@@ -611,7 +679,6 @@ app.post('/api/broadcast', authCheck, async (req, res) => {
 
   res.json({ ok: true, targets: targets.length, status: 'sending' });
 
-  // Send async
   let sent = 0, failed = 0;
   for (const sub of targets) {
     try {
@@ -630,66 +697,56 @@ app.post('/api/broadcast', authCheck, async (req, res) => {
     }
   }
   saveDB();
-  // Notify admin via Telegram
   if (ADMIN_CHAT_ID) {
     bot.sendMessage(ADMIN_CHAT_ID, `✅ Broadcast: ${sent} trimise, ${failed} erori`).catch(()=>{});
   }
 });
 
-// Backup
 app.post('/api/backup', authCheck, async (req, res) => {
   saveDB();
   await backupToGitHub();
   res.json({ ok: true });
 });
 
-// Export
 app.get('/api/export', authCheck, (req, res) => {
   res.setHeader('Content-Type', 'application/json');
   res.setHeader('Content-Disposition', 'attachment; filename=zebratur_subscribers.json');
   res.send(JSON.stringify(db, null, 2));
 });
 
-// Serve admin panel — try file first, fallback to inline
 let ADMIN_HTML = '';
 try { ADMIN_HTML = fs.readFileSync(path.join(__dirname, 'admin.html'), 'utf8'); } catch(e) {
   console.log('⚠️ admin.html nu a fost găsit, se folosește versiunea inline');
 }
 function serveAdmin(req, res) {
-  // Try reading file fresh (in case it was added later)
   if (!ADMIN_HTML) { try { ADMIN_HTML = fs.readFileSync(path.join(__dirname, 'admin.html'), 'utf8'); } catch(e) {} }
   if (ADMIN_HTML) { res.setHeader('Content-Type', 'text/html'); res.send(ADMIN_HTML); }
-  else { res.setHeader('Content-Type', 'text/html'); res.send('<!DOCTYPE html><html><body><h1>Admin panel HTML missing</h1><p>Upload admin.html to the repo</p></body></html>'); }
+  else { res.setHeader('Content-Type', 'text/html'); res.send('<!DOCTYPE html><html><body><h1>Admin panel HTML missing</h1></body></html>'); }
 }
 app.get('/', serveAdmin);
 app.get('/admin', serveAdmin);
+app.get('/health', (req, res) => res.json({ ok: true, service: 'zebratur-bot-v3', subs: Object.keys(db.subscribers).length }));
 
 // ================================================================
 //  STARTUP
 // ================================================================
 (async () => {
-  console.log('=== ZebraTur Bot Startup ===');
+  console.log('=== ZebraTur Bot v3 (Zebra AI) Startup ===');
   console.log(`PostgreSQL: ${DATABASE_URL ? '✅ configurat' : '❌ NU e configurat!'}`);
-  console.log(`GitHub Backup: ${GITHUB_TOKEN && GITHUB_REPO ? '✅ configurat (' + GITHUB_REPO + ')' : '⚠️ opțional, nu e setat'}`);
-  console.log(`Admin Password: ${ADMIN_PASSWORD === 'zebratur2026' ? '⚠️ default (zebratur2026)' : '✅ custom'}`);
+  console.log(`Zebra AI API: ${process.env.ZEBRA_CHAT_API || '(default Railway)'} ${process.env.INTERNAL_KEY ? '· cheie internă ✅' : '· ⚠️ fără INTERNAL_KEY (rate-limit partajat!)'}`);
+  console.log(`GitHub Backup: ${GITHUB_TOKEN && GITHUB_REPO ? '✅ ' + GITHUB_REPO : '⚠️ opțional, nu e setat'}`);
 
-  // 1. Initialize PostgreSQL table
   await initPostgres();
-
-  // 2. Load data from PostgreSQL
   await loadDB();
-
-  // 3. If PostgreSQL is empty, migrate from GitHub (one-time)
   await migrateFromGitHub();
 
-  // Auto-save to PostgreSQL every 2 minutes + GitHub backup every 10 minutes
   setInterval(() => { saveDB(); }, 2 * 60 * 1000);
   setInterval(() => { backupToGitHub(); }, 10 * 60 * 1000);
 
   app.listen(PORT, () => {
     console.log(`🌐 Admin panel: http://localhost:${PORT}`);
     console.log(`📊 DB: ${Object.keys(db.subscribers).length} abonați | ${db.meta.totalSearches||0} căutări`);
-    console.log('🤖 ZebraTur Bot + CRM + PostgreSQL — ready!');
+    console.log('🤖 ZebraTur Bot v3 — Zebra AI + CRM — ready!');
   });
 })();
 
